@@ -1,0 +1,252 @@
+{
+  "ground": "black.jpg",
+  "camera": {
+    "Alpha": 2.749658689536554,
+    "Beta": 0.7246173593469953,
+    "Radius": 524.7369233262424,
+    "PositionX": -321.4467628784238,
+    "PositionY": 392.8984031377273,
+    "PositionZ": 132.8595579877378
+  },
+  "loadable_objects": [
+    {
+      "id": "s_girl_left",
+      "filename": "girlStanding",
+      "collisionEnabled": true,
+      "position": {
+        "x": 111.22477828980925,
+        "y": 0,
+        "z": 218.13001866746237
+      },
+      "rotation": {
+        "x": 3.9756933518164793E-16,
+        "y": 107.99999999999991,
+        "z": 0
+      },
+      "scaling": {
+        "x": 2.000000000000001,
+        "y": 2.000000000000001,
+        "z": 2.000000000000001
+      },
+      "visible": true,
+      "animation": false
+    },
+    {
+      "id": "s_ball_left",
+      "filename": "BasketBall",
+      "collisionEnabled": true,
+      "position": {
+        "x": 124.76005964855972,
+        "y": 0,
+        "z": 256.08471251874477
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scaling": {
+        "x": 3.100000000000002,
+        "y": 3.100000000000002,
+        "z": 3.100000000000002
+      },
+      "visible": true,
+      "animation": false
+    },
+    {
+      "id": "s_girl_front",
+      "filename": "girlStanding",
+      "collisionEnabled": true,
+      "position": {
+        "x": 19.28536959224715,
+        "y": 0,
+        "z": -9.546525855468275
+      },
+      "rotation": {
+        "x": 0,
+        "y": 110.9999999999999,
+        "z": 0
+      },
+      "scaling": {
+        "x": 2.100000000000001,
+        "y": 2.100000000000001,
+        "z": 2.100000000000001
+      },
+      "visible": true,
+      "animation": false
+    },
+    {
+      "id": "s_ball_front",
+      "filename": "BasketBall",
+      "collisionEnabled": true,
+      "position": {
+        "x": 2.896384428453473,
+        "y": 0,
+        "z": -3.512315887596799
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scaling": {
+        "x": 3.100000000000002,
+        "y": 3.100000000000002,
+        "z": 3.100000000000002
+      },
+      "visible": true,
+      "animation": false
+    },
+    {
+      "id": "s_girl_right",
+      "filename": "girlStanding",
+      "collisionEnabled": true,
+      "position": {
+        "x": -78.04793300751865,
+        "y": 0,
+        "z": -242.41917010497247
+      },
+      "rotation": {
+        "x": 0,
+        "y": 113.9999999999999,
+        "z": 0
+      },
+      "scaling": {
+        "x": 2.000000000000001,
+        "y": 2.000000000000001,
+        "z": 2.000000000000001
+      },
+      "visible": true,
+      "animation": false
+    },
+    {
+      "id": "s_ball_right",
+      "filename": "BasketBall",
+      "collisionEnabled": true,
+      "position": {
+        "x": -92.76615892069302,
+        "y": 0,
+        "z": -275.4153953880047
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scaling": {
+        "x": 3.0000000000000018,
+        "y": 3.0000000000000018,
+        "z": 3.0000000000000018
+      },
+      "visible": true,
+      "animation": false
+    }
+  ],
+  "creatable_objects": [
+    {
+      "id": "s_area_1",
+      "type": "plane",
+      "collisionEnabled": true,
+      "position": {
+        "x": 124.53587548496779,
+        "y": 0,
+        "z": 223.1445835150089
+      },
+      "rotation": {
+        "x": -90.99999999999997,
+        "y": 20,
+        "z": 0
+      },
+      "scaling": {
+        "x": 4.300000000000002,
+        "y": 4.300000000000002,
+        "z": 4.300000000000002
+      },
+      "visible": true,
+      "image": "none",
+      "uwdsCreate": "none",
+      "color": {
+        "diffuse": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        },
+        "specular": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        }
+      }
+    },
+    {
+      "id": "s_area_2",
+      "type": "plane",
+      "collisionEnabled": true,
+      "position": {
+        "x": 30.482709701873432,
+        "y": 0,
+        "z": -13.966423834710398
+      },
+      "rotation": {
+        "x": -90.99999999999997,
+        "y": 21,
+        "z": 0
+      },
+      "scaling": {
+        "x": 4.300000000000002,
+        "y": 4.300000000000002,
+        "z": 4.300000000000002
+      },
+      "visible": true,
+      "image": "none",
+      "uwdsCreate": "none",
+      "color": {
+        "diffuse": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        },
+        "specular": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        }
+      }
+    },
+    {
+      "id": "s_area_3",
+      "type": "plane",
+      "collisionEnabled": true,
+      "position": {
+        "x": -66.15126581857166,
+        "y": 0,
+        "z": -253.1446716197803
+      },
+      "rotation": {
+        "x": -90.99999999999997,
+        "y": 21,
+        "z": 0
+      },
+      "scaling": {
+        "x": 4.300000000000002,
+        "y": 4.300000000000002,
+        "z": 4.300000000000002
+      },
+      "visible": true,
+      "image": "none",
+      "uwdsCreate": "none",
+      "color": {
+        "diffuse": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        },
+        "specular": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,255 @@
+{
+  "ground": "black.jpg",
+  "camera": {
+    "Alpha": 2.749658689536554,
+    "Beta": 0.7246173593469953,
+    "Radius": 524.7369233262424,
+    "PositionX": -321.4467628784238,
+    "PositionY": 392.8984031377273,
+    "PositionZ": 132.8595579877378
+  },
+  "loadable_objects": [
+    {
+      "id": "s_boy_right",
+      "filename": "boyStanding",
+      "position": {
+        "x": 90.59180303601232,
+        "y": 0,
+        "z": 170.8304164835321
+      },
+      "scaling": {
+        "x": 2.000000000000001,
+        "y": 2.000000000000001,
+        "z": 2.000000000000001
+      },
+      "rotation": {
+        "x": 3.9756933518164793E-16,
+        "y": 107.99999999999991,
+        "z": 0
+      },
+      "visible": "true",
+      "animation": "false",
+      "collisionEnabled": "true"
+    },
+    {
+      "id": "s_boy_left",
+      "filename": "boyStanding",
+      "position": {
+        "x": 36.03842093411083,
+        "y": 0,
+        "z": 34.86060820898224
+      },
+      "scaling": {
+        "x": 2.100000000000001,
+        "y": 2.100000000000001,
+        "z": 2.100000000000001
+      },
+      "rotation": {
+        "x": 0,
+        "y": 110.9999999999999,
+        "z": 0
+      },
+      "visible": "true",
+      "animation": "false",
+      "collisionEnabled": "true"
+    },
+    {
+      "id": "s_boy_behind",
+      "filename": "boyStanding",
+      "position": {
+        "x": -40.169191328136606,
+        "y": 0,
+        "z": -262.9507462969087
+      },
+      "scaling": {
+        "x": 2.000000000000001,
+        "y": 2.000000000000001,
+        "z": 2.000000000000001
+      },
+      "rotation": {
+        "x": 0,
+        "y": 113.9999999999999,
+        "z": 0
+      },
+      "visible": "true",
+      "animation": "false",
+      "collisionEnabled": "true"
+    },
+    {
+      "id": "s_tree_left",
+      "filename": "Tree",
+      "position": {
+        "x": 26.322763190854403,
+        "y": 0,
+        "z": -17.39044190232363
+      },
+      "scaling": {
+        "x": 7.59749999999999,
+        "y": 7.55239999999999,
+        "z": 7.60619999999999
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "visible": "true",
+      "animation": "false",
+      "collisionEnabled": "true"
+    },
+    {
+      "id": "s_tree_right",
+      "filename": "Tree",
+      "position": {
+        "x": 122.69332028743105,
+        "y": 0,
+        "z": 227.0934916442369
+      },
+      "scaling": {
+        "x": 7.59749999999999,
+        "y": 7.55239999999999,
+        "z": 7.60619999999999
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "visible": "true",
+      "animation": "false",
+      "collisionEnabled": "true"
+    },
+    {
+      "id": "s_tree_behind",
+      "filename": "Tree",
+      "position": {
+        "x": -72.21301544307966,
+        "y": 0,
+        "z": -255.3374877230403
+      },
+      "scaling": {
+        "x": 7.59749999999999,
+        "y": 7.55239999999999,
+        "z": 7.60619999999999
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "visible": "true",
+      "animation": "false",
+      "collisionEnabled": "true"
+    }
+  ],
+  "creatable_objects": [
+    {
+      "id": "s_area_1",
+      "type": "plane",
+      "collisionEnabled": true,
+      "position": {
+        "x": 124.53587548496779,
+        "y": 0,
+        "z": 223.1445835150089
+      },
+      "rotation": {
+        "x": -90.99999999999997,
+        "y": 20,
+        "z": 0
+      },
+      "scaling": {
+        "x": 4.300000000000002,
+        "y": 4.300000000000002,
+        "z": 4.300000000000002
+      },
+      "size": {},
+      "visible": true,
+      "image": "none",
+      "uwdsCreate": "none",
+      "color": {
+        "diffuse": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        },
+        "specular": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        }
+      }
+    },
+    {
+      "id": "s_area_2",
+      "type": "plane",
+      "collisionEnabled": true,
+      "position": {
+        "x": 30.482709701873432,
+        "y": 0,
+        "z": -13.966423834710398
+      },
+      "rotation": {
+        "x": -90.99999999999997,
+        "y": 21,
+        "z": 0
+      },
+      "scaling": {
+        "x": 4.300000000000002,
+        "y": 4.300000000000002,
+        "z": 4.300000000000002
+      },
+      "size": {},
+      "visible": true,
+      "image": "none",
+      "uwdsCreate": "none",
+      "color": {
+        "diffuse": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        },
+        "specular": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        }
+      }
+    },
+    {
+      "id": "s_area_3",
+      "type": "plane",
+      "collisionEnabled": true,
+      "position": {
+        "x": -66.15126581857166,
+        "y": 0,
+        "z": -253.1446716197803
+      },
+      "rotation": {
+        "x": -90.99999999999997,
+        "y": 21,
+        "z": 0
+      },
+      "scaling": {
+        "x": 4.300000000000002,
+        "y": 4.300000000000002,
+        "z": 4.300000000000002
+      },
+      "size": {},
+      "visible": true,
+      "image": "none",
+      "uwdsCreate": "none",
+      "color": {
+        "diffuse": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        },
+        "specular": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        }
+      }
+    }
+  ]
+}

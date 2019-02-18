@@ -1,0 +1,146 @@
+{
+  "ground": "grass.png",
+  "camera": {
+    "Alpha": 1.5963158248339144,
+    "Beta": 1.1527229238511538,
+    "Radius": 462.49991608812746,
+    "PositionX": -10.785056248897787,
+    "PositionY": 187.7752170349102,
+    "PositionZ": 422.52848757299836
+  },
+  "loadable_objects": [
+    {
+      "id": "m_apple_1",
+      "filename": "Apple",
+      "collisionEnabled": true,
+      "position": {
+        "x": 84.61100240129056,
+        "y": 102,
+        "z": -10.525481983696466
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scaling": {
+        "x": 4.000000000000003,
+        "y": 4.000000000000003,
+        "z": 4.000000000000003
+      },
+      "visible": true,
+      "animation": false
+    },
+    {
+      "id": "m_apple_2",
+      "filename": "Apple",
+      "collisionEnabled": true,
+      "position": {
+        "x": 48.1926896313111,
+        "y": 102,
+        "z": -19.215626371123676
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scaling": {
+        "x": 4.000000000000003,
+        "y": 4.000000000000003,
+        "z": 4.000000000000003
+      },
+      "visible": true,
+      "animation": false
+    },
+    {
+      "id": "m_apple_3",
+      "filename": "Apple",
+      "collisionEnabled": true,
+      "position": {
+        "x": 10.70177716153213,
+        "y": 103,
+        "z": -23.40921306512837
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scaling": {
+        "x": 4.000000000000003,
+        "y": 4.000000000000003,
+        "z": 4.000000000000003
+      },
+      "visible": true,
+      "animation": false
+    },
+    {
+      "id": "m_apple_4",
+      "filename": "Apple",
+      "collisionEnabled": true,
+      "position": {
+        "x": -24.786543152951232,
+        "y": 103,
+        "z": -30.909047599436633
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scaling": {
+        "x": 4.000000000000003,
+        "y": 4.000000000000003,
+        "z": 4.000000000000003
+      },
+      "visible": true,
+      "animation": false
+    },
+    {
+      "id": "s_table_1",
+      "filename": "Table",
+      "collisionEnabled": true,
+      "position": {
+        "x": -70.67572382957286,
+        "y": 0,
+        "z": 126.82523944248129
+      },
+      "rotation": {
+        "x": 0,
+        "y": -2,
+        "z": 0
+      },
+      "scaling": {
+        "x": 3.7000000000000024,
+        "y": 3.7000000000000024,
+        "z": 3.7000000000000024
+      },
+      "visible": true,
+      "animation": false
+    },
+    {
+      "id": "s_fruit_stand",
+      "filename": "FruitStand",
+      "collisionEnabled": true,
+      "position": {
+        "x": 76.19497711810205,
+        "y": 0,
+        "z": -16.14738776451145
+      },
+      "rotation": {
+        "x": 0,
+        "y": -192.99999999999963,
+        "z": 0
+      },
+      "scaling": {
+        "x": 4.110000000000003,
+        "y": 2.9000000000000017,
+        "z": 2.9000000000000017
+      },
+      "visible": true,
+      "animation": false
+    }
+  ],
+  "creatable_objects": []
+}

@@ -1,0 +1,1003 @@
+{
+    "description": "..\\scenario\\Storyboard_lessonRecap", 
+    "tasks": [
+        {
+            "description": "Introduction: 2 minutes", 
+            "is_test": false, 
+            "subtasks": [
+                {
+                    "exit_criteria": [
+                        {
+                            "timeout_ms": "2000", 
+                            "type": "RESPONSE_DELAY_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "1"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "2"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "object_id": "cover", 
+                            "type": "OBJECT_SELECT_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "3", 
+                    "tablet_display_actions": {
+                        "scene": "recap"
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "obj_1": "sticker11", 
+                            "obj_2": "photo_zoo", 
+                            "relationship": "above", 
+                            "type": "OBJECT_MOVE_CRITERIUM_2D"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "4", 
+                    "tablet_display_actions": {
+                        "objects_added": [
+                            {
+                                "object_id": "page_1"
+                            }
+                        ]
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "obj_1": "sticker12", 
+                            "obj_2": "photo_zoo", 
+                            "relationship": "above", 
+                            "type": "OBJECT_MOVE_CRITERIUM_2D"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "5"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "obj_1": "sticker13", 
+                            "obj_2": "photo_zoo", 
+                            "relationship": "above", 
+                            "type": "OBJECT_MOVE_CRITERIUM_2D"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "6"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "7"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "target_word": "more", 
+                            "timeout_ms": 5000, 
+                            "type": "VOICE_ACTIVATION_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "8"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "target_word": "most", 
+                            "timeout_ms": 5000, 
+                            "type": "VOICE_ACTIVATION_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "9"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "target_word": "add", 
+                            "timeout_ms": 5000, 
+                            "type": "VOICE_ACTIVATION_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "10"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "11"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "obj_1": "sticker21", 
+                            "obj_2": "photo_bakery", 
+                            "relationship": "above", 
+                            "type": "OBJECT_MOVE_CRITERIUM_2D"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "12", 
+                    "tablet_display_actions": {
+                        "objects_added": [
+                            {
+                                "object_id": "page_2"
+                            }
+                        ]
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "13"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "target_word": "four", 
+                            "timeout_ms": 5000, 
+                            "type": "VOICE_ACTIVATION_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "14"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "obj_1": "sticker22", 
+                            "obj_2": "photo_bakery", 
+                            "relationship": "above", 
+                            "type": "OBJECT_MOVE_CRITERIUM_2D"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "15"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "target_word": "five", 
+                            "timeout_ms": 5000, 
+                            "type": "VOICE_ACTIVATION_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "16"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "17"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "target_word": "fewer", 
+                            "timeout_ms": 5000, 
+                            "type": "VOICE_ACTIVATION_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "18"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "obj_1": "sticker23", 
+                            "obj_2": "photo_bakery", 
+                            "relationship": "above", 
+                            "type": "OBJECT_MOVE_CRITERIUM_2D"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "19"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "20"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "target_word": "fewest", 
+                            "timeout_ms": 5000, 
+                            "type": "VOICE_ACTIVATION_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "21"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "target_word": "take away", 
+                            "timeout_ms": 5000, 
+                            "type": "VOICE_ACTIVATION_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "22"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "obj_1": "sticker24", 
+                            "obj_2": "photo_bakery", 
+                            "relationship": "above", 
+                            "type": "OBJECT_MOVE_CRITERIUM_2D"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "23"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "24"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "25", 
+                    "tablet_display_actions": {
+                        "objects_added": [
+                            {
+                                "object_id": "page_3"
+                            }
+                        ]
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "obj_1": "sticker31", 
+                            "obj_2": "photo_zoo2", 
+                            "relationship": "above", 
+                            "type": "OBJECT_MOVE_CRITERIUM_2D"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "26"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "target_word": "high", 
+                            "timeout_ms": 5000, 
+                            "type": "VOICE_ACTIVATION_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "27"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "obj_1": "sticker32", 
+                            "obj_2": "photo_zoo2", 
+                            "relationship": "above", 
+                            "type": "OBJECT_MOVE_CRITERIUM_2D"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "28"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "target_word": "big", 
+                            "timeout_ms": 5000, 
+                            "type": "VOICE_ACTIVATION_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "29"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "obj_1": "sticker33", 
+                            "obj_2": "photo_zoo2", 
+                            "relationship": "above", 
+                            "type": "OBJECT_MOVE_CRITERIUM_2D"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "30"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "timeout_ms": "5000", 
+                            "type": "RESPONSE_DELAY_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "31"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "target_word": "heavy", 
+                            "timeout_ms": 5000, 
+                            "type": "VOICE_ACTIVATION_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "32"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "target_word": "light", 
+                            "timeout_ms": 5000, 
+                            "type": "VOICE_ACTIVATION_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "33"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "obj_1": "sticker34", 
+                            "obj_2": "photo_zoo2", 
+                            "relationship": "above", 
+                            "type": "OBJECT_MOVE_CRITERIUM_2D"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "34"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "target_word": "low", 
+                            "timeout_ms": 5000, 
+                            "type": "VOICE_ACTIVATION_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "35"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "obj_1": "sticker35", 
+                            "obj_2": "photo_zoo2", 
+                            "relationship": "above", 
+                            "type": "OBJECT_MOVE_CRITERIUM_2D"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "36"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "target_word": "small", 
+                            "timeout_ms": 5000, 
+                            "type": "VOICE_ACTIVATION_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "37"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "38"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "39", 
+                    "tablet_display_actions": {
+                        "objects_added": [
+                            {
+                                "object_id": "page_4"
+                            }
+                        ]
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "obj_1": "sticker", 
+                            "obj_2": "droppable_above", 
+                            "relationship": "above", 
+                            "type": "OBJECT_MOVE_CRITERIUM_2D"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "40"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "target_word": "above", 
+                            "timeout_ms": 5000, 
+                            "type": "VOICE_ACTIVATION_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "41"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "obj_1": "sticker", 
+                            "obj_2": "droppable_below", 
+                            "relationship": "above", 
+                            "type": "OBJECT_MOVE_CRITERIUM_2D"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "42"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "target_word": "below", 
+                            "timeout_ms": 5000, 
+                            "type": "VOICE_ACTIVATION_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "43"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "obj_1": "sticker", 
+                            "obj_2": "droppable_next_to", 
+                            "relationship": "above", 
+                            "type": "OBJECT_MOVE_CRITERIUM_2D"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "44"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "target_word": "next to", 
+                            "timeout_ms": 5000, 
+                            "type": "VOICE_ACTIVATION_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "45"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "obj_1": "sticker", 
+                            "obj_2": "droppable_on", 
+                            "relationship": "above", 
+                            "type": "OBJECT_MOVE_CRITERIUM_2D"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "46"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "target_word": "on", 
+                            "timeout_ms": 5000, 
+                            "type": "VOICE_ACTIVATION_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "47"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "target_word": "falling", 
+                            "timeout_ms": 5000, 
+                            "type": "VOICE_ACTIVATION_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "48"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "49"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "target_word": "behind", 
+                            "timeout_ms": 5000, 
+                            "type": "VOICE_ACTIVATION_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "50", 
+                    "tablet_display_actions": {
+                        "objects_added": [
+                            {
+                                "object_id": "page_5"
+                            }
+                        ]
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "target_word": "in front of", 
+                            "timeout_ms": 5000, 
+                            "type": "VOICE_ACTIVATION_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "51"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "obj_1": "sticker51", 
+                            "obj_2": "photo_forest", 
+                            "relationship": "above", 
+                            "type": "OBJECT_MOVE_CRITERIUM_2D"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "52"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "target_word": "running", 
+                            "timeout_ms": 5000, 
+                            "type": "VOICE_ACTIVATION_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "53"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "obj_1": "sticker52", 
+                            "obj_2": "photo_forest", 
+                            "relationship": "above", 
+                            "type": "OBJECT_MOVE_CRITERIUM_2D"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "54"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "target_word": "walking", 
+                            "timeout_ms": 5000, 
+                            "type": "VOICE_ACTIVATION_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "55"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "obj_1": "sticker53", 
+                            "obj_2": "photo_forest", 
+                            "relationship": "above", 
+                            "type": "OBJECT_MOVE_CRITERIUM_2D"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "56"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "target_word": "flying", 
+                            "timeout_ms": 5000, 
+                            "type": "VOICE_ACTIVATION_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "57"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "obj_1": "sticker54", 
+                            "obj_2": "photo_forest", 
+                            "relationship": "above", 
+                            "type": "OBJECT_MOVE_CRITERIUM_2D"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "58"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "target_word": "jumping", 
+                            "timeout_ms": 5000, 
+                            "type": "VOICE_ACTIVATION_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "59"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "60"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "61", 
+                    "tablet_display_actions": {
+                        "objects_added": [
+                            {
+                                "object_id": "page_6"
+                            }
+                        ]
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "target_word": "left", 
+                            "timeout_ms": 5000, 
+                            "type": "VOICE_ACTIVATION_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "62"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "target_word": "right", 
+                            "timeout_ms": 5000, 
+                            "type": "VOICE_ACTIVATION_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "63"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "obj_1": "sticker61", 
+                            "obj_2": "photo_playground", 
+                            "relationship": "above", 
+                            "type": "OBJECT_MOVE_CRITERIUM_2D"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "64"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "target_word": "sliding", 
+                            "timeout_ms": 5000, 
+                            "type": "VOICE_ACTIVATION_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "65"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "obj_1": "sticker62", 
+                            "obj_2": "photo_playground", 
+                            "relationship": "above", 
+                            "type": "OBJECT_MOVE_CRITERIUM_2D"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "66"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "target_word": "throwing", 
+                            "timeout_ms": 5000, 
+                            "type": "VOICE_ACTIVATION_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "67"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "obj_1": "sticker63", 
+                            "obj_2": "photo_playground", 
+                            "relationship": "above", 
+                            "type": "OBJECT_MOVE_CRITERIUM_2D"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "68"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "target_word": "catching", 
+                            "timeout_ms": 5000, 
+                            "type": "VOICE_ACTIVATION_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "69"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "obj_1": "sticker64", 
+                            "obj_2": "photo_playground", 
+                            "relationship": "above", 
+                            "type": "OBJECT_MOVE_CRITERIUM_2D"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "70"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "target_word": "climbing", 
+                            "timeout_ms": 5000, 
+                            "type": "VOICE_ACTIVATION_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "71"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "72"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "73", 
+                    "tablet_display_actions": {
+                        "objects_added": [
+                            {
+                                "object_id": "cover"
+                            }
+                        ]
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "timeout_ms": "5000", 
+                            "type": "RESPONSE_DELAY_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "74", 
+                    "tablet_display_actions": {
+                        "objects_added": [
+                            {
+                                "object_id": "page_1"
+                            }
+                        ]
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "timeout_ms": "5000", 
+                            "type": "RESPONSE_DELAY_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "75", 
+                    "tablet_display_actions": {
+                        "objects_added": [
+                            {
+                                "object_id": "page_2"
+                            }
+                        ]
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "timeout_ms": "3000", 
+                            "type": "RESPONSE_DELAY_CRITERIUM"
+                        }, 
+                        {
+                            "timeout_ms": "2000", 
+                            "type": "RESPONSE_DELAY_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "76", 
+                    "tablet_display_actions": {
+                        "objects_added": [
+                            {
+                                "object_id": "page_3"
+                            }
+                        ]
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "timeout_ms": "3000", 
+                            "type": "RESPONSE_DELAY_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "77", 
+                    "tablet_display_actions": {
+                        "objects_added": [
+                            {
+                                "object_id": "page_4"
+                            }
+                        ]
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "timeout_ms": "3000", 
+                            "type": "RESPONSE_DELAY_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "78", 
+                    "tablet_display_actions": {
+                        "objects_added": [
+                            {
+                                "object_id": "page_5"
+                            }
+                        ]
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "timeout_ms": "3000", 
+                            "type": "RESPONSE_DELAY_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "79", 
+                    "tablet_display_actions": {
+                        "objects_added": [
+                            {
+                                "object_id": "page_6"
+                            }
+                        ]
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "timeout_ms": "1000", 
+                            "type": "RESPONSE_DELAY_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "80"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "timeout_ms": "3000", 
+                            "type": "RESPONSE_DELAY_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "81"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "timeout_ms": "10000", 
+                            "type": "RESPONSE_DELAY_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "82"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "83"
+                }
+            ], 
+            "task_id": "1"
+        }
+    ]
+}

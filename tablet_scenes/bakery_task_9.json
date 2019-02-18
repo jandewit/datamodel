@@ -1,0 +1,296 @@
+{
+  "ground": "black.jpg",
+  "camera": {
+    "Alpha": 2.749658689536554,
+    "Beta": 0.7246173593469953,
+    "Radius": 524.7369233262424,
+    "PositionX": -321.4467628784238,
+    "PositionY": 392.8984031377273,
+    "PositionZ": 132.8595579877378
+  },
+  "loadable_objects": [
+    {
+      "id": "s_3flour_1",
+      "filename": "FlourSack",
+      "collisionEnabled": true,
+      "position": {
+        "x": -23.835188277034206,
+        "y": 0,
+        "z": -228.85345788823147
+      },
+      "rotation": {
+        "x": 0,
+        "y": -58.000000000000085,
+        "z": 0
+      },
+      "scaling": {
+        "x": 5.699999999999997,
+        "y": 5.699999999999997,
+        "z": 5.699999999999997
+      },
+      "visible": true,
+      "animation": false
+    },
+    {
+      "id": "s_3flour_2",
+      "filename": "FlourSack",
+      "collisionEnabled": true,
+      "position": {
+        "x": -59.176280850358694,
+        "y": 0,
+        "z": -294.7680191814636
+      },
+      "rotation": {
+        "x": 0,
+        "y": -58.000000000000085,
+        "z": 0
+      },
+      "scaling": {
+        "x": 5.699999999999997,
+        "y": 5.699999999999997,
+        "z": 5.699999999999997
+      },
+      "visible": true,
+      "animation": false
+    },
+    {
+      "id": "s_3flour_3",
+      "filename": "FlourSack",
+      "collisionEnabled": true,
+      "position": {
+        "x": -90.91324633896969,
+        "y": 0,
+        "z": -217.88668431687816
+      },
+      "rotation": {
+        "x": 0,
+        "y": -58.000000000000085,
+        "z": 0
+      },
+      "scaling": {
+        "x": 5.699999999999997,
+        "y": 5.699999999999997,
+        "z": 5.699999999999997
+      },
+      "visible": true,
+      "animation": false
+    },
+    {
+      "id": "s_1flourfewest",
+      "filename": "FlourSack",
+      "collisionEnabled": true,
+      "position": {
+        "x": 113.20759973207748,
+        "y": 0,
+        "z": 222.0104229344073
+      },
+      "rotation": {
+        "x": 0,
+        "y": -58.000000000000085,
+        "z": 0
+      },
+      "scaling": {
+        "x": 5.699999999999997,
+        "y": 5.699999999999997,
+        "z": 5.699999999999997
+      },
+      "visible": true,
+      "animation": false
+    },
+    {
+      "id": "s_4flour_1",
+      "filename": "FlourSack",
+      "collisionEnabled": true,
+      "position": {
+        "x": 70.51539816799135,
+        "y": 0,
+        "z": 1.8906498205174103
+      },
+      "rotation": {
+        "x": 0,
+        "y": -58.000000000000085,
+        "z": 0
+      },
+      "scaling": {
+        "x": 5.699999999999997,
+        "y": 5.699999999999997,
+        "z": 5.699999999999997
+      },
+      "visible": true,
+      "animation": false
+    },
+    {
+      "id": "s_4flour_2",
+      "filename": "FlourSack",
+      "collisionEnabled": true,
+      "position": {
+        "x": 33.52157916385812,
+        "y": 0,
+        "z": -58.41856476109919
+      },
+      "rotation": {
+        "x": 0,
+        "y": -58.000000000000085,
+        "z": 0
+      },
+      "scaling": {
+        "x": 5.699999999999997,
+        "y": 5.699999999999997,
+        "z": 5.699999999999997
+      },
+      "visible": true,
+      "animation": false
+    },
+    {
+      "id": "s_4flour_3",
+      "filename": "FlourSack",
+      "collisionEnabled": true,
+      "position": {
+        "x": -0.9313485901528793,
+        "y": 0,
+        "z": 34.97508603001113
+      },
+      "rotation": {
+        "x": 0,
+        "y": -58.000000000000085,
+        "z": 0
+      },
+      "scaling": {
+        "x": 5.699999999999997,
+        "y": 5.699999999999997,
+        "z": 5.699999999999997
+      },
+      "visible": true,
+      "animation": false
+    },
+    {
+      "id": "s_4flour_4",
+      "filename": "FlourSack",
+      "collisionEnabled": true,
+      "position": {
+        "x": -34.39022542935908,
+        "y": 0,
+        "z": -21.87173399420118
+      },
+      "rotation": {
+        "x": 0,
+        "y": -58.000000000000085,
+        "z": 0
+      },
+      "scaling": {
+        "x": 5.699999999999997,
+        "y": 5.699999999999997,
+        "z": 5.699999999999997
+      },
+      "visible": true,
+      "animation": false
+    }
+  ],
+  "creatable_objects": [
+    {
+      "id": "s_area_1",
+      "type": "plane",
+      "collisionEnabled": true,
+      "position": {
+        "x": 124.53587548496779,
+        "y": 0,
+        "z": 223.1445835150089
+      },
+      "rotation": {
+        "x": -90.99999999999997,
+        "y": 20,
+        "z": 0
+      },
+      "scaling": {
+        "x": 4.300000000000002,
+        "y": 4.300000000000002,
+        "z": 4.300000000000002
+      },
+      "visible": true,
+      "image": "none",
+      "uwdsCreate": "none",
+      "color": {
+        "diffuse": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        },
+        "specular": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        }
+      }
+    },
+    {
+      "id": "s_area_2",
+      "type": "plane",
+      "collisionEnabled": true,
+      "position": {
+        "x": 30.482709701873432,
+        "y": 0,
+        "z": -13.966423834710398
+      },
+      "rotation": {
+        "x": -90.99999999999997,
+        "y": 21,
+        "z": 0
+      },
+      "scaling": {
+        "x": 4.300000000000002,
+        "y": 4.300000000000002,
+        "z": 4.300000000000002
+      },
+      "visible": true,
+      "image": "none",
+      "uwdsCreate": "none",
+      "color": {
+        "diffuse": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        },
+        "specular": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        }
+      }
+    },
+    {
+      "id": "s_area_3",
+      "type": "plane",
+      "collisionEnabled": true,
+      "position": {
+        "x": -66.15126581857166,
+        "y": 0,
+        "z": -253.1446716197803
+      },
+      "rotation": {
+        "x": -90.99999999999997,
+        "y": 21,
+        "z": 0
+      },
+      "scaling": {
+        "x": 4.300000000000002,
+        "y": 4.300000000000002,
+        "z": 4.300000000000002
+      },
+      "visible": true,
+      "image": "none",
+      "uwdsCreate": "none",
+      "color": {
+        "diffuse": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        },
+        "specular": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        }
+      }
+    }
+  ]
+}

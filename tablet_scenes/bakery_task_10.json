@@ -1,0 +1,274 @@
+{
+  "ground": "black.jpg",
+  "camera": {
+    "Alpha": 2.749658689536554,
+    "Beta": 0.7246173593469953,
+    "Radius": 524.7369233262424,
+    "PositionX": -321.4467628784238,
+    "PositionY": 392.8984031377273,
+    "PositionZ": 132.8595579877378
+  },
+  "loadable_objects": [
+    {
+      "id": "s_4milk_1",
+      "filename": "MilkCarton",
+      "collisionEnabled": true,
+      "position": {
+        "x": 163.94567913745703,
+        "y": 0,
+        "z": 237.7574073868982
+      },
+      "rotation": {
+        "x": 0,
+        "y": -59.00000000000008,
+        "z": 0
+      },
+      "scaling": {
+        "x": 8.399999999999988,
+        "y": 8.399999999999988,
+        "z": 8.399999999999988
+      },
+      "visible": true,
+      "animation": false
+    },
+    {
+      "id": "s_4milk_2",
+      "filename": "MilkCarton",
+      "collisionEnabled": true,
+      "position": {
+        "x": 130.6066239784683,
+        "y": 0,
+        "z": 176.4736462631176
+      },
+      "rotation": {
+        "x": 0,
+        "y": -59.00000000000008,
+        "z": 0
+      },
+      "scaling": {
+        "x": 8.399999999999988,
+        "y": 8.399999999999988,
+        "z": 8.399999999999988
+      },
+      "visible": true,
+      "animation": false
+    },
+    {
+      "id": "s_4milk_3",
+      "filename": "MilkCarton",
+      "collisionEnabled": true,
+      "position": {
+        "x": 83.01750840944561,
+        "y": 0,
+        "z": 254.21879631778052
+      },
+      "rotation": {
+        "x": 0,
+        "y": -59.00000000000008,
+        "z": 0
+      },
+      "scaling": {
+        "x": 8.399999999999988,
+        "y": 8.399999999999988,
+        "z": 8.399999999999988
+      },
+      "visible": true,
+      "animation": false
+    },
+    {
+      "id": "s_4milk_4",
+      "filename": "MilkCarton",
+      "collisionEnabled": true,
+      "position": {
+        "x": 54.35176896647971,
+        "y": 0,
+        "z": 200.7435747897423
+      },
+      "rotation": {
+        "x": 0,
+        "y": -59.00000000000008,
+        "z": 0
+      },
+      "scaling": {
+        "x": 8.399999999999988,
+        "y": 8.399999999999988,
+        "z": 8.399999999999988
+      },
+      "visible": true,
+      "animation": false
+    },
+    {
+      "id": "s_1milk",
+      "filename": "MilkCarton",
+      "collisionEnabled": true,
+      "position": {
+        "x": -69.71023848382382,
+        "y": 0,
+        "z": -247.46365014431265
+      },
+      "rotation": {
+        "x": 0,
+        "y": -59.00000000000008,
+        "z": 0
+      },
+      "scaling": {
+        "x": 8.399999999999988,
+        "y": 8.399999999999988,
+        "z": 8.399999999999988
+      },
+      "visible": true,
+      "animation": false
+    },
+    {
+      "id": "s_2milk_1",
+      "filename": "MilkCarton",
+      "collisionEnabled": true,
+      "position": {
+        "x": 60.559126452418525,
+        "y": 0,
+        "z": 16.560874465377267
+      },
+      "rotation": {
+        "x": 0,
+        "y": -59.00000000000008,
+        "z": 0
+      },
+      "scaling": {
+        "x": 8.399999999999988,
+        "y": 8.399999999999988,
+        "z": 8.399999999999988
+      },
+      "visible": true,
+      "animation": false
+    },
+    {
+      "id": "s_2milk_2",
+      "filename": "MilkCarton",
+      "collisionEnabled": true,
+      "position": {
+        "x": -26.711925484749486,
+        "y": 0,
+        "z": -27.399677312721366
+      },
+      "rotation": {
+        "x": 0,
+        "y": -59.00000000000008,
+        "z": 0
+      },
+      "scaling": {
+        "x": 8.399999999999988,
+        "y": 8.399999999999988,
+        "z": 8.399999999999988
+      },
+      "visible": true,
+      "animation": false
+    }
+  ],
+  "creatable_objects": [
+    {
+      "id": "s_area_1",
+      "type": "plane",
+      "collisionEnabled": true,
+      "position": {
+        "x": 124.53587548496779,
+        "y": 0,
+        "z": 223.1445835150089
+      },
+      "rotation": {
+        "x": -90.99999999999997,
+        "y": 20,
+        "z": 0
+      },
+      "scaling": {
+        "x": 4.300000000000002,
+        "y": 4.300000000000002,
+        "z": 4.300000000000002
+      },
+      "visible": true,
+      "image": "none",
+      "uwdsCreate": "none",
+      "color": {
+        "diffuse": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        },
+        "specular": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        }
+      }
+    },
+    {
+      "id": "s_area_2",
+      "type": "plane",
+      "collisionEnabled": true,
+      "position": {
+        "x": 30.482709701873432,
+        "y": 0,
+        "z": -13.966423834710398
+      },
+      "rotation": {
+        "x": -90.99999999999997,
+        "y": 21,
+        "z": 0
+      },
+      "scaling": {
+        "x": 4.300000000000002,
+        "y": 4.300000000000002,
+        "z": 4.300000000000002
+      },
+      "visible": true,
+      "image": "none",
+      "uwdsCreate": "none",
+      "color": {
+        "diffuse": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        },
+        "specular": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        }
+      }
+    },
+    {
+      "id": "s_area_3",
+      "type": "plane",
+      "collisionEnabled": true,
+      "position": {
+        "x": -66.15126581857166,
+        "y": 0,
+        "z": -253.1446716197803
+      },
+      "rotation": {
+        "x": -90.99999999999997,
+        "y": 21,
+        "z": 0
+      },
+      "scaling": {
+        "x": 4.300000000000002,
+        "y": 4.300000000000002,
+        "z": 4.300000000000002
+      },
+      "visible": true,
+      "image": "none",
+      "uwdsCreate": "none",
+      "color": {
+        "diffuse": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        },
+        "specular": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        }
+      }
+    }
+  ]
+}

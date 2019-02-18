@@ -1,0 +1,1682 @@
+{
+    "achter": {
+        "Dutch": {
+            "plural": {
+                "article": "", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "", 
+                "text": "achter"
+            }
+        }, 
+        "English": {
+            "plural": {
+                "article": "the", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "the", 
+                "text": ""
+            }
+        }, 
+        "German": {
+            "plural": {
+                "article": "", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "", 
+                "text": ""
+            }
+        }, 
+        "Turkish": {
+            "plural": {
+                "article": "", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "", 
+                "text": "achter"
+            }
+        }
+    }, 
+    "bibberen": {
+        "Dutch": {
+            "plural": {
+                "article": "", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "", 
+                "text": "bibberen"
+            }
+        }, 
+        "English": {
+            "plural": {
+                "article": "the", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "the", 
+                "text": ""
+            }
+        }, 
+        "German": {
+            "plural": {
+                "article": "", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "", 
+                "text": ""
+            }
+        }, 
+        "Turkish": {
+            "plural": {
+                "article": "", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "", 
+                "text": "bibberen"
+            }
+        }
+    }, 
+    "dalen": {
+        "Dutch": {
+            "plural": {
+                "article": "", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "", 
+                "text": "dalen"
+            }
+        }, 
+        "English": {
+            "plural": {
+                "article": "the", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "the", 
+                "text": ""
+            }
+        }, 
+        "German": {
+            "plural": {
+                "article": "", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "", 
+                "text": ""
+            }
+        }, 
+        "Turkish": {
+            "plural": {
+                "article": "", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "", 
+                "text": "dalen"
+            }
+        }
+    }, 
+    "dichtdoen": {
+        "Dutch": {
+            "plural": {
+                "article": "", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "", 
+                "text": "dichtdoen"
+            }
+        }, 
+        "English": {
+            "plural": {
+                "article": "the", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "the", 
+                "text": ""
+            }
+        }, 
+        "German": {
+            "plural": {
+                "article": "", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "", 
+                "text": ""
+            }
+        }, 
+        "Turkish": {
+            "plural": {
+                "article": "", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "", 
+                "text": "dichtdoen"
+            }
+        }
+    }, 
+    "duiken": {
+        "Dutch": {
+            "plural": {
+                "article": "", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "", 
+                "text": "duiken"
+            }
+        }, 
+        "English": {
+            "plural": {
+                "article": "the", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "the", 
+                "text": ""
+            }
+        }, 
+        "German": {
+            "plural": {
+                "article": "", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "", 
+                "text": ""
+            }
+        }, 
+        "Turkish": {
+            "plural": {
+                "article": "", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "", 
+                "text": "duiken"
+            }
+        }
+    }, 
+    "klappen": {
+        "Dutch": {
+            "plural": {
+                "article": "", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "", 
+                "text": "klappen"
+            }
+        }, 
+        "English": {
+            "plural": {
+                "article": "the", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "the", 
+                "text": ""
+            }
+        }, 
+        "German": {
+            "plural": {
+                "article": "", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "", 
+                "text": ""
+            }
+        }, 
+        "Turkish": {
+            "plural": {
+                "article": "", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "", 
+                "text": "klappen"
+            }
+        }
+    }, 
+    "legen": {
+        "Dutch": {
+            "plural": {
+                "article": "", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "", 
+                "text": "legen"
+            }
+        }, 
+        "English": {
+            "plural": {
+                "article": "the", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "the", 
+                "text": ""
+            }
+        }, 
+        "German": {
+            "plural": {
+                "article": "", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "", 
+                "text": ""
+            }
+        }, 
+        "Turkish": {
+            "plural": {
+                "article": "", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "", 
+                "text": "legen"
+            }
+        }
+    }, 
+    "naast": {
+        "Dutch": {
+            "plural": {
+                "article": "", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "", 
+                "text": "naast"
+            }
+        }, 
+        "English": {
+            "plural": {
+                "article": "the", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "the", 
+                "text": ""
+            }
+        }, 
+        "German": {
+            "plural": {
+                "article": "", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "", 
+                "text": ""
+            }
+        }, 
+        "Turkish": {
+            "plural": {
+                "article": "", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "", 
+                "text": "naast"
+            }
+        }
+    }, 
+    "opstaan": {
+        "Dutch": {
+            "plural": {
+                "article": "", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "", 
+                "text": "opstaan"
+            }
+        }, 
+        "English": {
+            "plural": {
+                "article": "the", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "the", 
+                "text": ""
+            }
+        }, 
+        "German": {
+            "plural": {
+                "article": "", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "", 
+                "text": ""
+            }
+        }, 
+        "Turkish": {
+            "plural": {
+                "article": "", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "", 
+                "text": "opstaan"
+            }
+        }
+    }, 
+    "opstapelen": {
+        "Dutch": {
+            "plural": {
+                "article": "", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "", 
+                "text": "opstapelen"
+            }
+        }, 
+        "English": {
+            "plural": {
+                "article": "the", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "the", 
+                "text": ""
+            }
+        }, 
+        "German": {
+            "plural": {
+                "article": "", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "", 
+                "text": ""
+            }
+        }, 
+        "Turkish": {
+            "plural": {
+                "article": "", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "", 
+                "text": "opstapelen"
+            }
+        }
+    }, 
+    "roeien": {
+        "Dutch": {
+            "plural": {
+                "article": "", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "", 
+                "text": "roeien"
+            }
+        }, 
+        "English": {
+            "plural": {
+                "article": "the", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "the", 
+                "text": ""
+            }
+        }, 
+        "German": {
+            "plural": {
+                "article": "", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "", 
+                "text": ""
+            }
+        }, 
+        "Turkish": {
+            "plural": {
+                "article": "", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "", 
+                "text": "roeien"
+            }
+        }
+    }, 
+    "rollen": {
+        "Dutch": {
+            "plural": {
+                "article": "", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "", 
+                "text": "rollen"
+            }
+        }, 
+        "English": {
+            "plural": {
+                "article": "the", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "the", 
+                "text": ""
+            }
+        }, 
+        "German": {
+            "plural": {
+                "article": "", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "", 
+                "text": ""
+            }
+        }, 
+        "Turkish": {
+            "plural": {
+                "article": "", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "", 
+                "text": "rollen"
+            }
+        }
+    }, 
+    "s_BirdAscend": {
+        "Dutch": {
+            "plural": {
+                "article": "", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "", 
+                "text": "de vogel die aan het stijgen is"
+            }
+        }, 
+        "English": {
+            "plural": {
+                "article": "the", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "the", 
+                "text": ""
+            }
+        }, 
+        "German": {
+            "plural": {
+                "article": "", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "", 
+                "text": ""
+            }
+        }, 
+        "Turkish": {
+            "plural": {
+                "article": "", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "", 
+                "text": ""
+            }
+        }
+    }, 
+    "s_BirdDescend": {
+        "Dutch": {
+            "plural": {
+                "article": "", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "", 
+                "text": "de vogel die aan het dalen is"
+            }
+        }, 
+        "English": {
+            "plural": {
+                "article": "the", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "the", 
+                "text": ""
+            }
+        }, 
+        "German": {
+            "plural": {
+                "article": "", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "", 
+                "text": ""
+            }
+        }, 
+        "Turkish": {
+            "plural": {
+                "article": "", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "", 
+                "text": ""
+            }
+        }
+    }, 
+    "s_MonkeyBehind": {
+        "Dutch": {
+            "plural": {
+                "article": "", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "", 
+                "text": "de aap die achter de boom staat"
+            }
+        }, 
+        "English": {
+            "plural": {
+                "article": "the", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "the", 
+                "text": ""
+            }
+        }, 
+        "German": {
+            "plural": {
+                "article": "", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "", 
+                "text": ""
+            }
+        }, 
+        "Turkish": {
+            "plural": {
+                "article": "", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "", 
+                "text": ""
+            }
+        }
+    }, 
+    "s_MonkeyBetween": {
+        "Dutch": {
+            "plural": {
+                "article": "", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "", 
+                "text": "de aap die tussen de bomen staat"
+            }
+        }, 
+        "English": {
+            "plural": {
+                "article": "the", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "the", 
+                "text": ""
+            }
+        }, 
+        "German": {
+            "plural": {
+                "article": "", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "", 
+                "text": ""
+            }
+        }, 
+        "Turkish": {
+            "plural": {
+                "article": "", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "", 
+                "text": ""
+            }
+        }
+    }, 
+    "s_MonkeyClap": {
+        "Dutch": {
+            "plural": {
+                "article": "", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "", 
+                "text": "de aap die aan het klappen is"
+            }
+        }, 
+        "English": {
+            "plural": {
+                "article": "the", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "the", 
+                "text": ""
+            }
+        }, 
+        "German": {
+            "plural": {
+                "article": "", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "", 
+                "text": ""
+            }
+        }, 
+        "Turkish": {
+            "plural": {
+                "article": "", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "", 
+                "text": ""
+            }
+        }
+    }, 
+    "s_MonkeyClose": {
+        "Dutch": {
+            "plural": {
+                "article": "", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "", 
+                "text": "de aap die de doos aan het dichtdoen is"
+            }
+        }, 
+        "English": {
+            "plural": {
+                "article": "the", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "the", 
+                "text": ""
+            }
+        }, 
+        "German": {
+            "plural": {
+                "article": "", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "", 
+                "text": ""
+            }
+        }, 
+        "Turkish": {
+            "plural": {
+                "article": "", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "", 
+                "text": ""
+            }
+        }
+    }, 
+    "s_MonkeyDangle": {
+        "Dutch": {
+            "plural": {
+                "article": "", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "", 
+                "text": "de aap die aan het slingeren is"
+            }
+        }, 
+        "English": {
+            "plural": {
+                "article": "the", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "the", 
+                "text": ""
+            }
+        }, 
+        "German": {
+            "plural": {
+                "article": "", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "", 
+                "text": ""
+            }
+        }, 
+        "Turkish": {
+            "plural": {
+                "article": "", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "", 
+                "text": ""
+            }
+        }
+    }, 
+    "s_MonkeyDive": {
+        "Dutch": {
+            "plural": {
+                "article": "", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "", 
+                "text": "de aap die aan het duiken is"
+            }
+        }, 
+        "English": {
+            "plural": {
+                "article": "the", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "the", 
+                "text": ""
+            }
+        }, 
+        "German": {
+            "plural": {
+                "article": "", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "", 
+                "text": ""
+            }
+        }, 
+        "Turkish": {
+            "plural": {
+                "article": "", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "", 
+                "text": ""
+            }
+        }
+    }, 
+    "s_MonkeyEmpty": {
+        "Dutch": {
+            "plural": {
+                "article": "", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "", 
+                "text": "de aap die het glas aan het legen is"
+            }
+        }, 
+        "English": {
+            "plural": {
+                "article": "the", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "the", 
+                "text": ""
+            }
+        }, 
+        "German": {
+            "plural": {
+                "article": "", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "", 
+                "text": ""
+            }
+        }, 
+        "Turkish": {
+            "plural": {
+                "article": "", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "", 
+                "text": ""
+            }
+        }
+    }, 
+    "s_MonkeyFill": {
+        "Dutch": {
+            "plural": {
+                "article": "", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "", 
+                "text": "de aap die het glas aan het vullen is"
+            }
+        }, 
+        "English": {
+            "plural": {
+                "article": "the", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "the", 
+                "text": ""
+            }
+        }, 
+        "German": {
+            "plural": {
+                "article": "", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "", 
+                "text": ""
+            }
+        }, 
+        "Turkish": {
+            "plural": {
+                "article": "", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "", 
+                "text": ""
+            }
+        }
+    }, 
+    "s_MonkeyFront": {
+        "Dutch": {
+            "plural": {
+                "article": "", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "", 
+                "text": "de aap voor de boom"
+            }
+        }, 
+        "English": {
+            "plural": {
+                "article": "the", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "the", 
+                "text": ""
+            }
+        }, 
+        "German": {
+            "plural": {
+                "article": "", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "", 
+                "text": ""
+            }
+        }, 
+        "Turkish": {
+            "plural": {
+                "article": "", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "", 
+                "text": ""
+            }
+        }
+    }, 
+    "s_MonkeyNext": {
+        "Dutch": {
+            "plural": {
+                "article": "", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "", 
+                "text": "de aap naast de boom"
+            }
+        }, 
+        "English": {
+            "plural": {
+                "article": "the", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "the", 
+                "text": ""
+            }
+        }, 
+        "German": {
+            "plural": {
+                "article": "", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "", 
+                "text": ""
+            }
+        }, 
+        "Turkish": {
+            "plural": {
+                "article": "", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "", 
+                "text": ""
+            }
+        }
+    }, 
+    "s_MonkeyPile": {
+        "Dutch": {
+            "plural": {
+                "article": "", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "", 
+                "text": "de aap die het speelgoed aan het opstapelen is"
+            }
+        }, 
+        "English": {
+            "plural": {
+                "article": "the", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "the", 
+                "text": ""
+            }
+        }, 
+        "German": {
+            "plural": {
+                "article": "", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "", 
+                "text": ""
+            }
+        }, 
+        "Turkish": {
+            "plural": {
+                "article": "", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "", 
+                "text": ""
+            }
+        }
+    }, 
+    "s_MonkeyRoll": {
+        "Dutch": {
+            "plural": {
+                "article": "", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "", 
+                "text": "de aap die de bal aan het rollen is"
+            }
+        }, 
+        "English": {
+            "plural": {
+                "article": "the", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "the", 
+                "text": ""
+            }
+        }, 
+        "German": {
+            "plural": {
+                "article": "", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "", 
+                "text": ""
+            }
+        }, 
+        "Turkish": {
+            "plural": {
+                "article": "", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "", 
+                "text": ""
+            }
+        }
+    }, 
+    "s_MonkeyRow": {
+        "Dutch": {
+            "plural": {
+                "article": "", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "", 
+                "text": "de aap die aan het roeien is"
+            }
+        }, 
+        "English": {
+            "plural": {
+                "article": "the", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "the", 
+                "text": ""
+            }
+        }, 
+        "German": {
+            "plural": {
+                "article": "", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "", 
+                "text": ""
+            }
+        }, 
+        "Turkish": {
+            "plural": {
+                "article": "", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "", 
+                "text": ""
+            }
+        }
+    }, 
+    "s_MonkeyShake": {
+        "Dutch": {
+            "plural": {
+                "article": "", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "", 
+                "text": "de aap die de boom aan het schudden is"
+            }
+        }, 
+        "English": {
+            "plural": {
+                "article": "the", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "the", 
+                "text": ""
+            }
+        }, 
+        "German": {
+            "plural": {
+                "article": "", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "", 
+                "text": ""
+            }
+        }, 
+        "Turkish": {
+            "plural": {
+                "article": "", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "", 
+                "text": ""
+            }
+        }
+    }, 
+    "s_MonkeyShiver": {
+        "Dutch": {
+            "plural": {
+                "article": "", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "", 
+                "text": "de aap die aan het bibberen is"
+            }
+        }, 
+        "English": {
+            "plural": {
+                "article": "the", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "the", 
+                "text": ""
+            }
+        }, 
+        "German": {
+            "plural": {
+                "article": "", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "", 
+                "text": ""
+            }
+        }, 
+        "Turkish": {
+            "plural": {
+                "article": "", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "", 
+                "text": ""
+            }
+        }
+    }, 
+    "s_MonkeyStandUp": {
+        "Dutch": {
+            "plural": {
+                "article": "", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "", 
+                "text": "de aap die aan het opstaan is"
+            }
+        }, 
+        "English": {
+            "plural": {
+                "article": "the", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "the", 
+                "text": ""
+            }
+        }, 
+        "German": {
+            "plural": {
+                "article": "", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "", 
+                "text": ""
+            }
+        }, 
+        "Turkish": {
+            "plural": {
+                "article": "", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "", 
+                "text": ""
+            }
+        }
+    }, 
+    "s_MonkeyTrip": {
+        "Dutch": {
+            "plural": {
+                "article": "", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "", 
+                "text": "de aap die aan het struikelen is"
+            }
+        }, 
+        "English": {
+            "plural": {
+                "article": "the", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "the", 
+                "text": ""
+            }
+        }, 
+        "German": {
+            "plural": {
+                "article": "", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "", 
+                "text": ""
+            }
+        }, 
+        "Turkish": {
+            "plural": {
+                "article": "", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "", 
+                "text": ""
+            }
+        }
+    }, 
+    "s_MonkeyWalk": {
+        "Dutch": {
+            "plural": {
+                "article": "", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "", 
+                "text": "de aap die de vogel aan het volgen is"
+            }
+        }, 
+        "English": {
+            "plural": {
+                "article": "the", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "the", 
+                "text": ""
+            }
+        }, 
+        "German": {
+            "plural": {
+                "article": "", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "", 
+                "text": ""
+            }
+        }, 
+        "Turkish": {
+            "plural": {
+                "article": "", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "", 
+                "text": ""
+            }
+        }
+    }, 
+    "schudden": {
+        "Dutch": {
+            "plural": {
+                "article": "", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "", 
+                "text": "schudden"
+            }
+        }, 
+        "English": {
+            "plural": {
+                "article": "the", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "the", 
+                "text": ""
+            }
+        }, 
+        "German": {
+            "plural": {
+                "article": "", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "", 
+                "text": ""
+            }
+        }, 
+        "Turkish": {
+            "plural": {
+                "article": "", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "", 
+                "text": "schudden"
+            }
+        }
+    }, 
+    "slingeren": {
+        "Dutch": {
+            "plural": {
+                "article": "", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "", 
+                "text": "slingeren"
+            }
+        }, 
+        "English": {
+            "plural": {
+                "article": "the", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "the", 
+                "text": ""
+            }
+        }, 
+        "German": {
+            "plural": {
+                "article": "", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "", 
+                "text": ""
+            }
+        }, 
+        "Turkish": {
+            "plural": {
+                "article": "", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "", 
+                "text": "slingeren"
+            }
+        }
+    }, 
+    "stijgen": {
+        "Dutch": {
+            "plural": {
+                "article": "", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "", 
+                "text": "stijgen"
+            }
+        }, 
+        "English": {
+            "plural": {
+                "article": "the", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "the", 
+                "text": ""
+            }
+        }, 
+        "German": {
+            "plural": {
+                "article": "", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "", 
+                "text": ""
+            }
+        }, 
+        "Turkish": {
+            "plural": {
+                "article": "", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "", 
+                "text": "stijgen"
+            }
+        }
+    }, 
+    "struikelen": {
+        "Dutch": {
+            "plural": {
+                "article": "", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "", 
+                "text": "struikelen"
+            }
+        }, 
+        "English": {
+            "plural": {
+                "article": "the", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "the", 
+                "text": ""
+            }
+        }, 
+        "German": {
+            "plural": {
+                "article": "", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "", 
+                "text": ""
+            }
+        }, 
+        "Turkish": {
+            "plural": {
+                "article": "", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "", 
+                "text": "struikelen"
+            }
+        }
+    }, 
+    "tussen": {
+        "Dutch": {
+            "plural": {
+                "article": "", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "", 
+                "text": "tussen"
+            }
+        }, 
+        "English": {
+            "plural": {
+                "article": "the", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "the", 
+                "text": ""
+            }
+        }, 
+        "German": {
+            "plural": {
+                "article": "", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "", 
+                "text": ""
+            }
+        }, 
+        "Turkish": {
+            "plural": {
+                "article": "", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "", 
+                "text": "tussen"
+            }
+        }
+    }, 
+    "volgen": {
+        "Dutch": {
+            "plural": {
+                "article": "", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "", 
+                "text": "volgen"
+            }
+        }, 
+        "English": {
+            "plural": {
+                "article": "the", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "the", 
+                "text": ""
+            }
+        }, 
+        "German": {
+            "plural": {
+                "article": "", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "", 
+                "text": ""
+            }
+        }, 
+        "Turkish": {
+            "plural": {
+                "article": "", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "", 
+                "text": "volgen"
+            }
+        }
+    }, 
+    "voor": {
+        "Dutch": {
+            "plural": {
+                "article": "", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "", 
+                "text": "voor"
+            }
+        }, 
+        "English": {
+            "plural": {
+                "article": "the", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "the", 
+                "text": ""
+            }
+        }, 
+        "German": {
+            "plural": {
+                "article": "", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "", 
+                "text": ""
+            }
+        }, 
+        "Turkish": {
+            "plural": {
+                "article": "", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "", 
+                "text": "voor"
+            }
+        }
+    }, 
+    "vullen": {
+        "Dutch": {
+            "plural": {
+                "article": "", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "", 
+                "text": "vullen"
+            }
+        }, 
+        "English": {
+            "plural": {
+                "article": "the", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "the", 
+                "text": ""
+            }
+        }, 
+        "German": {
+            "plural": {
+                "article": "", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "", 
+                "text": ""
+            }
+        }, 
+        "Turkish": {
+            "plural": {
+                "article": "", 
+                "text": ""
+            }, 
+            "singular": {
+                "article": "", 
+                "text": "vullen"
+            }
+        }
+    }
+}

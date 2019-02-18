@@ -1,0 +1,58 @@
+{
+  "ground": "grass.png",
+  "camera": {
+    "Alpha": 1.5852303887999997,
+    "Beta": 1.3247379083877158,
+    "Radius": 450,
+    "PositionX": -6.299470240479029,
+    "PositionY": 109.61234997178998,
+    "PositionZ": 436.40056073331425
+  },
+  "loadable_objects": [
+    {
+      "id": "s_big_elephant",
+      "filename": "elephant_big",
+      "collisionEnabled": true,
+      "position": {
+        "x": -63.67629603456081,
+        "y": 0,
+        "z": 41.972361403158914
+      },
+      "rotation": {
+        "x": -0.9999999999999972,
+        "y": 57.00000000000008,
+        "z": 0
+      },
+      "scaling": {
+        "x": 5.846899999999996,
+        "y": 5.810699999999996,
+        "z": 5.901199999999996
+      },
+      "visible": true,
+      "animation": false
+    },
+    {
+      "id": "s_small_elephant",
+      "filename": "elephant_big",
+      "collisionEnabled": true,
+      "position": {
+        "x": 115.29847129210162,
+        "y": 0,
+        "z": 93.56480399618181
+      },
+      "rotation": {
+        "x": 3,
+        "y": -52.000000000000064,
+        "z": 0
+      },
+      "scaling": {
+        "x": 3.0469000000000017,
+        "y": 3.0107000000000017,
+        "z": 3.1012000000000017
+      },
+      "visible": true,
+      "animation": false
+    }
+  ],
+  "creatable_objects": []
+}

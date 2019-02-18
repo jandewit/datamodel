@@ -1,0 +1,1832 @@
+{
+    "description": "..\\scenario\\2_test", 
+    "tasks": [
+        {
+            "description": "Introduction: 2 minutes", 
+            "is_test": false, 
+            "subtasks": [
+                {
+                    "exit_criteria": [
+                        {
+                            "timeout_ms": "1000", 
+                            "type": "RESPONSE_DELAY_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "1"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "2"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "3", 
+                    "tablet_display_actions": {
+                        "scene": "playground_1"
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "4", 
+                    "tablet_display_actions": {
+                        "objects_added": [
+                            {
+                                "object_id": "slide_1"
+                            }, 
+                            {
+                                "object_id": "slide_location"
+                            }
+                        ]
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "obj_1": "slide_1", 
+                            "obj_2": "slide_location", 
+                            "type": "OBJECT_COLLISION_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "5", 
+                    "tablet_display_actions": {
+                        "objects_highlighted": [
+                            {
+                                "object_id": "slide_location"
+                            }
+                        ]
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "timeout_ms": "2000", 
+                            "type": "RESPONSE_DELAY_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "6", 
+                    "tablet_display_actions": {
+                        "objects_removed": [
+                            {
+                                "object_id": "slide_location"
+                            }
+                        ]
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "7", 
+                    "tablet_display_actions": {
+                        "objects_move": [
+                            {
+                                "loop": "false", 
+                                "object_id": "girl_running_1", 
+                                "speed": "4", 
+                                "x": "-2.5553528071621825", 
+                                "y": "0", 
+                                "z": "-20.280421108787806"
+                            }
+                        ]
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "target_word": "girl", 
+                            "timeout_ms": 5000, 
+                            "type": "VOICE_ACTIVATION_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "8"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "9"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "10", 
+                    "tablet_display_actions": {
+                        "objects_added": [
+                            {
+                                "object_id": "girl_standing_1"
+                            }
+                        ], 
+                        "objects_removed": [
+                            {
+                                "object_id": "girl_running_1"
+                            }
+                        ]
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "11", 
+                    "tablet_display_actions": {
+                        "objects_move": [
+                            {
+                                "loop": "false", 
+                                "object_id": "boy_running_1", 
+                                "speed": "4", 
+                                "x": "24.720108577040513", 
+                                "y": "0", 
+                                "z": "2.1925337207470648"
+                            }
+                        ]
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "target_word": "boy", 
+                            "timeout_ms": 5000, 
+                            "type": "VOICE_ACTIVATION_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "12"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "timeout_ms": "1000", 
+                            "type": "RESPONSE_DELAY_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "13", 
+                    "tablet_display_actions": {
+                        "objects_added": [
+                            {
+                                "object_id": "boy_standing_1"
+                            }
+                        ], 
+                        "objects_removed": [
+                            {
+                                "object_id": "boy_running_1"
+                            }
+                        ]
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "14"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "target_word": "left", 
+                            "timeout_ms": 5000, 
+                            "type": "VOICE_ACTIVATION_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "15"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "target_word": "the boy is to the left of the girl", 
+                            "timeout_ms": 5000, 
+                            "type": "VOICE_ACTIVATION_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "16"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "target_word": "right", 
+                            "timeout_ms": 5000, 
+                            "type": "VOICE_ACTIVATION_CRITERIUM"
+                        }, 
+                        {
+                            "target_word": "the girl is to the right of the boy", 
+                            "timeout_ms": 5000, 
+                            "type": "VOICE_ACTIVATION_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "17"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "18"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "19", 
+                    "tablet_display_actions": {
+                        "objects_added": [
+                            {
+                                "object_id": "girl_running_1"
+                            }
+                        ], 
+                        "objects_removed": [
+                            {
+                                "object_id": "girl_standing_1"
+                            }
+                        ]
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "20", 
+                    "tablet_display_actions": {
+                        "objects_move": [
+                            {
+                                "loop": "false", 
+                                "object_id": "girl_running_1", 
+                                "speed": "2", 
+                                "x": "45.55382434550648", 
+                                "y": "0", 
+                                "z": "-65.07352558291578"
+                            }
+                        ]
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "timeout_ms": "1000", 
+                            "type": "RESPONSE_DELAY_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "21"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "22", 
+                    "tablet_display_actions": {
+                        "objects_added": [
+                            {
+                                "object_id": "girl_climbing_1"
+                            }
+                        ], 
+                        "objects_removed": [
+                            {
+                                "object_id": "girl_running_1"
+                            }
+                        ]
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "timeout_ms": "3000", 
+                            "type": "RESPONSE_DELAY_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "23", 
+                    "tablet_display_actions": {
+                        "objects_move": [
+                            {
+                                "loop": "false", 
+                                "object_id": "girl_climbing_1", 
+                                "speed": "3", 
+                                "x": "70.91824007619913", 
+                                "y": "84", 
+                                "z": "-48.97952752935615"
+                            }
+                        ]
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "24"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "target_word": "climbing", 
+                            "timeout_ms": 5000, 
+                            "type": "VOICE_ACTIVATION_CRITERIUM"
+                        }, 
+                        {
+                            "target_word": "the girl is climbing", 
+                            "timeout_ms": 5000, 
+                            "type": "VOICE_ACTIVATION_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "25"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "timeout_ms": "5000", 
+                            "type": "RESPONSE_DELAY_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "26"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "27", 
+                    "tablet_display_actions": {
+                        "objects_added": [
+                            {
+                                "object_id": "girl_sliding_1"
+                            }
+                        ], 
+                        "objects_removed": [
+                            {
+                                "object_id": "girl_climbing_1"
+                            }
+                        ]
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "timeout_ms": "2000", 
+                            "type": "RESPONSE_DELAY_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "28", 
+                    "tablet_display_actions": {
+                        "objects_move": [
+                            {
+                                "loop": "false", 
+                                "object_id": "girl_sliding_1", 
+                                "speed": "2", 
+                                "x": "140.11421339239487", 
+                                "y": "19", 
+                                "z": "55.88361022227494"
+                            }
+                        ]
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "target_word": "sliding", 
+                            "timeout_ms": 5000, 
+                            "type": "VOICE_ACTIVATION_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "29"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "target_word": "the girl is sliding", 
+                            "timeout_ms": 5000, 
+                            "type": "VOICE_ACTIVATION_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "30"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "31", 
+                    "tablet_display_actions": {
+                        "objects_added": [
+                            {
+                                "object_id": "girl_running_2"
+                            }
+                        ], 
+                        "objects_removed": [
+                            {
+                                "object_id": "girl_sliding_1"
+                            }
+                        ]
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "timeout_ms": "5000", 
+                            "type": "RESPONSE_DELAY_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "32", 
+                    "tablet_display_actions": {
+                        "objects_move": [
+                            {
+                                "loop": "false", 
+                                "object_id": "girl_running_2", 
+                                "speed": "3", 
+                                "x": "51.12156463715602", 
+                                "y": "0", 
+                                "z": "21.550763207572658"
+                            }
+                        ]
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "33", 
+                    "tablet_display_actions": {
+                        "objects_added": [
+                            {
+                                "object_id": "girl_standing_2"
+                            }
+                        ], 
+                        "objects_removed": [
+                            {
+                                "object_id": "girl_running_2"
+                            }
+                        ]
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "timeout_ms": "2000", 
+                            "type": "RESPONSE_DELAY_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "34"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "timeout_ms": "4000", 
+                            "type": "RESPONSE_DELAY_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "35"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "36"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "timeout_ms": "4000", 
+                            "type": "RESPONSE_DELAY_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "37"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "38"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "timeout_ms": "4000", 
+                            "type": "RESPONSE_DELAY_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "39"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "timeout_ms": "1000", 
+                            "type": "RESPONSE_DELAY_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "40"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "41", 
+                    "tablet_display_actions": {
+                        "objects_removed": [
+                            {
+                                "object_id": "girl_standing_2"
+                            }, 
+                            {
+                                "object_id": "boy_standing_1"
+                            }
+                        ]
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "42", 
+                    "tablet_display_actions": {
+                        "objects_added": [
+                            {
+                                "object_id": "hoop_1"
+                            }, 
+                            {
+                                "object_id": "hoop_location"
+                            }
+                        ]
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "obj_1": "hoop_1", 
+                            "obj_2": "hoop_location", 
+                            "type": "OBJECT_COLLISION_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "43", 
+                    "tablet_display_actions": {
+                        "objects_highlighted": [
+                            {
+                                "object_id": "hoop_location"
+                            }
+                        ]
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "44", 
+                    "tablet_display_actions": {
+                        "objects_removed": [
+                            {
+                                "object_id": "hoop_location"
+                            }
+                        ]
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "45", 
+                    "tablet_display_actions": {
+                        "objects_move": [
+                            {
+                                "loop": "false", 
+                                "object_id": "girl_walking_1", 
+                                "speed": "4", 
+                                "x": "31.960583185996526", 
+                                "y": "0", 
+                                "z": "133.52572660822358"
+                            }, 
+                            {
+                                "loop": "false", 
+                                "object_id": "boy_walking_1", 
+                                "speed": "8", 
+                                "x": "-21.879602047651037", 
+                                "y": "0", 
+                                "z": "77.66463661523471"
+                            }
+                        ]
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "46"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "47", 
+                    "tablet_display_actions": {
+                        "objects_added": [
+                            {
+                                "object_id": "ball_1"
+                            }, 
+                            {
+                                "object_id": "girl_throwing_1"
+                            }, 
+                            {
+                                "object_id": "boy_catching_1"
+                            }
+                        ], 
+                        "objects_removed": [
+                            {
+                                "object_id": "girl_walking_1"
+                            }, 
+                            {
+                                "object_id": "boy_walking_1"
+                            }
+                        ]
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "48"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "49", 
+                    "tablet_display_actions": {
+                        "objects_move": [
+                            {
+                                "loop": "true", 
+                                "object_id": "ball_1", 
+                                "speed": "1", 
+                                "x": "-33.42048166508597", 
+                                "y": "101", 
+                                "z": "75.92292483438851"
+                            }
+                        ]
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "target_word": "throwing", 
+                            "timeout_ms": 5000, 
+                            "type": "VOICE_ACTIVATION_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "50"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "target_word": "the girl is throwing the ball", 
+                            "timeout_ms": 5000, 
+                            "type": "VOICE_ACTIVATION_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "51"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "52", 
+                    "tablet_display_actions": {
+                        "objects_added": [
+                            {
+                                "object_id": "ball_2"
+                            }
+                        ], 
+                        "objects_removed": [
+                            {
+                                "object_id": "ball_1"
+                            }
+                        ]
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "53", 
+                    "tablet_display_actions": {
+                        "objects_move": [
+                            {
+                                "loop": "true", 
+                                "object_id": "ball_2", 
+                                "speed": "1", 
+                                "x": "-11.886674468044205", 
+                                "y": "17", 
+                                "z": "92.86033072972194"
+                            }
+                        ]
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "54"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "55"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "target_word": "catching", 
+                            "timeout_ms": 5000, 
+                            "type": "VOICE_ACTIVATION_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "56"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "target_word": "the boy is catching the ball", 
+                            "timeout_ms": 5000, 
+                            "type": "VOICE_ACTIVATION_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "57"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "timeout_ms": "1000", 
+                            "type": "RESPONSE_DELAY_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "58"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "timeout_ms": "2000", 
+                            "type": "RESPONSE_DELAY_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "59"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "60", 
+                    "tablet_display_actions": {
+                        "objects_removed": [
+                            {
+                                "object_id": "ball_2"
+                            }, 
+                            {
+                                "object_id": "girl_throwing_1"
+                            }, 
+                            {
+                                "object_id": "boy_catching_1"
+                            }
+                        ]
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "61", 
+                    "tablet_display_actions": {
+                        "objects_added": [
+                            {
+                                "object_id": "trampoline_1"
+                            }, 
+                            {
+                                "object_id": "trampoline_location"
+                            }
+                        ]
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "obj_1": "trampoline_1", 
+                            "obj_2": "trampoline_location", 
+                            "type": "OBJECT_COLLISION_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "62", 
+                    "tablet_display_actions": {
+                        "objects_highlighted": [
+                            {
+                                "object_id": "trampoline_location"
+                            }
+                        ]
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "timeout_ms": "1000", 
+                            "type": "RESPONSE_DELAY_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "63", 
+                    "tablet_display_actions": {
+                        "objects_removed": [
+                            {
+                                "object_id": "trampoline_location"
+                            }
+                        ]
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "64", 
+                    "tablet_display_actions": {
+                        "objects_added": [
+                            {
+                                "object_id": "boy_jumping_1"
+                            }
+                        ]
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "65", 
+                    "tablet_display_actions": {
+                        "objects_animated": [
+                            {
+                                "animation": "jump", 
+                                "loop": "true", 
+                                "object_id": "boy_jumping_1"
+                            }
+                        ]
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "timeout_ms": "1000", 
+                            "type": "RESPONSE_DELAY_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "66"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "67"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "68", 
+                    "tablet_display_actions": {
+                        "objects_move": [
+                            {
+                                "loop": "false", 
+                                "object_id": "girl_sliding_1", 
+                                "speed": "0.5", 
+                                "x": "88.25541995369039", 
+                                "y": "85", 
+                                "z": "-22.4789195607824"
+                            }
+                        ], 
+                        "objects_removed": [
+                            {
+                                "object_id": "boy_jumping_1"
+                            }
+                        ]
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "69"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "object_id": "girl_sliding_1, slide_1", 
+                            "type": "OBJECT_SELECT_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "70", 
+                    "tablet_display_actions": {
+                        "objects_move": [
+                            {
+                                "loop": "true", 
+                                "object_id": "girl_sliding_1", 
+                                "speed": "2", 
+                                "x": "140.11421339239487", 
+                                "y": "19", 
+                                "z": "55.88361022227494"
+                            }
+                        ]
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "timeout_ms": "1000", 
+                            "type": "RESPONSE_DELAY_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "71"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "72", 
+                    "tablet_display_actions": {
+                        "objects_added": [
+                            {
+                                "object_id": "girl_throwing_1"
+                            }, 
+                            {
+                                "object_id": "ball_2"
+                            }
+                        ], 
+                        "objects_move": [
+                            {
+                                "loop": "false", 
+                                "object_id": "ball_2", 
+                                "speed": "0.5", 
+                                "x": "24.06543788120329", 
+                                "y": "17", 
+                                "z": "119.63795204316995"
+                            }
+                        ]
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "object_id": "girl_throwing_1, ball_2", 
+                            "type": "OBJECT_SELECT_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "73", 
+                    "tablet_display_actions": {
+                        "objects_move": [
+                            {
+                                "loop": "true", 
+                                "object_id": "ball_2", 
+                                "speed": "1", 
+                                "x": "-11.886674468044205", 
+                                "y": "17", 
+                                "z": "92.86033072972194"
+                            }
+                        ]
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "timeout_ms": "1000", 
+                            "type": "RESPONSE_DELAY_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "74"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "75"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "object_id": "boy_catching_1, ball_2", 
+                            "type": "OBJECT_SELECT_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "76", 
+                    "tablet_display_actions": {
+                        "objects_added": [
+                            {
+                                "object_id": "boy_catching_1"
+                            }
+                        ]
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "timeout_ms": "1000", 
+                            "type": "RESPONSE_DELAY_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "77"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "78"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "79", 
+                    "tablet_display_actions": {
+                        "objects_added": [
+                            {
+                                "object_id": "girl_climbing_1"
+                            }
+                        ]
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "80", 
+                    "tablet_display_actions": {
+                        "objects_move": [
+                            {
+                                "loop": "false", 
+                                "object_id": "girl_climbing_1", 
+                                "speed": "0.5", 
+                                "x": "41.65699506668287", 
+                                "y": "0", 
+                                "z": "-67.57387449169045"
+                            }
+                        ]
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "object_id": "girl_climbing_1, slide_1", 
+                            "type": "OBJECT_SELECT_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "81", 
+                    "tablet_display_actions": {
+                        "objects_move": [
+                            {
+                                "loop": "true", 
+                                "object_id": "girl_climbing_1", 
+                                "speed": "3", 
+                                "x": "70.91824007619913", 
+                                "y": "84", 
+                                "z": "-48.97952752935615"
+                            }
+                        ]
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "timeout_ms": "1000", 
+                            "type": "RESPONSE_DELAY_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "82"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "83"
+                }
+            ], 
+            "task_id": "1"
+        }, 
+        {
+            "description": "Test: about 3 minutes", 
+            "is_test": true, 
+            "subtasks": [
+                {
+                    "exit_criteria": [
+                        {
+                            "object_id": "ball_right,girl_right,area_3", 
+                            "type": "OBJECT_SELECT_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "1", 
+                    "tablet_display_actions": {
+                        "scene": "playground_task_1"
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "2", 
+                    "tablet_display_actions": {
+                        "scene": "playground_task_2"
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "3", 
+                    "tablet_display_actions": {
+                        "objects_move": [
+                            {
+                                "loop": "true", 
+                                "object_id": "boy_walk", 
+                                "speed": "4", 
+                                "x": "76.4476985051839", 
+                                "y": "0", 
+                                "z": "306.63291917523145"
+                            }, 
+                            {
+                                "loop": "true", 
+                                "object_id": "ball_catch", 
+                                "speed": "2.5", 
+                                "x": "4.3298130627200635", 
+                                "y": "26", 
+                                "z": "-4.574812303438847"
+                            }, 
+                            {
+                                "loop": "true", 
+                                "object_id": "ball_throw", 
+                                "speed": "2.5", 
+                                "x": "-298.16031860421475", 
+                                "y": "20", 
+                                "z": "-179.6699480237385"
+                            }
+                        ]
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "object_id": "ball_catch, boy_catching, area_2", 
+                            "type": "OBJECT_SELECT_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "4"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "object_id": "ball_left, boy_left, area_2", 
+                            "type": "OBJECT_SELECT_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "5", 
+                    "tablet_display_actions": {
+                        "scene": "playground_task_3"
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "6", 
+                    "tablet_display_actions": {
+                        "scene": "playground_task_4"
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "7", 
+                    "tablet_display_actions": {
+                        "objects_animated": [
+                            {
+                                "animation": "jump", 
+                                "loop": "true", 
+                                "object_id": "girl_jumping"
+                            }
+                        ], 
+                        "objects_move": [
+                            {
+                                "loop": "true", 
+                                "object_id": "ball_throw", 
+                                "speed": "2.5", 
+                                "x": "-224.03032667064235", 
+                                "y": "20", 
+                                "z": "93.87897723378543"
+                            }, 
+                            {
+                                "loop": "true", 
+                                "object_id": "ball_catch", 
+                                "speed": "2.5", 
+                                "x": "-88.1954035135264", 
+                                "y": "20", 
+                                "z": "-241.12332770451366"
+                            }
+                        ]
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "object_id": "ball_throw, girl_throwing, area_2", 
+                            "type": "OBJECT_SELECT_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "8"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "9", 
+                    "tablet_display_actions": {
+                        "scene": "playground_task_5"
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "10", 
+                    "tablet_display_actions": {
+                        "objects_animated": [
+                            {
+                                "animation": "jump", 
+                                "loop": "true", 
+                                "object_id": "girl_jumping"
+                            }
+                        ], 
+                        "objects_move": [
+                            {
+                                "loop": "true", 
+                                "object_id": "girl_sliding", 
+                                "speed": "2", 
+                                "x": "77.75464860761338", 
+                                "y": "0", 
+                                "z": "264.19865876818267"
+                            }, 
+                            {
+                                "loop": "true", 
+                                "object_id": "girl_climbing", 
+                                "speed": "2", 
+                                "x": "53.98304893933363", 
+                                "y": "33", 
+                                "z": "-54.60132777641479"
+                            }
+                        ]
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "object_id": "slide_sliding, girl_sliding, area_1", 
+                            "type": "OBJECT_SELECT_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "11"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "12", 
+                    "tablet_display_actions": {
+                        "scene": "playground_task_6"
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "13", 
+                    "tablet_display_actions": {
+                        "objects_move": [
+                            {
+                                "loop": "true", 
+                                "object_id": "girl_sliding", 
+                                "speed": "2", 
+                                "x": "77.75464860761338", 
+                                "y": "0", 
+                                "z": "264.19865876818267"
+                            }, 
+                            {
+                                "loop": "true", 
+                                "object_id": "girl_climbing", 
+                                "speed": "2", 
+                                "x": "-58.7206937943684", 
+                                "y": "52", 
+                                "z": "-282.7215444987984"
+                            }, 
+                            {
+                                "loop": "true", 
+                                "object_id": "girl_running", 
+                                "speed": "2", 
+                                "x": "-21.097838899654562", 
+                                "y": "0", 
+                                "z": "89.52534856615434"
+                            }
+                        ]
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "object_id": "slide_climbing, girl_climbing, area_3", 
+                            "type": "OBJECT_SELECT_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "14"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "15", 
+                    "tablet_display_actions": {
+                        "scene": "playground_task_7"
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "16", 
+                    "tablet_display_actions": {
+                        "objects_animated": [
+                            {
+                                "animation": "jump", 
+                                "loop": "true", 
+                                "object_id": "girl_jumping"
+                            }
+                        ], 
+                        "objects_move": [
+                            {
+                                "loop": "true", 
+                                "object_id": "girl_sliding", 
+                                "speed": "2", 
+                                "x": "-3.0887147443787057", 
+                                "y": "-6", 
+                                "z": "36.090231193007284"
+                            }, 
+                            {
+                                "loop": "true", 
+                                "object_id": "girl_climbing", 
+                                "speed": "2", 
+                                "x": "124.49516326882883", 
+                                "y": "69", 
+                                "z": "184.86109847944073"
+                            }
+                        ]
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "object_id": "slide_sliding, girl_sliding, area_2", 
+                            "type": "OBJECT_SELECT_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "17"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "object_id": "tree_left, boy_left, area_2", 
+                            "type": "OBJECT_SELECT_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "18", 
+                    "tablet_display_actions": {
+                        "scene": "playground_task_8"
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "object_id": "tree_right, girl_right, area_3", 
+                            "type": "OBJECT_SELECT_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "19", 
+                    "tablet_display_actions": {
+                        "scene": "playground_task_9"
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "20", 
+                    "tablet_display_actions": {
+                        "scene": "playground_task_10"
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "21", 
+                    "tablet_display_actions": {
+                        "objects_move": [
+                            {
+                                "loop": "true", 
+                                "object_id": "girl_sliding", 
+                                "speed": "2", 
+                                "x": "77.75464860761338", 
+                                "y": "0", 
+                                "z": "264.19865876818267"
+                            }, 
+                            {
+                                "loop": "true", 
+                                "object_id": "girl_climbing", 
+                                "speed": "2", 
+                                "x": "-58.7206937943684", 
+                                "y": "52", 
+                                "z": "-282.7215444987984"
+                            }, 
+                            {
+                                "loop": "true", 
+                                "object_id": "girl_running", 
+                                "speed": "2", 
+                                "x": "-21.097838899654562", 
+                                "y": "0", 
+                                "z": "89.52534856615434"
+                            }
+                        ]
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "object_id": "slide_climbing, girl_climbing, area_3", 
+                            "type": "OBJECT_SELECT_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "22"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "23", 
+                    "tablet_display_actions": {
+                        "scene": "playground_task_11"
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "24", 
+                    "tablet_display_actions": {
+                        "objects_animated": [
+                            {
+                                "animation": "jump", 
+                                "loop": "true", 
+                                "object_id": "boy_jumping"
+                            }
+                        ], 
+                        "objects_move": [
+                            {
+                                "loop": "true", 
+                                "object_id": "ball_catch", 
+                                "speed": "2.5", 
+                                "x": "104.3186111164988", 
+                                "y": "20", 
+                                "z": "232.74944672768072"
+                            }, 
+                            {
+                                "loop": "true", 
+                                "object_id": "ball_throw", 
+                                "speed": "2.5", 
+                                "x": "-350", 
+                                "y": "20", 
+                                "z": "-50"
+                            }
+                        ]
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "object_id": "ball_throw, boy_throwing, area_3", 
+                            "type": "OBJECT_SELECT_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "25"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "26", 
+                    "tablet_display_actions": {
+                        "scene": "playground_task_12"
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "27", 
+                    "tablet_display_actions": {
+                        "objects_move": [
+                            {
+                                "loop": "true", 
+                                "object_id": "boy_walk", 
+                                "speed": "4", 
+                                "x": "76.4476985051839", 
+                                "y": "0", 
+                                "z": "306.63291917523145"
+                            }, 
+                            {
+                                "loop": "true", 
+                                "object_id": "ball_catch", 
+                                "speed": "2.5", 
+                                "x": "-86.0342287851407", 
+                                "y": "20", 
+                                "z": "-238.4513143388538"
+                            }, 
+                            {
+                                "loop": "true", 
+                                "object_id": "ball_throw", 
+                                "speed": "2.5", 
+                                "x": "-224.03032667064235", 
+                                "y": "26", 
+                                "z": "93.87897723378543"
+                            }
+                        ]
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "object_id": "ball_catch, boy_catching, area_3", 
+                            "type": "OBJECT_SELECT_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "28"
+                }
+            ], 
+            "task_id": "2"
+        }, 
+        {
+            "description": "End of the lesson", 
+            "is_test": false, 
+            "subtasks": [
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "1", 
+                    "tablet_display_actions": {
+                        "scene": "black"
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "2", 
+                    "tablet_display_actions": {
+                        "objects_added": [
+                            {
+                                "object_id": "confetti"
+                            }
+                        ]
+                    }
+                }
+            ], 
+            "task_id": "3"
+        }
+    ]
+}

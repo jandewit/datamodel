@@ -1,0 +1,364 @@
+{
+    "001:001": [
+        {
+            "text": {
+                "Dutch": "<tablet(off)><Gaze(child)><Face(Neutral)>Hoi <name>. Laten we samen spelletjes doen! Houd jij van spelletjes?", 
+                "English": "<tablet(off)><Gaze(child)><Face(Neutral)>Hello <name>. Let\u2019s play together! Do you like games?", 
+                "German": "<tablet(off)><Gaze(child)><Face(Neutral)>Hallo <name>. Lass uns spielen! Magst du Spiele? "
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:002": [
+        {
+            "text": {
+                "Dutch": "Ik houd heel veel van spelletjes. <Face(Happy)> <tablet(on)>Kijk <Gaze(tablet)> we gaan vandaag naar een nieuwe plek toe. <Face(Neutral)>  Kijk eens waar we naartoe gaan! <Gaze(child)> <Gesture(Pretends to touch tablet)>", 
+                "English": "I really like games! <Face(Happy)> <tablet(on)>Look <Gaze(tablet)> we will visit a new place today. <Face(Neutral)> Look where we\u2019re going today! <Gaze(child)> <Gesture(Pretends to touch tablet)>", 
+                "German": "Ich liebe Spiele! <Face(Happy)> <tablet(on)> Schau <Gaze(tablet)> Wir besuchen heute einen neuen Ort. <Face(Neutral)> Schau wohin wir gehen! <Gaze(child)> <Gesture(Pretends to touch tablet)>"
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:003": [
+        {
+            "text": {
+                "Dutch": "<Gaze(child)>Jippie <Face(Happy)>, vandaag gaan we naar de dierentuin! Ik houd heel veel van dieren. Houd jij ook van dieren?", 
+                "English": "<Gaze(child)>Cool <Face(Happy)>, today we\u2019ll visit the zoo! I really like animals. Do you also like animals? ", 
+                "German": "<Gaze(child)>Cool <Face(Happy)>, heute gehen wir in den Zoo! Ich mag Tiere. Magst du auch gerne Tiere? "
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:004": [
+        {
+            "text": {
+                "Dutch": "<Face(Neutral)>Raak <pointAt(tablet)> <Gaze(tablet)>de dierentuin maar aan. Dan kunnen we naar binnen. <Gaze(child)>", 
+                "English": "<Face(Neutral)>Touch <pointAt(tablet)> <Gaze(tablet)> the zoo and we will enter it! <Gaze(child)>", 
+                "German": "<Face(Neutral)> Ber\u00fchre <pointAt(tablet)> <Gaze(tablet)> den Zoo und wir gehen hinein! <Gaze(child)>"
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "002:001": [
+        {
+            "text": {
+                "Dutch": "Kijk <Face(Happy)>, een aap! Raak hem <pointAt(tablet)> <Gaze(tablet)> maar aan, dan horen we <Gaze(child)> het Engelse woord voor aap.", 
+                "English": "Cool <Face(Happy)>, a monkey! Touch it  <pointAt(tablet)> <Gaze(tablet)> and we\u2019ll <Gaze(child)> hear the German word for monkey.", 
+                "German": "Toll <Face(Happy)>, ein Affe! Ber\u00fchre ihn <pointAt(tablet)> <Gaze(tablet)> und wir <Gaze(child)> h\u00f6ren das englische Wort f\u00fcr Affe. "
+            }, 
+            "type": "TEXT_OUTPUT"
+        }, 
+        {
+            "text": "Affe", 
+            "type": "TABLET_SPEECH_OUTPUT"
+        }
+    ], 
+    "002:002": [
+        {
+            "text": {
+                "Dutch": "<Gaze(child)>Oh, <tablet(off)>een aap is in het Engels {Affe} Zeg maar {Affe} ", 
+                "English": "<Gaze(child)>Ah, <tablet(off)>an monkey is in German a {Affe} Can you also say {Affe} ", 
+                "German": "<Gaze(child)>Ah, <tablet(off)> ein Affe auf Englisch hei\u00dft {Affe} Kannst du auch {Affe} sagen?"
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "002:003": [
+        {
+            "text": {
+                "Dutch": "Nu moeten we iets belangrijks doen. <tablet(on)>De aap is ontsnapt en we moeten hem in zijn kooi zetten. Zet de {Affe} maar in zijn kooi  <pointAt(tablet)> <Gaze(tablet)> . ", 
+                "English": "Now, I think there\u2019s a very important task for us! <tablet(on)>The monkey is loose and we have to put it in its cage! Put the {Affe} in its cage  <pointAt(tablet)> <Gaze(tablet)> . ", 
+                "German": "Ich glaube es gibt eine wirklich wichtige Aufgabe f\u00fcr uns! <tablet(on)> Der Affe ist ausgebrochen und wir m\u00fcssen ihn wieder in seinen K\u00e4fig bringen! Setze den {Affe} in seinen K\u00e4fig <pointAt(tablet)> <Gaze(tablet)> . "
+            }, 
+            "type": "TEXT_OUTPUT"
+        }, 
+        {
+            "text": "<happy_sound>", 
+            "type": "TABLET_SPEECH_OUTPUT"
+        }
+    ], 
+    "002:004": [
+        {
+            "text": {
+                "Dutch": "<Gaze(child)>In de kooi zit nu \u00e9\u00e9n {Affe} Laten we kijken wat het Engelse woord is voor  \u00e9\u00e9n. Raak de {Affe} in de kooi maar aan", 
+                "English": "<Gaze(child)>Now we have one {Affe} Let\u2019s hear what one is in German. Can you touch the {Affe} in the cage", 
+                "German": "<Gaze(child)>Jetzt haben wir einen {Affe} Lass uns h\u00f6ren, was eins auf Englisch hei\u00dft. Kannst du den {Affe} im K\u00e4fig ber\u00fchren?"
+            }, 
+            "type": "TEXT_OUTPUT"
+        }, 
+        {
+            "text": "ein_Affe", 
+            "type": "TABLET_SPEECH_OUTPUT"
+        }
+    ], 
+    "002:005": [
+        {
+            "text": {
+                "Dutch": "<Gaze(child)><tablet(off)>Dus, \u00e9\u00e9n  is {eins} Zeg maar {eins}", 
+                "English": "<Gaze(child)><tablet(off)>so one is {eins} say {eins}", 
+                "German": "<Gaze(child)><tablet(off)>so eins hei\u00dft {eins} sag {eins}"
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "002:006": [
+        {
+            "text": {
+                "Dutch": "<tablet(on)><Gaze(tablet)> Kijk, olifanten! Raak ze <pointAt(tablet)> maar aan, dan horen we <Gaze(child)>  het Engelse woord voor olifant.", 
+                "English": "<tablet(on)><Gaze(tablet)> Cool, elephants! Touch them <pointAt(tablet)>   and we\u2019ll <Gaze(child)> hear the German word for elephant.", 
+                "German": "<tablet(on)><Gaze(tablet)> Cool, Elefanten! Ber\u00fchre sie <pointAt(tablet)>   und wir  <Gaze(child)> h\u00f6ren das englische Wort f\u00fcr Elefant."
+            }, 
+            "type": "TEXT_OUTPUT"
+        }, 
+        {
+            "text": "Elefant", 
+            "type": "TABLET_SPEECH_OUTPUT"
+        }
+    ], 
+    "002:007": [
+        {
+            "text": {
+                "Dutch": "<Gaze(child)><tablet(off)>Aha,  olifant is in het het Engels {Elefant} Zeg maar {Elefant}", 
+                "English": "<Gaze(child)><tablet(off)>Ah, an elephant is in German an  {Elefant} Can you also say {Elefant}", 
+                "German": "<Gaze(child)><tablet(off)>Ah, ein Elefant hei\u00dft auf Englisch {Elefant} Kannst du das auch sagen? {Elefant}"
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "002:008": [
+        {
+            "text": {
+                "Dutch": " <tablet(on)>Eens kijken <Gaze(tablet)> wat we nu moeten doen. <Gaze(child)> De olifanten zin ontsnapt en we moeten ze terugzetten in hun kooi. Zet {ein Elefant} maar in zijn kooi. <pointAt(tablet)> <Gaze(tablet)> . ", 
+                "English": " <tablet(on)>let\u2019s see <Gaze(tablet)> what we have to do now. <Gaze(child)> The elephants are loose and we have to put them in their cage! Put  {ein Elefant} in its cage. <pointAt(tablet)> <Gaze(tablet)> . ", 
+                "German": " <tablet(on)>Mal sehen<Gaze(tablet)> was k\u00f6nnen wir jetzt machen?  <Gaze(child)> Die Elefanten sind auch ausgebrochen und wir m\u00fcssen sie wieder in ihren K\u00e4fig setzen! Setze {ein Elefant} in seinen K\u00e4fig. <pointAt(tablet)> <Gaze(tablet)> . "
+            }, 
+            "type": "TEXT_OUTPUT"
+        }, 
+        {
+            "text": "<happy_sound>", 
+            "type": "TABLET_SPEECH_OUTPUT"
+        }
+    ], 
+    "002:009": [
+        {
+            "text": {
+                "Dutch": "<Gaze(child)> Er is nog steeds een {ein Elefant} uit zijn kooi. Doe hem maar erbij in de kooi <Gaze(tablet)> dan kunnen we <Gaze(child)> horen wat erbij doen is in het Engels.", 
+                "English": "<Gaze(child)> there is still {ein Elefant} outside of the cage. Add it to the cage <Gaze(tablet)> and we <Gaze(child)> will hear what \"add\" is", 
+                "German": "<Gaze(child)> Da ist immer noch {ein Elefant} vor dem K\u00e4fig. F\u00fcges ihn dem K\u00e4fig hinzu <Gaze(tablet)> und wir <Gaze(child)> werden h\u00f6ren was \"hinzuf\u00fcgen\" auf Englisch hei\u00dft"
+            }, 
+            "type": "TEXT_OUTPUT"
+        }, 
+        {
+            "text": "hinzuf\u00fcgen", 
+            "type": "TABLET_SPEECH_OUTPUT"
+        }
+    ], 
+    "002:010": [
+        {
+            "text": {
+                "Dutch": " <Gaze(child)> Nu zijn er twee olifanten in de kooi! Raak <pointAt(tablet)><Gaze(tablet)> ze maar aan dan horen we <Gaze(child)>  wat twee is in het Engels", 
+                "English": " <Gaze(child)> Now there are two elephants in the cage! Touch <pointAt(tablet)><Gaze(tablet)> them, then we\u2019ll  <Gaze(child)> hear what two is.", 
+                "German": " <Gaze(child)> Da sind jetzt zwei Elefanten im K\u00e4fig! Ber\u00fchre <pointAt(tablet)><Gaze(tablet)> sie und wir <Gaze(child)> werden h\u00f6ren was zwei auf Englisch hei\u00dft"
+            }, 
+            "type": "TEXT_OUTPUT"
+        }, 
+        {
+            "text": "zwei", 
+            "type": "TABLET_SPEECH_OUTPUT"
+        }
+    ], 
+    "002:011": [
+        {
+            "text": {
+                "Dutch": "<tablet(off)> {zwei} Zeg maar {zwei}", 
+                "English": "<tablet(off)> {zwei} say {zwei}", 
+                "German": "<tablet(off)> {zwei} sag {zwei}"
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "002:012": [
+        {
+            "text": {
+                "Dutch": " <tablet(on)><Gaze(child)> Goed zo, we hebben {zwei Elefanten} in de kooi. In een van de kooien zitten meer olifanten. Raak <pointAt(tablet)><Gaze(tablet)> de kooi aan waarin meer olifanten zitten dan in de andere kooi, dan horen we <Gaze(child)>  het Engelse woord voor meer.", 
+                "English": " <tablet(on)><Gaze(child)> Great, we have {zwei Elefanten} in the cage. One of the cages has more animals. Touch <pointAt(tablet)><Gaze(tablet)> the cage with more animals than the other, and we\u2019ll  <Gaze(child)> hear the German word for more.", 
+                "German": " <tablet(on)><Gaze(child)> Toll, wir haben {zwei Elefanten} im K\u00e4fig. In einem der K\u00e4fige sind mehr Tiere. Ber\u00fchre <pointAt(tablet)><Gaze(tablet)> den K\u00e4fig mit mehr Tieren als im anderen und wir  <Gaze(child)> h\u00f6ren das englische Wort f\u00fcr mehr."
+            }, 
+            "type": "TEXT_OUTPUT"
+        }, 
+        {
+            "text": "mehr", 
+            "type": "TABLET_SPEECH_OUTPUT"
+        }
+    ], 
+    "002:013": [
+        {
+            "text": {
+                "Dutch": " <Gaze(child)> Kom, dan gaan we naar de volgende kooi Leuk {mehr} dieren. Nu hebben we {ein Affe, zwei Elefanten} en drie giraffen. Laten we eens horen wat giraffe is in het Engels. Raak <pointAt(tablet)> de giraffen maar aan <Gaze(tablet)> dan horen we het Engelse woord voor giraffe.", 
+                "English": " <Gaze(child)> Now, lets go to the next cage. Cool {mehr} animals! Now we have {ein Affe, zwei Elefanten} and three giraffes. Let's see what that is in German. Touch <pointAt(tablet)> the giraffe <Gaze(tablet)> and let's find out. ", 
+                "German": " <Gaze(child)>Ok, lass uns zum n\u00e4chsten K\u00e4fig gehen Cool {mehr} Tiere! Jetzt haben wir {ein Affe, zwei Elefanten} und drei Giraffen. Mal sehen, was das auf Englisch hei\u00dft. Ber\u00fchre <pointAt(tablet)>die Giraffe<Gaze(tablet)> und finden wir es heraus!"
+            }, 
+            "type": "TEXT_OUTPUT"
+        }, 
+        {
+            "text": "Giraffe", 
+            "type": "TABLET_SPEECH_OUTPUT"
+        }
+    ], 
+    "002:014": [
+        {
+            "text": {
+                "Dutch": " <Gaze(child)><tablet(off)> {Giraffe} Zeg maar {Giraffe}", 
+                "English": " <Gaze(child)><tablet(off)> {Giraffe} say {Giraffe}", 
+                "German": " <Gaze(child)><tablet(off)> {Giraffe} sag {Giraffe}"
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "002:015": [
+        {
+            "text": {
+                "Dutch": "<tablet(on)>Kijk, er zijn {mehr Giraffen} dan olifanten en apen. Kijk hier eens. We moeten nog iets belangrijks doen. Laten we de {Giraffe} in zijn kooi zetten!", 
+                "English": "<tablet(on)>Nice, there are {mehr Giraffen}  than elephants and monkeys. Look at this, we have another important task. Let\u2019s put the {Giraffe}  in its cage!", 
+                "German": "<tablet(on)>Oh, sch\u00f6n, da sind {mehr Giraffen} als Elefanten und Affen. Sieh dir das an, wir haben eine weitere wichtige Aufgabe. Lass uns die {Giraffe}  in den K\u00e4fig bringen!"
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "002:016": [
+        {
+            "text": {
+                "Dutch": " <Gaze(child)>Er zijn nog steeds {zwei Giraffen} uit hun kooi. Er zijn {mehr Giraffen} uit  de kooi dan in de kooi. Kun jij {eine Giraffe hinzuf\u00fcgen?} in de kooi?", 
+                "English": " <Gaze(child)>There are still {zwei Giraffen} outside of the cage. There are {mehr Giraffen} outside of the cage than inside of the cage. Can you {eine Giraffe hinzuf\u00fcgen?} ", 
+                "German": " <Gaze(child)>Da sind  {zwei Giraffen} au\u00dferhalb des K\u00e4figs. Da sind noch {mehr Giraffen} au\u00dferhalb des K\u00e4figs als innerhalb des K\u00e4figs. Kannst du {eine Giraffe hinzuf\u00fcgen?} in den K\u00e4fig?  "
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "002:017": [
+        {
+            "text": {
+                "Dutch": "<Gaze(child)> nu zijn er {zwei Giraffen} in de kooi. Nu zijn er {mehr Giraffen} in hun kooi dan buiten hun kooi. Kun jij {eine Giraffe hinzuf\u00fcgen?}", 
+                "English": "<Gaze(child)> now there are {zwei Giraffen} in the cage. Now there are {mehr Giraffen} inside the cage than outside the cage. Can you {eine Giraffe hinzuf\u00fcgen?}", 
+                "German": "<Gaze(child)> Jetzt sind da {zwei Giraffen} im K\u00e4fig. Jetzt sind {mehr Giraffen} innerhalb des K\u00e4figs als au\u00dferhalb. Kannst du {eine Giraffe hinzuf\u00fcgen?}"
+            }, 
+            "type": "TEXT_OUTPUT"
+        }, 
+        {
+            "text": "<happy_sound>", 
+            "type": "TABLET_SPEECH_OUTPUT"
+        }, 
+        {
+            "text": "hinzuf\u00fcgen", 
+            "type": "TABLET_SPEECH_OUTPUT"
+        }
+    ], 
+    "002:018": [
+        {
+            "text": {
+                "Dutch": "Nu <Gaze(tablet)> zijn er drie giraffen! Deze kooi heeft {mehr} dieren dan de andere kooien. Raak <pointAt(tablet)>, de giraffen maar aan, dan horen we wat drie is in het Engels.", 
+                "English": "Now <Gaze(tablet)>there are three giraffes! This cage has {mehr} animals in it than the other cages. Touch them <pointAt(tablet)>, then we\u2019ll hear what three is?", 
+                "German": "Jetzt <Gaze(tablet)>sind da drei Giraffen. In dem K\u00e4fig sind {mehr} Tiere als in den anderen K\u00e4figen. Ber\u00fchre sie<pointAt(tablet)>, dann h\u00f6ren wir was drei ist!"
+            }, 
+            "type": "TEXT_OUTPUT"
+        }, 
+        {
+            "text": "drei_Giraffen", 
+            "type": "TABLET_SPEECH_OUTPUT"
+        }
+    ], 
+    "002:019": [
+        {
+            "text": {
+                "Dutch": "<tablet(off)> {drei Giraffen} Zeg maar {drei Giraffen}", 
+                "English": "<tablet(off)> {drei Giraffen} say {drei Giraffen}", 
+                "German": "<tablet(off)> {drei Giraffen} sag {drei Giraffen}"
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "002:020": [
+        {
+            "text": {
+                "Dutch": "<Gaze(child)> Je hebt het hartstikke goed gedaan! <tablet(on)> {ein Affe, zwei Elefanten und drei Giraffen} zijn terug in hun kooien. In van de kooien zitten de meeste dieren. <Gaze(tablet)>. Raak <pointAt(tablet)> de kooi met de meeste dieren maar aan dan horen we het Engelse woord voor 'meeste'.", 
+                "English": "<Gaze(child)> You did an awesome job, <tablet(on)> {ein Affe, zwei Elefanten und drei Giraffen} are back in their cage! One cage has most animals <Gaze(tablet)>. Touch <pointAt(tablet)> the cage with most animals, and we\u2019ll hear the German word for most.", 
+                "German": "<Gaze(child)> Das hast du gut gemacht! <tablet(on)> {ein Affe, zwei Elefanten und drei Giraffen} sind wieder in ihren K\u00e4figen.Ein K\u00e4fig hat am meisten Tiere <Gaze(tablet)>. Ber\u00fchre <pointAt(tablet)> den K\u00e4fig mit den meisten Tieren und wir h\u00f6ren das englische Wort f\u00fcr \"am meisten\"."
+            }, 
+            "type": "TEXT_OUTPUT"
+        }, 
+        {
+            "text": "die_meisten", 
+            "type": "TABLET_SPEECH_OUTPUT"
+        }
+    ], 
+    "002:021": [
+        {
+            "text": {
+                "Dutch": "<tablet(off)> {die meisten} Zeg maar {die meisten}", 
+                "English": "<tablet(off)> {die meisten} say {die meisten}", 
+                "German": "<tablet(off)> {die meisten} sag {die meisten}"
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "002:022": [
+        {
+            "text": {
+                "Dutch": "<Gaze(child)> Van alle dieren vind ik de giraffen het leukst {am meisten} Welk dier vind jij leuk? {am meisten} Vind jij de olifanten, apen of giraffen het leukst? {am meisten}", 
+                "English": "<Gaze(child)> Out of all the animals, I like giraffes {am meisten} Which animal do you like {am meisten} Do you like elephants, monkeys or giraffes {am meisten}", 
+                "German": "<Gaze(child)> Von allen Tieren mag ich Giraffen {am meisten} Welches Tier magst du {am meisten} Magst du Elefanten, Affen oder Giraffen {am meisten}"
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "002:023": [
+        {
+            "text": {
+                "Dutch": "Tof! <tablet(on)>Het laatste wat we moeten doen is eten brengen naar de kooi met de giraffen. <Gaze(tablet)>Deze kooi heeft {die meisten} dieren. Dus deze hebben  {am meisten} eten nodig. Leg deze takken maar in de kooi zodat de giraffen ze kunnen opeten. We <Gaze(child)> hebben {drei} giraffen, dus we hebben {drei} takken nodig. Leg <pointAt(tablet)><Gaze(child)> de takken maar in de kooi. En tel ze maar terwijl je ze neerlegt.", 
+                "English": "Cool! <tablet(on)>The last thing we need to do is put food in the cage with the giraffes. <Gaze(tablet)>This cage has the {die meisten} animals so they need the {am meisten} food. Put these trees in the cage so the giraffes can eat from them. We <Gaze(child)>  have {drei} giraffes so we need {drei} trees. Can you put <pointAt(tablet)><Gaze(child)>  the trees in the cage? Count them while dragging", 
+                "German": "Cool! <tablet(on)>Die letzte Aufgabe, die wir l\u00f6sen m\u00fcssen, ist den Giraffen Futter in den K\u00e4fig zu geben. <Gaze(tablet)> Dieser K\u00e4fig hat die {die meisten} Tiere also brauchen sie {am meisten} Futter. Ziehe diese drei B\u00e4ume in den K\u00e4fig, sodass die Giraffen davon fressen k\u00f6nnen. Wir <Gaze(child)> haben {drei} Giraffen, also brauchen wir {drei} B\u00e4ume. Kannst du <pointAt(tablet)><Gaze(child)> die B\u00e4ume in den K\u00e4fig ziehen? Z\u00e4hle sie wenn du sie in den K\u00e4fig ziehst."
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "002:024": [
+        {
+            "text": {
+                "Dutch": "{eins}", 
+                "English": "{eins}", 
+                "German": "{eins}"
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "002:025": [
+        {
+            "text": {
+                "Dutch": "{zwei}", 
+                "English": "{zwei}", 
+                "German": "{zwei}"
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "002:026": [
+        {
+            "text": {
+                "Dutch": "{drei}", 
+                "English": "{drei}", 
+                "German": "{drei}"
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "002:027": [
+        {
+            "text": {
+                "Dutch": "Harstikke goed! Nu <Gaze(tablet)>heeft elke giraf een eigen tak, omdat er {drei} giraffen zijn en {drei} takken. De meeste dieren zijn nu in de giraffenkooi en daar is ook het meeste voedsel. <tablet(off)>Je <Gaze(child)> hebt het supergoed gedaan. Nu doen we nog een spelletje!", 
+                "English": "Great! Now <Gaze(tablet)>each giraffe has their own tree, because there are {drei} giraffes and {drei} trees! In the giraffe cage there are the most animals and also the most food.  <tablet(off)>You <Gaze(child)>  did great! It was very nice to play with you! Bye!", 
+                "German": "Toll! Jetzt <Gaze(tablet)>hat jede Giraffe ihren eigenen Baum, weil da  {drei} Giraffen und {drei} B\u00e4ume sind. Im Giraffenk\u00e4fig sind am meisten Tiere und am meisten Futter.  <tablet(off)>Du<Gaze(child)> hast das gut gemacht, lass uns noch ein anderes Spiel spielen!"
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ]
+}

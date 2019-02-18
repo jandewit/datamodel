@@ -1,0 +1,322 @@
+{
+  "ground": "grass.jpg",
+  "camera": {
+    "Alpha": 1.5707963268,
+    "Beta": 0.9599310886,
+    "Radius": 528.3234527433393,
+    "PositionX": -2.208640527203521E-9,
+    "PositionY": 303.03388326385516,
+    "PositionZ": 432.77723636147
+  },
+  "loadable_objects": [
+    {
+      "id": "s_tree_1",
+      "filename": "tree",
+      "collisionEnabled": true,
+      "position": {
+        "x": 160.54637027623252,
+        "y": 0,
+        "z": 90.83643312777383
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scaling": {
+        "x": 10.89749999999998,
+        "y": 10.852399999999978,
+        "z": 10.906199999999979
+      },
+      "visible": true,
+      "animation": false
+    },
+    {
+      "id": "s_tree_2",
+      "filename": "tree",
+      "collisionEnabled": true,
+      "position": {
+        "x": 28.51224064319442,
+        "y": 0,
+        "z": 97.27452743834505
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scaling": {
+        "x": 11.797499999999976,
+        "y": 11.752399999999975,
+        "z": 11.806199999999976
+      },
+      "visible": true,
+      "animation": false
+    },
+    {
+      "id": "s_tree_3",
+      "filename": "tree",
+      "collisionEnabled": true,
+      "position": {
+        "x": -97.0355068146742,
+        "y": 0,
+        "z": 79.68887341614027
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scaling": {
+        "x": 11.197499999999978,
+        "y": 11.152399999999977,
+        "z": 11.206199999999978
+      },
+      "visible": true,
+      "animation": false
+    },
+    {
+      "id": "s_flower_1",
+      "filename": "flower",
+      "collisionEnabled": true,
+      "position": {
+        "x": -212.92563268132238,
+        "y": 0,
+        "z": 86.44151994718027
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scaling": {
+        "x": 3.600000000000003,
+        "y": 3.600000000000003,
+        "z": 3.600000000000003
+      },
+      "visible": true,
+      "animation": false
+    },
+    {
+      "id": "s_flower_2",
+      "filename": "flower",
+      "collisionEnabled": true,
+      "position": {
+        "x": -195.06825552134165,
+        "y": 0,
+        "z": 73.51895863477097
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scaling": {
+        "x": 2.8000000000000016,
+        "y": 2.8000000000000016,
+        "z": 2.8000000000000016
+      },
+      "visible": true,
+      "animation": false
+    },
+    {
+      "id": "s_flower_3",
+      "filename": "flower",
+      "collisionEnabled": true,
+      "position": {
+        "x": -230.0800966087719,
+        "y": 0,
+        "z": 89.3807639503147
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scaling": {
+        "x": 3.200000000000002,
+        "y": 3.200000000000002,
+        "z": 3.200000000000002
+      },
+      "visible": true,
+      "animation": false
+    },
+    {
+      "id": "s_flower_4",
+      "filename": "flower",
+      "collisionEnabled": true,
+      "position": {
+        "x": -189.1644764384657,
+        "y": 0,
+        "z": 95.14867914361696
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scaling": {
+        "x": 2.9000000000000017,
+        "y": 2.9000000000000017,
+        "z": 2.9000000000000017
+      },
+      "visible": true,
+      "animation": false
+    },
+    {
+      "id": "s_flower_5",
+      "filename": "flower",
+      "collisionEnabled": true,
+      "position": {
+        "x": -205.69631290445204,
+        "y": 0,
+        "z": 102.1582882419338
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scaling": {
+        "x": 3.0000000000000018,
+        "y": 3.0000000000000018,
+        "z": 3.0000000000000018
+      },
+      "visible": true,
+      "animation": false
+    },
+    {
+      "id": "s_flower_6",
+      "filename": "flower",
+      "collisionEnabled": true,
+      "position": {
+        "x": -185.77305463074362,
+        "y": 0,
+        "z": 116.84286041678172
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scaling": {
+        "x": 2.7000000000000015,
+        "y": 2.7000000000000015,
+        "z": 2.7000000000000015
+      },
+      "visible": true,
+      "animation": false
+    },
+    {
+      "id": "s_flower_7",
+      "filename": "flower",
+      "collisionEnabled": true,
+      "position": {
+        "x": -218.77287087268357,
+        "y": 0,
+        "z": 112.93448503934005
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scaling": {
+        "x": 2.5000000000000013,
+        "y": 2.5000000000000013,
+        "z": 2.5000000000000013
+      },
+      "visible": true,
+      "animation": false
+    },
+    {
+      "id": "m_monkey_behind",
+      "filename": "monkey",
+      "collisionEnabled": true,
+      "position": {
+        "x": 30.230074116571632,
+        "y": 0,
+        "z": 78.16144409067078
+      },
+      "rotation": {
+        "x": -1.0000000000000004,
+        "y": -70.00000000000004,
+        "z": 0
+      },
+      "scaling": {
+        "x": 5.283299999999998,
+        "y": 5.226999999999998,
+        "z": 5.274499999999998
+      },
+      "visible": true,
+      "animation": false
+    },
+    {
+      "id": "m_monkey_in_front_3",
+      "filename": "monkey",
+      "collisionEnabled": true,
+      "position": {
+        "x": 29,
+        "y": 0,
+        "z": 175
+      },
+      "rotation": {
+        "x": 0,
+        "y": -180,
+        "z": 0
+      },
+      "scaling": {
+        "x": 5.283299999999998,
+        "y": 5.226999999999998,
+        "z": 5.274499999999998
+      },
+      "visible": false,
+      "animation": false
+    },    
+    {
+      "id": "m_monkey_in_front_1",
+      "filename": "MonkeyWalk",
+      "collisionEnabled": true,
+      "position": {
+        "x": 27.389559824910638,
+        "y": 0,
+        "z": 69.57975981323949
+      },
+      "rotation": {
+        "x": 0,
+        "y": 179.99999999999966,
+        "z": 0
+      },
+      "scaling": {
+        "x": 13.899999999999968,
+        "y": 13.899999999999968,
+        "z": 13.899999999999968
+      },
+      "visible": false,
+      "animation": true
+    },
+    {
+      "id": "m_monkey_in_front_2",
+      "filename": "MonkeyWalk",
+      "collisionEnabled": true,
+      "position": {
+        "x": 95.58144398963867,
+        "y": 0,
+        "z": 110.95368834284682
+      },
+      "rotation": {
+        "x": 0,
+        "y": 131.99999999999983,
+        "z": 0
+      },
+      "scaling": {
+        "x": 14.199999999999967,
+        "y": 14.199999999999967,
+        "z": 14.199999999999967
+      },
+      "visible": false,
+      "animation": true
+    }
+  ],
+  "creatable_objects": []
+}

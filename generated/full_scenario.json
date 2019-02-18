@@ -1,0 +1,2345 @@
+{
+    "description": "..\\scenario\\Storyboard_lessonRecap", 
+    "tasks": [
+        {
+            "description": "Introduction: 2 minutes", 
+            "is_test": false, 
+            "subtasks": [
+                {
+                    "exit_criteria": [
+                        {
+                            "timeout_ms": "2000", 
+                            "type": "RESPONSE_DELAY_CRITERIUM"
+                        }
+                    ], 
+                    "outputs": [
+                        {
+                            "text": {
+                                "Dutch": "<gaze(child)>Hoi <name>. Vond je het ook leuk afgelopen weken om spelletjes te \\prn=s p e1 l1 @2 n\\?", 
+                                "English": "", 
+                                "German": "", 
+                                "Turkish": ""
+                            }, 
+                            "type": "TEXT_OUTPUT"
+                        }
+                    ], 
+                    "subtask_id": "1"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "outputs": [
+                        {
+                            "text": {
+                                "Dutch": "We hebben zoveel gedaan! Vandaag gaan we nog eens kijken naar alles wat we hebben gedaan en gaan we de Engelse woorden nog een keer oefenen!", 
+                                "English": "", 
+                                "German": "", 
+                                "Turkish": ""
+                            }, 
+                            "type": "TEXT_OUTPUT"
+                        }
+                    ], 
+                    "subtask_id": "2"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "object_id": "cover", 
+                            "type": "OBJECT_SELECT_CRITERIUM"
+                        }
+                    ], 
+                    "outputs": [
+                        {
+                            "objective": {
+                                "id": "cover", 
+                                "is_plural": false
+                            }, 
+                            "text": {
+                                "Dutch": "Cool. Een fotoalbum! Er zitten waarschijnlijk allemaal foto\u2019s in van wat we samen hebben gedaan. Raak hem maar aan, <accept_answer> zodat we er in kunnen kijken!", 
+                                "English": "", 
+                                "German": "", 
+                                "Turkish": ""
+                            }, 
+                            "type": "TEXT_OUTPUT"
+                        }
+                    ], 
+                    "subtask_id": "3", 
+                    "tablet_display_actions": {
+                        "scene": "recap"
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "obj_1": "sticker11", 
+                            "obj_2": "photo_zoo", 
+                            "relationship": "above", 
+                            "type": "OBJECT_MOVE_CRITERIUM_2D"
+                        }
+                    ], 
+                    "outputs": [
+                        {
+                            "objective": {
+                                "id": "sticker11", 
+                                "is_plural": false, 
+                                "rel": {
+                                    "target": {
+                                        "id": "photo_zoo", 
+                                        "is_plural": false
+                                    }, 
+                                    "type": "above"
+                                }, 
+                                "target_location": {
+                                    "x": 0.01857008951924769, 
+                                    "y": 0.39081221901326685, 
+                                    "z": 0.0
+                                }
+                            }, 
+                            "text": {
+                                "Dutch": "Kijk, weet je nog dat we naar de dierentuin gingen? Dat was leuk! Laten we de stickers in het album plakken! Weet je nog dat we tot drie leerden tellen in het Engels? Dat was {One, two, three} Tel maar mee terwijl we de stickers plakken. Laten we beginnen met de sticker <accept_answer> van de aap.", 
+                                "English": "  {One, two, three} ", 
+                                "German": "  {One, two, three} ", 
+                                "Turkish": "  {One, two, three} "
+                            }, 
+                            "type": "TEXT_OUTPUT"
+                        }
+                    ], 
+                    "subtask_id": "4", 
+                    "tablet_display_actions": {
+                        "objects_added": [
+                            {
+                                "object_id": "page_1"
+                            }
+                        ]
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "obj_1": "sticker12", 
+                            "obj_2": "photo_zoo", 
+                            "relationship": "above", 
+                            "type": "OBJECT_MOVE_CRITERIUM_2D"
+                        }
+                    ], 
+                    "outputs": [
+                        {
+                            "objective": {
+                                "id": "sticker12", 
+                                "is_plural": false, 
+                                "rel": {
+                                    "target": {
+                                        "id": "photo_zoo", 
+                                        "is_plural": false
+                                    }, 
+                                    "type": "above"
+                                }, 
+                                "target_location": {
+                                    "x": 0.3288329390620111, 
+                                    "y": 0.2561924314718642, 
+                                    "z": 0.0
+                                }
+                            }, 
+                            "text": {
+                                "Dutch": "{One} En nu <accept_answer> die met de olifanten.", 
+                                "English": "{One} ", 
+                                "German": "{One} ", 
+                                "Turkish": "{One} "
+                            }, 
+                            "type": "TEXT_OUTPUT"
+                        }
+                    ], 
+                    "subtask_id": "5"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "obj_1": "sticker13", 
+                            "obj_2": "photo_zoo", 
+                            "relationship": "above", 
+                            "type": "OBJECT_MOVE_CRITERIUM_2D"
+                        }
+                    ], 
+                    "outputs": [
+                        {
+                            "objective": {
+                                "id": "sticker13", 
+                                "is_plural": false, 
+                                "rel": {
+                                    "target": {
+                                        "id": "photo_zoo", 
+                                        "is_plural": false
+                                    }, 
+                                    "type": "above"
+                                }, 
+                                "target_location": {
+                                    "x": 0.6456195702391662, 
+                                    "y": 0.3703629102575065, 
+                                    "z": 0.0
+                                }
+                            }, 
+                            "text": {
+                                "Dutch": "{Two} En als laatste <accept_answer> die met de zjiraffen.", 
+                                "English": "{Two} ", 
+                                "German": "{Two} ", 
+                                "Turkish": "{Two} "
+                            }, 
+                            "type": "TEXT_OUTPUT"
+                        }
+                    ], 
+                    "subtask_id": "6"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "outputs": [
+                        {
+                            "text": {
+                                "Dutch": "{Three}", 
+                                "English": "{Three}", 
+                                "German": "{Three}", 
+                                "Turkish": "{Three}"
+                            }, 
+                            "type": "TEXT_OUTPUT"
+                        }
+                    ], 
+                    "subtask_id": "7"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "target_word": "more", 
+                            "timeout_ms": 5000, 
+                            "type": "VOICE_ACTIVATION_CRITERIUM"
+                        }
+                    ], 
+                    "outputs": [
+                        {
+                            "objective": {
+                                "id": "more", 
+                                "is_plural": false
+                            }, 
+                            "text": {
+                                "Dutch": "In de kooi van de olifanten zaten meer, dus  {more} dieren dan in die van de aap, want er waren twee olifanten en \u00e9\u00e9n aap. Zeg ook maar {more}", 
+                                "English": "{more} {more}", 
+                                "German": "{more} {more}", 
+                                "Turkish": "{more} {more}"
+                            }, 
+                            "type": "TEXT_OUTPUT"
+                        }
+                    ], 
+                    "subtask_id": "8"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "target_word": "most", 
+                            "timeout_ms": 5000, 
+                            "type": "VOICE_ACTIVATION_CRITERIUM"
+                        }
+                    ], 
+                    "outputs": [
+                        {
+                            "objective": {
+                                "id": "most", 
+                                "is_plural": false
+                            }, 
+                            "text": {
+                                "Dutch": "Weet je nog dat de dieren los waren en dat we ze in hun kooien moesten zetten? Er waren zoveel zjiraffen, in die kooi waren {most} dus de meeste dieren! Zeg ook maar {most}", 
+                                "English": "{most} {most}", 
+                                "German": "{most} {most}", 
+                                "Turkish": "{most} {most}"
+                            }, 
+                            "type": "TEXT_OUTPUT"
+                        }
+                    ], 
+                    "subtask_id": "9"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "target_word": "add", 
+                            "timeout_ms": 5000, 
+                            "type": "VOICE_ACTIVATION_CRITERIUM"
+                        }
+                    ], 
+                    "outputs": [
+                        {
+                            "objective": {
+                                "id": "add", 
+                                "is_plural": false
+                            }, 
+                            "text": {
+                                "Dutch": "Eerst moesten we \u00e9\u00e9n zjiraf in de kooi zetten, en daarna de andere zjiraffen erbij doen, dus {\\\\rspd=50\\\\add\\\\rspd=75\\\\} Zeg ook maar {\\\\rspd=50\\\\add\\\\rspd=75\\\\}", 
+                                "English": "{\\\\rspd=50\\\\add\\\\rspd=75\\\\} {\\\\rspd=50\\\\add\\\\rspd=75\\\\}", 
+                                "German": "{\\\\rspd=50\\\\add\\\\rspd=75\\\\} {\\\\rspd=50\\\\add\\\\rspd=75\\\\}", 
+                                "Turkish": "{\\\\rspd=50\\\\add\\\\rspd=75\\\\} {\\\\rspd=50\\\\add\\\\rspd=75\\\\}"
+                            }, 
+                            "type": "TEXT_OUTPUT"
+                        }
+                    ], 
+                    "subtask_id": "10"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "outputs": [
+                        {
+                            "text": {
+                                "Dutch": "Wauw, het ziet er zo mooi uit! <Gesture(Pretends to touch tablet)> Laten we naar de volgende pagina gaan van het album", 
+                                "English": "", 
+                                "German": "", 
+                                "Turkish": ""
+                            }, 
+                            "type": "TEXT_OUTPUT"
+                        }
+                    ], 
+                    "subtask_id": "11"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "obj_1": "sticker21", 
+                            "obj_2": "photo_bakery", 
+                            "relationship": "above", 
+                            "type": "OBJECT_MOVE_CRITERIUM_2D"
+                        }
+                    ], 
+                    "outputs": [
+                        {
+                            "objective": {
+                                "id": "sticker21", 
+                                "is_plural": false, 
+                                "rel": {
+                                    "target": {
+                                        "id": "photo_bakery", 
+                                        "is_plural": false
+                                    }, 
+                                    "type": "above"
+                                }, 
+                                "target_location": {
+                                    "x": 0.7926314142678348, 
+                                    "y": 0.04288595173216086, 
+                                    "z": 0.0
+                                }
+                            }, 
+                            "text": {
+                                "Dutch": "We waren ook in de bakkerij. We hebben brood gebakken. Er waren heel veel spullen in de bakkerij. Laten we de stickers in het album plakken! Eerst <accept_answer> de zakken meel.", 
+                                "English": " ", 
+                                "German": " ", 
+                                "Turkish": " "
+                            }, 
+                            "type": "TEXT_OUTPUT"
+                        }
+                    ], 
+                    "subtask_id": "12", 
+                    "tablet_display_actions": {
+                        "objects_added": [
+                            {
+                                "object_id": "page_2"
+                            }
+                        ]
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "outputs": [
+                        {
+                            "text": {
+                                "Dutch": "Laten we tellen hoeveel zakken meel we hadden. Tel maar met me mee. 1, 2, 3, 4! 4 was in het Engels {Four}", 
+                                "English": "{Four}", 
+                                "German": "{Four}", 
+                                "Turkish": "{Four}"
+                            }, 
+                            "type": "TEXT_OUTPUT"
+                        }
+                    ], 
+                    "subtask_id": "13"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "target_word": "four", 
+                            "timeout_ms": 5000, 
+                            "type": "VOICE_ACTIVATION_CRITERIUM"
+                        }
+                    ], 
+                    "outputs": [
+                        {
+                            "objective": {
+                                "id": "four", 
+                                "is_plural": false
+                            }, 
+                            "text": {
+                                "Dutch": "Zeg ook maar {Four}", 
+                                "English": "{Four}", 
+                                "German": "{Four}", 
+                                "Turkish": "{Four}"
+                            }, 
+                            "type": "TEXT_OUTPUT"
+                        }
+                    ], 
+                    "subtask_id": "14"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "obj_1": "sticker22", 
+                            "obj_2": "photo_bakery", 
+                            "relationship": "above", 
+                            "type": "OBJECT_MOVE_CRITERIUM_2D"
+                        }
+                    ], 
+                    "outputs": [
+                        {
+                            "objective": {
+                                "id": "sticker22", 
+                                "is_plural": false, 
+                                "rel": {
+                                    "target": {
+                                        "id": "photo_bakery", 
+                                        "is_plural": false
+                                    }, 
+                                    "type": "above"
+                                }, 
+                                "target_location": {
+                                    "x": 0.09136420525657071, 
+                                    "y": 0.5481567031227499, 
+                                    "z": 0.0
+                                }
+                            }, 
+                            "text": {
+                                "Dutch": "Laten we nu <accept_answer> de sticker met de pakken melk in het album plakken.", 
+                                "English": "", 
+                                "German": "", 
+                                "Turkish": ""
+                            }, 
+                            "type": "TEXT_OUTPUT"
+                        }
+                    ], 
+                    "subtask_id": "15"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "target_word": "five", 
+                            "timeout_ms": 5000, 
+                            "type": "VOICE_ACTIVATION_CRITERIUM"
+                        }
+                    ], 
+                    "outputs": [
+                        {
+                            "objective": {
+                                "id": "five", 
+                                "is_plural": false
+                            }, 
+                            "text": {
+                                "Dutch": "Er waren vijf pakken melk. Vijf was in het Engels {Five} Zeg ook maar {Five}", 
+                                "English": "{Five} {Five}", 
+                                "German": "{Five} {Five}", 
+                                "Turkish": "{Five} {Five}"
+                            }, 
+                            "type": "TEXT_OUTPUT"
+                        }
+                    ], 
+                    "subtask_id": "16"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "outputs": [
+                        {
+                            "text": {
+                                "Dutch": "Kijk, er waren {fewer} dus minder, zakken meel dan pakken melk!", 
+                                "English": "{fewer} ", 
+                                "German": "{fewer} ", 
+                                "Turkish": "{fewer} "
+                            }, 
+                            "type": "TEXT_OUTPUT"
+                        }
+                    ], 
+                    "subtask_id": "17"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "target_word": "fewer", 
+                            "timeout_ms": 5000, 
+                            "type": "VOICE_ACTIVATION_CRITERIUM"
+                        }
+                    ], 
+                    "outputs": [
+                        {
+                            "objective": {
+                                "id": "fewer", 
+                                "is_plural": false
+                            }, 
+                            "text": {
+                                "Dutch": "Zeg ook maar {fewer}", 
+                                "English": "{fewer}", 
+                                "German": "{fewer}", 
+                                "Turkish": "{fewer}"
+                            }, 
+                            "type": "TEXT_OUTPUT"
+                        }
+                    ], 
+                    "subtask_id": "18"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "obj_1": "sticker23", 
+                            "obj_2": "photo_bakery", 
+                            "relationship": "above", 
+                            "type": "OBJECT_MOVE_CRITERIUM_2D"
+                        }
+                    ], 
+                    "outputs": [
+                        {
+                            "objective": {
+                                "id": "sticker23", 
+                                "is_plural": false, 
+                                "rel": {
+                                    "target": {
+                                        "id": "photo_bakery", 
+                                        "is_plural": false
+                                    }, 
+                                    "type": "above"
+                                }, 
+                                "target_location": {
+                                    "x": 0.5997027992754616, 
+                                    "y": 0.012010389758694557, 
+                                    "z": 0.0
+                                }
+                            }, 
+                            "text": {
+                                "Dutch": "Laten we nu <accept_answer> de sticker met de emmers in het album plakken.", 
+                                "English": "", 
+                                "German": "", 
+                                "Turkish": ""
+                            }, 
+                            "type": "TEXT_OUTPUT"
+                        }
+                    ], 
+                    "subtask_id": "19"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "outputs": [
+                        {
+                            "text": {
+                                "Dutch": "Van de emmers waren er {fewest} dus het minst.", 
+                                "English": "{fewest} ", 
+                                "German": "{fewest} ", 
+                                "Turkish": "{fewest} "
+                            }, 
+                            "type": "TEXT_OUTPUT"
+                        }
+                    ], 
+                    "subtask_id": "20"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "target_word": "fewest", 
+                            "timeout_ms": 5000, 
+                            "type": "VOICE_ACTIVATION_CRITERIUM"
+                        }
+                    ], 
+                    "outputs": [
+                        {
+                            "objective": {
+                                "id": "fewest", 
+                                "is_plural": false
+                            }, 
+                            "text": {
+                                "Dutch": "Zeg ook maar {fewest}", 
+                                "English": "{fewest}", 
+                                "German": "{fewest}", 
+                                "Turkish": "{fewest}"
+                            }, 
+                            "type": "TEXT_OUTPUT"
+                        }
+                    ], 
+                    "subtask_id": "21"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "target_word": "take away", 
+                            "timeout_ms": 5000, 
+                            "type": "VOICE_ACTIVATION_CRITERIUM"
+                        }
+                    ], 
+                    "outputs": [
+                        {
+                            "objective": {
+                                "id": "take away", 
+                                "is_plural": false
+                            }, 
+                            "text": {
+                                "Dutch": "We moesten ruimte maken op de plank voor alle broden die we hadden gebakken. We moesten de emmers en de pakken melk weghalen, dus {take away} zeg ook maar {take away}", 
+                                "English": "{take away} {take away}", 
+                                "German": "{take away} {take away}", 
+                                "Turkish": "{take away} {take away}"
+                            }, 
+                            "type": "TEXT_OUTPUT"
+                        }
+                    ], 
+                    "subtask_id": "22"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "obj_1": "sticker24", 
+                            "obj_2": "photo_bakery", 
+                            "relationship": "above", 
+                            "type": "OBJECT_MOVE_CRITERIUM_2D"
+                        }
+                    ], 
+                    "outputs": [
+                        {
+                            "objective": {
+                                "id": "sticker24", 
+                                "is_plural": false, 
+                                "rel": {
+                                    "target": {
+                                        "id": "photo_bakery", 
+                                        "is_plural": false
+                                    }, 
+                                    "type": "above"
+                                }, 
+                                "target_location": {
+                                    "x": 0.1772841165898291, 
+                                    "y": 0.3110887026457193, 
+                                    "z": 0.0
+                                }
+                            }, 
+                            "text": {
+                                "Dutch": "en toen <accept_answer> was het brood klaar in de oven. Plak de sticker met het brood maar in het album.", 
+                                "English": "", 
+                                "German": "", 
+                                "Turkish": ""
+                            }, 
+                            "type": "TEXT_OUTPUT"
+                        }
+                    ], 
+                    "subtask_id": "23"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "outputs": [
+                        {
+                            "text": {
+                                "Dutch": "Laten we naar de volgende bladzijde gaan", 
+                                "English": "", 
+                                "German": "", 
+                                "Turkish": ""
+                            }, 
+                            "type": "TEXT_OUTPUT"
+                        }
+                    ], 
+                    "subtask_id": "24"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "outputs": [
+                        {
+                            "text": {
+                                "Dutch": "Weet je nog dat we nog een keer in de dierentuin zijn geweest? We gingen heel veel dieren zoeken. Laten we de pagina met stickers versieren", 
+                                "English": " ", 
+                                "German": " ", 
+                                "Turkish": " "
+                            }, 
+                            "type": "TEXT_OUTPUT"
+                        }
+                    ], 
+                    "subtask_id": "25", 
+                    "tablet_display_actions": {
+                        "objects_added": [
+                            {
+                                "object_id": "page_3"
+                            }
+                        ]
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "obj_1": "sticker31", 
+                            "obj_2": "photo_zoo2", 
+                            "relationship": "above", 
+                            "type": "OBJECT_MOVE_CRITERIUM_2D"
+                        }
+                    ], 
+                    "outputs": [
+                        {
+                            "objective": {
+                                "id": "sticker31", 
+                                "is_plural": false, 
+                                "rel": {
+                                    "target": {
+                                        "id": "photo_zoo2", 
+                                        "is_plural": false
+                                    }, 
+                                    "type": "above"
+                                }, 
+                                "target_location": {
+                                    "x": 0.6971214017521903, 
+                                    "y": 0.37986751855243733, 
+                                    "z": 0.0
+                                }
+                            }, 
+                            "text": {
+                                "Dutch": "Ik weet nog dat we een hoge, dus een {high} zjiraf <accept_answer> vonden. Plak de sticker met de hoge zjiraf maar in het album.", 
+                                "English": "{high} ", 
+                                "German": "{high} ", 
+                                "Turkish": "{high} "
+                            }, 
+                            "type": "TEXT_OUTPUT"
+                        }
+                    ], 
+                    "subtask_id": "26"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "target_word": "high", 
+                            "timeout_ms": 5000, 
+                            "type": "VOICE_ACTIVATION_CRITERIUM"
+                        }
+                    ], 
+                    "outputs": [
+                        {
+                            "objective": {
+                                "id": "high", 
+                                "is_plural": false
+                            }, 
+                            "text": {
+                                "Dutch": "Zeg ook maar {high}", 
+                                "English": "{high}", 
+                                "German": "{high}", 
+                                "Turkish": "{high}"
+                            }, 
+                            "type": "TEXT_OUTPUT"
+                        }
+                    ], 
+                    "subtask_id": "27"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "obj_1": "sticker32", 
+                            "obj_2": "photo_zoo2", 
+                            "relationship": "above", 
+                            "type": "OBJECT_MOVE_CRITERIUM_2D"
+                        }
+                    ], 
+                    "outputs": [
+                        {
+                            "objective": {
+                                "id": "sticker32", 
+                                "is_plural": false, 
+                                "rel": {
+                                    "target": {
+                                        "id": "photo_zoo2", 
+                                        "is_plural": false
+                                    }, 
+                                    "type": "above"
+                                }, 
+                                "target_location": {
+                                    "x": 0.5206508135168961, 
+                                    "y": 0.5735887448359195, 
+                                    "z": 0.0
+                                }
+                            }, 
+                            "text": {
+                                "Dutch": "We vonden ook een grootte, dus een {big} <accept_answer> olifant. Plak de sticker met de grootte olifant maar in het album.", 
+                                "English": "{big} ", 
+                                "German": "{big} ", 
+                                "Turkish": "{big} "
+                            }, 
+                            "type": "TEXT_OUTPUT"
+                        }
+                    ], 
+                    "subtask_id": "28"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "target_word": "big", 
+                            "timeout_ms": 5000, 
+                            "type": "VOICE_ACTIVATION_CRITERIUM"
+                        }
+                    ], 
+                    "outputs": [
+                        {
+                            "objective": {
+                                "id": "big", 
+                                "is_plural": false
+                            }, 
+                            "text": {
+                                "Dutch": "Zeg ook maar {big}", 
+                                "English": "{big}", 
+                                "German": "{big}", 
+                                "Turkish": "{big}"
+                            }, 
+                            "type": "TEXT_OUTPUT"
+                        }
+                    ], 
+                    "subtask_id": "29"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "obj_1": "sticker33", 
+                            "obj_2": "photo_zoo2", 
+                            "relationship": "above", 
+                            "type": "OBJECT_MOVE_CRITERIUM_2D"
+                        }
+                    ], 
+                    "outputs": [
+                        {
+                            "objective": {
+                                "id": "sticker33", 
+                                "is_plural": false, 
+                                "rel": {
+                                    "target": {
+                                        "id": "photo_zoo2", 
+                                        "is_plural": false
+                                    }, 
+                                    "type": "above"
+                                }, 
+                                "target_location": {
+                                    "x": 0.1662703455613462, 
+                                    "y": 0.3317396805583057, 
+                                    "z": 0.0
+                                }
+                            }, 
+                            "text": {
+                                "Dutch": "Weet je nog dat er een zware, dus een {heavy} aap <accept_answer> was? Plak de sticker met de apen maar in het album.", 
+                                "English": "{heavy} ", 
+                                "German": "{heavy} ", 
+                                "Turkish": "{heavy} "
+                            }, 
+                            "type": "TEXT_OUTPUT"
+                        }
+                    ], 
+                    "subtask_id": "30"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "timeout_ms": "5000", 
+                            "type": "RESPONSE_DELAY_CRITERIUM"
+                        }
+                    ], 
+                    "outputs": [
+                        {
+                            "text": {
+                                "Dutch": "Kun jij voordoen hoe het eruit ziet als iets zwaar is?", 
+                                "English": "", 
+                                "German": "", 
+                                "Turkish": ""
+                            }, 
+                            "type": "TEXT_OUTPUT"
+                        }
+                    ], 
+                    "subtask_id": "31"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "target_word": "heavy", 
+                            "timeout_ms": 5000, 
+                            "type": "VOICE_ACTIVATION_CRITERIUM"
+                        }
+                    ], 
+                    "outputs": [
+                        {
+                            "objective": {
+                                "id": "heavy", 
+                                "is_plural": false
+                            }, 
+                            "text": {
+                                "Dutch": "Zeg ook maar {heavy}", 
+                                "English": "{heavy}", 
+                                "German": "{heavy}", 
+                                "Turkish": "{heavy}"
+                            }, 
+                            "type": "TEXT_OUTPUT"
+                        }
+                    ], 
+                    "subtask_id": "32"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "target_word": "light", 
+                            "timeout_ms": 5000, 
+                            "type": "VOICE_ACTIVATION_CRITERIUM"
+                        }
+                    ], 
+                    "outputs": [
+                        {
+                            "objective": {
+                                "id": "light", 
+                                "is_plural": false
+                            }, 
+                            "text": {
+                                "Dutch": "Op de wip zat ook nog een lichte, dus een {light} aap. Zeg ook maar {light}", 
+                                "English": "{light} {light}", 
+                                "German": "{light} {light}", 
+                                "Turkish": "{light} {light}"
+                            }, 
+                            "type": "TEXT_OUTPUT"
+                        }
+                    ], 
+                    "subtask_id": "33"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "obj_1": "sticker34", 
+                            "obj_2": "photo_zoo2", 
+                            "relationship": "above", 
+                            "type": "OBJECT_MOVE_CRITERIUM_2D"
+                        }
+                    ], 
+                    "outputs": [
+                        {
+                            "objective": {
+                                "id": "sticker34", 
+                                "is_plural": false, 
+                                "rel": {
+                                    "target": {
+                                        "id": "photo_zoo2", 
+                                        "is_plural": false
+                                    }, 
+                                    "type": "above"
+                                }, 
+                                "target_location": {
+                                    "x": 0.3504380475594493, 
+                                    "y": 0.6336693478070097, 
+                                    "z": 0.0
+                                }
+                            }, 
+                            "text": {
+                                "Dutch": "Ik weet nog wel dat we nog meer dieren moesten zoeken. We vonden ook nog een lage, dus een {low} zjiraf, <accept_answer> want die stond gewoon op de grond. Plak de sticker met de lage zjiraf maar in het album.", 
+                                "English": "{low} ", 
+                                "German": "{low} ", 
+                                "Turkish": "{low} "
+                            }, 
+                            "type": "TEXT_OUTPUT"
+                        }
+                    ], 
+                    "subtask_id": "34"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "target_word": "low", 
+                            "timeout_ms": 5000, 
+                            "type": "VOICE_ACTIVATION_CRITERIUM"
+                        }
+                    ], 
+                    "outputs": [
+                        {
+                            "objective": {
+                                "id": "low", 
+                                "is_plural": false
+                            }, 
+                            "text": {
+                                "Dutch": "Zeg ook maar {low}", 
+                                "English": "{low}", 
+                                "German": "{low}", 
+                                "Turkish": "{low}"
+                            }, 
+                            "type": "TEXT_OUTPUT"
+                        }
+                    ], 
+                    "subtask_id": "35"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "obj_1": "sticker35", 
+                            "obj_2": "photo_zoo2", 
+                            "relationship": "above", 
+                            "type": "OBJECT_MOVE_CRITERIUM_2D"
+                        }
+                    ], 
+                    "outputs": [
+                        {
+                            "objective": {
+                                "id": "sticker35", 
+                                "is_plural": false, 
+                                "rel": {
+                                    "target": {
+                                        "id": "photo_zoo2", 
+                                        "is_plural": false
+                                    }, 
+                                    "type": "above"
+                                }, 
+                                "target_location": {
+                                    "x": 0.11300063342117099, 
+                                    "y": 0.6567108224613876, 
+                                    "z": 0.0
+                                }
+                            }, 
+                            "text": {
+                                "Dutch": "We vonden ook nog een kleine, dus een {small} <accept_answer> olifant. Plak de sticker met de kleine olifant maar in het album.", 
+                                "English": "{small} ", 
+                                "German": "{small} ", 
+                                "Turkish": "{small} "
+                            }, 
+                            "type": "TEXT_OUTPUT"
+                        }
+                    ], 
+                    "subtask_id": "36"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "target_word": "small", 
+                            "timeout_ms": 5000, 
+                            "type": "VOICE_ACTIVATION_CRITERIUM"
+                        }
+                    ], 
+                    "outputs": [
+                        {
+                            "objective": {
+                                "id": "small", 
+                                "is_plural": false
+                            }, 
+                            "text": {
+                                "Dutch": "Zeg ook maar {small}", 
+                                "English": "{small}", 
+                                "German": "{small}", 
+                                "Turkish": "{small}"
+                            }, 
+                            "type": "TEXT_OUTPUT"
+                        }
+                    ], 
+                    "subtask_id": "37"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "outputs": [
+                        {
+                            "text": {
+                                "Dutch": "Dat deden we super goed! We gaan nu naar de volgende bladzijde", 
+                                "English": "", 
+                                "German": "", 
+                                "Turkish": ""
+                            }, 
+                            "type": "TEXT_OUTPUT"
+                        }
+                    ], 
+                    "subtask_id": "38"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "outputs": [
+                        {
+                            "text": {
+                                "Dutch": "Weet je nog dat we een keer in de fruitwinkel zijn geweest? We zagen allemaal fruit. Weet je nog dat er een aap langs kwam en al het fruit rondgooide? Het fruit zat op allerlei plekken rond de tafel. Laten we de stickers in het album plakken!", 
+                                "English": "  ", 
+                                "German": "  ", 
+                                "Turkish": "  "
+                            }, 
+                            "type": "TEXT_OUTPUT"
+                        }
+                    ], 
+                    "subtask_id": "39", 
+                    "tablet_display_actions": {
+                        "objects_added": [
+                            {
+                                "object_id": "page_4"
+                            }
+                        ]
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "obj_1": "sticker", 
+                            "obj_2": "droppable_above", 
+                            "relationship": "above", 
+                            "type": "OBJECT_MOVE_CRITERIUM_2D"
+                        }
+                    ], 
+                    "outputs": [
+                        {
+                            "objective": {
+                                "id": "sticker", 
+                                "is_plural": false, 
+                                "rel": {
+                                    "target": {
+                                        "id": "droppable_above", 
+                                        "is_plural": false
+                                    }, 
+                                    "type": "above"
+                                }, 
+                                "target_location": {
+                                    "x": 0.4266123994269594, 
+                                    "y": 0.1215979507288982, 
+                                    "z": 0.0
+                                }
+                            }, 
+                            "text": {
+                                "Dutch": "1 appel zat boven de tafel, dus {above} <accept_answer> Plak maar een appel op het vakje wat \"boven\" de tafel is.", 
+                                "English": "{above} ", 
+                                "German": "{above} ", 
+                                "Turkish": "{above} "
+                            }, 
+                            "type": "TEXT_OUTPUT"
+                        }
+                    ], 
+                    "subtask_id": "40"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "target_word": "above", 
+                            "timeout_ms": 5000, 
+                            "type": "VOICE_ACTIVATION_CRITERIUM"
+                        }
+                    ], 
+                    "outputs": [
+                        {
+                            "objective": {
+                                "id": "above", 
+                                "is_plural": false
+                            }, 
+                            "text": {
+                                "Dutch": "zeg maar {above}", 
+                                "English": "{above}", 
+                                "German": "{above}", 
+                                "Turkish": "{above}"
+                            }, 
+                            "type": "TEXT_OUTPUT"
+                        }
+                    ], 
+                    "subtask_id": "41"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "obj_1": "sticker", 
+                            "obj_2": "droppable_below", 
+                            "relationship": "above", 
+                            "type": "OBJECT_MOVE_CRITERIUM_2D"
+                        }
+                    ], 
+                    "outputs": [
+                        {
+                            "objective": {
+                                "id": "sticker", 
+                                "is_plural": false, 
+                                "rel": {
+                                    "target": {
+                                        "id": "droppable_below", 
+                                        "is_plural": false
+                                    }, 
+                                    "type": "above"
+                                }, 
+                                "target_location": {
+                                    "x": 0.4266123994269594, 
+                                    "y": 0.6414175446500483, 
+                                    "z": 0.0
+                                }
+                            }, 
+                            "text": {
+                                "Dutch": "1 appel zat onder de tafel, dus {below} <accept_answer> Plak maar een appel op het vakje wat \"onder\" de tafel is.", 
+                                "English": "{below} ", 
+                                "German": "{below} ", 
+                                "Turkish": "{below} "
+                            }, 
+                            "type": "TEXT_OUTPUT"
+                        }
+                    ], 
+                    "subtask_id": "42"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "target_word": "below", 
+                            "timeout_ms": 5000, 
+                            "type": "VOICE_ACTIVATION_CRITERIUM"
+                        }
+                    ], 
+                    "outputs": [
+                        {
+                            "objective": {
+                                "id": "below", 
+                                "is_plural": false
+                            }, 
+                            "text": {
+                                "Dutch": "zeg ook maar {below}", 
+                                "English": "{below}", 
+                                "German": "{below}", 
+                                "Turkish": "{below}"
+                            }, 
+                            "type": "TEXT_OUTPUT"
+                        }
+                    ], 
+                    "subtask_id": "43"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "obj_1": "sticker", 
+                            "obj_2": "droppable_next_to", 
+                            "relationship": "above", 
+                            "type": "OBJECT_MOVE_CRITERIUM_2D"
+                        }
+                    ], 
+                    "outputs": [
+                        {
+                            "objective": {
+                                "id": "sticker", 
+                                "is_plural": false, 
+                                "rel": {
+                                    "target": {
+                                        "id": "droppable_next_to", 
+                                        "is_plural": false
+                                    }, 
+                                    "type": "above"
+                                }, 
+                                "target_location": {
+                                    "x": 0.13914313070311302, 
+                                    "y": 0.5055928023820071, 
+                                    "z": 0.0
+                                }
+                            }, 
+                            "text": {
+                                "Dutch": "er zat ook 1 appel naast de tafel, dus {next to} <accept_answer> Plak maar een appel op het vakje wat \"naast\" de tafel is.", 
+                                "English": "{next to} ", 
+                                "German": "{next to} ", 
+                                "Turkish": "{next to} "
+                            }, 
+                            "type": "TEXT_OUTPUT"
+                        }
+                    ], 
+                    "subtask_id": "44"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "target_word": "next to", 
+                            "timeout_ms": 5000, 
+                            "type": "VOICE_ACTIVATION_CRITERIUM"
+                        }
+                    ], 
+                    "outputs": [
+                        {
+                            "objective": {
+                                "id": "next to", 
+                                "is_plural": false
+                            }, 
+                            "text": {
+                                "Dutch": "zeg maar {next to}", 
+                                "English": "{next to}", 
+                                "German": "{next to}", 
+                                "Turkish": "{next to}"
+                            }, 
+                            "type": "TEXT_OUTPUT"
+                        }
+                    ], 
+                    "subtask_id": "45"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "obj_1": "sticker", 
+                            "obj_2": "droppable_on", 
+                            "relationship": "above", 
+                            "type": "OBJECT_MOVE_CRITERIUM_2D"
+                        }
+                    ], 
+                    "outputs": [
+                        {
+                            "objective": {
+                                "id": "sticker", 
+                                "is_plural": false, 
+                                "rel": {
+                                    "target": {
+                                        "id": "droppable_on", 
+                                        "is_plural": false
+                                    }, 
+                                    "type": "above"
+                                }, 
+                                "target_location": {
+                                    "x": 0.4290694018839618, 
+                                    "y": 0.40069589516551224, 
+                                    "z": 0.0
+                                }
+                            }, 
+                            "text": {
+                                "Dutch": "1 appel viel ook op de tafel, dus {on} <accept_answer> Plak maar een appel op het vakje wat \"op\" de tafel is.", 
+                                "English": "{on} ", 
+                                "German": "{on} ", 
+                                "Turkish": "{on} "
+                            }, 
+                            "type": "TEXT_OUTPUT"
+                        }
+                    ], 
+                    "subtask_id": "46"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "target_word": "on", 
+                            "timeout_ms": 5000, 
+                            "type": "VOICE_ACTIVATION_CRITERIUM"
+                        }
+                    ], 
+                    "outputs": [
+                        {
+                            "objective": {
+                                "id": "on", 
+                                "is_plural": false
+                            }, 
+                            "text": {
+                                "Dutch": "zeg ook maar {on}", 
+                                "English": "{on}", 
+                                "German": "{on}", 
+                                "Turkish": "{on}"
+                            }, 
+                            "type": "TEXT_OUTPUT"
+                        }
+                    ], 
+                    "subtask_id": "47"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "target_word": "falling", 
+                            "timeout_ms": 5000, 
+                            "type": "VOICE_ACTIVATION_CRITERIUM"
+                        }
+                    ], 
+                    "outputs": [
+                        {
+                            "objective": {
+                                "id": "falling", 
+                                "is_plural": false
+                            }, 
+                            "text": {
+                                "Dutch": "De appels vielen ook nog eens neer. Weet je nog? Vallen is {falling} Zeg maar {falling}", 
+                                "English": "{falling} {falling}", 
+                                "German": "{falling} {falling}", 
+                                "Turkish": "{falling} {falling}"
+                            }, 
+                            "type": "TEXT_OUTPUT"
+                        }
+                    ], 
+                    "subtask_id": "48"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "outputs": [
+                        {
+                            "text": {
+                                "Dutch": "Dat deden we super goed! We gaan nu naar de volgende bladzijde", 
+                                "English": "", 
+                                "German": "", 
+                                "Turkish": ""
+                            }, 
+                            "type": "TEXT_OUTPUT"
+                        }
+                    ], 
+                    "subtask_id": "49"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "target_word": "behind", 
+                            "timeout_ms": 5000, 
+                            "type": "VOICE_ACTIVATION_CRITERIUM"
+                        }
+                    ], 
+                    "outputs": [
+                        {
+                            "objective": {
+                                "id": "behind", 
+                                "is_plural": false
+                            }, 
+                            "text": {
+                                "Dutch": "Weet je nog dat we een keer in het bos zijn geweest? Daar waren allemaal dieren. Laten we de stickers in het album plakken! De aap verstopte zich eerst achter de boom, dus {behind} de boom. Zeg ook maar {behind}", 
+                                "English": "  {behind} {behind}", 
+                                "German": "  {behind} {behind}", 
+                                "Turkish": "  {behind} {behind}"
+                            }, 
+                            "type": "TEXT_OUTPUT"
+                        }
+                    ], 
+                    "subtask_id": "50", 
+                    "tablet_display_actions": {
+                        "objects_added": [
+                            {
+                                "object_id": "page_5"
+                            }
+                        ]
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "target_word": "in front of", 
+                            "timeout_ms": 5000, 
+                            "type": "VOICE_ACTIVATION_CRITERIUM"
+                        }
+                    ], 
+                    "outputs": [
+                        {
+                            "objective": {
+                                "id": "in front of", 
+                                "is_plural": false
+                            }, 
+                            "text": {
+                                "Dutch": "Toen kwam hij voor de boom staan, dus {in front of} de boom. Zeg ook maar {in front of}", 
+                                "English": "{in front of} {in front of}", 
+                                "German": "{in front of} {in front of}", 
+                                "Turkish": "{in front of} {in front of}"
+                            }, 
+                            "type": "TEXT_OUTPUT"
+                        }
+                    ], 
+                    "subtask_id": "51"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "obj_1": "sticker51", 
+                            "obj_2": "photo_forest", 
+                            "relationship": "above", 
+                            "type": "OBJECT_MOVE_CRITERIUM_2D"
+                        }
+                    ], 
+                    "outputs": [
+                        {
+                            "objective": {
+                                "id": "sticker51", 
+                                "is_plural": false, 
+                                "rel": {
+                                    "target": {
+                                        "id": "photo_forest", 
+                                        "is_plural": false
+                                    }, 
+                                    "type": "above"
+                                }, 
+                                "target_location": {
+                                    "x": 0.4585534313679913, 
+                                    "y": 0.37198451720562176, 
+                                    "z": 0.0
+                                }
+                            }, 
+                            "text": {
+                                "Dutch": "Toen zagen we de aap die aan het rennen was. Dus {running} <accept_answer> Plak de sticker met de aap die aan het rennen is maar in het album.", 
+                                "English": "{running} ", 
+                                "German": "{running} ", 
+                                "Turkish": "{running} "
+                            }, 
+                            "type": "TEXT_OUTPUT"
+                        }
+                    ], 
+                    "subtask_id": "52"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "target_word": "running", 
+                            "timeout_ms": 5000, 
+                            "type": "VOICE_ACTIVATION_CRITERIUM"
+                        }
+                    ], 
+                    "outputs": [
+                        {
+                            "objective": {
+                                "id": "running", 
+                                "is_plural": false
+                            }, 
+                            "text": {
+                                "Dutch": "zeg maar {running}", 
+                                "English": "{running}", 
+                                "German": "{running}", 
+                                "Turkish": "{running}"
+                            }, 
+                            "type": "TEXT_OUTPUT"
+                        }
+                    ], 
+                    "subtask_id": "53"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "obj_1": "sticker52", 
+                            "obj_2": "photo_forest", 
+                            "relationship": "above", 
+                            "type": "OBJECT_MOVE_CRITERIUM_2D"
+                        }
+                    ], 
+                    "outputs": [
+                        {
+                            "objective": {
+                                "id": "sticker52", 
+                                "is_plural": false, 
+                                "rel": {
+                                    "target": {
+                                        "id": "photo_forest", 
+                                        "is_plural": false
+                                    }, 
+                                    "type": "above"
+                                }, 
+                                "target_location": {
+                                    "x": 0.7165387268441316, 
+                                    "y": 0.41546394898719397, 
+                                    "z": 0.0
+                                }
+                            }, 
+                            "text": {
+                                "Dutch": "Rennen kan jij ook heel goed h\u00e8? En de andere aap was aan het lopen, dus {walking} <accept_answer> Plak de sticker met de aap die aan het lopen is maar in het album.", 
+                                "English": "{walking} ", 
+                                "German": "{walking} ", 
+                                "Turkish": "{walking} "
+                            }, 
+                            "type": "TEXT_OUTPUT"
+                        }
+                    ], 
+                    "subtask_id": "54"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "target_word": "walking", 
+                            "timeout_ms": 5000, 
+                            "type": "VOICE_ACTIVATION_CRITERIUM"
+                        }
+                    ], 
+                    "outputs": [
+                        {
+                            "objective": {
+                                "id": "walking", 
+                                "is_plural": false
+                            }, 
+                            "text": {
+                                "Dutch": "zeg maar {walking}", 
+                                "English": "{walking}", 
+                                "German": "{walking}", 
+                                "Turkish": "{walking}"
+                            }, 
+                            "type": "TEXT_OUTPUT"
+                        }
+                    ], 
+                    "subtask_id": "55"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "obj_1": "sticker53", 
+                            "obj_2": "photo_forest", 
+                            "relationship": "above", 
+                            "type": "OBJECT_MOVE_CRITERIUM_2D"
+                        }
+                    ], 
+                    "outputs": [
+                        {
+                            "objective": {
+                                "id": "sticker53", 
+                                "is_plural": false, 
+                                "rel": {
+                                    "target": {
+                                        "id": "photo_forest", 
+                                        "is_plural": false
+                                    }, 
+                                    "type": "above"
+                                }, 
+                                "target_location": {
+                                    "x": 0.3884828225400583, 
+                                    "y": 0.03347938773558312, 
+                                    "z": 0.0
+                                }
+                            }, 
+                            "text": {
+                                "Dutch": "en de vogel was aan het vliegen, dus {flying} <accept_answer> Plak de sticker met de vogel die aan het vliegen is maar in het album.", 
+                                "English": "{flying} ", 
+                                "German": "{flying} ", 
+                                "Turkish": "{flying} "
+                            }, 
+                            "type": "TEXT_OUTPUT"
+                        }
+                    ], 
+                    "subtask_id": "56"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "target_word": "flying", 
+                            "timeout_ms": 5000, 
+                            "type": "VOICE_ACTIVATION_CRITERIUM"
+                        }
+                    ], 
+                    "outputs": [
+                        {
+                            "objective": {
+                                "id": "flying", 
+                                "is_plural": false
+                            }, 
+                            "text": {
+                                "Dutch": "zeg maar {flying}", 
+                                "English": "{flying}", 
+                                "German": "{flying}", 
+                                "Turkish": "{flying}"
+                            }, 
+                            "type": "TEXT_OUTPUT"
+                        }
+                    ], 
+                    "subtask_id": "57"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "obj_1": "sticker54", 
+                            "obj_2": "photo_forest", 
+                            "relationship": "above", 
+                            "type": "OBJECT_MOVE_CRITERIUM_2D"
+                        }
+                    ], 
+                    "outputs": [
+                        {
+                            "objective": {
+                                "id": "sticker54", 
+                                "is_plural": false, 
+                                "rel": {
+                                    "target": {
+                                        "id": "photo_forest", 
+                                        "is_plural": false
+                                    }, 
+                                    "type": "above"
+                                }, 
+                                "target_location": {
+                                    "x": 0.062285013222284344, 
+                                    "y": 0.25164949082836663, 
+                                    "z": 0.0
+                                }
+                            }, 
+                            "text": {
+                                "Dutch": "en er was ook een zjiraf. Die was aan het springen, dus {jumping} <accept_answer> Plak de sticker met de zjiraf die aan het springen is maar in het album.", 
+                                "English": "{jumping} ", 
+                                "German": "{jumping} ", 
+                                "Turkish": "{jumping} "
+                            }, 
+                            "type": "TEXT_OUTPUT"
+                        }
+                    ], 
+                    "subtask_id": "58"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "target_word": "jumping", 
+                            "timeout_ms": 5000, 
+                            "type": "VOICE_ACTIVATION_CRITERIUM"
+                        }
+                    ], 
+                    "outputs": [
+                        {
+                            "objective": {
+                                "id": "jumping", 
+                                "is_plural": false
+                            }, 
+                            "text": {
+                                "Dutch": "zeg maar {jumping}", 
+                                "English": "{jumping}", 
+                                "German": "{jumping}", 
+                                "Turkish": "{jumping}"
+                            }, 
+                            "type": "TEXT_OUTPUT"
+                        }
+                    ], 
+                    "subtask_id": "59"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "outputs": [
+                        {
+                            "text": {
+                                "Dutch": "Dat deden we super goed! We gaan nu naar de volgende bladzijde.", 
+                                "English": "", 
+                                "German": "", 
+                                "Turkish": ""
+                            }, 
+                            "type": "TEXT_OUTPUT"
+                        }
+                    ], 
+                    "subtask_id": "60"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "outputs": [
+                        {
+                            "text": {
+                                "Dutch": "Weet je nog dat we een keer in de speeltuin zijn geweest? Daar zagen we twee kinderen allerlei spelletjes doen. eerst deden we een spelletje met de handen. Ik zei links en jij deed jouw linker hand omhoog, dus {left}", 
+                                "English": " {left}", 
+                                "German": " {left}", 
+                                "Turkish": " {left}"
+                            }, 
+                            "type": "TEXT_OUTPUT"
+                        }
+                    ], 
+                    "subtask_id": "61", 
+                    "tablet_display_actions": {
+                        "objects_added": [
+                            {
+                                "object_id": "page_6"
+                            }
+                        ]
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "target_word": "left", 
+                            "timeout_ms": 5000, 
+                            "type": "VOICE_ACTIVATION_CRITERIUM"
+                        }
+                    ], 
+                    "outputs": [
+                        {
+                            "objective": {
+                                "id": "left", 
+                                "is_plural": false
+                            }, 
+                            "text": {
+                                "Dutch": "zeg maar {left}", 
+                                "English": "{left}", 
+                                "German": "{left}", 
+                                "Turkish": "{left}"
+                            }, 
+                            "type": "TEXT_OUTPUT"
+                        }
+                    ], 
+                    "subtask_id": "62"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "target_word": "right", 
+                            "timeout_ms": 5000, 
+                            "type": "VOICE_ACTIVATION_CRITERIUM"
+                        }
+                    ], 
+                    "outputs": [
+                        {
+                            "objective": {
+                                "id": "right", 
+                                "is_plural": false
+                            }, 
+                            "text": {
+                                "Dutch": "en je moest ook jouw rechter hand omhoog doen, dus {right} zeg maar {right}", 
+                                "English": "{right} {right}", 
+                                "German": "{right} {right}", 
+                                "Turkish": "{right} {right}"
+                            }, 
+                            "type": "TEXT_OUTPUT"
+                        }
+                    ], 
+                    "subtask_id": "63"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "obj_1": "sticker61", 
+                            "obj_2": "photo_playground", 
+                            "relationship": "above", 
+                            "type": "OBJECT_MOVE_CRITERIUM_2D"
+                        }
+                    ], 
+                    "outputs": [
+                        {
+                            "objective": {
+                                "id": "sticker61", 
+                                "is_plural": false, 
+                                "rel": {
+                                    "target": {
+                                        "id": "photo_playground", 
+                                        "is_plural": false
+                                    }, 
+                                    "type": "above"
+                                }, 
+                                "target_location": {
+                                    "x": 0.10720209876208106, 
+                                    "y": 0.2303608058654156, 
+                                    "z": 0.0
+                                }
+                            }, 
+                            "text": {
+                                "Dutch": "Laten we de stickers in het album plakken! er ging een meisje van de glijbaan af glijden, dus {sliding} <accept_answer> Plak de sticker met het meisje dat aan het glijden is maar in het album.", 
+                                "English": " {sliding} ", 
+                                "German": " {sliding} ", 
+                                "Turkish": " {sliding} "
+                            }, 
+                            "type": "TEXT_OUTPUT"
+                        }
+                    ], 
+                    "subtask_id": "64"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "target_word": "sliding", 
+                            "timeout_ms": 5000, 
+                            "type": "VOICE_ACTIVATION_CRITERIUM"
+                        }
+                    ], 
+                    "outputs": [
+                        {
+                            "objective": {
+                                "id": "sliding", 
+                                "is_plural": false
+                            }, 
+                            "text": {
+                                "Dutch": "zeg maar {sliding}", 
+                                "English": "{sliding}", 
+                                "German": "{sliding}", 
+                                "Turkish": "{sliding}"
+                            }, 
+                            "type": "TEXT_OUTPUT"
+                        }
+                    ], 
+                    "subtask_id": "65"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "obj_1": "sticker62", 
+                            "obj_2": "photo_playground", 
+                            "relationship": "above", 
+                            "type": "OBJECT_MOVE_CRITERIUM_2D"
+                        }
+                    ], 
+                    "outputs": [
+                        {
+                            "objective": {
+                                "id": "sticker62", 
+                                "is_plural": false, 
+                                "rel": {
+                                    "target": {
+                                        "id": "photo_playground", 
+                                        "is_plural": false
+                                    }, 
+                                    "type": "above"
+                                }, 
+                                "target_location": {
+                                    "x": 0.3467598195743795, 
+                                    "y": 0.6841494530746617, 
+                                    "z": 0.0
+                                }
+                            }, 
+                            "text": {
+                                "Dutch": "en dat meisje gooide ook een bal, dus {throwing} <accept_answer> Plak de sticker met het meisje dat een bal aan het gooien is maar in het album.", 
+                                "English": "{throwing} ", 
+                                "German": "{throwing} ", 
+                                "Turkish": "{throwing} "
+                            }, 
+                            "type": "TEXT_OUTPUT"
+                        }
+                    ], 
+                    "subtask_id": "66"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "target_word": "throwing", 
+                            "timeout_ms": 5000, 
+                            "type": "VOICE_ACTIVATION_CRITERIUM"
+                        }
+                    ], 
+                    "outputs": [
+                        {
+                            "objective": {
+                                "id": "throwing", 
+                                "is_plural": false
+                            }, 
+                            "text": {
+                                "Dutch": "zeg ook maar {throwing}", 
+                                "English": "{throwing}", 
+                                "German": "{throwing}", 
+                                "Turkish": "{throwing}"
+                            }, 
+                            "type": "TEXT_OUTPUT"
+                        }
+                    ], 
+                    "subtask_id": "67"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "obj_1": "sticker63", 
+                            "obj_2": "photo_playground", 
+                            "relationship": "above", 
+                            "type": "OBJECT_MOVE_CRITERIUM_2D"
+                        }
+                    ], 
+                    "outputs": [
+                        {
+                            "objective": {
+                                "id": "sticker63", 
+                                "is_plural": false, 
+                                "rel": {
+                                    "target": {
+                                        "id": "photo_playground", 
+                                        "is_plural": false
+                                    }, 
+                                    "type": "above"
+                                }, 
+                                "target_location": {
+                                    "x": 0.48066645348101344, 
+                                    "y": 0.4348453797015947, 
+                                    "z": 0.0
+                                }
+                            }, 
+                            "text": {
+                                "Dutch": "en de jongen ving toen de bal op, dus {catching} <accept_answer> Plak de sticker met de jongen die een bal aan het vangen is maar in het album.", 
+                                "English": "{catching} ", 
+                                "German": "{catching} ", 
+                                "Turkish": "{catching} "
+                            }, 
+                            "type": "TEXT_OUTPUT"
+                        }
+                    ], 
+                    "subtask_id": "68"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "target_word": "catching", 
+                            "timeout_ms": 5000, 
+                            "type": "VOICE_ACTIVATION_CRITERIUM"
+                        }
+                    ], 
+                    "outputs": [
+                        {
+                            "objective": {
+                                "id": "catching", 
+                                "is_plural": false
+                            }, 
+                            "text": {
+                                "Dutch": "zeg maar {catching}", 
+                                "English": "{catching}", 
+                                "German": "{catching}", 
+                                "Turkish": "{catching}"
+                            }, 
+                            "type": "TEXT_OUTPUT"
+                        }
+                    ], 
+                    "subtask_id": "69"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "obj_1": "sticker64", 
+                            "obj_2": "photo_playground", 
+                            "relationship": "above", 
+                            "type": "OBJECT_MOVE_CRITERIUM_2D"
+                        }
+                    ], 
+                    "outputs": [
+                        {
+                            "objective": {
+                                "id": "sticker64", 
+                                "is_plural": false, 
+                                "rel": {
+                                    "target": {
+                                        "id": "photo_playground", 
+                                        "is_plural": false
+                                    }, 
+                                    "type": "above"
+                                }, 
+                                "target_location": {
+                                    "x": 0.25830773112229105, 
+                                    "y": -0.047448447315963274, 
+                                    "z": 0.0
+                                }
+                            }, 
+                            "text": {
+                                "Dutch": "en toen ging het meisje ook nog omhoog klimmen, dus {climbing} <accept_answer> Plak de sticker met het meisje dat aan het klimmen is maar in het album.", 
+                                "English": "{climbing} ", 
+                                "German": "{climbing} ", 
+                                "Turkish": "{climbing} "
+                            }, 
+                            "type": "TEXT_OUTPUT"
+                        }
+                    ], 
+                    "subtask_id": "70"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "target_word": "climbing", 
+                            "timeout_ms": 5000, 
+                            "type": "VOICE_ACTIVATION_CRITERIUM"
+                        }
+                    ], 
+                    "outputs": [
+                        {
+                            "objective": {
+                                "id": "climbing", 
+                                "is_plural": false
+                            }, 
+                            "text": {
+                                "Dutch": "zeg ook maar {climbing}", 
+                                "English": "{climbing}", 
+                                "German": "{climbing}", 
+                                "Turkish": "{climbing}"
+                            }, 
+                            "type": "TEXT_OUTPUT"
+                        }
+                    ], 
+                    "subtask_id": "71"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "outputs": [
+                        {
+                            "text": {
+                                "Dutch": "Super! Moet je zien hoe mooi ons album is! Nu is die klaar! ", 
+                                "English": "", 
+                                "German": "", 
+                                "Turkish": ""
+                            }, 
+                            "type": "TEXT_OUTPUT"
+                        }
+                    ], 
+                    "subtask_id": "72"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "outputs": [
+                        {
+                            "text": {
+                                "Dutch": "Laten we er nog een keer doorheen bladeren ", 
+                                "English": "", 
+                                "German": "", 
+                                "Turkish": ""
+                            }, 
+                            "type": "TEXT_OUTPUT"
+                        }
+                    ], 
+                    "subtask_id": "73", 
+                    "tablet_display_actions": {
+                        "objects_added": [
+                            {
+                                "object_id": "cover"
+                            }
+                        ]
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "timeout_ms": "5000", 
+                            "type": "RESPONSE_DELAY_CRITERIUM"
+                        }
+                    ], 
+                    "outputs": [
+                        {
+                            "text": {
+                                "Dutch": "De dierentuin", 
+                                "English": "", 
+                                "German": "", 
+                                "Turkish": ""
+                            }, 
+                            "type": "TEXT_OUTPUT"
+                        }
+                    ], 
+                    "subtask_id": "74", 
+                    "tablet_display_actions": {
+                        "objects_added": [
+                            {
+                                "object_id": "page_1"
+                            }
+                        ]
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "timeout_ms": "5000", 
+                            "type": "RESPONSE_DELAY_CRITERIUM"
+                        }
+                    ], 
+                    "outputs": [
+                        {
+                            "text": {
+                                "Dutch": "En de bakkerij!", 
+                                "English": "", 
+                                "German": "", 
+                                "Turkish": ""
+                            }, 
+                            "type": "TEXT_OUTPUT"
+                        }
+                    ], 
+                    "subtask_id": "75", 
+                    "tablet_display_actions": {
+                        "objects_added": [
+                            {
+                                "object_id": "page_2"
+                            }
+                        ]
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "timeout_ms": "3000", 
+                            "type": "RESPONSE_DELAY_CRITERIUM"
+                        }, 
+                        {
+                            "timeout_ms": "2000", 
+                            "type": "RESPONSE_DELAY_CRITERIUM"
+                        }
+                    ], 
+                    "outputs": [
+                        {
+                            "text": {
+                                "Dutch": "En nog een keer de dierentuin", 
+                                "English": "", 
+                                "German": "", 
+                                "Turkish": ""
+                            }, 
+                            "type": "TEXT_OUTPUT"
+                        }
+                    ], 
+                    "subtask_id": "76", 
+                    "tablet_display_actions": {
+                        "objects_added": [
+                            {
+                                "object_id": "page_3"
+                            }
+                        ]
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "timeout_ms": "3000", 
+                            "type": "RESPONSE_DELAY_CRITERIUM"
+                        }
+                    ], 
+                    "outputs": [
+                        {
+                            "text": {
+                                "Dutch": "De fruitwinkel", 
+                                "English": "", 
+                                "German": "", 
+                                "Turkish": ""
+                            }, 
+                            "type": "TEXT_OUTPUT"
+                        }
+                    ], 
+                    "subtask_id": "77", 
+                    "tablet_display_actions": {
+                        "objects_added": [
+                            {
+                                "object_id": "page_4"
+                            }
+                        ]
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "timeout_ms": "3000", 
+                            "type": "RESPONSE_DELAY_CRITERIUM"
+                        }
+                    ], 
+                    "outputs": [
+                        {
+                            "text": {
+                                "Dutch": "en het bos", 
+                                "English": "", 
+                                "German": "", 
+                                "Turkish": ""
+                            }, 
+                            "type": "TEXT_OUTPUT"
+                        }
+                    ], 
+                    "subtask_id": "78", 
+                    "tablet_display_actions": {
+                        "objects_added": [
+                            {
+                                "object_id": "page_5"
+                            }
+                        ]
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "timeout_ms": "3000", 
+                            "type": "RESPONSE_DELAY_CRITERIUM"
+                        }
+                    ], 
+                    "outputs": [
+                        {
+                            "text": {
+                                "Dutch": "en dan als laatste de speeltuin!", 
+                                "English": "", 
+                                "German": "", 
+                                "Turkish": ""
+                            }, 
+                            "type": "TEXT_OUTPUT"
+                        }
+                    ], 
+                    "subtask_id": "79", 
+                    "tablet_display_actions": {
+                        "objects_added": [
+                            {
+                                "object_id": "page_6"
+                            }
+                        ]
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "timeout_ms": "1000", 
+                            "type": "RESPONSE_DELAY_CRITERIUM"
+                        }
+                    ], 
+                    "outputs": [
+                        {
+                            "text": {
+                                "Dutch": "Wauw <face(happy)> dat was leuk. We hebben een heel mooi album gemaakt en ik vond het leuk om samen met jou te leren!", 
+                                "English": "", 
+                                "German": "", 
+                                "Turkish": ""
+                            }, 
+                            "type": "TEXT_OUTPUT"
+                        }
+                    ], 
+                    "subtask_id": "80"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "timeout_ms": "3000", 
+                            "type": "RESPONSE_DELAY_CRITERIUM"
+                        }
+                    ], 
+                    "outputs": [
+                        {
+                            "text": {
+                                "Dutch": "Hoe vond je het? ", 
+                                "English": "", 
+                                "German": "", 
+                                "Turkish": ""
+                            }, 
+                            "type": "TEXT_OUTPUT"
+                        }
+                    ], 
+                    "subtask_id": "81"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "timeout_ms": "10000", 
+                            "type": "RESPONSE_DELAY_CRITERIUM"
+                        }
+                    ], 
+                    "outputs": [
+                        {
+                            "text": {
+                                "Dutch": "<face(neutral)>Is er nog iets wat je tegen mij wilt zeggen? ", 
+                                "English": "", 
+                                "German": "", 
+                                "Turkish": ""
+                            }, 
+                            "type": "TEXT_OUTPUT"
+                        }
+                    ], 
+                    "subtask_id": "82"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "outputs": [
+                        {
+                            "text": {
+                                "Dutch": "Oke. Dit was de laatste keer dat wij samen hebben gespeeld. Dankjewel voor alles. Doei!", 
+                                "English": "", 
+                                "German": "", 
+                                "Turkish": ""
+                            }, 
+                            "type": "TEXT_OUTPUT"
+                        }
+                    ], 
+                    "subtask_id": "83"
+                }
+            ], 
+            "task_id": "1"
+        }
+    ]
+}

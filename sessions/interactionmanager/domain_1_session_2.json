@@ -1,0 +1,936 @@
+{
+    "description": "..\\scenario\\2_test", 
+    "tasks": [
+        {
+            "description": "Introduction: 2 minutes", 
+            "is_test": false, 
+            "subtasks": [
+                {
+                    "exit_criteria": [
+                        {
+                            "timeout_ms": "2000", 
+                            "type": "RESPONSE_DELAY_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "1"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "2"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "timeout_ms": "2000", 
+                            "type": "RESPONSE_DELAY_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "3", 
+                    "tablet_display_actions": {
+                        "scene": "bakery_1"
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "4"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "timeout_ms": "1000", 
+                            "type": "RESPONSE_DELAY_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "5"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "timeout_ms": "1000", 
+                            "type": "RESPONSE_DELAY_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "6"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "timeout_ms": "1000", 
+                            "type": "RESPONSE_DELAY_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "7"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "8"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "object_id": "bag", 
+                            "type": "OBJECT_SELECT_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "9"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "target_word": "four", 
+                            "timeout_ms": 5000, 
+                            "type": "VOICE_ACTIVATION_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "10"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "11"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "object_id": "carton", 
+                            "type": "OBJECT_SELECT_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "12"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "target_word": "five", 
+                            "timeout_ms": 5000, 
+                            "type": "VOICE_ACTIVATION_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "13"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "object_id": "dummy_fewer,bag", 
+                            "type": "OBJECT_SELECT_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "14", 
+                    "tablet_display_actions": {
+                        "objects_highlighted": [
+                            {
+                                "object_id": "carton_1"
+                            }, 
+                            {
+                                "object_id": "carton_2"
+                            }, 
+                            {
+                                "object_id": "carton_3"
+                            }, 
+                            {
+                                "object_id": "carton_4"
+                            }, 
+                            {
+                                "object_id": "carton_5"
+                            }, 
+                            {
+                                "object_id": "bag_1"
+                            }, 
+                            {
+                                "object_id": "bag_2"
+                            }, 
+                            {
+                                "object_id": "bag_3"
+                            }, 
+                            {
+                                "object_id": "bag_4"
+                            }
+                        ]
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "target_word": "fewer", 
+                            "timeout_ms": 5000, 
+                            "type": "VOICE_ACTIVATION_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "15", 
+                    "tablet_display_actions": {
+                        "remove_highlights": []
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "object_id": "dummy_fewest,bucket", 
+                            "type": "OBJECT_SELECT_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "16", 
+                    "tablet_display_actions": {
+                        "objects_highlighted": [
+                            {
+                                "object_id": "carton_1"
+                            }, 
+                            {
+                                "object_id": "carton_2"
+                            }, 
+                            {
+                                "object_id": "carton_3"
+                            }, 
+                            {
+                                "object_id": "carton_4"
+                            }, 
+                            {
+                                "object_id": "carton_5"
+                            }, 
+                            {
+                                "object_id": "bag_1"
+                            }, 
+                            {
+                                "object_id": "bag_2"
+                            }, 
+                            {
+                                "object_id": "bag_3"
+                            }, 
+                            {
+                                "object_id": "bag_4"
+                            }, 
+                            {
+                                "object_id": "bucket_1"
+                            }, 
+                            {
+                                "object_id": "bucket_2"
+                            }, 
+                            {
+                                "object_id": "bucket_3"
+                            }
+                        ]
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "target_word": "fewest", 
+                            "timeout_ms": 5000, 
+                            "type": "VOICE_ACTIVATION_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "17", 
+                    "tablet_display_actions": {
+                        "remove_highlights": []
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "obj_1": "bag", 
+                            "obj_2": "bowl_1", 
+                            "type": "OBJECT_COLLISION_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "18", 
+                    "tablet_display_actions": {
+                        "objects_highlighted": [
+                            {
+                                "object_id": "bag"
+                            }
+                        ]
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "object_id": "bowl_1,table_1", 
+                            "type": "OBJECT_SELECT_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "19", 
+                    "tablet_display_actions": {
+                        "remove_highlights": []
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "obj_1": "bowl_1", 
+                            "obj_2": "oven", 
+                            "type": "OBJECT_COLLISION_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "20", 
+                    "tablet_display_actions": {
+                        "objects_animated": [
+                            {
+                                "animation": "shake", 
+                                "loop": "false", 
+                                "object_id": "bowl_1"
+                            }
+                        ]
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "obj_1": "bucket", 
+                            "obj_2": "shelf", 
+                            "relationship": "NOT_above", 
+                            "type": "OBJECT_MOVE_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "21"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "obj_1": "bucket", 
+                            "obj_2": "shelf", 
+                            "relationship": "NOT_above", 
+                            "type": "OBJECT_MOVE_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "22"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "obj_1": "bucket", 
+                            "obj_2": "shelf", 
+                            "relationship": "NOT_above", 
+                            "type": "OBJECT_MOVE_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "23"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "target_word": "take away", 
+                            "timeout_ms": 5000, 
+                            "type": "VOICE_ACTIVATION_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "24"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "25"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "26", 
+                    "tablet_display_actions": {
+                        "objects_added": [
+                            {
+                                "object_id": "bread_1"
+                            }
+                        ]
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "obj_1": "bread_1", 
+                            "obj_2": "shelf", 
+                            "relationship": "above", 
+                            "type": "OBJECT_MOVE_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "27", 
+                    "tablet_display_actions": {
+                        "objects_highlighted": [
+                            {
+                                "object_id": "shelf"
+                            }
+                        ]
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "28", 
+                    "tablet_display_actions": {
+                        "objects_added": [
+                            {
+                                "object_id": "bowl_2"
+                            }
+                        ], 
+                        "objects_move": [
+                            {
+                                "loop": "false", 
+                                "object_id": "bread_1", 
+                                "speed": "1", 
+                                "x": "-115.20647690034637", 
+                                "y": "109", 
+                                "z": "-61.21438617277255"
+                            }
+                        ], 
+                        "remove_highlights": []
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "timeout_ms": "2000", 
+                            "type": "RESPONSE_DELAY_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "29"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "timeout_ms": "1000", 
+                            "type": "RESPONSE_DELAY_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "30", 
+                    "tablet_display_actions": {
+                        "objects_animated": [
+                            {
+                                "animation": "shake", 
+                                "loop": "false", 
+                                "object_id": "bowl_2"
+                            }
+                        ], 
+                        "objects_removed": [
+                            {
+                                "object_id": "previous_target"
+                            }
+                        ]
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "timeout_ms": "4000", 
+                            "type": "RESPONSE_DELAY_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "31"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "32", 
+                    "tablet_display_actions": {
+                        "objects_removed": [
+                            {
+                                "object_id": "bowl_2"
+                            }
+                        ]
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "obj_1": "carton", 
+                            "obj_2": "shelf", 
+                            "relationship": "NOT_above", 
+                            "type": "OBJECT_MOVE_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "33"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "obj_1": "carton", 
+                            "obj_2": "shelf", 
+                            "relationship": "NOT_above", 
+                            "type": "OBJECT_MOVE_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "34"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "obj_1": "carton", 
+                            "obj_2": "shelf", 
+                            "relationship": "NOT_above", 
+                            "type": "OBJECT_MOVE_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "35"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "obj_1": "carton", 
+                            "obj_2": "shelf", 
+                            "relationship": "NOT_above", 
+                            "type": "OBJECT_MOVE_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "36"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "obj_1": "carton", 
+                            "obj_2": "shelf", 
+                            "relationship": "NOT_above", 
+                            "type": "OBJECT_MOVE_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "37"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "38", 
+                    "tablet_display_actions": {
+                        "objects_added": [
+                            {
+                                "object_id": "bread_2"
+                            }
+                        ]
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "timeout_ms": "2000", 
+                            "type": "RESPONSE_DELAY_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "39"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "obj_1": "bag", 
+                            "obj_2": "bowl_3", 
+                            "type": "OBJECT_COLLISION_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "40", 
+                    "tablet_display_actions": {
+                        "objects_added": [
+                            {
+                                "object_id": "bowl_3"
+                            }
+                        ]
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "object_id": "bowl_3,table_1", 
+                            "type": "OBJECT_SELECT_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "41"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "obj_1": "bowl_3", 
+                            "obj_2": "oven", 
+                            "type": "OBJECT_COLLISION_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "42", 
+                    "tablet_display_actions": {
+                        "objects_animated": [
+                            {
+                                "animation": "shake", 
+                                "loop": "false", 
+                                "object_id": "bowl_3"
+                            }
+                        ]
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "43"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "44", 
+                    "tablet_display_actions": {
+                        "objects_added": [
+                            {
+                                "object_id": "bread_3"
+                            }
+                        ]
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "obj_1": "bread_3", 
+                            "obj_2": "shelf", 
+                            "relationship": "above", 
+                            "type": "OBJECT_MOVE_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "45", 
+                    "tablet_display_actions": {
+                        "objects_highlighted": [
+                            {
+                                "object_id": "shelf"
+                            }
+                        ]
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "46", 
+                    "tablet_display_actions": {
+                        "remove_highlights": []
+                    }
+                }
+            ], 
+            "task_id": "1"
+        }, 
+        {
+            "description": "Test: about 3 minutes", 
+            "is_test": true, 
+            "subtasks": [
+                {
+                    "exit_criteria": [
+                        {
+                            "object_id": "4bread,area_3", 
+                            "type": "OBJECT_SELECT_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "1", 
+                    "tablet_display_actions": {
+                        "scene": "bakery_task_1"
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "2", 
+                    "tablet_display_actions": {
+                        "scene": "bakery_task_2"
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "3", 
+                    "tablet_display_actions": {
+                        "objects_animated": [
+                            {
+                                "animation": "shake", 
+                                "loop": "true", 
+                                "object_id": "bowl_move_3"
+                            }
+                        ], 
+                        "objects_move": [
+                            {
+                                "loop": "true", 
+                                "object_id": "bowl_takeaway_3", 
+                                "speed": "2.5", 
+                                "x": "-300", 
+                                "y": "3", 
+                                "z": "300"
+                            }, 
+                            {
+                                "loop": "true", 
+                                "object_id": "bowl_add_3", 
+                                "speed": "2.5", 
+                                "x": "-6.900091842895108", 
+                                "y": "3", 
+                                "z": "4.140287945071407"
+                            }
+                        ]
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "object_id": "bowl_takeaway,area_1", 
+                            "type": "OBJECT_SELECT_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "4"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "object_id": "bowl_fewest,area_2", 
+                            "type": "OBJECT_SELECT_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "5", 
+                    "tablet_display_actions": {
+                        "scene": "bakery_task_3"
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "object_id": "bucket5,area_3", 
+                            "type": "OBJECT_SELECT_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "6", 
+                    "tablet_display_actions": {
+                        "scene": "bakery_task_4"
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "object_id": "bread1,area_2", 
+                            "type": "OBJECT_SELECT_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "7", 
+                    "tablet_display_actions": {
+                        "scene": "bakery_task_5"
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "8", 
+                    "tablet_display_actions": {
+                        "scene": "bakery_task_6"
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "9", 
+                    "tablet_display_actions": {
+                        "objects_animated": [
+                            {
+                                "animation": "shake", 
+                                "loop": "true", 
+                                "object_id": "bread_move_3"
+                            }
+                        ], 
+                        "objects_move": [
+                            {
+                                "loop": "true", 
+                                "object_id": "bread_takeaway_3", 
+                                "speed": "2.5", 
+                                "x": "-300", 
+                                "y": "3", 
+                                "z": "0"
+                            }, 
+                            {
+                                "loop": "true", 
+                                "object_id": "bread_add_3", 
+                                "speed": "2.5", 
+                                "x": "-96.71908532703833", 
+                                "y": "0", 
+                                "z": "-213.17208975502925"
+                            }
+                        ]
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "object_id": "bread_takeaway,area_2", 
+                            "type": "OBJECT_SELECT_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "10"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "object_id": "1flour,area_1", 
+                            "type": "OBJECT_SELECT_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "11", 
+                    "tablet_display_actions": {
+                        "scene": "bakery_task_7"
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "object_id": "5flour,area_3", 
+                            "type": "OBJECT_SELECT_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "12", 
+                    "tablet_display_actions": {
+                        "scene": "bakery_task_8"
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "object_id": "1flourfewest,area_1", 
+                            "type": "OBJECT_SELECT_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "13", 
+                    "tablet_display_actions": {
+                        "scene": "bakery_task_9"
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "object_id": "4milk,area_1", 
+                            "type": "OBJECT_SELECT_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "14", 
+                    "tablet_display_actions": {
+                        "scene": "bakery_task_10"
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "15", 
+                    "tablet_display_actions": {
+                        "scene": "black"
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "16", 
+                    "tablet_display_actions": {
+                        "objects_added": [
+                            {
+                                "object_id": "confetti"
+                            }
+                        ]
+                    }
+                }
+            ], 
+            "task_id": "2"
+        }
+    ]
+}

@@ -1,0 +1,233 @@
+{
+  "ground": "black.jpg",
+  "camera": {
+    "Alpha": 2.749658689536554,
+    "Beta": 0.7246173593469953,
+    "Radius": 524.7369233262424,
+    "PositionX": -321.4467628784238,
+    "PositionY": 392.8984031377273,
+    "PositionZ": 132.8595579877378
+  },
+  "loadable_objects": [
+    {
+      "id": "s_3giraffes_more_1",
+      "filename": "giraffe",
+      "position": {
+        "x": 167.50076413582605,
+        "y": 0,
+        "z": 229.12316019845207
+      },
+      "scaling": {
+        "x": 6.991299999999992,
+        "y": 7.0302999999999916,
+        "z": 7.009999999999992
+      },
+      "rotation": {
+        "x": 0,
+        "y": -143.9999999999998,
+        "z": 0
+      },
+      "visible": "true",
+      "animation": "false",
+      "collisionEnabled": "true"
+    },
+    {
+      "id": "s_3giraffes_more_2",
+      "filename": "giraffe",
+      "position": {
+        "x": 65.92734553886459,
+        "y": 0,
+        "z": 183.20663058454858
+      },
+      "scaling": {
+        "x": 6.991299999999992,
+        "y": 7.0302999999999916,
+        "z": 7.009999999999992
+      },
+      "rotation": {
+        "x": 0,
+        "y": -143.9999999999998,
+        "z": 0
+      },
+      "visible": "true",
+      "animation": "false",
+      "collisionEnabled": "true"
+    },
+    {
+      "id": "s_3giraffes_more_3",
+      "filename": "giraffe",
+      "position": {
+        "x": 80.55798595860875,
+        "y": 0,
+        "z": 260.225535118572
+      },
+      "scaling": {
+        "x": 6.991299999999992,
+        "y": 7.0302999999999916,
+        "z": 7.009999999999992
+      },
+      "rotation": {
+        "x": 0,
+        "y": -143.9999999999998,
+        "z": 0
+      },
+      "visible": "true",
+      "animation": "false",
+      "collisionEnabled": "true"
+    },
+    {
+      "id": "s_1giraffe_1",
+      "filename": "giraffe",
+      "position": {
+        "x": -65.91982426020644,
+        "y": 0,
+        "z": -238.244457810253
+      },
+      "scaling": {
+        "x": 6.991299999999992,
+        "y": 7.0302999999999916,
+        "z": 7.009999999999992
+      },
+      "rotation": {
+        "x": 0,
+        "y": -143.9999999999998,
+        "z": 0
+      },
+      "visible": "true",
+      "animation": "false",
+      "collisionEnabled": "true"
+    },
+    {
+      "id": "s_1elephant_1",
+      "filename": "elephant_big",
+      "position": {
+        "x": 15.477203269644065,
+        "y": 0,
+        "z": -3.385063894744661
+      },
+      "scaling": {
+        "x": 3.6469000000000023,
+        "y": 3.6107000000000022,
+        "z": 3.7012000000000023
+      },
+      "rotation": {
+        "x": 0,
+        "y": 221.99999999999952,
+        "z": 0
+      },
+      "visible": "true",
+      "animation": "false",
+      "collisionEnabled": "true"
+    }
+  ],
+  "creatable_objects": [
+    {
+      "id": "s_area_1",
+      "type": "plane",
+      "collisionEnabled": true,
+      "position": {
+        "x": 124.53587548496779,
+        "y": 0,
+        "z": 223.1445835150089
+      },
+      "rotation": {
+        "x": -90.99999999999997,
+        "y": 20,
+        "z": 0
+      },
+      "scaling": {
+        "x": 4.300000000000002,
+        "y": 4.300000000000002,
+        "z": 4.300000000000002
+      },
+      "size": {},
+      "visible": true,
+      "image": "none",
+      "uwdsCreate": "none",
+      "color": {
+        "diffuse": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        },
+        "specular": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        }
+      }
+    },
+    {
+      "id": "s_area_2",
+      "type": "plane",
+      "collisionEnabled": true,
+      "position": {
+        "x": 30.482709701873432,
+        "y": 0,
+        "z": -13.966423834710398
+      },
+      "rotation": {
+        "x": -90.99999999999997,
+        "y": 21,
+        "z": 0
+      },
+      "scaling": {
+        "x": 4.300000000000002,
+        "y": 4.300000000000002,
+        "z": 4.300000000000002
+      },
+      "size": {},
+      "visible": true,
+      "image": "none",
+      "uwdsCreate": "none",
+      "color": {
+        "diffuse": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        },
+        "specular": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        }
+      }
+    },
+    {
+      "id": "s_area_3",
+      "type": "plane",
+      "collisionEnabled": true,
+      "position": {
+        "x": -66.15126581857166,
+        "y": 0,
+        "z": -253.1446716197803
+      },
+      "rotation": {
+        "x": -90.99999999999997,
+        "y": 21,
+        "z": 0
+      },
+      "scaling": {
+        "x": 4.300000000000002,
+        "y": 4.300000000000002,
+        "z": 4.300000000000002
+      },
+      "size": {},
+      "visible": true,
+      "image": "none",
+      "uwdsCreate": "none",
+      "color": {
+        "diffuse": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        },
+        "specular": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "ground": "grass.jpg",
+  "camera": {
+    "Alpha": 1.5707963268,
+    "Beta": 0.9599310886,
+    "Radius": 450,
+    "PositionX": -1.8812116556264586E-9,
+    "PositionY": 258.10939635682115,
+    "PositionZ": 368.61841993085125
+  },
+  "loadable_objects": [
+    {
+      "id": "m_giraffe_jumping_1",
+      "filename": "giraffe",
+      "collisionEnabled": true,
+      "position": {
+        "x": 183.2430341369556,
+        "y": 0,
+        "z": -6.456427545635222
+      },
+      "rotation": {
+        "x": 0,
+        "y": 79.99000000000008,
+        "z": 0
+      },
+      "scaling": {
+        "x": 8.099999999999989,
+        "y": 8.099999999999989,
+        "z": 8.099999999999989
+      },
+      "visible": true,
+      "animation": false
+    },
+    {
+      "id": "m_monkey_walking_1",
+      "filename": "MonkeyWalk",
+      "collisionEnabled": true,
+      "position": {
+        "x": -474.83618694176977,
+        "y": 0,
+        "z": -436.35488976503
+      },
+      "rotation": {
+        "x": 0,
+        "y": 221.99999999999952,
+        "z": 0
+      },
+      "scaling": {
+        "x": 11.099999999999978,
+        "y": 11.099999999999978,
+        "z": 11.099999999999978
+      },
+      "visible": true,
+      "animation": true
+    },
+    {
+      "id": "m_monkey_running_1",
+      "filename": "MonkeyRun",
+      "collisionEnabled": true,
+      "position": {
+        "x": -237.50691533964513,
+        "y": 0,
+        "z": -516.0904431531576
+      },
+      "rotation": {
+        "x": 0,
+        "y": -140.9999999999998,
+        "z": 0
+      },
+      "scaling": {
+        "x": 10.599999999999978,
+        "y": 10.599999999999978,
+        "z": 10.599999999999978
+      },
+      "visible": true,
+      "animation": true
+    },
+    {
+      "id": "s_tree_1",
+      "filename": "tree",
+      "collisionEnabled": true,
+      "position": {
+        "x": 200.26708727740393,
+        "y": 0,
+        "z": -74.90764067503017
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scaling": {
+        "x": 7.097499999999992,
+        "y": 7.052399999999992,
+        "z": 7.106199999999991
+      },
+      "visible": true,
+      "animation": false
+    },
+    {
+      "id": "m_bird_flying_1",
+      "filename": "BirdFlying",
+      "collisionEnabled": true,
+      "position": {
+        "x": -333.1021429822912,
+        "y": 130,
+        "z": 15.679852730449795
+      },
+      "rotation": {
+        "x": 0,
+        "y": 96.99999999999996,
+        "z": 0
+      },
+      "scaling": {
+        "x": 24.000000000000092,
+        "y": 24.000000000000092,
+        "z": 24.000000000000092
+      },
+      "visible": true,
+      "animation": true
+    }
+  ],
+  "creatable_objects": []
+}

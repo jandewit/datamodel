@@ -1,0 +1,163 @@
+{
+    "001:001": [
+        {
+            "text": {
+                "Dutch": "<tablet(on)> Kijk! <Gaze(tablet)><pointAt(tablet)> Er staan een paar {giraffes} in de kooi. <Gaze(child)> Maar het is zo'n mooi weer vandaag. De giraffen mogen gaan zwemmen in het meer! <accept_answer>Zet { one giraffe} in het meer", 
+                "English": "<tablet(on)> Look! <Gaze(tablet)><pointAt(tablet)> There are some {giraffes}  in the cage, <Gaze(child)>  but today the weather is very nice and they\u2019re going to swim in the lake! Put { one giraffe}  in the lake. ", 
+                "German": "<tablet(on)> Schau! <Gaze(tablet)><pointAt(tablet)> Da sind einige {giraffes} im K\u00e4fig, <Gaze(child)> aber heute ist richtig gutes Wetter und sie wollen im See schwimmen gehen. Ziehe { one giraffe} in den See."
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:002": [
+        {
+            "text": {
+                "Dutch": "<Gaze(child)> Zet maar <pointAt(tablet)><Gaze(tablet)> {two giraffes} naast de etensbak<accept_answer>.", 
+                "English": "<Gaze(child)> Can you put <pointAt(tablet)><Gaze(tablet)> {two giraffes} next to the food tray?", 
+                "German": "<Gaze(child)> Kannst du<pointAt(tablet)><Gaze(tablet)> {two giraffes} neben den Futtertrog ziehen?"
+            }, 
+            "type": "TEXT_OUTPUT"
+        }, 
+        {
+            "text": "<happy_sound>", 
+            "type": "TABLET_SPEECH_OUTPUT"
+        }
+    ], 
+    "001:003": [
+        {
+            "text": {
+                "Dutch": "<accept_answer> {one}", 
+                "English": "<accept_answer> {one}", 
+                "German": "<accept_answer> {one}"
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:004": [
+        {
+            "text": {
+                "Dutch": "{two}", 
+                "English": "{two}", 
+                "German": "{two}"
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:005": [
+        {
+            "text": {
+                "Dutch": "<Gaze(child)> {add two giraffes } in het meer.<accept_answer>", 
+                "English": "<Gaze(child)> Can you {add two giraffes }   to the lake?", 
+                "German": "<Gaze(child)> Kannst du {add two giraffes } zum See?"
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:006": [
+        {
+            "text": {
+                "Dutch": "<accept_answer> {one}", 
+                "English": "<accept_answer> {one}", 
+                "German": "<accept_answer> {one}"
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:007": [
+        {
+            "text": {
+                "Dutch": "{two}", 
+                "English": "{two}", 
+                "German": "{two}"
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:008": [
+        {
+            "objective": {
+                "id": "area", 
+                "is_plural": false, 
+                "rel": {
+                    "target": {
+                        "id": "giraffe", 
+                        "is_plural": true
+                    }, 
+                    "type": "three"
+                }
+            }, 
+            "text": {
+                "Dutch": "<Gaze(child)>  Waar zijn {three giraffes? } <accept_answer>Raak <Gaze(tablet)> <pointAt(tablet)>dat deel op de tablet maar aan.", 
+                "English": "<Gaze(child)>  Where are {three giraffes? } Touch <Gaze(tablet)> <pointAt(tablet)>the area on the tablet", 
+                "German": "<Gaze(child)>  Wo sind {three giraffes? } Ber\u00fchre <Gaze(tablet)> <pointAt(tablet)>den Ort auf dem Tablet"
+            }, 
+            "type": "TEXT_OUTPUT"
+        }, 
+        {
+            "text": "<happy_sound>", 
+            "type": "TABLET_SPEECH_OUTPUT"
+        }
+    ], 
+    "001:009": [
+        {
+            "objective": {
+                "id": "area", 
+                "is_plural": false, 
+                "opts": [
+                    {
+                        "id": "cage", 
+                        "type": "contains"
+                    }, 
+                    {
+                        "id": "foodtray", 
+                        "type": "having_next_to"
+                    }
+                ], 
+                "rel": {
+                    "target": {
+                        "id": "giraffe", 
+                        "is_plural": true
+                    }, 
+                    "type": "more"
+                }
+            }, 
+            "text": {
+                "Dutch": "<Gaze(child)>  Waar zijn { more giraffes}  In de kooi of naast de etensbak?<accept_answer> Raak <Gaze(tablet)> <pointAt(tablet)> dat deel maar aan.", 
+                "English": "<Gaze(child)>  Where are { more giraffes}  in the cage or next to the food tray? Touch <Gaze(tablet)> <pointAt(tablet)>the area on the tablet.", 
+                "German": "<Gaze(child)>  Wo sind { more giraffes} im K\u00e4fig oder am Futtertrog? Ber\u00fchre <Gaze(tablet)> <pointAt(tablet)>den Ort auf dem Tablet"
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:010": [
+        {
+            "objective": {
+                "id": "area", 
+                "is_plural": false, 
+                "rel": {
+                    "target": {
+                        "id": "giraffe", 
+                        "is_plural": true
+                    }, 
+                    "type": "most"
+                }
+            }, 
+            "text": {
+                "Dutch": "er zijn drie giraffen in het meer, twee staan naast de etensbak en eentje in de kooi. <Gaze(child)> Waar zijn {most giraffes?} <accept_answer>Raak <Gaze(tablet)><pointAt(tablet)> maar aan op de tablet.", 
+                "English": "there are three giraffes in the lake, two next to the food tray and one in the cage. <Gaze(child)> where are {most giraffes?} Touch <Gaze(tablet)><pointAt(tablet)> the area on the tablet", 
+                "German": "Da sind drei Giraffen im See, zwei neben dem Futtertrog und eine im K\u00e4fig. <Gaze(child)> Wo sind {most giraffes?} Ber\u00fchre <Gaze(tablet)><pointAt(tablet)> den Ort auf dem Tablet"
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "002:001": [
+        {
+            "text": {
+                "Dutch": "<Gaze(child)>Jippie, we hebben een ster gekregen! Het was superleuk om met je te spelen. Tot de volgende keer!", 
+                "English": "<Gaze(child)>Yay we got a star! It was very nice to play with you! Bye!", 
+                "German": "<Gaze(child)>Yay wir haben einen Stern bekommen! Es hat Spa\u00df gemacht mit dir zu spielen!  Tsch\u00fcss! "
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ]
+}

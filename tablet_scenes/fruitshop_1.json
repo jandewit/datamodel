@@ -1,0 +1,234 @@
+{
+  "ground": "grass.png",
+  "camera": {
+    "Alpha": 1.5668520702082032,
+    "Beta": 1.244095624439839,
+    "Radius": 450,
+    "PositionX": 1.6810292716509738,
+    "PositionY": 144.41399780392703,
+    "PositionZ": 426.19452293392413
+  },
+  "loadable_objects": [
+    {
+      "id": "m_monkey_walking",
+      "filename": "MonkeyWalk",
+      "collisionEnabled": true,
+      "position": {
+        "x": -1000,
+        "y": 0,
+        "z": -1000
+      },
+      "rotation": {
+        "x": 0,
+        "y": -154.99999999999974,
+        "z": 0
+      },
+      "scaling": {
+        "x": 6.099999999999995,
+        "y": 6.099999999999995,
+        "z": 6.099999999999995
+      },
+      "visible": true,
+      "animation": true
+    },
+    {
+      "id": "m_monkey_standing",
+      "filename": "Monkey",
+      "collisionEnabled": true,
+      "position": {
+        "x": -66.03065705346258,
+        "y": 0,
+        "z": 50.85512056673622
+      },
+      "rotation": {
+        "x": 0,
+        "y": 203.9999999999996,
+        "z": 0
+      },
+      "scaling": {
+        "x": 2.483300000000001,
+        "y": 2.427000000000001,
+        "z": 2.4745000000000013
+      },
+      "visible": false,
+      "animation": false
+    },
+    {
+      "id": "s_fruit_stand",
+      "filename": "FruitStand",
+      "collisionEnabled": true,
+      "position": {
+        "x": 62.73963345356004,
+        "y": 0,
+        "z": 52.971056731311876
+      },
+      "rotation": {
+        "x": 0,
+        "y": 169.99999999999972,
+        "z": 0
+      },
+      "scaling": {
+        "x": 3.400000000000002,
+        "y": 2.4000000000000012,
+        "z": 2.4000000000000012
+      },
+      "visible": true,
+      "animation": false
+    },
+    {
+      "id": "s_tree_1",
+      "filename": "Tree",
+      "collisionEnabled": true,
+      "position": {
+        "x": -220.79362336756014,
+        "y": 0,
+        "z": 19.790519388641428
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scaling": {
+        "x": 9.997499999999983,
+        "y": 9.952399999999981,
+        "z": 10.006199999999982
+      },
+      "visible": true,
+      "animation": false
+    },
+    {
+      "id": "s_bananabunch_1",
+      "filename": "BananaBunch",
+      "collisionEnabled": true,
+      "position": {
+        "x": -24.205156806368873,
+        "y": 28,
+        "z": 45.97977033721503
+      },
+      "rotation": {
+        "x": 0,
+        "y": -125.99999999999986,
+        "z": 0
+      },
+      "scaling": {
+        "x": 3.300000000000002,
+        "y": 3.300000000000002,
+        "z": 3.300000000000002
+      },
+      "visible": true,
+      "animation": false
+    },
+    {
+      "id": "s_bananabunch_2",
+      "filename": "BananaBunch",
+      "collisionEnabled": true,
+      "position": {
+        "x": 69.57375585448678,
+        "y": 87,
+        "z": 68.23050580128643
+      },
+      "rotation": {
+        "x": 0,
+        "y": 114.99999999999989,
+        "z": 0
+      },
+      "scaling": {
+        "x": 3.300000000000002,
+        "y": 3.300000000000002,
+        "z": 3.300000000000002
+      },
+      "visible": true,
+      "animation": false
+    },
+    {
+      "id": "s_orange_1",
+      "filename": "Orange",
+      "collisionEnabled": true,
+      "position": {
+        "x": 1.7726417187601289,
+        "y": 28,
+        "z": 51.765190785597156
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scaling": {
+        "x": 3.0000000000000018,
+        "y": 3.0000000000000018,
+        "z": 3.0000000000000018
+      },
+      "visible": true,
+      "animation": false
+    },
+    {
+      "id": "s_orange_2",
+      "filename": "Orange",
+      "collisionEnabled": true,
+      "position": {
+        "x": 18.593586989747976,
+        "y": 28,
+        "z": 53.82658576759633
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scaling": {
+        "x": 3.0000000000000018,
+        "y": 3.0000000000000018,
+        "z": 3.0000000000000018
+      },
+      "visible": true,
+      "animation": false
+    },   
+    {
+      "id": "s_apple_1",
+      "filename": "Apple",
+      "collisionEnabled": true,
+      "position": {
+        "x": 27.480948414727248,
+        "y": 57,
+        "z": 50.20646738080859
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scaling": {
+        "x": 3.2000000000000055,
+        "y": 3.2000000000000055,
+        "z": 3.2000000000000055
+      },
+      "visible": true,
+      "animation": false
+    },
+    {
+      "id": "s_apple_2",
+      "filename": "Apple",
+      "collisionEnabled": true,
+      "position": {
+        "x": 48.83060777400147,
+        "y": 56,
+        "z": 51.579581134233365
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scaling": {
+        "x": 3.3000000000000056,
+        "y": 3.3000000000000056,
+        "z": 3.3000000000000056
+      },
+      "visible": true,
+      "animation": false
+    }
+  ],
+  "creatable_objects": []
+}

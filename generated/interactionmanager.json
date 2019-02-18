@@ -1,0 +1,718 @@
+{
+    "description": "..\\scenario\\Storyboard_lesson1session1", 
+    "tasks": [
+        {
+            "description": "Introduction: 2 minutes", 
+            "subtasks": [
+                {
+                    "exit_criteria": [
+                        {
+                            "timeout_ms": "2000", 
+                            "type": "RESPONSE_DELAY_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "1"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "2", 
+                    "tablet_display_actions": {
+                        "scene": "town"
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "timeout_ms": "2000", 
+                            "type": "RESPONSE_DELAY_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "3", 
+                    "tablet_display_actions": {
+                        "objects_added": [
+                            {
+                                "enabled": false, 
+                                "object_id": "zoo"
+                            }
+                        ]
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "object_id": "zoo", 
+                            "type": "OBJECT_SELECT_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "4", 
+                    "tablet_display_actions": {
+                        "objects_enabled": [
+                            {
+                                "object_id": "zoo"
+                            }
+                        ]
+                    }
+                }
+            ], 
+            "task_id": "1"
+        }, 
+        {
+            "description": "Modelling of words: about 10 minutes", 
+            "subtasks": [
+                {
+                    "exit_criteria": [
+                        {
+                            "object_id": "monkey_1", 
+                            "type": "OBJECT_SELECT_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "1", 
+                    "tablet_display_actions": {
+                        "scene": "zoo_1"
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "target_word": "monkey", 
+                            "timeout_ms": 5000, 
+                            "type": "VOICE_ACTIVATION_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "2"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "obj_1": "monkey_1", 
+                            "obj_2": "cage_1", 
+                            "relationship": "in", 
+                            "type": "OBJECT_MOVE_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "3", 
+                    "tablet_display_actions": {
+                        "objects_added": [
+                            {
+                                "object_id": "stars"
+                            }
+                        ], 
+                        "objects_highlighted": [
+                            {
+                                "object_id": "monkey_1"
+                            }, 
+                            {
+                                "object_id": "cage_1"
+                            }
+                        ]
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "object_id": "monkey_1, cage_1", 
+                            "type": "OBJECT_SELECT_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "4"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "target_word": "one", 
+                            "timeout_ms": 5000, 
+                            "type": "VOICE_ACTIVATION_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "5", 
+                    "tablet_display_actions": {
+                        "objects_added": [
+                            {
+                                "object_id": "elephant_1"
+                            }, 
+                            {
+                                "object_id": "elephant_2"
+                            }
+                        ]
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "object_id": "elephant", 
+                            "type": "OBJECT_SELECT_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "6"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "target_word": "elephant", 
+                            "timeout_ms": 5000, 
+                            "type": "VOICE_ACTIVATION_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "7"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "obj_1": "elephant", 
+                            "obj_2": "cage_2", 
+                            "relationship": "in", 
+                            "type": "OBJECT_MOVE_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "8", 
+                    "tablet_display_actions": {
+                        "objects_highlighted": [
+                            {
+                                "object_id": "elephant_1"
+                            }, 
+                            {
+                                "object_id": "cage_2"
+                            }
+                        ]
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "obj_1": "elephant", 
+                            "obj_2": "cage_2", 
+                            "relationship": "in", 
+                            "type": "OBJECT_MOVE_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "9", 
+                    "tablet_display_actions": {
+                        "objects_move": [
+                            {
+                                "loop": "false", 
+                                "object_id": "previous_target", 
+                                "speed": "0.5", 
+                                "x": "73.7103617727126", 
+                                "y": "0", 
+                                "z": "-212.51996992858972"
+                            }
+                        ]
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "target_word": "add", 
+                            "timeout_ms": 5000, 
+                            "type": "VOICE_ACTIVATION_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "10"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "object_id": "cage_2, elephant", 
+                            "type": "OBJECT_SELECT_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "11", 
+                    "tablet_display_actions": {
+                        "objects_move": [
+                            {
+                                "object_id": "stars"
+                            }
+                        ]
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "target_word": "two", 
+                            "timeout_ms": 5000, 
+                            "type": "VOICE_ACTIVATION_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "12"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "object_id": "cage_2", 
+                            "type": "OBJECT_SELECT_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "13"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "object_id": "giraffe", 
+                            "type": "OBJECT_SELECT_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "14", 
+                    "tablet_display_actions": {
+                        "objects_added": [
+                            {
+                                "object_id": "giraffe_1"
+                            }, 
+                            {
+                                "object_id": "giraffe_2"
+                            }, 
+                            {
+                                "object_id": "giraffe_3"
+                            }
+                        ]
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "target_word": "giraffe", 
+                            "timeout_ms": 5000, 
+                            "type": "VOICE_ACTIVATION_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "15"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "obj_1": "giraffe", 
+                            "obj_2": "cage_3", 
+                            "relationship": "in", 
+                            "type": "OBJECT_MOVE_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "16", 
+                    "tablet_display_actions": {
+                        "objects_highlighted": [
+                            {
+                                "object_id": "giraffe_1"
+                            }, 
+                            {
+                                "object_id": "cage_3"
+                            }
+                        ]
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "obj_1": "giraffe", 
+                            "obj_2": "cage_3", 
+                            "relationship": "in", 
+                            "type": "OBJECT_MOVE_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "17", 
+                    "tablet_display_actions": {
+                        "objects_move": [
+                            {
+                                "loop": "false", 
+                                "object_id": "previous_target", 
+                                "speed": "0.5", 
+                                "x": "-359.68235684959643", 
+                                "y": "0", 
+                                "z": "-248.84748374850795"
+                            }
+                        ]
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "obj_1": "giraffe", 
+                            "obj_2": "cage_3", 
+                            "relationship": "in", 
+                            "type": "OBJECT_MOVE_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "18", 
+                    "tablet_display_actions": {
+                        "objects_move": [
+                            {
+                                "loop": "false", 
+                                "object_id": "previous_target", 
+                                "speed": "0.5", 
+                                "x": "-339.81366649036215", 
+                                "y": "0", 
+                                "z": "-131.90623825567974"
+                            }
+                        ]
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "object_id": "cage_3, giraffe", 
+                            "type": "OBJECT_SELECT_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "19", 
+                    "tablet_display_actions": {
+                        "objects_move": [
+                            {
+                                "loop": "false", 
+                                "object_id": "previous_target", 
+                                "speed": "0.5", 
+                                "x": "-322.278766171652", 
+                                "y": "-5.684341886080802e-14", 
+                                "z": "-13.864502877960206"
+                            }
+                        ]
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "target_word": "three", 
+                            "timeout_ms": 5000, 
+                            "type": "VOICE_ACTIVATION_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "20"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "object_id": "cage_3", 
+                            "type": "OBJECT_SELECT_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "21"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "target_word": "most", 
+                            "timeout_ms": 5000, 
+                            "type": "VOICE_ACTIVATION_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "22"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "timeout_ms": "2000", 
+                            "type": "RESPONSE_DELAY_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "23"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "obj_1": "tree", 
+                            "obj_2": "cage_3", 
+                            "relationship": "in", 
+                            "type": "OBJECT_MOVE_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "24", 
+                    "tablet_display_actions": {
+                        "objects_added": [
+                            {
+                                "object_id": "tree_1"
+                            }, 
+                            {
+                                "object_id": "tree_2"
+                            }, 
+                            {
+                                "object_id": "tree_3"
+                            }
+                        ]
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "obj_1": "tree", 
+                            "obj_2": "cage_3", 
+                            "relationship": "in", 
+                            "type": "OBJECT_MOVE_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "25", 
+                    "tablet_display_actions": {
+                        "objects_move": [
+                            {
+                                "loop": "false", 
+                                "object_id": "previous_target", 
+                                "speed": "0.5", 
+                                "x": "-287.68343650361203", 
+                                "y": "-5.684341886080802e-14", 
+                                "z": "-228.44959401604524"
+                            }
+                        ]
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "obj_1": "tree", 
+                            "obj_2": "cage_3", 
+                            "relationship": "in", 
+                            "type": "OBJECT_MOVE_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "26", 
+                    "tablet_display_actions": {
+                        "objects_move": [
+                            {
+                                "loop": "false", 
+                                "object_id": "previous_target", 
+                                "speed": "0.5", 
+                                "x": "-272.7132914985204", 
+                                "y": "0", 
+                                "z": "-118.3203879994"
+                            }
+                        ]
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "27"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "28", 
+                    "tablet_display_actions": {
+                        "objects_move": [
+                            {
+                                "loop": "false", 
+                                "object_id": "previous_target", 
+                                "speed": "0.5", 
+                                "x": "-245.76938056047013", 
+                                "y": "-5.684341886080802e-14", 
+                                "z": "-11.036391543891455"
+                            }
+                        ]
+                    }
+                }
+            ], 
+            "task_id": "2"
+        }, 
+        {
+            "description": "Task: about 5 minutes", 
+            "subtasks": [
+                {
+                    "exit_criteria": [
+                        {
+                            "obj_1": "giraffe", 
+                            "obj_2": "lake_1", 
+                            "relationship": "in", 
+                            "type": "OBJECT_MOVE_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "1", 
+                    "tablet_display_actions": {
+                        "scene": "zoo_2"
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "obj_1": "giraffe", 
+                            "obj_2": "foodtray_1", 
+                            "relationship": "next_to", 
+                            "type": "OBJECT_MOVE_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "2", 
+                    "tablet_display_actions": {
+                        "objects_move": [
+                            {
+                                "loop": "false", 
+                                "object_id": "previous_target", 
+                                "speed": "0.5", 
+                                "x": "218.07345939815215", 
+                                "y": "0", 
+                                "z": "-392.56772148541745"
+                            }
+                        ]
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "obj_1": "giraffe", 
+                            "obj_2": "foodtray_1", 
+                            "relationship": "next_to", 
+                            "type": "OBJECT_MOVE_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "3"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "4"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "obj_1": "giraffe", 
+                            "obj_2": "lake_1", 
+                            "relationship": "in", 
+                            "type": "OBJECT_MOVE_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "5"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "obj_1": "giraffe", 
+                            "obj_2": "lake_1", 
+                            "relationship": "in", 
+                            "type": "OBJECT_MOVE_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "6", 
+                    "tablet_display_actions": {
+                        "objects_move": [
+                            {
+                                "loop": "false", 
+                                "object_id": "previous_target", 
+                                "speed": "0.5", 
+                                "x": "239.61515119179893", 
+                                "y": "0", 
+                                "z": "-290.91638688866834"
+                            }
+                        ]
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "7"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "object_id": "lake_1", 
+                            "type": "OBJECT_SELECT_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "8", 
+                    "tablet_display_actions": {
+                        "objects_move": [
+                            {
+                                "loop": "false", 
+                                "object_id": "previous_target", 
+                                "speed": "0.5", 
+                                "x": "313.79845421235234", 
+                                "y": "0", 
+                                "z": "-403.2882384672171"
+                            }
+                        ]
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "object_id": "foodtray_1", 
+                            "type": "OBJECT_SELECT_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "9"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "object_id": "lake_1", 
+                            "type": "OBJECT_SELECT_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "10"
+                }
+            ], 
+            "task_id": "3"
+        }, 
+        {
+            "description": "End of lesson", 
+            "subtasks": [
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "1", 
+                    "tablet_display_actions": {
+                        "objects_added": [
+                            {
+                                "object_id": "confetti"
+                            }
+                        ]
+                    }
+                }
+            ], 
+            "task_id": "4"
+        }
+    ]
+}

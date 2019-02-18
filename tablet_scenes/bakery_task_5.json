@@ -1,0 +1,274 @@
+{
+  "ground": "black.jpg",
+  "camera": {
+    "Alpha": 2.749658689536554,
+    "Beta": 0.7246173593469953,
+    "Radius": 524.7369233262424,
+    "PositionX": -321.4467628784238,
+    "PositionY": 392.8984031377273,
+    "PositionZ": 132.8595579877378
+  },
+  "loadable_objects": [
+    {
+      "id": "s_3flour_1",
+      "filename": "FlourSack",
+      "collisionEnabled": true,
+      "position": {
+        "x": -29.792896607075022,
+        "y": 0,
+        "z": -221.25155973679307
+      },
+      "rotation": {
+        "x": 0,
+        "y": -58.000000000000085,
+        "z": 0
+      },
+      "scaling": {
+        "x": 5.699999999999997,
+        "y": 5.699999999999997,
+        "z": 5.699999999999997
+      },
+      "visible": true,
+      "animation": false
+    },
+    {
+      "id": "s_3flour_2",
+      "filename": "FlourSack",
+      "collisionEnabled": true,
+      "position": {
+        "x": -68.89896185849295,
+        "y": 0,
+        "z": -296.65622969964954
+      },
+      "rotation": {
+        "x": 0,
+        "y": -58.000000000000085,
+        "z": 0
+      },
+      "scaling": {
+        "x": 5.699999999999997,
+        "y": 5.699999999999997,
+        "z": 5.699999999999997
+      },
+      "visible": true,
+      "animation": false
+    },
+    {
+      "id": "s_3flour_3",
+      "filename": "FlourSack",
+      "collisionEnabled": true,
+      "position": {
+        "x": -104.26097472605343,
+        "y": 0,
+        "z": -223.1895511019377
+      },
+      "rotation": {
+        "x": 0,
+        "y": -58.000000000000085,
+        "z": 0
+      },
+      "scaling": {
+        "x": 5.699999999999997,
+        "y": 5.699999999999997,
+        "z": 5.699999999999997
+      },
+      "visible": true,
+      "animation": false
+    },
+    {
+      "id": "s_bread1",
+      "filename": "BreadLoaf",
+      "collisionEnabled": true,
+      "position": {
+        "x": 23.749586929946474,
+        "y": 0,
+        "z": -7.8008177460731645
+      },
+      "rotation": {
+        "x": -14.999999999999996,
+        "y": -77.00000000000001,
+        "z": 0
+      },
+      "scaling": {
+        "x": 7.9999999999999885,
+        "y": 7.9999999999999885,
+        "z": 7.9999999999999885
+      },
+      "visible": true,
+      "animation": false
+    },
+    {
+      "id": "s_bread3_1",
+      "filename": "BreadLoaf",
+      "collisionEnabled": true,
+      "position": {
+        "x": 161.37100952868644,
+        "y": 0,
+        "z": 258.0868622918223
+      },
+      "rotation": {
+        "x": -14.999999999999996,
+        "y": -77.00000000000001,
+        "z": 0
+      },
+      "scaling": {
+        "x": 7.9999999999999885,
+        "y": 7.9999999999999885,
+        "z": 7.9999999999999885
+      },
+      "visible": true,
+      "animation": false
+    },
+    {
+      "id": "s_bread3_2",
+      "filename": "BreadLoaf",
+      "collisionEnabled": true,
+      "position": {
+        "x": 137.8725656315243,
+        "y": 0,
+        "z": 172.22867405944464
+      },
+      "rotation": {
+        "x": -14.999999999999996,
+        "y": -77.00000000000001,
+        "z": 0
+      },
+      "scaling": {
+        "x": 7.9999999999999885,
+        "y": 7.9999999999999885,
+        "z": 7.9999999999999885
+      },
+      "visible": true,
+      "animation": false
+    },
+    {
+      "id": "s_bread3_3",
+      "filename": "BreadLoaf",
+      "collisionEnabled": true,
+      "position": {
+        "x": 91.66406769398941,
+        "y": 0,
+        "z": 221.74380403495672
+      },
+      "rotation": {
+        "x": -14.999999999999996,
+        "y": -77.00000000000001,
+        "z": 0
+      },
+      "scaling": {
+        "x": 7.9999999999999885,
+        "y": 7.9999999999999885,
+        "z": 7.9999999999999885
+      },
+      "visible": true,
+      "animation": false
+    }
+  ],
+  "creatable_objects": [
+    {
+      "id": "s_area_1",
+      "type": "plane",
+      "collisionEnabled": true,
+      "position": {
+        "x": 124.53587548496779,
+        "y": 0,
+        "z": 223.1445835150089
+      },
+      "rotation": {
+        "x": -90.99999999999997,
+        "y": 20,
+        "z": 0
+      },
+      "scaling": {
+        "x": 4.300000000000002,
+        "y": 4.300000000000002,
+        "z": 4.300000000000002
+      },
+      "visible": true,
+      "image": "none",
+      "uwdsCreate": "none",
+      "color": {
+        "diffuse": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        },
+        "specular": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        }
+      }
+    },
+    {
+      "id": "s_area_2",
+      "type": "plane",
+      "collisionEnabled": true,
+      "position": {
+        "x": 30.482709701873432,
+        "y": 0,
+        "z": -13.966423834710398
+      },
+      "rotation": {
+        "x": -90.99999999999997,
+        "y": 21,
+        "z": 0
+      },
+      "scaling": {
+        "x": 4.300000000000002,
+        "y": 4.300000000000002,
+        "z": 4.300000000000002
+      },
+      "visible": true,
+      "image": "none",
+      "uwdsCreate": "none",
+      "color": {
+        "diffuse": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        },
+        "specular": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        }
+      }
+    },
+    {
+      "id": "s_area_3",
+      "type": "plane",
+      "collisionEnabled": true,
+      "position": {
+        "x": -66.15126581857166,
+        "y": 0,
+        "z": -253.1446716197803
+      },
+      "rotation": {
+        "x": -90.99999999999997,
+        "y": 21,
+        "z": 0
+      },
+      "scaling": {
+        "x": 4.300000000000002,
+        "y": 4.300000000000002,
+        "z": 4.300000000000002
+      },
+      "visible": true,
+      "image": "none",
+      "uwdsCreate": "none",
+      "color": {
+        "diffuse": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        },
+        "specular": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        }
+      }
+    }
+  ]
+}

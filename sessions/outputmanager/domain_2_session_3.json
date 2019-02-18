@@ -1,0 +1,1448 @@
+{
+    "001:001": [
+        {
+            "text": {
+                "Dutch": "<gaze(child)><face(happy)>Hoi <name>! Ben je klaar voor de spelletjes van vandaag? ", 
+                "English": "<gaze(child)><face(happy)>Hi again <name>! Are you ready to play today\u2019s game? ", 
+                "German": "", 
+                "Turkish": ""
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:002": [
+        {
+            "text": {
+                "Dutch": "Ok, laten we beginnen! Vandaag gaan we naar de speeltuin.", 
+                "English": "Alright, let us begin! Today, we are going to the playground! Can you touch <accept_answer)><pointat(tablet)><gaze(tablet)> the playground on the map?", 
+                "German": "", 
+                "Turkish": ""
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:003": [
+        {
+            "text": {
+                "Dutch": "We zijn in de speeltuin,<gaze(child)> maar er is niets om mee te spelen. Dat is gek, ..", 
+                "English": "We arrived at the playground,<gaze(child)> but there is nothing to play with. That is weird. ", 
+                "German": "", 
+                "Turkish": ""
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:004": [
+        {
+            "text": {
+                "Dutch": "<gaze(Tablet)>Aha, er is een glijbaan verschenen, voor de boom! {In front of the tree!} Ik dacht dat dit een hele saaie speeltuin is, helemaal zonder toestellen, maar nu begrijp ik wat er aan de hand is. Ik denk dat we onze eigen speeltuin kunnen maken! \n", 
+                "English": "<gaze(Tablet)>Oh hey, the slide appeared in front of the tree! {In front of the tree!} I thought this is a boring playground with nothing, but I now know what is going on. We get to design our own playground! Can you <pointat(tablet)><gaze(tablet)> <acceptanswer> put the slide somewhere in the playground? <gaze(child)>\n", 
+                "German": "{In front of the tree!} ", 
+                "Turkish": "{In front of the tree!} "
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:005": [
+        {
+            "objective": {
+                "disappear": false, 
+                "id": "slide_1", 
+                "is_plural": false, 
+                "rel": {
+                    "target": {
+                        "id": "slide_location", 
+                        "is_plural": false
+                    }, 
+                    "type": "collision"
+                }, 
+                "target_location": {
+                    "x": 81.08651022567315, 
+                    "y": 0.0, 
+                    "z": -22.66273766731578
+                }
+            }, 
+            "text": {
+                "Dutch": "Zet de <pointat(tablet)><gaze(tablet)> <accept_answer> glijbaan maar in de speeltuin <gaze(child)>", 
+                "English": "", 
+                "German": "", 
+                "Turkish": ""
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:006": [
+        {
+            "text": {
+                "Dutch": "<gaze(tablet)> Ja<face(happy)>, nu hebben we de glijbaan in de speeltuin gezet!<gaze(child)>", 
+                "English": "<gaze(tablet)>Yay<face(happy)>, now we are done placing the slide!<gaze(child)>", 
+                "German": "", 
+                "Turkish": ""
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:007": [
+        {
+            "text": {
+                "Dutch": "<gaze(tablet)>Oh, kijk! ", 
+                "English": "<gaze(tablet)>Oh, look! ", 
+                "German": "", 
+                "Turkish": ""
+            }, 
+            "type": "TEXT_OUTPUT"
+        }, 
+        {
+            "text": "Girl. The girl is running. ", 
+            "type": "TABLET_SPEECH_OUTPUT"
+        }
+    ], 
+    "001:008": [
+        {
+            "objective": {
+                "id": "girl", 
+                "is_plural": false
+            }, 
+            "text": {
+                "Dutch": "Zie je dat? <tablet(off)>Ik denk dat {girl} \"meisje\" betekent. Zeg maar {girl}", 
+                "English": "See? <tablet(off)>I think {girl} means \"girl.\" Can you say {girl}", 
+                "German": "{girl} {girl}", 
+                "Turkish": "{girl} {girl}"
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:009": [
+        {
+            "text": {
+                "Dutch": "Dus ik denk dat de zin van net betekende \"het meisje is aan het rennen\". ", 
+                "English": "", 
+                "German": "", 
+                "Turkish": ""
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:010": [
+        {
+            "text": {
+                "Dutch": "<tablet(on)><gaze(Tablet)>Kijk, ze is weer klaar met rennen.", 
+                "English": "<tablet(on)><gaze(Tablet)>Look, she stopped", 
+                "German": "", 
+                "Turkish": ""
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:011": [
+        {
+            "text": {
+                "Dutch": "Oh, kijk! Nu zie ik een jongen. <gaze(child)>Het Engelse woord voor jongen is {boy}", 
+                "English": "Oh, look! Now I see a boy. <gaze(child)>The English word for boy is {boy}", 
+                "German": "{boy}", 
+                "Turkish": "{boy}"
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:012": [
+        {
+            "objective": {
+                "id": "boy", 
+                "is_plural": false
+            }, 
+            "text": {
+                "Dutch": "Zeg ook maar {boy}", 
+                "English": "Can you say {boy}", 
+                "German": "{boy}", 
+                "Turkish": "{boy}"
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:013": [
+        {
+            "text": {
+                "Dutch": "<gaze(tablet)>Oh, hij is links naast het meisje gaan staan. <gaze(child)> {boy} betekent \"jongen\" en {girl} betekent \"meisje\"... De jongen is naast het meisje. <name>, Weet je wat {The boy is to the left of the girl} betekent?", 
+                "English": "<gaze(tablet)>Oh he stopped on the left of the girl! <gaze(child)>Hm, {boy} means \"boy\", and {girl} means \"girl\"\u2026 The boy is next to the girl. <name>, do you know what {The boy is to the left of the girl} means?", 
+                "German": " {boy} {girl}  {The boy is to the left of the girl} ", 
+                "Turkish": " {boy} {girl}  {The boy is to the left of the girl} "
+            }, 
+            "type": "TEXT_OUTPUT"
+        }, 
+        {
+            "text": "Left. The boy is to the left of the girl. ", 
+            "type": "TABLET_SPEECH_OUTPUT"
+        }
+    ], 
+    "001:014": [
+        {
+            "text": {
+                "Dutch": "Oh, de zin is nu veranderd.", 
+                "English": "Oh, the word order changed.", 
+                "German": "", 
+                "Turkish": ""
+            }, 
+            "type": "TEXT_OUTPUT"
+        }, 
+        {
+            "text": "Right. The girl is to the right of the boy. ", 
+            "type": "TABLET_SPEECH_OUTPUT"
+        }
+    ], 
+    "001:015": [
+        {
+            "objective": {
+                "id": "left", 
+                "is_plural": false
+            }, 
+            "text": {
+                "Dutch": "Ik weet wat de woorden betekenen! {Left} betekent \"links\" en {right} betekent \"rechts\"! Laten we nu eerst het Engelse woord voor links oefenen. Zeg ook maar {left.}", 
+                "English": "Ohhh! I know what they mean! {Left} means \u201cleft\u201d and {right} means \u201cright\u201d! {left.}", 
+                "German": "{Left} {right} {left.}", 
+                "Turkish": "{Left} {right} {left.}"
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:016": [
+        {
+            "objective": {
+                "id": "the boy is to the left of the girl", 
+                "is_plural": false
+            }, 
+            "text": {
+                "Dutch": "En dan nu de hele zin. {The boy is to the left of the girl.}", 
+                "English": "{The boy is to the left of the girl.}", 
+                "German": "{The boy is to the left of the girl.}", 
+                "Turkish": "{The boy is to the left of the girl.}"
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:017": [
+        {
+            "objective": {
+                "id": "the girl is to the right of the boy", 
+                "is_plural": false
+            }, 
+            "text": {
+                "Dutch": "Zo zeg je in het Engels \"De jongen is links van het meisje!\". En laten we nu het Engelse woord voor rechts na zeggen. {Right} Laten we nu de hele zin nazeggen. {The girl is to the right of the boy}", 
+                "English": "That is how we say \u201cThe boy is on the left of the girl\u201d! {Right} {The girl is to the right of the boy}", 
+                "German": "{Right} {The girl is to the right of the boy}", 
+                "Turkish": "{Right} {The girl is to the right of the boy}"
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:018": [
+        {
+            "text": {
+                "Dutch": "Dat betekent \"het meisje is rechts van de jongen!\". ", 
+                "English": "means \u201cthe girl is on the right of the boy\u201d! <name>, what do you think?", 
+                "German": "", 
+                "Turkish": ""
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:019": [
+        {
+            "text": {
+                "Dutch": "", 
+                "English": "", 
+                "German": "", 
+                "Turkish": ""
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:020": [
+        {
+            "text": {
+                "Dutch": "", 
+                "English": "", 
+                "German": "", 
+                "Turkish": ""
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:021": [
+        {
+            "text": {
+                "Dutch": "<gaze(tablet)><pointat(tablet)>Oh, kijk! {The girl!}", 
+                "English": "<gaze(tablet)><pointat(tablet)>Oh look! {The girl!}", 
+                "German": "{The girl!}", 
+                "Turkish": "{The girl!}"
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:022": [
+        {
+            "text": {
+                "Dutch": "", 
+                "English": "", 
+                "German": "", 
+                "Turkish": ""
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:023": [
+        {
+            "text": {
+                "Dutch": "", 
+                "English": "", 
+                "German": "", 
+                "Turkish": ""
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:024": [
+        {
+            "text": {
+                "Dutch": "<gaze(child)>Wow, dat was een nieuw woord!", 
+                "English": "<gaze(child)>Whoa, that was a new word!", 
+                "German": "", 
+                "Turkish": ""
+            }, 
+            "type": "TEXT_OUTPUT"
+        }, 
+        {
+            "text": "The girl is climbing. \u00a0", 
+            "type": "TABLET_SPEECH_OUTPUT"
+        }
+    ], 
+    "001:025": [
+        {
+            "objective": {
+                "id": "the girl is climbing", 
+                "is_plural": false
+            }, 
+            "text": {
+                "Dutch": "{Climbing} moet \"klimmen\" betekenen! <tablet(off)> Laten we het samen nazeggen. {Climbing} En laten we nu de hele zin zeggen {The girl is climbing.}", 
+                "English": "{Climbing} must mean \u201cclimbing\u201d! <tablet(off)>Let\u2019s say it together. {Climbing} {The girl is climbing.}", 
+                "German": "{Climbing} {Climbing} {The girl is climbing.}", 
+                "Turkish": "{Climbing} {Climbing} {The girl is climbing.}"
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:026": [
+        {
+            "text": {
+                "Dutch": "<name>, kun jij laten zien hoe je kunt klimmen? Je mag opstaan als je wilt. {Climbing \\pau=250\\ climbing \\pau=250\\ climbing}", 
+                "English": "<name> can we pretend to be climbing? You can stand up if you would like to. {Climbing \\pau=250\\ climbing \\pau=250\\ climbing}", 
+                "German": "{Climbing \\pau=250\\ climbing \\pau=250\\ climbing}", 
+                "Turkish": "{Climbing \\pau=250\\ climbing \\pau=250\\ climbing}"
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:027": [
+        {
+            "text": {
+                "Dutch": "<tablet(on)><gaze(tablet)>Oh, het meisje is weer gestopt met klimmen", 
+                "English": "<tablet(on)><gaze(tablet)>Oh, the girl stopped! ", 
+                "German": "", 
+                "Turkish": ""
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:028": [
+        {
+            "text": {
+                "Dutch": " ", 
+                "English": " ", 
+                "German": " ", 
+                "Turkish": " "
+            }, 
+            "type": "TEXT_OUTPUT"
+        }, 
+        {
+            "text": "The girl is sliding.", 
+            "type": "TABLET_SPEECH_OUTPUT"
+        }
+    ], 
+    "001:029": [
+        {
+            "objective": {
+                "id": "sliding", 
+                "is_plural": false
+            }, 
+            "text": {
+                "Dutch": "<gaze(child)> Een nieuw woord! {Sliding} dat moet \"glijden\" betekenen! Laten we het nazeggen. {Sliding}", 
+                "English": "<gaze(child)>Another new word! {Sliding} must mean \u201csliding\u201d! Let\u2019s practice the sentence.<name> can you say {Sliding}", 
+                "German": "{Sliding} {Sliding}", 
+                "Turkish": "{Sliding} {Sliding}"
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:030": [
+        {
+            "objective": {
+                "id": "the girl is sliding", 
+                "is_plural": false
+            }, 
+            "text": {
+                "Dutch": "En laten we nu oefenen met een zinnetje. <name>, zeg maar {The girl is sliding}", 
+                "English": "{The girl is sliding}", 
+                "German": "{The girl is sliding}", 
+                "Turkish": "{The girl is sliding}"
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:031": [
+        {
+            "text": {
+                "Dutch": "", 
+                "English": "", 
+                "German": "", 
+                "Turkish": ""
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:032": [
+        {
+            "text": {
+                "Dutch": "Kun jij laten zien hoe je kunt glijden? Je mag opstaan als je wilt  <gesture(sliding)> {Sliding \\pau=250\\ sliding \\pau=250\\ sliding}", 
+                "English": "Let\u2019s pretend we are sliding! You can stand up if you would like to. {Sliding \\pau=250\\ sliding \\pau=250\\ sliding}", 
+                "German": "{Sliding \\pau=250\\ sliding \\pau=250\\ sliding}", 
+                "Turkish": "{Sliding \\pau=250\\ sliding \\pau=250\\ sliding}"
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:033": [
+        {
+            "text": {
+                "Dutch": "<gaze(tablet)><pointat(tablet)>Oh, kijk!", 
+                "English": "<gaze(tablet)><pointat(tablet)>Oh look!", 
+                "German": "", 
+                "Turkish": ""
+            }, 
+            "type": "TEXT_OUTPUT"
+        }, 
+        {
+            "text": "The girl is to the left of the boy. The boy is to the right of the girl. ", 
+            "type": "TABLET_SPEECH_OUTPUT"
+        }
+    ], 
+    "001:034": [
+        {
+            "text": {
+                "Dutch": "<tablet(off)><gaze(child)> Ik vind \"links\" en \"rechts\" echt moeilijk. Laten we een spelletje doen! Ik zeg \"links\" of \"rechts\" in het Engels en dan mag jij die hand omhoog doen. Als ik zeg {left,} dan doe jij jouw linker hand omhoog. Als ik zeg {right,} dan doe jij jouw rechter hand omhoog. OK? ", 
+                "English": "<tablet(off)><gaze(child)>Ugh, left and right are really difficult. Let\u2019s play a game!  I am going to say \u201cleft\u201d or \u201cright\u201d in English and you have to touch one of my hands. If I say, {left,} you touch the left hand <gesture(raiseLeftHand)>. If I say {right,} you touch this hand <gesture(raiseRightHand)> Ready? ", 
+                "German": "{left,} {right,} ", 
+                "Turkish": "{left,} {right,} "
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:035": [
+        {
+            "text": {
+                "Dutch": "De eerste is {right} Doe die hand maar omhoog.", 
+                "English": "the first one is {right} ", 
+                "German": "{right} ", 
+                "Turkish": "{right} "
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:036": [
+        {
+            "text": {
+                "Dutch": "Dit was rechts.", 
+                "English": "yup", 
+                "German": "", 
+                "Turkish": ""
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:037": [
+        {
+            "text": {
+                "Dutch": "De tweede is {left} Doe die hand maar omhoog.", 
+                "English": "You got it right. the second  one is {left} ", 
+                "German": "{left} ", 
+                "Turkish": "{left} "
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:038": [
+        {
+            "text": {
+                "Dutch": "Dit was links, dus {left}", 
+                "English": "yup {left}", 
+                "German": "{left}", 
+                "Turkish": "{left}"
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:039": [
+        {
+            "text": {
+                "Dutch": "De laatste is {right} Doe die hand maar omhoog.", 
+                "English": "You got it right. the last one is {right} ", 
+                "German": "{right} ", 
+                "Turkish": "{right} "
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:040": [
+        {
+            "text": {
+                "Dutch": "Dit was rechts, dus {right} <tablet(on)> <gaze(tablet)> Laten we verder spelen met de \\prn=t E: b l @ t \\!", 
+                "English": "yup {right} You got it right. I think we are ready!", 
+                "German": "{right} ", 
+                "Turkish": "{right} "
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:041": [
+        {
+            "text": {
+                "Dutch": "", 
+                "English": "", 
+                "German": "", 
+                "Turkish": ""
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:042": [
+        {
+            "text": {
+                "Dutch": "Er is een ander toestel <gaze(child)> achter de boom! {Behind the tree!}", 
+                "English": "Another equipment <gaze(child)> appeared behind the tree! {Behind the tree!}", 
+                "German": "{Behind the tree!}", 
+                "Turkish": "{Behind the tree!}"
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:043": [
+        {
+            "objective": {
+                "disappear": false, 
+                "id": "hoop_1", 
+                "is_plural": false, 
+                "rel": {
+                    "target": {
+                        "id": "hoop_location", 
+                        "is_plural": false
+                    }, 
+                    "type": "collision"
+                }, 
+                "target_location": {
+                    "x": -49.85644106658065, 
+                    "y": 3.0, 
+                    "z": 50.93311083553195
+                }
+            }, 
+            "text": {
+                "Dutch": "Zet de <pointat(tablet)><gaze(tablet)> <accept_answer> hoepel maar in de speeltuin <gaze(child)>", 
+                "English": "", 
+                "German": "", 
+                "Turkish": ""
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:044": [
+        {
+            "text": {
+                "Dutch": "<gaze(tablet)>Joehoe!", 
+                "English": "<gaze(tablet)>Woo hoo!", 
+                "German": "", 
+                "Turkish": ""
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:045": [
+        {
+            "text": {
+                "Dutch": "", 
+                "English": "", 
+                "German": "", 
+                "Turkish": ""
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:046": [
+        {
+            "text": {
+                "Dutch": "<gaze(child)>Oh ja, ze zijn aan het lopen {They are walking.}", 
+                "English": "<gaze(child)>Ah yes, they are walking. {They are walking.}", 
+                "German": "{They are walking.}", 
+                "Turkish": "{They are walking.}"
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:047": [
+        {
+            "text": {
+                "Dutch": "", 
+                "English": "", 
+                "German": "", 
+                "Turkish": ""
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:048": [
+        {
+            "text": {
+                "Dutch": "<tablet(on)><gaze(tablet)>Wat doen ze nu?", 
+                "English": "<tablet(on)><gaze(tablet)>Hm, what\u2019s now?", 
+                "German": "", 
+                "Turkish": ""
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:049": [
+        {
+            "text": {
+                "Dutch": "<gaze(child)><tablet(off)>Oh, dat is weer een nieuw woord. Misschien betekent {throwing}", 
+                "English": "<gaze(child)><tablet(off)>Oh, that is a new word! Maybe {throwing}", 
+                "German": "{throwing}", 
+                "Turkish": "{throwing}"
+            }, 
+            "type": "TEXT_OUTPUT"
+        }, 
+        {
+            "text": "Throwing. The girl is throwing the ball.", 
+            "type": "TABLET_SPEECH_OUTPUT"
+        }
+    ], 
+    "001:050": [
+        {
+            "objective": {
+                "id": "throwing", 
+                "is_plural": false
+            }, 
+            "text": {
+                "Dutch": "\"gooien\". Dus {ball} moet \"bal\" betekenen. Zeg ook maar {throwing.}", 
+                "English": "means \u201cthrowing\u201d? So {ball} must mean \u201cball\u201d! {throwing.}", 
+                "German": "{ball} {throwing.}", 
+                "Turkish": "{ball} {throwing.}"
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:051": [
+        {
+            "objective": {
+                "id": "the girl is throwing the ball", 
+                "is_plural": false
+            }, 
+            "text": {
+                "Dutch": "<name>, zeg nu maar de hele zin {the girl is throwing the ball!}", 
+                "English": "<name> say {the girl is throwing the ball!}", 
+                "German": "{the girl is throwing the ball!}", 
+                "Turkish": "{the girl is throwing the ball!}"
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:052": [
+        {
+            "text": {
+                "Dutch": "", 
+                "English": "", 
+                "German": "", 
+                "Turkish": ""
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:053": [
+        {
+            "text": {
+                "Dutch": "<tablet(on)><gaze(tablet)>", 
+                "English": "<tablet(on)><gaze(tablet)>", 
+                "German": "", 
+                "Turkish": ""
+            }, 
+            "type": "TEXT_OUTPUT"
+        }, 
+        {
+            "text": "The girl is throwing the ball.", 
+            "type": "TABLET_SPEECH_OUTPUT"
+        }
+    ], 
+    "001:054": [
+        {
+            "text": {
+                "Dutch": "", 
+                "English": "", 
+                "German": "", 
+                "Turkish": ""
+            }, 
+            "type": "TEXT_OUTPUT"
+        }, 
+        {
+            "text": "The boy is catching the ball.", 
+            "type": "TABLET_SPEECH_OUTPUT"
+        }
+    ], 
+    "001:055": [
+        {
+            "text": {
+                "Dutch": "", 
+                "English": "", 
+                "German": "", 
+                "Turkish": ""
+            }, 
+            "type": "TEXT_OUTPUT"
+        }, 
+        {
+            "text": "Catching. The boy is catching the ball. ", 
+            "type": "TABLET_SPEECH_OUTPUT"
+        }
+    ], 
+    "001:056": [
+        {
+            "objective": {
+                "id": "catching", 
+                "is_plural": false
+            }, 
+            "text": {
+                "Dutch": "<gaze(child)><tablet(off)>Dat betekent vast \"vangen\". Zeg ook maar {Catching}", 
+                "English": "<gaze(child)><tablet(off)>Alright, now we learned another word. {Catching}", 
+                "German": "{Catching}", 
+                "Turkish": "{Catching}"
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:057": [
+        {
+            "objective": {
+                "id": "the boy is catching the ball", 
+                "is_plural": false
+            }, 
+            "text": {
+                "Dutch": "Laten we nu de hele zin zeggen. {the boy is catching the ball}", 
+                "English": "must mean \u201ccatching.\u201d Can you say {the boy is catching the ball}", 
+                "German": "{the boy is catching the ball}", 
+                "Turkish": "{the boy is catching the ball}"
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:058": [
+        {
+            "text": {
+                "Dutch": "Als wij een bal zouden overgooien, zou ik zeggen: {I am throwing the ball! You are catching the ball!\n}", 
+                "English": "Let\u2019s imitate what they are doing. I throw, and you catch. {I am throwing the ball! You are catching the ball!\n}", 
+                "German": "{I am throwing the ball! You are catching the ball!\n}", 
+                "Turkish": "{I am throwing the ball! You are catching the ball!\n}"
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:059": [
+        {
+            "text": {
+                "Dutch": "En dan omgekeerd: {You are throwing the ball. I am catching the ball} dat is leuk!", 
+                "English": "Now, let\u2019s switch! {You are throwing the ball. I am catching the ball} This is fun!", 
+                "German": "{You are throwing the ball. I am catching the ball} ", 
+                "Turkish": "{You are throwing the ball. I am catching the ball} "
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:060": [
+        {
+            "text": {
+                "Dutch": "", 
+                "English": "", 
+                "German": "", 
+                "Turkish": ""
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:061": [
+        {
+            "text": {
+                "Dutch": "<tablet(on)><gaze(tablet)><pointat(tablet)>Kijk! Er staat een trampoline.", 
+                "English": "<tablet(on)><gaze(tablet)><pointat(tablet)>Look! A trampoline appeared behind the tree!", 
+                "German": "", 
+                "Turkish": ""
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:062": [
+        {
+            "objective": {
+                "disappear": false, 
+                "id": "trampoline_1", 
+                "is_plural": false, 
+                "rel": {
+                    "target": {
+                        "id": "trampoline_location", 
+                        "is_plural": false
+                    }, 
+                    "type": "collision"
+                }, 
+                "target_location": {
+                    "x": -15.948278845709911, 
+                    "y": 0.0, 
+                    "z": -144.79766078593312
+                }
+            }, 
+            "text": {
+                "Dutch": "Zet de <pointat(tablet)><gaze(tablet)> <accept_answer> trampoline maar in de speeltuin <gaze(child)>", 
+                "English": "", 
+                "German": "", 
+                "Turkish": ""
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:063": [
+        {
+            "text": {
+                "Dutch": "", 
+                "English": "", 
+                "German": "", 
+                "Turkish": ""
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:064": [
+        {
+            "text": {
+                "Dutch": "", 
+                "English": "", 
+                "German": "", 
+                "Turkish": ""
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:065": [
+        {
+            "text": {
+                "Dutch": "Oh, {the boy is flying!}", 
+                "English": "Oh, {the boy is flying!}", 
+                "German": "{the boy is flying!}", 
+                "Turkish": "{the boy is flying!}"
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:066": [
+        {
+            "text": {
+                "Dutch": "<gaze(child)>O nee, dat betekent \"vliegen\". <name>, Wat was ook alweer het Engelse woord voor springen?", 
+                "English": "<gaze(child)>Wait, that means flying. <name>, what was the English word for \u201cjumping? ", 
+                "German": "", 
+                "Turkish": ""
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:067": [
+        {
+            "text": {
+                "Dutch": "O ja, {Jumping!}", 
+                "English": "{Jumping!}", 
+                "German": "{Jumping!}", 
+                "Turkish": "{Jumping!}"
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:068": [
+        {
+            "text": {
+                "Dutch": "Ik denk dat we klaar zijn met het maken van de speeltuin. En we hebben ook nog allemaal nieuwe woorden geleerd. Laten we eens kijken of we alle Engelse woorden nog weten! We gaan samen een quiz doen! ", 
+                "English": "Great. I think we are done designing the playground, and we learned many new words too! Let\u2019s see if we remember all English words! We are going to quiz each other! ", 
+                "German": "", 
+                "Turkish": ""
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:069": [
+        {
+            "text": {
+                "Dutch": "Jij mag alles aan mij vragen!", 
+                "English": "Alright, you quiz me! Can you touch one of the children? I will tell you what the child is doing! ", 
+                "German": "", 
+                "Turkish": ""
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:070": [
+        {
+            "objective": {
+                "id": "girl_sliding_1", 
+                "is_plural": false
+            }, 
+            "text": {
+                "Dutch": "Raak het kind dat aan het glijden is maar aan, <accept_answer> en dan vertel ik je wat het kind aan het doen is! ", 
+                "English": "", 
+                "German": "", 
+                "Turkish": ""
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:071": [
+        {
+            "text": {
+                "Dutch": "{the girl is sliding} Klopt dat?", 
+                "English": "{the girl is sliding} is that right?", 
+                "German": "{the girl is sliding} ", 
+                "Turkish": "{the girl is sliding} "
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:072": [
+        {
+            "text": {
+                "Dutch": "<face(happy)>Ik had hem goed! {the girl is sliding} Ze is aan het glijden, dus {sliding.} <face(neutral)>", 
+                "English": "<face(happy)>I got it right! {the girl is sliding} {sliding.} ", 
+                "German": "{the girl is sliding} {sliding.} ", 
+                "Turkish": "{the girl is sliding} {sliding.} "
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:073": [
+        {
+            "objective": {
+                "id": "girl_throwing_1", 
+                "is_plural": false
+            }, 
+            "text": {
+                "Dutch": "Raak nu het <accept_answer> kind dat aan het gooien is maar aan.", 
+                "English": "", 
+                "German": "", 
+                "Turkish": ""
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:074": [
+        {
+            "text": {
+                "Dutch": "{the girl is swimming} Klopt dat?", 
+                "English": "{the girl is swimming} is it right?", 
+                "German": "{the girl is swimming} ", 
+                "Turkish": "{the girl is swimming} "
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:075": [
+        {
+            "text": {
+                "Dutch": "Oh, ik had hem fout.. {she is throwing} Het meisje is de bal aan het gooien, dus {throwing.} <face(happy)>", 
+                "English": "Oh shoot, I got it wrong, huh? {she is throwing} {throwing.} ", 
+                "German": "{she is throwing} {throwing.} ", 
+                "Turkish": "{she is throwing} {throwing.} "
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:076": [
+        {
+            "objective": {
+                "id": "boy_catching_1", 
+                "is_plural": false
+            }, 
+            "text": {
+                "Dutch": "Nu de jongen <accept_answer> die de bal aan het vangen is", 
+                "English": "", 
+                "German": "", 
+                "Turkish": ""
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:077": [
+        {
+            "text": {
+                "Dutch": "{the boy is catching} Is dat goed?", 
+                "English": "{the boy is catching} is that right?", 
+                "German": "{the boy is catching} ", 
+                "Turkish": "{the boy is catching} "
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:078": [
+        {
+            "text": {
+                "Dutch": "<face(happy)>Ik had hem goed! {the boy is catching}", 
+                "English": "<face(happy)>I got it right! {the boy is catching}", 
+                "German": "{the boy is catching}", 
+                "Turkish": "{the boy is catching}"
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:079": [
+        {
+            "text": {
+                "Dutch": "De jongen is de bal aan het vangen, dus {catching} <face(neutral)>", 
+                "English": "{catching} ", 
+                "German": "{catching} ", 
+                "Turkish": "{catching} "
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:080": [
+        {
+            "text": {
+                "Dutch": " <wait(500)>", 
+                "English": " ", 
+                "German": " ", 
+                "Turkish": " "
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:081": [
+        {
+            "objective": {
+                "id": "girl_climbing_1", 
+                "is_plural": false
+            }, 
+            "text": {
+                "Dutch": "En de laatste, <accept_answer> het meisje dat aan het klimmen is", 
+                "English": "", 
+                "German": "", 
+                "Turkish": ""
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:082": [
+        {
+            "text": {
+                "Dutch": "{the girl is skipping} Klopt dat?", 
+                "English": "{the girl is skipping} is it right?", 
+                "German": "{the girl is skipping} ", 
+                "Turkish": "{the girl is skipping} "
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:083": [
+        {
+            "text": {
+                "Dutch": "Oh, ik had hem fout {she is climbing} <face(happy)> Ze is aan het klimmen, dus {climbing.}", 
+                "English": "Oh shoot, I got it wrong, huh? {she is climbing}  {climbing.}", 
+                "German": "{she is climbing}  {climbing.}", 
+                "Turkish": "{she is climbing}  {climbing.}"
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "002:001": [
+        {
+            "objective": {
+                "id": "ball_right", 
+                "is_plural": false
+            }, 
+            "text": {
+                "Dutch": "Kijk, dit spelletje mag jij spelen! Ik denk dat je het goed kan. Waar zie je {to the right of} een meisje? <accept_answer>", 
+                "English": " {to the right of} ", 
+                "German": " {to the right of} ", 
+                "Turkish": " {to the right of} "
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "002:002": [
+        {
+            "text": {
+                "Dutch": "", 
+                "English": "", 
+                "German": "", 
+                "Turkish": ""
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "002:003": [
+        {
+            "text": {
+                "Dutch": "", 
+                "English": "", 
+                "German": "", 
+                "Turkish": ""
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "002:004": [
+        {
+            "objective": {
+                "id": "ball_catch", 
+                "is_plural": false
+            }, 
+            "text": {
+                "Dutch": "Waar zie je {catching} <accept_answer>", 
+                "English": "{catching} ", 
+                "German": "{catching} ", 
+                "Turkish": "{catching} "
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "002:005": [
+        {
+            "objective": {
+                "id": "ball_left", 
+                "is_plural": false
+            }, 
+            "text": {
+                "Dutch": "Waar zie je {to the left of} een jongen? <accept_answer>", 
+                "English": "{to the left of} ", 
+                "German": "{to the left of} ", 
+                "Turkish": "{to the left of} "
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "002:006": [
+        {
+            "text": {
+                "Dutch": "", 
+                "English": "", 
+                "German": "", 
+                "Turkish": ""
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "002:007": [
+        {
+            "text": {
+                "Dutch": "", 
+                "English": "", 
+                "German": "", 
+                "Turkish": ""
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "002:008": [
+        {
+            "objective": {
+                "id": "ball_throw", 
+                "is_plural": false
+            }, 
+            "text": {
+                "Dutch": "Waar zie je {throwing} <accept_answer>", 
+                "English": "{throwing} ", 
+                "German": "{throwing} ", 
+                "Turkish": "{throwing} "
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "002:009": [
+        {
+            "text": {
+                "Dutch": "", 
+                "English": "", 
+                "German": "", 
+                "Turkish": ""
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "002:010": [
+        {
+            "text": {
+                "Dutch": "", 
+                "English": "", 
+                "German": "", 
+                "Turkish": ""
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "002:011": [
+        {
+            "objective": {
+                "id": "slide_sliding", 
+                "is_plural": false
+            }, 
+            "text": {
+                "Dutch": "Waar zie je {sliding} <accept_answer>", 
+                "English": "{sliding} ", 
+                "German": "{sliding} ", 
+                "Turkish": "{sliding} "
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "002:012": [
+        {
+            "text": {
+                "Dutch": "", 
+                "English": "", 
+                "German": "", 
+                "Turkish": ""
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "002:013": [
+        {
+            "text": {
+                "Dutch": "", 
+                "English": "", 
+                "German": "", 
+                "Turkish": ""
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "002:014": [
+        {
+            "objective": {
+                "id": "slide_climbing", 
+                "is_plural": false
+            }, 
+            "text": {
+                "Dutch": "Waar zie je {climbing} <accept_answer>", 
+                "English": "{climbing} ", 
+                "German": "{climbing} ", 
+                "Turkish": "{climbing} "
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "002:015": [
+        {
+            "text": {
+                "Dutch": "", 
+                "English": "", 
+                "German": "", 
+                "Turkish": ""
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "002:016": [
+        {
+            "text": {
+                "Dutch": "", 
+                "English": "", 
+                "German": "", 
+                "Turkish": ""
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "002:017": [
+        {
+            "objective": {
+                "id": "slide_sliding", 
+                "is_plural": false
+            }, 
+            "text": {
+                "Dutch": "Waar zie je {sliding} <accept_answer>", 
+                "English": "{sliding} ", 
+                "German": "{sliding} ", 
+                "Turkish": "{sliding} "
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "002:018": [
+        {
+            "objective": {
+                "id": "tree_left", 
+                "is_plural": false
+            }, 
+            "text": {
+                "Dutch": "Waar zie je {to the left of} een boom? <accept_answer>", 
+                "English": "{to the left of} ", 
+                "German": "{to the left of} ", 
+                "Turkish": "{to the left of} "
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "002:019": [
+        {
+            "objective": {
+                "id": "tree_right", 
+                "is_plural": false
+            }, 
+            "text": {
+                "Dutch": "Waar zie je {to the right of} een boom? <accept_answer>", 
+                "English": "{to the right of} ", 
+                "German": "{to the right of} ", 
+                "Turkish": "{to the right of} "
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "002:020": [
+        {
+            "text": {
+                "Dutch": "", 
+                "English": "", 
+                "German": "", 
+                "Turkish": ""
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "002:021": [
+        {
+            "text": {
+                "Dutch": "", 
+                "English": "", 
+                "German": "", 
+                "Turkish": ""
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "002:022": [
+        {
+            "objective": {
+                "id": "slide_climbing", 
+                "is_plural": false
+            }, 
+            "text": {
+                "Dutch": "Waar zie je {climbing} <accept_answer>", 
+                "English": "{climbing} ", 
+                "German": "{climbing} ", 
+                "Turkish": "{climbing} "
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "002:023": [
+        {
+            "text": {
+                "Dutch": "", 
+                "English": "", 
+                "German": "", 
+                "Turkish": ""
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "002:024": [
+        {
+            "text": {
+                "Dutch": "", 
+                "English": "", 
+                "German": "", 
+                "Turkish": ""
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "002:025": [
+        {
+            "objective": {
+                "id": "ball_throw", 
+                "is_plural": false
+            }, 
+            "text": {
+                "Dutch": "Waar zie je {throwing} <accept_answer>", 
+                "English": "{throwing} ", 
+                "German": "{throwing} ", 
+                "Turkish": "{throwing} "
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "002:026": [
+        {
+            "text": {
+                "Dutch": "", 
+                "English": "", 
+                "German": "", 
+                "Turkish": ""
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "002:027": [
+        {
+            "text": {
+                "Dutch": "", 
+                "English": "", 
+                "German": "", 
+                "Turkish": ""
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "002:028": [
+        {
+            "objective": {
+                "id": "ball_catch", 
+                "is_plural": false
+            }, 
+            "text": {
+                "Dutch": "Waar zie je {catching} <accept_answer>", 
+                "English": "{catching} ", 
+                "German": "{catching} ", 
+                "Turkish": "{catching} "
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "003:001": [
+        {
+            "text": {
+                "Dutch": "<gaze(child)>", 
+                "English": "", 
+                "German": "", 
+                "Turkish": ""
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "003:002": [
+        {
+            "text": {
+                "Dutch": "<face(happy)>Jippie, we hebben een ster verdiend! Ik heb zin in de volgende keer dat we weer samen gaan spelen. Daag!", 
+                "English": "<face(happy)>Yay we got a star! I am looking forward to playing with you again. Good bye! ", 
+                "German": "", 
+                "Turkish": ""
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ]
+}

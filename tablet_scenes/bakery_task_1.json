@@ -1,0 +1,296 @@
+{
+  "ground": "black.jpg",
+  "camera": {
+    "Alpha": 2.749658689536554,
+    "Beta": 0.7246173593469953,
+    "Radius": 524.7369233262424,
+    "PositionX": -321.4467628784238,
+    "PositionY": 392.8984031377273,
+    "PositionZ": 132.8595579877378
+  },
+  "loadable_objects": [
+    {
+      "id": "s_3bread_1",
+      "filename": "BreadLoaf",
+      "collisionEnabled": true,
+      "position": {
+        "x": 58.824318490015685,
+        "y": 0,
+        "z": -11.701903326217348
+      },
+      "rotation": {
+        "x": -14.999999999999996,
+        "y": -77.00000000000001,
+        "z": 0
+      },
+      "scaling": {
+        "x": 7.9999999999999885,
+        "y": 7.9999999999999885,
+        "z": 7.9999999999999885
+      },
+      "visible": true,
+      "animation": false
+    },
+    {
+      "id": "s_3bread_2",
+      "filename": "BreadLoaf",
+      "collisionEnabled": true,
+      "position": {
+        "x": 24.98870940184895,
+        "y": 0,
+        "z": 26.140976266654206
+      },
+      "rotation": {
+        "x": -14.999999999999996,
+        "y": -77.00000000000001,
+        "z": 0
+      },
+      "scaling": {
+        "x": 7.9999999999999885,
+        "y": 7.9999999999999885,
+        "z": 7.9999999999999885
+      },
+      "visible": true,
+      "animation": false
+    },
+    {
+      "id": "s_3bread_3",
+      "filename": "BreadLoaf",
+      "collisionEnabled": true,
+      "position": {
+        "x": 2.8638786402063374,
+        "y": 0,
+        "z": -31.754482898574565
+      },
+      "rotation": {
+        "x": -14.999999999999996,
+        "y": -77.00000000000001,
+        "z": 0
+      },
+      "scaling": {
+        "x": 7.9999999999999885,
+        "y": 7.9999999999999885,
+        "z": 7.9999999999999885
+      },
+      "visible": true,
+      "animation": false
+    },
+    {
+      "id": "s_4bread_1",
+      "filename": "BreadLoaf",
+      "collisionEnabled": true,
+      "position": {
+        "x": -32.348780691160925,
+        "y": 0,
+        "z": -217.78847077331963
+      },
+      "rotation": {
+        "x": -14.999999999999996,
+        "y": -77.00000000000001,
+        "z": 0
+      },
+      "scaling": {
+        "x": 7.9999999999999885,
+        "y": 7.9999999999999885,
+        "z": 7.9999999999999885
+      },
+      "visible": true,
+      "animation": false
+    },
+    {
+      "id": "s_4bread_2",
+      "filename": "BreadLoaf",
+      "collisionEnabled": true,
+      "position": {
+        "x": -78.39260903044482,
+        "y": 0,
+        "z": -198.1657456201239
+      },
+      "rotation": {
+        "x": -14.999999999999996,
+        "y": -77.00000000000001,
+        "z": 0
+      },
+      "scaling": {
+        "x": 7.9999999999999885,
+        "y": 7.9999999999999885,
+        "z": 7.9999999999999885
+      },
+      "visible": true,
+      "animation": false
+    },
+    {
+      "id": "s_4bread_3",
+      "filename": "BreadLoaf",
+      "collisionEnabled": true,
+      "position": {
+        "x": -52.00843508160534,
+        "y": 0,
+        "z": -284.73232806336193
+      },
+      "rotation": {
+        "x": -14.999999999999996,
+        "y": -77.00000000000001,
+        "z": 0
+      },
+      "scaling": {
+        "x": 7.9999999999999885,
+        "y": 7.9999999999999885,
+        "z": 7.9999999999999885
+      },
+      "visible": true,
+      "animation": false
+    },
+    {
+      "id": "s_4bread_4",
+      "filename": "BreadLoaf",
+      "collisionEnabled": true,
+      "position": {
+        "x": -99.49172290561302,
+        "y": 0,
+        "z": -262.0438593025792
+      },
+      "rotation": {
+        "x": -14.999999999999996,
+        "y": -77.00000000000001,
+        "z": 0
+      },
+      "scaling": {
+        "x": 7.9999999999999885,
+        "y": 7.9999999999999885,
+        "z": 7.9999999999999885
+      },
+      "visible": true,
+      "animation": false
+    },
+    {
+      "id": "s_1bread",
+      "filename": "BreadLoaf",
+      "collisionEnabled": true,
+      "position": {
+        "x": 120.66326302638015,
+        "y": 0,
+        "z": 226.6767753623272
+      },
+      "rotation": {
+        "x": -14.999999999999996,
+        "y": -77.00000000000001,
+        "z": 0
+      },
+      "scaling": {
+        "x": 7.9999999999999885,
+        "y": 7.9999999999999885,
+        "z": 7.9999999999999885
+      },
+      "visible": true,
+      "animation": false
+    }
+  ],
+  "creatable_objects": [
+    {
+      "id": "s_area_1",
+      "type": "plane",
+      "collisionEnabled": true,
+      "position": {
+        "x": 124.53587548496779,
+        "y": 0,
+        "z": 223.1445835150089
+      },
+      "rotation": {
+        "x": -90.99999999999997,
+        "y": 20,
+        "z": 0
+      },
+      "scaling": {
+        "x": 4.300000000000002,
+        "y": 4.300000000000002,
+        "z": 4.300000000000002
+      },
+      "visible": true,
+      "image": "none",
+      "uwdsCreate": "none",
+      "color": {
+        "diffuse": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        },
+        "specular": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        }
+      }
+    },
+    {
+      "id": "s_area_2",
+      "type": "plane",
+      "collisionEnabled": true,
+      "position": {
+        "x": 30.482709701873432,
+        "y": 0,
+        "z": -13.966423834710398
+      },
+      "rotation": {
+        "x": -90.99999999999997,
+        "y": 21,
+        "z": 0
+      },
+      "scaling": {
+        "x": 4.300000000000002,
+        "y": 4.300000000000002,
+        "z": 4.300000000000002
+      },
+      "visible": true,
+      "image": "none",
+      "uwdsCreate": "none",
+      "color": {
+        "diffuse": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        },
+        "specular": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        }
+      }
+    },
+    {
+      "id": "s_area_3",
+      "type": "plane",
+      "collisionEnabled": true,
+      "position": {
+        "x": -66.15126581857166,
+        "y": 0,
+        "z": -253.1446716197803
+      },
+      "rotation": {
+        "x": -90.99999999999997,
+        "y": 21,
+        "z": 0
+      },
+      "scaling": {
+        "x": 4.300000000000002,
+        "y": 4.300000000000002,
+        "z": 4.300000000000002
+      },
+      "visible": true,
+      "image": "none",
+      "uwdsCreate": "none",
+      "color": {
+        "diffuse": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        },
+        "specular": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        }
+      }
+    }
+  ]
+}

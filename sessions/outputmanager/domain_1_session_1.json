@@ -1,0 +1,895 @@
+{
+    "001:001": [
+        {
+            "text": {
+                "Dutch": "<tablet(off)><Gaze(child)><Face(Neutral)>Hoi <name>. Laten we samen spelletjes doen! Houd jij van spelletjes?", 
+                "English": "<tablet(off)><Gaze(child)><Face(Neutral)>Hello <name>. Let\u2019s play together! Do you like games?", 
+                "German": "<tablet(off)><Gaze(child)><Face(Neutral)>Hallo <name>. Lass uns spielen! Magst du Spiele? ", 
+                "Turkish": ""
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:002": [
+        {
+            "text": {
+                "Dutch": "Ik houd heel veel van spelletjes. <Face(Happy)> <tablet(on)>Kijk <Gaze(tablet)> we gaan vandaag naar een nieuwe plek toe. <Face(Neutral)>  Kijk eens waar we naartoe gaan! <Gaze(child)> <Gesture(Pretends to touch tablet)>", 
+                "English": "I really like games! <Face(Happy)> <tablet(on)>Look <Gaze(tablet)> we will visit a new place today. <Face(Neutral)> Look where we\u2019re going today! <Gaze(child)> <Gesture(Pretends to touch tablet)>", 
+                "German": "Ich liebe Spiele! <Face(Happy)> <tablet(on)> Schau <Gaze(tablet)> Wir besuchen heute einen neuen Ort. <Face(Neutral)> Schau wohin wir gehen! <Gaze(child)> <Gesture(Pretends to touch tablet)>", 
+                "Turkish": ""
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:003": [
+        {
+            "text": {
+                "Dutch": "<Gaze(child)>Jippie <Face(Happy)>, vandaag gaan we naar de dierentuin! Ik houd heel veel van dieren. Houd jij ook van dieren?", 
+                "English": "<Gaze(child)>Cool <Face(Happy)>, today we\u2019ll visit the zoo! I really like animals. Do you also like animals? ", 
+                "German": "<Gaze(child)>Cool <Face(Happy)>, heute gehen wir in den Zoo! Ich mag Tiere. Magst du auch gerne Tiere? ", 
+                "Turkish": ""
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "002:001": [
+        {
+            "objective": {
+                "id": "monkey_1", 
+                "is_plural": false
+            }, 
+            "text": {
+                "Dutch": "Kijk <Face(Happy)>, een aap! Raak hem <pointAt(tablet)> <Gaze(tablet)> maar aan, dan horen we <Gaze(child)> het Engelse woord<accept_answer> voor aap. ", 
+                "English": "Cool <Face(Happy)>, a monkey! Touch it  <pointAt(tablet)> <Gaze(tablet)> and we\u2019ll <Gaze(child)> hear the English word <accept_answer>  for monkey. ", 
+                "German": "Toll <Face(Happy)>, ein Affe! Ber\u00fchre ihn <pointAt(tablet)> <Gaze(tablet)> und wir <Gaze(child)> h\u00f6ren das englische Wort f\u00fcr Affe.  ", 
+                "Turkish": " "
+            }, 
+            "type": "TEXT_OUTPUT"
+        }, 
+        {
+            "text": "monkey", 
+            "type": "TABLET_SPEECH_OUTPUT"
+        }
+    ], 
+    "002:002": [
+        {
+            "objective": {
+                "id": "monkey", 
+                "is_plural": false
+            }, 
+            "text": {
+                "Dutch": "<Gaze(child)>Oh, <tablet(off)>een aap is in het Engels {monkey} Zeg maar {monkey} ", 
+                "English": "<Gaze(child)>Ah, <tablet(off)>an monkey is in English a {monkey} Can you also say {monkey} ", 
+                "German": "<Gaze(child)>Ah, <tablet(off)> ein Affe auf Englisch hei\u00dft {monkey} Kannst du auch {monkey} sagen?", 
+                "Turkish": "{monkey} {monkey} "
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "002:003": [
+        {
+            "objective": {
+                "id": "monkey_1", 
+                "is_plural": false, 
+                "rel": {
+                    "target": {
+                        "id": "cage_1", 
+                        "is_plural": false
+                    }, 
+                    "type": "in"
+                }, 
+                "target_location": {
+                    "x": 235.9843465223372, 
+                    "y": 5.684341886080802e-14, 
+                    "z": -62.218300282493146
+                }
+            }, 
+            "text": {
+                "Dutch": "Nu moeten we iets belangrijks doen. <tablet(on)>De aap is ontsnapt en we moeten hem in zijn kooi zetten.<accept_answer> <name>, zet <pointAt(tablet)> <Gaze(tablet)> de {monkey} maar in zijn kooi   .  ", 
+                "English": "Now, I think there\u2019s a very important task for us! <tablet(on)>The monkey is loose and we have to put it in its cage! <accept_answer> Put <pointAt(tablet)> <Gaze(tablet)>  the {monkey} in its cage  .  ", 
+                "German": "Ich glaube es gibt eine wirklich wichtige Aufgabe f\u00fcr uns! <tablet(on)> Der Affe ist ausgebrochen und wir m\u00fcssen ihn wieder in seinen K\u00e4fig bringen! Setze <pointAt(tablet)> <Gaze(tablet)>den {monkey} in seinen K\u00e4fig <pointAt(tablet)> <Gaze(tablet)> .  ", 
+                "Turkish": "{monkey}  "
+            }, 
+            "type": "TEXT_OUTPUT"
+        }, 
+        {
+            "text": "<happy_sound>", 
+            "type": "TABLET_SPEECH_OUTPUT"
+        }
+    ], 
+    "002:004": [
+        {
+            "objective": {
+                "id": "monkey_1", 
+                "is_plural": false, 
+                "rel": {
+                    "target": {
+                        "id": "cage_1", 
+                        "is_plural": false
+                    }, 
+                    "type": "in"
+                }
+            }, 
+            "text": {
+                "Dutch": "In <Gaze(child)> de kooi zit nu 1 {monkey} Laten we kijken wat het Engelse woord is voor 1. Raak de {monkey} <accept_answer>in de kooi maar aan ", 
+                "English": "<Gaze(child)>Now we have one {monkey} Let\u2019s hear what one is in English. Can you touch the {monkey} in the cage ", 
+                "German": "<Gaze(child)>Jetzt haben wir einen {monkey} Lass uns h\u00f6ren, was eins auf Englisch hei\u00dft. Kannst du den {monkey} im K\u00e4fig ber\u00fchren? ", 
+                "Turkish": "{monkey} {monkey}  "
+            }, 
+            "type": "TEXT_OUTPUT"
+        }, 
+        {
+            "text": "one monkey", 
+            "type": "TABLET_SPEECH_OUTPUT"
+        }
+    ], 
+    "002:005": [
+        {
+            "objective": {
+                "id": "one", 
+                "is_plural": false
+            }, 
+            "text": {
+                "Dutch": "<tablet(off)>Dus, 1 is {one} Zeg maar {one} ", 
+                "English": "<Gaze(child)><tablet(off)>so one is {one} say {one} ", 
+                "German": "<Gaze(child)><tablet(off)>so eins hei\u00dft {one} sag {one} ", 
+                "Turkish": "{one} {one} "
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "002:006": [
+        {
+            "objective": {
+                "id": "elephant", 
+                "is_plural": true
+            }, 
+            "text": {
+                "Dutch": "<tablet(on)><Gaze(tablet)> Kijk, olifanten! Raak ze <pointAt(tablet)> maar aan,<accept_answer> dan horen we <Gaze(child)>  het Engelse woord voor olifant. ", 
+                "English": "<tablet(on)><Gaze(tablet)> Cool, elephants! Touch them <pointAt(tablet)>   and we\u2019ll <Gaze(child)> hear the English word for elephant. ", 
+                "German": "<tablet(on)><Gaze(tablet)> Cool, Elefanten! Ber\u00fchre sie <pointAt(tablet)>   und wir  <Gaze(child)> h\u00f6ren das englische Wort f\u00fcr Elefant. ", 
+                "Turkish": " "
+            }, 
+            "type": "TEXT_OUTPUT"
+        }, 
+        {
+            "text": "elephant", 
+            "type": "TABLET_SPEECH_OUTPUT"
+        }
+    ], 
+    "002:007": [
+        {
+            "objective": {
+                "id": "elephant", 
+                "is_plural": false
+            }, 
+            "text": {
+                "Dutch": "<Gaze(child)><tablet(off)>Aha, dus olifant is in het Engels {elephant} Zeg maar {elephant}", 
+                "English": "<Gaze(child)><tablet(off)>Ah, an elephant is in English an  {elephant} Can you also say {elephant}", 
+                "German": "<Gaze(child)><tablet(off)>Ah, ein Elefant hei\u00dft auf Englisch {elephant} Kannst du das auch sagen? {elephant}", 
+                "Turkish": "{elephant} {elephant}"
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "002:008": [
+        {
+            "objective": {
+                "id": "elephant", 
+                "is_plural": false, 
+                "rel": {
+                    "target": {
+                        "id": "cage_2", 
+                        "is_plural": false
+                    }, 
+                    "type": "in"
+                }, 
+                "target_location": {
+                    "x": 73.7103617727126, 
+                    "y": 0.0, 
+                    "z": -212.51996992858972
+                }
+            }, 
+            "text": {
+                "Dutch": " <tablet(on)>Eens kijken <Gaze(tablet)> wat we nu moeten doen. <Gaze(child)> De olifanten zijn ontsnapt en we moeten ze terugzetten in hun kooi. Zet {one elephant} <accept_answer> maar in zijn kooi. <pointAt(tablet)> <Gaze(tablet)> .  ", 
+                "English": " <tablet(on)>let\u2019s see <Gaze(tablet)> what we have to do now. <Gaze(child)> The elephants are loose and we have to put them in their cage! Put  {one elephant} in its cage. <pointAt(tablet)> <Gaze(tablet)> .  ", 
+                "German": " <tablet(on)>Mal sehen<Gaze(tablet)> was k\u00f6nnen wir jetzt machen?  <Gaze(child)> Die Elefanten sind auch ausgebrochen und wir m\u00fcssen sie wieder in ihren K\u00e4fig setzen! Setze {one elephant} in seinen K\u00e4fig. <pointAt(tablet)> <Gaze(tablet)> .  ", 
+                "Turkish": " {one elephant}  "
+            }, 
+            "type": "TEXT_OUTPUT"
+        }, 
+        {
+            "text": "<happy_sound>", 
+            "type": "TABLET_SPEECH_OUTPUT"
+        }
+    ], 
+    "002:009": [
+        {
+            "objective": {
+                "id": "elephant", 
+                "is_plural": false, 
+                "rel": {
+                    "target": {
+                        "id": "cage_2", 
+                        "is_plural": false
+                    }, 
+                    "type": "in"
+                }, 
+                "target_location": {
+                    "x": -51.29262890363403, 
+                    "y": 5.684341886080802e-14, 
+                    "z": -131.90623825422057
+                }
+            }, 
+            "text": {
+                "Dutch": "<Gaze(child)> Er is nog steeds {one elephant} uit zijn kooi.<accept_answer> <name>, doe hem maar erbij in de kooi <Gaze(tablet)> dan kunnen we <Gaze(child)> horen wat erbij doen is in het Engels. ", 
+                "English": "<Gaze(child)> there is still {one elephant} outside of the cage. Add it to the cage <Gaze(tablet)> and we <Gaze(child)> will hear what \"add\" is ", 
+                "German": "<Gaze(child)> Da ist immer noch {one elephant} vor dem K\u00e4fig. F\u00fcges ihn dem K\u00e4fig hinzu <Gaze(tablet)> und wir <Gaze(child)> werden h\u00f6ren was \"hinzuf\u00fcgen\" auf Englisch hei\u00dft ", 
+                "Turkish": "{one elephant}  "
+            }, 
+            "type": "TEXT_OUTPUT"
+        }, 
+        {
+            "text": "add", 
+            "type": "TABLET_SPEECH_OUTPUT"
+        }
+    ], 
+    "002:010": [
+        {
+            "objective": {
+                "id": "add", 
+                "is_plural": false
+            }, 
+            "text": {
+                "Dutch": "<tablet(off)> {\\\\rspd=50\\\\add\\\\rspd=75\\\\} Zeg maar {\\\\rspd=50\\\\add\\\\rspd=75\\\\}", 
+                "English": "<tablet(off)> {\\\\rspd=50\\\\add\\\\rspd=75\\\\} say {\\\\rspd=50\\\\add\\\\rspd=75\\\\}", 
+                "German": "<tablet(off)> {\\\\rspd=50\\\\add\\\\rspd=75\\\\} sag {\\\\rspd=50\\\\add\\\\rspd=75\\\\}", 
+                "Turkish": "{\\\\rspd=50\\\\add\\\\rspd=75\\\\} {\\\\rspd=50\\\\add\\\\rspd=75\\\\}"
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "002:011": [
+        {
+            "objective": {
+                "id": "elephant", 
+                "is_plural": true, 
+                "rel": {
+                    "target": {
+                        "id": "cage_2", 
+                        "is_plural": false
+                    }, 
+                    "type": "in"
+                }
+            }, 
+            "text": {
+                "Dutch": "<tablet(on)><Gaze(child)> Dus erbij doen is {\\\\rspd=50\\\\add\\\\rspd=75\\\\} Dat deed je goed, het erbij doen, dus het {\\\\rspd=50\\\\add\\\\rspd=75\\\\} en nu zijn er twee olifanten in de kooi! Raak <pointAt(tablet)><Gaze(tablet)> ze maar aan<accept_answer> dan horen we <Gaze(child)>  wat twee is in het Engels ", 
+                "English": "<tablet(on)><Gaze(child)> Now there are two elephants in the cage! Touch <pointAt(tablet)><Gaze(tablet)> them, then we\u2019ll  <Gaze(child)> hear what two is. {\\\\rspd=50\\\\add\\\\rspd=75\\\\} {\\\\rspd=50\\\\add\\\\rspd=75\\\\}  ", 
+                "German": "<tablet(on)><Gaze(child)> Da sind jetzt zwei Elefanten im K\u00e4fig! Ber\u00fchre <pointAt(tablet)><Gaze(tablet)> sie und wir <Gaze(child)> werden h\u00f6ren was zwei auf Englisch hei\u00dft {\\\\rspd=50\\\\add\\\\rspd=75\\\\} {\\\\rspd=50\\\\add\\\\rspd=75\\\\}  ", 
+                "Turkish": "{\\\\rspd=50\\\\add\\\\rspd=75\\\\} {\\\\rspd=50\\\\add\\\\rspd=75\\\\}  "
+            }, 
+            "type": "TEXT_OUTPUT"
+        }, 
+        {
+            "text": "two", 
+            "type": "TABLET_SPEECH_OUTPUT"
+        }
+    ], 
+    "002:012": [
+        {
+            "objective": {
+                "id": "two", 
+                "is_plural": false
+            }, 
+            "text": {
+                "Dutch": "<tablet(off)> {two} Zeg maar {two}", 
+                "English": "<tablet(off)> {two} say {two}", 
+                "German": "<tablet(off)> {two} sag {two}", 
+                "Turkish": "{two} {two}"
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "002:013": [
+        {
+            "objective": {
+                "id": "cage", 
+                "is_plural": false, 
+                "rel": {
+                    "target": {
+                        "id": "animal", 
+                        "is_plural": true
+                    }, 
+                    "type": "more"
+                }
+            }, 
+            "text": {
+                "Dutch": " <tablet(on)><Gaze(child)> {two} we hebben {two elephants} in de kooi. In een van de kooien zitten meer dieren. <name>, raak <pointAt(tablet)><Gaze(tablet)> de kooi aan <accept_answer>waarin meer dieren zitten dan in de andere kooi, dan horen we <Gaze(child)>  het Engelse woord voor meer. ", 
+                "English": " <tablet(on)><Gaze(child)> Great, we have {two} {two elephants} in the cage. One of the cages has more animals. Touch <pointAt(tablet)><Gaze(tablet)> the cage with more animals than the other, and we\u2019ll  <Gaze(child)> hear the English word for more. ", 
+                "German": " <tablet(on)><Gaze(child)> Toll, wir haben {two} {two elephants} im K\u00e4fig. In einem der K\u00e4fige sind mehr Tiere. Ber\u00fchre <pointAt(tablet)><Gaze(tablet)> den K\u00e4fig mit mehr Tieren als im anderen und wir  <Gaze(child)> h\u00f6ren das englische Wort f\u00fcr mehr. ", 
+                "Turkish": "{two} {two elephants}  "
+            }, 
+            "type": "TEXT_OUTPUT"
+        }, 
+        {
+            "text": "more", 
+            "type": "TABLET_SPEECH_OUTPUT"
+        }
+    ], 
+    "002:014": [
+        {
+            "objective": {
+                "id": "more", 
+                "is_plural": false
+            }, 
+            "text": {
+                "Dutch": "<tablet(off)> {more} Zeg maar {more}", 
+                "English": "{more} {more}", 
+                "German": "{more} {more}", 
+                "Turkish": "{more} {more}"
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "002:015": [
+        {
+            "objective": {
+                "id": "giraffe", 
+                "is_plural": true
+            }, 
+            "text": {
+                "Dutch": "<tablet(on)> In die kooi zitten dus {more} dieren. <Gaze(child)> Kom, dan gaan we naar de volgende kooi.  Leuk {more} dieren. Nu hebben we {one monkey, two elephants } en drie zjiraffen. Laten we eens horen wat zjiraf is in het Engels. Raak <pointAt(tablet)> de zjiraffen<accept_answer> maar aan <Gaze(tablet)> dan horen we het Engelse woord voor zjiraf. ", 
+                "English": " <Gaze(child)> Now, lets go to the next cage. {more}   Cool {more} animals! Now we have {one monkey, two elephants } and three giraffes. Let's see what that is in English. Touch <pointAt(tablet)> the giraffe <Gaze(tablet)> and let's find out.  ", 
+                "German": " <Gaze(child)>Ok, lass uns zum n\u00e4chsten K\u00e4fig gehen. {more}   Cool {more} Tiere! Jetzt haben wir {one monkey, two elephants } und drei Giraffen. Mal sehen, was das auf Englisch hei\u00dft. Ber\u00fchre <pointAt(tablet)>die Giraffe<Gaze(tablet)> und finden wir es heraus! ", 
+                "Turkish": "{more}   {more} {one monkey, two elephants }  "
+            }, 
+            "type": "TEXT_OUTPUT"
+        }, 
+        {
+            "text": "giraffe", 
+            "type": "TABLET_SPEECH_OUTPUT"
+        }
+    ], 
+    "002:016": [
+        {
+            "objective": {
+                "id": "giraffe", 
+                "is_plural": false
+            }, 
+            "text": {
+                "Dutch": " <Gaze(child)><tablet(off)> {giraffe} Zeg maar {giraffe}", 
+                "English": " <Gaze(child)><tablet(off)> {giraffe} say {giraffe}", 
+                "German": " <Gaze(child)><tablet(off)> {giraffe} sag {giraffe}", 
+                "Turkish": "{giraffe} {giraffe}"
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "002:017": [
+        {
+            "objective": {
+                "id": "giraffe", 
+                "is_plural": false, 
+                "rel": {
+                    "target": {
+                        "id": "cage_3", 
+                        "is_plural": false
+                    }, 
+                    "type": "in"
+                }, 
+                "target_location": {
+                    "x": -335.70900654845275, 
+                    "y": -5.684341886080802e-14, 
+                    "z": -230.19707460831592
+                }
+            }, 
+            "text": {
+                "Dutch": "<tablet(on)>Kijk, er zijn {more giraffes} dan olifanten en apen, want drie is {more} dan twee en 1. Kijk hier eens. We moeten nog iets belangrijks doen. Laten we de {giraffe } <accept_answer>in zijn kooi zetten!", 
+                "English": "<tablet(on)>Nice, there are {more giraffes}  than elephants and monkeys. Look at this, we have another important task. Let\u2019s put the {more} {giraffe }  in its cage!", 
+                "German": "<tablet(on)>Oh, sch\u00f6n, da sind {more giraffes} als Elefanten und Affen. Sieh dir das an, wir haben eine weitere wichtige Aufgabe. Lass uns die {more} {giraffe }  in den K\u00e4fig bringen!", 
+                "Turkish": "{more giraffes} {more} {giraffe } "
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "002:018": [
+        {
+            "objective": {
+                "id": "giraffe", 
+                "is_plural": false, 
+                "rel": {
+                    "target": {
+                        "id": "cage_3", 
+                        "is_plural": false
+                    }, 
+                    "type": "in"
+                }, 
+                "target_location": {
+                    "x": -323.9528487213379, 
+                    "y": 0.0, 
+                    "z": -144.18630608509073
+                }
+            }, 
+            "text": {
+                "Dutch": " <Gaze(child)>Er zijn nog steeds {two giraffes } uit hun kooi. Er zijn {more giraffes} uit  de kooi dan in de kooi. Die moeten we erbij doen, dus {\\\\rspd=50\\\\add\\\\rspd=75\\\\.} Kun jij {\\\\rspd=50\\\\add\\\\rspd=75\\\\ one giraffe} <accept_answer> in de kooi?", 
+                "English": " <Gaze(child)>There are still {two giraffes } outside of the cage. There are {more giraffes} {\\\\rspd=50\\\\add\\\\rspd=75\\\\.} outside of the cage than inside of the cage. Can you {\\\\rspd=50\\\\add\\\\rspd=75\\\\ one giraffe} to the cage?", 
+                "German": " <Gaze(child)>Da sind  {two giraffes } au\u00dferhalb des K\u00e4figs. Da sind noch {more giraffes} {\\\\rspd=50\\\\add\\\\rspd=75\\\\.} au\u00dferhalb des K\u00e4figs als innerhalb des K\u00e4figs. Kannst du {\\\\rspd=50\\\\add\\\\rspd=75\\\\ one giraffe} in den K\u00e4fig?  ", 
+                "Turkish": "{two giraffes } {more giraffes} {\\\\rspd=50\\\\add\\\\rspd=75\\\\.} {\\\\rspd=50\\\\add\\\\rspd=75\\\\ one giraffe} "
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "002:019": [
+        {
+            "objective": {
+                "id": "giraffe", 
+                "is_plural": false, 
+                "rel": {
+                    "target": {
+                        "id": "cage_3", 
+                        "is_plural": false
+                    }, 
+                    "type": "in"
+                }, 
+                "target_location": {
+                    "x": -260.6427905021394, 
+                    "y": 0.0, 
+                    "z": -18.81109768295761
+                }
+            }, 
+            "text": {
+                "Dutch": "<Gaze(child)> We moesten 1 zjiraf erbij doen, dus {\\\\rspd=50\\\\add\\\\rspd=75\\\\} en nu zijn er {two giraffes } in de kooi. Nu zijn er {more giraffes } in hun kooi dan buiten hun kooi. <name>, kun jij {\\\\rspd=50\\\\add\\\\rspd=75\\\\ one giraffe?} <accept_answer>", 
+                "English": "<Gaze(child)> now there are {\\\\rspd=50\\\\add\\\\rspd=75\\\\} {two giraffes } in the cage. Now there are {more giraffes } inside the cage than outside the cage. Can you {\\\\rspd=50\\\\add\\\\rspd=75\\\\ one giraffe?} ", 
+                "German": "<Gaze(child)> Jetzt sind da {\\\\rspd=50\\\\add\\\\rspd=75\\\\} {two giraffes } im K\u00e4fig. Jetzt sind {more giraffes } innerhalb des K\u00e4figs als au\u00dferhalb. Kannst du {\\\\rspd=50\\\\add\\\\rspd=75\\\\ one giraffe?} ", 
+                "Turkish": "{\\\\rspd=50\\\\add\\\\rspd=75\\\\} {two giraffes } {more giraffes } {\\\\rspd=50\\\\add\\\\rspd=75\\\\ one giraffe?} "
+            }, 
+            "type": "TEXT_OUTPUT"
+        }, 
+        {
+            "text": "<happy_sound>", 
+            "type": "TABLET_SPEECH_OUTPUT"
+        }
+    ], 
+    "002:020": [
+        {
+            "objective": {
+                "id": "giraffe", 
+                "is_plural": true, 
+                "rel": {
+                    "target": {
+                        "id": "cage_3", 
+                        "is_plural": false
+                    }, 
+                    "type": "in"
+                }
+            }, 
+            "text": {
+                "Dutch": "Nu <Gaze(tablet)> zijn we klaar met het erbij doen, dus {\\\\rspd=50\\\\add\\\\rspd=75\\\\} want nu zijn er drie zjiraffen in de kooi! Deeze kooi heeft {more } dieren dan de andere kooien. Raak <pointAt(tablet)>, <accept_answer>de zjiraffen maar aan, dan horen we wat drie is in het Engels. ", 
+                "English": "Now <Gaze(tablet)>there are three giraffes! This cage has {\\\\rspd=50\\\\add\\\\rspd=75\\\\} {more } animals in it than the other cages. Touch them <pointAt(tablet)>, then we\u2019ll hear what three is? ", 
+                "German": "Jetzt <Gaze(tablet)>sind da drei Giraffen. In dem K\u00e4fig sind {\\\\rspd=50\\\\add\\\\rspd=75\\\\} {more } Tiere als in den anderen K\u00e4figen. Ber\u00fchre sie<pointAt(tablet)>, dann h\u00f6ren wir was drei ist! ", 
+                "Turkish": "{\\\\rspd=50\\\\add\\\\rspd=75\\\\} {more }  "
+            }, 
+            "type": "TEXT_OUTPUT"
+        }, 
+        {
+            "text": "three", 
+            "type": "TABLET_SPEECH_OUTPUT"
+        }
+    ], 
+    "002:021": [
+        {
+            "objective": {
+                "id": "three", 
+                "is_plural": false
+            }, 
+            "text": {
+                "Dutch": "<tablet(off)> {three} Zeg maar {three}", 
+                "English": "<tablet(off)> {three} say {three}", 
+                "German": "<tablet(off)> {three} sag {three}", 
+                "Turkish": "{three} {three}"
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "002:022": [
+        {
+            "objective": {
+                "id": "cage", 
+                "is_plural": false, 
+                "rel": {
+                    "target": {
+                        "id": "animal", 
+                        "is_plural": true
+                    }, 
+                    "type": "most"
+                }
+            }, 
+            "text": {
+                "Dutch": "<Gaze(child)>Even tellen<tablet(on)> {one monkey, two elephants and three giraffes } zijn terug in hun kooien. In een van de kooien zitten de meeste dieren. <Gaze(tablet)>. <accept_answer>Raak <pointAt(tablet)> de kooi met de meeste dieren maar aan dan horen we het Engelse woord voor 'meeste'. ", 
+                "English": "<Gaze(child)> You did an awesome job, <tablet(on)> {one monkey, two elephants and three giraffes } are back in their cage! One cage has most animals <Gaze(tablet)>. Touch <pointAt(tablet)> the cage with most animals, and we\u2019ll hear the English word for most. ", 
+                "German": "<Gaze(child)> Das hast du gut gemacht! <tablet(on)> {one monkey, two elephants and three giraffes } sind wieder in ihren K\u00e4figen.Ein K\u00e4fig hat am meisten Tiere <Gaze(tablet)>. Ber\u00fchre <pointAt(tablet)> den K\u00e4fig mit den meisten Tieren und wir h\u00f6ren das englische Wort f\u00fcr \"am meisten\". ", 
+                "Turkish": "{one monkey, two elephants and three giraffes }  "
+            }, 
+            "type": "TEXT_OUTPUT"
+        }, 
+        {
+            "text": "most", 
+            "type": "TABLET_SPEECH_OUTPUT"
+        }
+    ], 
+    "002:023": [
+        {
+            "objective": {
+                "id": "most", 
+                "is_plural": false
+            }, 
+            "text": {
+                "Dutch": "<tablet(off)> {most} Zeg maar {most}", 
+                "English": "<tablet(off)> {most} say {most}", 
+                "German": "<tablet(off)> {most} sag {most}", 
+                "Turkish": "{most} {most}"
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "002:024": [
+        {
+            "text": {
+                "Dutch": "<Gaze(child)> In de kooi met de zjiraffen zit inderdaad de meeste dieren, dus  {most} Ik vind zjiraffen het leukst, dus ik ben blij dat we er daarvan {most} hebben. Welk dier vind jij leuk? Ben jij ook blij dat er van de zjiraffen het meeste zijn, dus {most}", 
+                "English": "<Gaze(child)> Out of all the animals, I like giraffes {most} {most} Which animal do you like  Do you like elephants, monkeys or giraffes {most}", 
+                "German": "<Gaze(child)> Von allen Tieren mag ich Giraffen {most} {most} Welches Tier magst du  Magst du Elefanten, Affen oder Giraffen {most}", 
+                "Turkish": "{most} {most}  {most}"
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "002:025": [
+        {
+            "objective": {
+                "id": "tree", 
+                "is_plural": false, 
+                "rel": {
+                    "target": {
+                        "id": "cage_3", 
+                        "is_plural": false
+                    }, 
+                    "type": "in"
+                }, 
+                "target_location": {
+                    "x": -256.4931484910298, 
+                    "y": 0.0, 
+                    "z": -191.23239025815303
+                }
+            }, 
+            "text": {
+                "Dutch": "<face(happy)><tablet(on)>Het laatste <face(neutral)> wat we moeten doen is eten brengen naar de kooi met de zjiraffen. <Gaze(tablet)>Deeze kooi heeft {most} dieren. Dus deze hebben  {most} eten nodig. <name>, zet deze bomen maar in de kooi zodat de zjiraffen er van kunnen eten. We <Gaze(child)> hebben {three } zjiraffen, dus we hebben {three} bomen nodig. <accept_answer> Zet <pointAt(tablet)><Gaze(child)> de bomen maar in de kooi. En tel ze maar terwijl je ze neer zet.", 
+                "English": "Cool! <tablet(on)>The last thing we need to do is put food in the cage with the giraffes. <Gaze(tablet)>This cage has the {most} animals so they need the {most} food. Put these trees in the cage so the giraffes can eat from them. We <Gaze(child)>  have {three } giraffes so we need {three} trees. Can you put <pointAt(tablet)><Gaze(child)>  the trees in the cage? Count them while dragging", 
+                "German": "Cool! <tablet(on)>Die letzte Aufgabe, die wir l\u00f6sen m\u00fcssen, ist den Giraffen Futter in den K\u00e4fig zu geben. <Gaze(tablet)> Dieser K\u00e4fig hat die {most} Tiere also brauchen sie {most} Futter. Ziehe diese drei B\u00e4ume in den K\u00e4fig, sodass die Giraffen davon fressen k\u00f6nnen. Wir <Gaze(child)> haben {three } Giraffen, also brauchen wir {three} B\u00e4ume. Kannst du <pointAt(tablet)><Gaze(child)> die B\u00e4ume in den K\u00e4fig ziehen? Z\u00e4hle sie wenn du sie in den K\u00e4fig ziehst.", 
+                "Turkish": "{most} {most} {three } {three} "
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "002:026": [
+        {
+            "objective": {
+                "id": "tree", 
+                "is_plural": false, 
+                "rel": {
+                    "target": {
+                        "id": "cage_3", 
+                        "is_plural": false
+                    }, 
+                    "type": "in"
+                }, 
+                "target_location": {
+                    "x": -257.7752332771145, 
+                    "y": -5.684341886080802e-14, 
+                    "z": -105.85016171795235
+                }
+            }, 
+            "text": {
+                "Dutch": "<accept_answer> {one} Doe er nog maar 1 bij", 
+                "English": "<accept_answer> {one} ", 
+                "German": "<accept_answer> {one} ", 
+                "Turkish": "{one} "
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "002:027": [
+        {
+            "objective": {
+                "id": "tree", 
+                "is_plural": false, 
+                "rel": {
+                    "target": {
+                        "id": "cage_3", 
+                        "is_plural": false
+                    }, 
+                    "type": "in"
+                }, 
+                "target_location": {
+                    "x": -195.0900311099583, 
+                    "y": -5.684341886080802e-14, 
+                    "z": 8.590396271619625
+                }
+            }, 
+            "text": {
+                "Dutch": "<accept_answer> {two} En nu nog eentje", 
+                "English": "<accept_answer> {two} ", 
+                "German": "<accept_answer> {two} ", 
+                "Turkish": "{two} "
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "002:028": [
+        {
+            "text": {
+                "Dutch": "{three}", 
+                "English": "{three}", 
+                "German": "{three}", 
+                "Turkish": "{three}"
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "002:029": [
+        {
+            "text": {
+                "Dutch": "{three} bomen in de kooi. Nu <Gaze(tablet)>heeft elke zjiraf een eigen boom, omdat er {three} zjiraffen zijn en {three} bomen. De kooi is heel vol nu, want {most} dieren zitten in de zjiraffenkooi en daar is ook  {most} eten. <tablet(off)><name>, je <Gaze(child)> hebt het supergoed gedaan. Nu doen we nog een spelletje!", 
+                "English": "Great! Now <Gaze(tablet)>each giraffe has their own tree, because there are {three} {three} giraffes and {three} trees! In the giraffe cage there are the most animals and also the most food.  <tablet(off)>You <Gaze(child)>  did great, now let\u2019s play another game! {most} {most} ", 
+                "German": "Toll! Jetzt <Gaze(tablet)>hat jede Giraffe ihren eigenen Baum, weil da  {three} {three} Giraffen und {three} B\u00e4ume sind. Im Giraffenk\u00e4fig sind am meisten Tiere und am meisten Futter.  <tablet(off)>Du<Gaze(child)> hast das gut gemacht, lass uns noch ein anderes Spiel spielen! {most} {most} ", 
+                "Turkish": "{three} {three} {three} {most} {most} "
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "003:001": [
+        {
+            "text": {
+                "Dutch": "Kijk, dit spelletje mag jij spelen! Ik denk dat je het goed kan.", 
+                "English": "", 
+                "German": "", 
+                "Turkish": ""
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "003:002": [
+        {
+            "text": {
+                "Dutch": "", 
+                "English": "", 
+                "German": "", 
+                "Turkish": ""
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "003:003": [
+        {
+            "objective": {
+                "id": "cage_add", 
+                "is_plural": false
+            }, 
+            "text": {
+                "Dutch": "Waar zie je {\\\\rspd=50\\\\add\\\\rspd=75\\\\} <accept_answer>", 
+                "English": "{\\\\rspd=50\\\\add\\\\rspd=75\\\\} ", 
+                "German": "{\\\\rspd=50\\\\add\\\\rspd=75\\\\} ", 
+                "Turkish": "{\\\\rspd=50\\\\add\\\\rspd=75\\\\} "
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "003:004": [
+        {
+            "objective": {
+                "id": "3giraffes_more", 
+                "is_plural": true
+            }, 
+            "text": {
+                "Dutch": "Waar zie je {more} <accept_answer>", 
+                "English": "{more} ", 
+                "German": "{more} ", 
+                "Turkish": "{more} "
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "003:005": [
+        {
+            "objective": {
+                "id": "3monkeys", 
+                "is_plural": true
+            }, 
+            "text": {
+                "Dutch": "Waar zie je {three} <accept_answer>", 
+                "English": "{three} ", 
+                "German": "{three} ", 
+                "Turkish": "{three} "
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "003:006": [
+        {
+            "objective": {
+                "id": "2giraffes", 
+                "is_plural": true
+            }, 
+            "text": {
+                "Dutch": "Waar zie je {two} <accept_answer>", 
+                "English": "{two} ", 
+                "German": "{two} ", 
+                "Turkish": "{two} "
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "003:007": [
+        {
+            "objective": {
+                "id": "3elephants_most", 
+                "is_plural": true
+            }, 
+            "text": {
+                "Dutch": "Waar zie je {most} <accept_answer>", 
+                "English": "{most} ", 
+                "German": "{most} ", 
+                "Turkish": "{most} "
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "003:008": [
+        {
+            "objective": {
+                "id": "1elephant", 
+                "is_plural": true
+            }, 
+            "text": {
+                "Dutch": "Waar zie je {one} <accept_answer>", 
+                "English": "{one} ", 
+                "German": "{one} ", 
+                "Turkish": "{one} "
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "003:009": [
+        {
+            "objective": {
+                "id": "3monkeys_more", 
+                "is_plural": true
+            }, 
+            "text": {
+                "Dutch": "Waar zie je {more} <accept_answer>", 
+                "English": "{more} ", 
+                "German": "{more} ", 
+                "Turkish": "{more} "
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "003:010": [
+        {
+            "objective": {
+                "id": "3elephants", 
+                "is_plural": true
+            }, 
+            "text": {
+                "Dutch": "Waar zie je {three} <accept_answer>", 
+                "English": "{three} ", 
+                "German": "{three} ", 
+                "Turkish": "{three} "
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "003:011": [
+        {
+            "objective": {
+                "id": "3monkeys_most", 
+                "is_plural": true
+            }, 
+            "text": {
+                "Dutch": "Waar zie je {most} <accept_answer>", 
+                "English": "{most} ", 
+                "German": "{most} ", 
+                "Turkish": "{most} "
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "003:012": [
+        {
+            "objective": {
+                "id": "2monkeys", 
+                "is_plural": true
+            }, 
+            "text": {
+                "Dutch": "Waar zie je {two} <accept_answer>", 
+                "English": "{two} ", 
+                "German": "{two} ", 
+                "Turkish": "{two} "
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "003:013": [
+        {
+            "text": {
+                "Dutch": "", 
+                "English": "", 
+                "German": "", 
+                "Turkish": ""
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "003:014": [
+        {
+            "text": {
+                "Dutch": "", 
+                "English": "", 
+                "German": "", 
+                "Turkish": ""
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "003:015": [
+        {
+            "objective": {
+                "id": "cage_add", 
+                "is_plural": false
+            }, 
+            "text": {
+                "Dutch": "Waar zie je {\\\\rspd=50\\\\add\\\\rspd=75\\\\} <accept_answer>", 
+                "English": "{\\\\rspd=50\\\\add\\\\rspd=75\\\\} ", 
+                "German": "{\\\\rspd=50\\\\add\\\\rspd=75\\\\} ", 
+                "Turkish": "{\\\\rspd=50\\\\add\\\\rspd=75\\\\} "
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "003:016": [
+        {
+            "objective": {
+                "id": "1giraffe", 
+                "is_plural": true
+            }, 
+            "text": {
+                "Dutch": "Waar zie je {one} <accept_answer>", 
+                "English": "{one} ", 
+                "German": "{one} ", 
+                "Turkish": "{one} "
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "004:001": [
+        {
+            "text": {
+                "Dutch": "<Gaze(child)>", 
+                "English": "<Gaze(child)>Yay we got a star! It was very nice to play with you! Bye!", 
+                "German": "<Gaze(child)>Yay wir haben einen Stern bekommen! Es hat Spa\u00df gemacht mit dir zu spielen!  Tsch\u00fcss! ", 
+                "Turkish": ""
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "004:002": [
+        {
+            "text": {
+                "Dutch": "Jippie, we hebben een ster gekregen! Het was superleuk om met je te spelen. Tot de volgende keer!", 
+                "English": "", 
+                "German": "", 
+                "Turkish": ""
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ]
+}

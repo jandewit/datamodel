@@ -1,0 +1,177 @@
+{
+    "description": "..\\scenario\\Storyboard_lesson1session1", 
+    "tasks": [
+        {
+            "description": "Task: about 5 minutes", 
+            "subtasks": [
+                {
+                    "exit_criteria": [
+                        {
+                            "obj_1": "giraffe", 
+                            "obj_2": "lake_1", 
+                            "relationship": "in", 
+                            "type": "OBJECT_MOVE_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "1", 
+                    "tablet_display_actions": {
+                        "scene": "zoo_2"
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "obj_1": "giraffe", 
+                            "obj_2": "foodtray_1", 
+                            "relationship": "next_to", 
+                            "type": "OBJECT_MOVE_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "2", 
+                    "tablet_display_actions": {
+                        "objects_added": [
+                            {
+                                "object_id": "confetti"
+                            }
+                        ]
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "obj_1": "giraffe", 
+                            "obj_2": "foodtray_1", 
+                            "relationship": "next_to", 
+                            "type": "OBJECT_MOVE_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "3"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "4"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "obj_1": "giraffe", 
+                            "obj_2": "lake_1", 
+                            "relationship": "in", 
+                            "type": "OBJECT_MOVE_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "5", 
+                    "tablet_display_actions": {
+                        "objects_removed": [
+                            {
+                                "object_id": "confetti"
+                            }
+                        ]
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "obj_1": "giraffe", 
+                            "obj_2": "lake_1", 
+                            "relationship": "in", 
+                            "type": "OBJECT_MOVE_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "6"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "7"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "object_id": "lake_1", 
+                            "type": "OBJECT_SELECT_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "8", 
+                    "tablet_display_actions": {
+                        "objects_added": [
+                            {
+                                "object_id": "confetti"
+                            }
+                        ], 
+                        "objects_removed": [
+                            {
+                                "object_id": "confetti"
+                            }
+                        ]
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "object_id": "foodtray_1", 
+                            "type": "OBJECT_SELECT_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "9"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "object_id": "lake_1", 
+                            "type": "OBJECT_SELECT_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "10"
+                }
+            ], 
+            "task_id": "1"
+        }, 
+        {
+            "description": "End of lesson", 
+            "subtasks": [
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "1", 
+                    "tablet_display_actions": {
+                        "objects_added": [
+                            {
+                                "object_id": "robot"
+                            }, 
+                            {
+                                "object_id": "child"
+                            }, 
+                            {
+                                "object_id": "big_star"
+                            }
+                        ], 
+                        "scene": "town"
+                    }
+                }
+            ], 
+            "task_id": "2"
+        }
+    ]
+}

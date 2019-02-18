@@ -1,0 +1,255 @@
+{
+  "ground": "black.jpg",
+  "camera": {
+    "Alpha": 2.749658689536554,
+    "Beta": 0.7246173593469953,
+    "Radius": 524.7369233262424,
+    "PositionX": -321.4467628784238,
+    "PositionY": 392.8984031377273,
+    "PositionZ": 132.8595579877378
+  },
+  "loadable_objects": [
+    {
+      "id": "s_3giraffes_1",
+      "filename": "giraffe",
+      "position": {
+        "x": 158.70845735444613,
+        "y": 0,
+        "z": 223.23021202267762
+      },
+      "scaling": {
+        "x": 6.991299999999992,
+        "y": 7.0302999999999916,
+        "z": 7.009999999999992
+      },
+      "rotation": {
+        "x": 0,
+        "y": -143.9999999999998,
+        "z": 0
+      },
+      "visible": "true",
+      "animation": "false",
+      "collisionEnabled": "true"
+    },
+    {
+      "id": "s_3giraffes_2",
+      "filename": "giraffe",
+      "position": {
+        "x": 58.05476989178425,
+        "y": 0,
+        "z": 251.29825560971258
+      },
+      "scaling": {
+        "x": 6.991299999999992,
+        "y": 7.0302999999999916,
+        "z": 7.009999999999992
+      },
+      "rotation": {
+        "x": 0,
+        "y": -143.9999999999998,
+        "z": 0
+      },
+      "visible": "true",
+      "animation": "false",
+      "collisionEnabled": "true"
+    },
+    {
+      "id": "s_3giraffes_3",
+      "filename": "giraffe",
+      "position": {
+        "x": 77.90699974722122,
+        "y": 0,
+        "z": 188.1137305054403
+      },
+      "scaling": {
+        "x": 6.991299999999992,
+        "y": 7.0302999999999916,
+        "z": 7.009999999999992
+      },
+      "rotation": {
+        "x": 0,
+        "y": -143.9999999999998,
+        "z": 0
+      },
+      "visible": "true",
+      "animation": "false",
+      "collisionEnabled": "true"
+    },
+    {
+      "id": "s_1giraffe_1",
+      "filename": "giraffe",
+      "position": {
+        "x": -80.27987674186338,
+        "y": 0,
+        "z": -222.63712389827924
+      },
+      "scaling": {
+        "x": 6.991299999999992,
+        "y": 7.0302999999999916,
+        "z": 7.009999999999992
+      },
+      "rotation": {
+        "x": 0,
+        "y": -143.9999999999998,
+        "z": 0
+      },
+      "visible": "true",
+      "animation": "false",
+      "collisionEnabled": "true"
+    },
+    {
+      "id": "s_2giraffes_1",
+      "filename": "giraffe",
+      "position": {
+        "x": 54.78540054755035,
+        "y": 0,
+        "z": 17.15183758965341
+      },
+      "scaling": {
+        "x": 6.991299999999992,
+        "y": 7.0302999999999916,
+        "z": 7.009999999999992
+      },
+      "rotation": {
+        "x": 0,
+        "y": -143.9999999999998,
+        "z": 0
+      },
+      "visible": "true",
+      "animation": "false",
+      "collisionEnabled": "true"
+    },
+    {
+      "id": "s_2giraffes_2",
+      "filename": "giraffe",
+      "position": {
+        "x": -33.72194505607018,
+        "y": 0,
+        "z": -27.533359839120692
+      },
+      "scaling": {
+        "x": 6.991299999999992,
+        "y": 7.0302999999999916,
+        "z": 7.009999999999992
+      },
+      "rotation": {
+        "x": 0,
+        "y": -143.9999999999998,
+        "z": 0
+      },
+      "visible": "true",
+      "animation": "false",
+      "collisionEnabled": "true"
+    }
+  ],
+  "creatable_objects": [
+    {
+      "id": "s_area_1",
+      "type": "plane",
+      "collisionEnabled": true,
+      "position": {
+        "x": 124.53587548496779,
+        "y": 0,
+        "z": 223.1445835150089
+      },
+      "rotation": {
+        "x": -90.99999999999997,
+        "y": 20,
+        "z": 0
+      },
+      "scaling": {
+        "x": 4.300000000000002,
+        "y": 4.300000000000002,
+        "z": 4.300000000000002
+      },
+      "size": {},
+      "visible": true,
+      "image": "none",
+      "uwdsCreate": "none",
+      "color": {
+        "diffuse": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        },
+        "specular": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        }
+      }
+    },
+    {
+      "id": "s_area_2",
+      "type": "plane",
+      "collisionEnabled": true,
+      "position": {
+        "x": 30.482709701873432,
+        "y": 0,
+        "z": -13.966423834710398
+      },
+      "rotation": {
+        "x": -90.99999999999997,
+        "y": 21,
+        "z": 0
+      },
+      "scaling": {
+        "x": 4.300000000000002,
+        "y": 4.300000000000002,
+        "z": 4.300000000000002
+      },
+      "size": {},
+      "visible": true,
+      "image": "none",
+      "uwdsCreate": "none",
+      "color": {
+        "diffuse": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        },
+        "specular": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        }
+      }
+    },
+    {
+      "id": "s_area_3",
+      "type": "plane",
+      "collisionEnabled": true,
+      "position": {
+        "x": -66.15126581857166,
+        "y": 0,
+        "z": -253.1446716197803
+      },
+      "rotation": {
+        "x": -90.99999999999997,
+        "y": 21,
+        "z": 0
+      },
+      "scaling": {
+        "x": 4.300000000000002,
+        "y": 4.300000000000002,
+        "z": 4.300000000000002
+      },
+      "size": {},
+      "visible": true,
+      "image": "none",
+      "uwdsCreate": "none",
+      "color": {
+        "diffuse": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        },
+        "specular": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        }
+      }
+    }
+  ]
+}

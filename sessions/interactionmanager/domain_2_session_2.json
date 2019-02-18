@@ -1,0 +1,1426 @@
+{
+    "description": "..\\scenario\\2_test", 
+    "tasks": [
+        {
+            "description": "Introduction: 2 minutes", 
+            "is_test": false, 
+            "subtasks": [
+                {
+                    "exit_criteria": [
+                        {
+                            "timeout_ms": "500", 
+                            "type": "RESPONSE_DELAY_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "1"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "2", 
+                    "tablet_display_actions": {
+                        "scene": "forestWithFootsteps"
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "3", 
+                    "tablet_display_actions": {
+                        "scene": "forest_1"
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "4"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "5"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "6"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "object_id": "monkey_behind,tree_2", 
+                            "type": "OBJECT_SELECT_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "7"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "8"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "9"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "timeout_ms": "2000", 
+                            "type": "RESPONSE_DELAY_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "10"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "target_word": "behind", 
+                            "timeout_ms": 5000, 
+                            "type": "VOICE_ACTIVATION_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "11"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "target_word": "the monkey is behind the tree", 
+                            "timeout_ms": 5000, 
+                            "type": "VOICE_ACTIVATION_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "12"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "13"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "14", 
+                    "tablet_display_actions": {
+                        "objects_added": [
+                            {
+                                "object_id": "monkey_in_front_1"
+                            }
+                        ], 
+                        "objects_removed": [
+                            {
+                                "object_id": "monkey_behind"
+                            }
+                        ]
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "timeout_ms": "2000", 
+                            "type": "RESPONSE_DELAY_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "15", 
+                    "tablet_display_actions": {
+                        "objects_move": [
+                            {
+                                "loop": "false", 
+                                "object_id": "monkey_in_front_1", 
+                                "speed": "5", 
+                                "x": "94.5", 
+                                "y": "0", 
+                                "z": "93"
+                            }
+                        ]
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "16", 
+                    "tablet_display_actions": {
+                        "objects_added": [
+                            {
+                                "object_id": "monkey_in_front_2"
+                            }
+                        ], 
+                        "objects_removed": [
+                            {
+                                "object_id": "monkey_in_front_1"
+                            }
+                        ]
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "timeout_ms": "2500", 
+                            "type": "RESPONSE_DELAY_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "17", 
+                    "tablet_display_actions": {
+                        "objects_move": [
+                            {
+                                "loop": "false", 
+                                "object_id": "monkey_in_front_2", 
+                                "speed": "5", 
+                                "x": "29", 
+                                "y": "0", 
+                                "z": "175"
+                            }
+                        ]
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "18", 
+                    "tablet_display_actions": {
+                        "objects_added": [
+                            {
+                                "object_id": "monkey_in_front_3"
+                            }
+                        ], 
+                        "objects_removed": [
+                            {
+                                "object_id": "monkey_in_front_2"
+                            }
+                        ]
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "19"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "target_word": "in front of", 
+                            "timeout_ms": 5000, 
+                            "type": "VOICE_ACTIVATION_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "20"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "target_word": "the monkey is in front of the tree", 
+                            "timeout_ms": 5000, 
+                            "type": "VOICE_ACTIVATION_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "21"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "22", 
+                    "tablet_display_actions": {
+                        "scene": "forest_2"
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "object_id": "giraffe_behind,tree_3", 
+                            "type": "OBJECT_SELECT_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "23"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "24"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "timeout_ms": "2500", 
+                            "type": "RESPONSE_DELAY_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "25", 
+                    "tablet_display_actions": {
+                        "objects_move": [
+                            {
+                                "loop": "false", 
+                                "object_id": "giraffe_behind", 
+                                "speed": "5", 
+                                "x": "-24", 
+                                "y": "0", 
+                                "z": "103"
+                            }
+                        ]
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "26", 
+                    "tablet_display_actions": {
+                        "objects_added": [
+                            {
+                                "object_id": "giraffe_in_front"
+                            }
+                        ], 
+                        "objects_removed": [
+                            {
+                                "object_id": "giraffe_behind"
+                            }
+                        ]
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "timeout_ms": "3000", 
+                            "type": "RESPONSE_DELAY_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "27", 
+                    "tablet_display_actions": {
+                        "objects_move": [
+                            {
+                                "loop": "false", 
+                                "object_id": "giraffe_in_front", 
+                                "speed": "5", 
+                                "x": "-82", 
+                                "y": "0", 
+                                "z": "133"
+                            }
+                        ]
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "timeout_ms": "2000", 
+                            "type": "RESPONSE_DELAY_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "28"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "object_id": "monkey_in_tree,tree_2", 
+                            "type": "OBJECT_SELECT_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "29"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "30", 
+                    "tablet_display_actions": {
+                        "objects_added": [
+                            {
+                                "object_id": "monkey_falling"
+                            }
+                        ], 
+                        "objects_removed": [
+                            {
+                                "object_id": "monkey_in_tree"
+                            }
+                        ]
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "timeout_ms": "5000", 
+                            "type": "RESPONSE_DELAY_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "31", 
+                    "tablet_display_actions": {
+                        "objects_move": [
+                            {
+                                "loop": "false", 
+                                "object_id": "monkey_falling", 
+                                "speed": "5", 
+                                "x": "90.97879309646007", 
+                                "y": "0", 
+                                "z": "113.59077889034276"
+                            }
+                        ]
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "32"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "object_id": "bird_1,tree_1", 
+                            "type": "OBJECT_SELECT_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "33"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "timeout_ms": "5000", 
+                            "type": "RESPONSE_DELAY_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "34", 
+                    "tablet_display_actions": {
+                        "objects_move": [
+                            {
+                                "loop": "false", 
+                                "object_id": "bird_1", 
+                                "speed": "5", 
+                                "x": "-181.73548514032768", 
+                                "y": "155", 
+                                "z": "81.20643192022413"
+                            }
+                        ]
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "35"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "timeout_ms": "2000", 
+                            "type": "RESPONSE_DELAY_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "36"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "timeout_ms": "1000", 
+                            "type": "RESPONSE_DELAY_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "37"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "38"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "39", 
+                    "tablet_display_actions": {
+                        "scene": "forest_3"
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "object_id": "monkey_running_1", 
+                            "type": "OBJECT_SELECT_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "40", 
+                    "tablet_display_actions": {
+                        "objects_animated": [
+                            {
+                                "animation": "jump", 
+                                "loop": "true", 
+                                "object_id": "giraffe_jumping_1"
+                            }
+                        ], 
+                        "objects_move": [
+                            {
+                                "loop": "true", 
+                                "object_id": "monkey_walking_1", 
+                                "speed": "15", 
+                                "x": "-11.797439540283747", 
+                                "y": "0", 
+                                "z": "200"
+                            }, 
+                            {
+                                "loop": "true", 
+                                "object_id": "monkey_running_1", 
+                                "speed": "7", 
+                                "x": "60", 
+                                "y": "0", 
+                                "z": "200"
+                            }, 
+                            {
+                                "loop": "true", 
+                                "object_id": "bird_flying_1", 
+                                "speed": "10", 
+                                "x": "311.39725864319234", 
+                                "y": "130", 
+                                "z": "61.50240183206279"
+                            }
+                        ]
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "target_word": "running", 
+                            "timeout_ms": 5000, 
+                            "type": "VOICE_ACTIVATION_CRITERIUM"
+                        }, 
+                        {
+                            "target_word": "the monkey is running", 
+                            "timeout_ms": 5000, 
+                            "type": "VOICE_ACTIVATION_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "41"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "42"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "object_id": "monkey_walking_1", 
+                            "type": "OBJECT_SELECT_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "43"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "target_word": "walking", 
+                            "timeout_ms": 5000, 
+                            "type": "VOICE_ACTIVATION_CRITERIUM"
+                        }, 
+                        {
+                            "target_word": "the monkey is walking", 
+                            "timeout_ms": 5000, 
+                            "type": "VOICE_ACTIVATION_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "44"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "45"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "object_id": "bird_flying_1", 
+                            "type": "OBJECT_SELECT_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "46"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "target_word": "flying", 
+                            "timeout_ms": 5000, 
+                            "type": "VOICE_ACTIVATION_CRITERIUM"
+                        }, 
+                        {
+                            "target_word": "the bird is flying", 
+                            "timeout_ms": 5000, 
+                            "type": "VOICE_ACTIVATION_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "47"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "48"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "object_id": "giraffe_jumping_1", 
+                            "type": "OBJECT_SELECT_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "49"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "target_word": "jumping", 
+                            "timeout_ms": 5000, 
+                            "type": "VOICE_ACTIVATION_CRITERIUM"
+                        }, 
+                        {
+                            "target_word": "the giraffe is jumping", 
+                            "timeout_ms": 5000, 
+                            "type": "VOICE_ACTIVATION_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "50"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "51"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "52", 
+                    "tablet_display_actions": {
+                        "scene": "forest_4"
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "timeout_ms": "1000", 
+                            "type": "RESPONSE_DELAY_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "53", 
+                    "tablet_display_actions": {
+                        "objects_animated": [
+                            {
+                                "animation": "jump", 
+                                "loop": "true", 
+                                "object_id": "animal_jumping_1"
+                            }
+                        ], 
+                        "objects_move": [
+                            {
+                                "loop": "true", 
+                                "object_id": "animal_walking_1", 
+                                "speed": "15", 
+                                "x": "-11.797439540283747", 
+                                "y": "0", 
+                                "z": "200"
+                            }, 
+                            {
+                                "loop": "true", 
+                                "object_id": "animal_running_1", 
+                                "speed": "7", 
+                                "x": "60", 
+                                "y": "0", 
+                                "z": "200"
+                            }, 
+                            {
+                                "loop": "true", 
+                                "object_id": "animal_flying_1", 
+                                "speed": "10", 
+                                "x": "311.39725864319234", 
+                                "y": "130", 
+                                "z": "61.50240183206279"
+                            }
+                        ]
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "54"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "object_id": "animal_running_1", 
+                            "type": "OBJECT_SELECT_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "55"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "56"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "object_id": "animal_walking_1", 
+                            "type": "OBJECT_SELECT_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "57"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "58"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "object_id": "animal_flying_1", 
+                            "type": "OBJECT_SELECT_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "59"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "60"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "object_id": "animal_jumping_1", 
+                            "type": "OBJECT_SELECT_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "61"
+                }
+            ], 
+            "task_id": "1"
+        }, 
+        {
+            "description": "Test: about 3 minutes", 
+            "is_test": true, 
+            "subtasks": [
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "1", 
+                    "tablet_display_actions": {
+                        "scene": "forest_task_1"
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "2", 
+                    "tablet_display_actions": {
+                        "objects_animated": [
+                            {
+                                "animation": "jump", 
+                                "loop": "true", 
+                                "object_id": "bird_jumping_test"
+                            }
+                        ], 
+                        "objects_move": [
+                            {
+                                "loop": "true", 
+                                "object_id": "bird_sliding_test", 
+                                "speed": "2", 
+                                "x": "41.69557369292829", 
+                                "y": "38", 
+                                "z": "234.52788205465663"
+                            }, 
+                            {
+                                "loop": "true", 
+                                "object_id": "bird_flying_test", 
+                                "speed": "4", 
+                                "x": "-38.260627339726966", 
+                                "y": "57", 
+                                "z": "76.16221746301565"
+                            }
+                        ]
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "object_id": "bird_flying_test,area_2", 
+                            "type": "OBJECT_SELECT_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "3"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "4", 
+                    "tablet_display_actions": {
+                        "scene": "forest_task_2"
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "5", 
+                    "tablet_display_actions": {
+                        "objects_move": [
+                            {
+                                "loop": "true", 
+                                "object_id": "bird_walking_test", 
+                                "speed": "4", 
+                                "x": "69.01087445462849", 
+                                "y": "14", 
+                                "z": "304.18233205695003"
+                            }, 
+                            {
+                                "loop": "true", 
+                                "object_id": "bird_running_test", 
+                                "speed": "2", 
+                                "x": "-13.790337652005064", 
+                                "y": "14", 
+                                "z": "78.60444969759658"
+                            }, 
+                            {
+                                "loop": "true", 
+                                "object_id": "bird_climbing_test", 
+                                "speed": "4", 
+                                "x": "-75.48669342591555", 
+                                "y": "100", 
+                                "z": "-213.74881492427303"
+                            }
+                        ]
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "object_id": "bird_walking_test,area_1", 
+                            "type": "OBJECT_SELECT_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "6"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "object_id": "bird_front_test,tree_1,area_1", 
+                            "type": "OBJECT_SELECT_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "7", 
+                    "tablet_display_actions": {
+                        "scene": "forest_task_3"
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "8", 
+                    "tablet_display_actions": {
+                        "scene": "forest_task_4"
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "object_id": "giraffe_behind_test,tree_3,area_3", 
+                            "type": "OBJECT_SELECT_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "9"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "10", 
+                    "tablet_display_actions": {
+                        "scene": "forest_task_5"
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "11", 
+                    "tablet_display_actions": {
+                        "objects_animated": [
+                            {
+                                "animation": "jump", 
+                                "loop": "true", 
+                                "object_id": "giraffe_jump_test"
+                            }
+                        ], 
+                        "objects_move": [
+                            {
+                                "loop": "true", 
+                                "object_id": "giraffe_walk_test", 
+                                "speed": "4", 
+                                "x": "-11.647324285715797", 
+                                "y": "0", 
+                                "z": "61.62094671835966"
+                            }, 
+                            {
+                                "loop": "true", 
+                                "object_id": "giraffe_fall_test", 
+                                "speed": "2", 
+                                "x": "-122.74911869228973", 
+                                "y": "2", 
+                                "z": "-199.73908829112705"
+                            }
+                        ]
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "object_id": "giraffe_jump_test,area_1", 
+                            "type": "OBJECT_SELECT_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "12"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "13", 
+                    "tablet_display_actions": {
+                        "scene": "forest_task_6"
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "14", 
+                    "tablet_display_actions": {
+                        "objects_animated": [
+                            {
+                                "animation": "jump", 
+                                "loop": "true", 
+                                "object_id": "bird_jump_test"
+                            }
+                        ], 
+                        "objects_move": [
+                            {
+                                "loop": "true", 
+                                "object_id": "bird_run_test", 
+                                "speed": "2", 
+                                "x": "69.01087445462849", 
+                                "y": "14", 
+                                "z": "304.18233205695003"
+                            }, 
+                            {
+                                "loop": "true", 
+                                "object_id": "ball_1", 
+                                "speed": "1.5", 
+                                "x": "69.44175318163599", 
+                                "y": "79", 
+                                "z": "-94.17739976610963"
+                            }
+                        ]
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "object_id": "bird_run_test,area_1", 
+                            "type": "OBJECT_SELECT_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "15"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "16", 
+                    "tablet_display_actions": {
+                        "scene": "forest_task_7"
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "object_id": "giraffe_front_test,tree_2,area_2", 
+                            "type": "OBJECT_SELECT_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "17"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "18", 
+                    "tablet_display_actions": {
+                        "scene": "forest_task_8"
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "19", 
+                    "tablet_display_actions": {
+                        "objects_animated": [
+                            {
+                                "animation": "jump", 
+                                "loop": "true", 
+                                "object_id": "monkey_jump_test"
+                            }
+                        ], 
+                        "objects_move": [
+                            {
+                                "loop": "true", 
+                                "object_id": "monkey_walk_test", 
+                                "speed": "4", 
+                                "x": "-110.41067123979275", 
+                                "y": "0", 
+                                "z": "-155.16341128611083"
+                            }, 
+                            {
+                                "loop": "true", 
+                                "object_id": "monkey_fall_test", 
+                                "speed": "1.5", 
+                                "x": "28.28135960617675", 
+                                "y": "-9", 
+                                "z": "28.86649952134009"
+                            }
+                        ]
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "object_id": "monkey_jump_test,area_1", 
+                            "type": "OBJECT_SELECT_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "20"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "21", 
+                    "tablet_display_actions": {
+                        "scene": "forest_task_9"
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "22", 
+                    "tablet_display_actions": {
+                        "objects_move": [
+                            {
+                                "loop": "true", 
+                                "object_id": "monkey_walk_test", 
+                                "speed": "4", 
+                                "x": "67.90464193834504", 
+                                "y": "0", 
+                                "z": "319.1433531774152"
+                            }, 
+                            {
+                                "loop": "true", 
+                                "object_id": "monkey_run_test", 
+                                "speed": "2", 
+                                "x": "-118.10728422110051", 
+                                "y": "0", 
+                                "z": "-139.68118321265626"
+                            }, 
+                            {
+                                "loop": "true", 
+                                "object_id": "monkey_climb_test", 
+                                "speed": "2", 
+                                "x": "19.28559795222543", 
+                                "y": "72", 
+                                "z": "17.648780625941654"
+                            }
+                        ]
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "object_id": "monkey_walk_test,area_1", 
+                            "type": "OBJECT_SELECT_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "23"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "24", 
+                    "tablet_display_actions": {
+                        "scene": "forest_task_10"
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "25", 
+                    "tablet_display_actions": {
+                        "objects_animated": [
+                            {
+                                "animation": "jump", 
+                                "loop": "true", 
+                                "object_id": "monkey_jump_test"
+                            }
+                        ], 
+                        "objects_move": [
+                            {
+                                "loop": "true", 
+                                "object_id": "monkey_run_test", 
+                                "speed": "2", 
+                                "x": "-118.10728422110051", 
+                                "y": "0", 
+                                "z": "-139.68118321265626"
+                            }, 
+                            {
+                                "loop": "true", 
+                                "object_id": "ball_1", 
+                                "speed": "1.5", 
+                                "x": "128.31336959958855", 
+                                "y": "28", 
+                                "z": "218.75279700115198"
+                            }
+                        ]
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "object_id": "monkey_run_test,area_3", 
+                            "type": "OBJECT_SELECT_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "26"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "27", 
+                    "tablet_display_actions": {
+                        "scene": "forest_task_11"
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "object_id": "monkey_behind_test,tree_1,area_1", 
+                            "type": "OBJECT_SELECT_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "28"
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "29", 
+                    "tablet_display_actions": {
+                        "scene": "forest_task_12"
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "30", 
+                    "tablet_display_actions": {
+                        "objects_move": [
+                            {
+                                "loop": "true", 
+                                "object_id": "bird_run_test", 
+                                "speed": "2", 
+                                "x": "76.1812125587337", 
+                                "y": "0", 
+                                "z": "323.3089272011591"
+                            }, 
+                            {
+                                "loop": "true", 
+                                "object_id": "bird_flying_test", 
+                                "speed": "4", 
+                                "x": "-38.260627339726966", 
+                                "y": "57", 
+                                "z": "76.16221746301565"
+                            }, 
+                            {
+                                "loop": "true", 
+                                "object_id": "ball_1", 
+                                "speed": "1.5", 
+                                "x": "-189.60243586881668", 
+                                "y": "14", 
+                                "z": "-84.14849820864345"
+                            }
+                        ]
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "object_id": "bird_flying_test,area_2", 
+                            "type": "OBJECT_SELECT_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "31"
+                }
+            ], 
+            "task_id": "2"
+        }, 
+        {
+            "description": "End of the lesson", 
+            "is_test": false, 
+            "subtasks": [
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "1", 
+                    "tablet_display_actions": {
+                        "scene": "black"
+                    }
+                }, 
+                {
+                    "exit_criteria": [
+                        {
+                            "type": "OUTPUT_FINISH_CRITERIUM"
+                        }
+                    ], 
+                    "has_output": true, 
+                    "subtask_id": "2", 
+                    "tablet_display_actions": {
+                        "objects_added": [
+                            {
+                                "object_id": "confetti"
+                            }
+                        ]
+                    }
+                }
+            ], 
+            "task_id": "3"
+        }
+    ]
+}

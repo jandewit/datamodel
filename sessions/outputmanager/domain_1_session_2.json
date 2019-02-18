@@ -1,0 +1,1028 @@
+{
+    "001:001": [
+        {
+            "text": {
+                "Dutch": "<tablet(off)><Gaze(child)><Face(Neutral)>Hoi <name>.", 
+                "English": "<tablet(off)><Gaze(child)><Face(Neutral)>Hello <name>. Last time we had a lot of fun! Are you also excited to see what we\u2019ll be doing today?", 
+                "German": "", 
+                "Turkish": ""
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:002": [
+        {
+            "text": {
+                "Dutch": "<gaze(tablet)>Kijk eens wat we vandaag gaan doen! <Gaze(child)> <Gesture(Pretends to touch tablet)>", 
+                "English": "<gaze(tablet)> Look where we\u2019re going today! <Gaze(child)> <Gesture(Pretends to touch tablet)>", 
+                "German": "", 
+                "Turkish": ""
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:003": [
+        {
+            "text": {
+                "Dutch": "<gaze(child)>Cool, vandaag gaan we naar de bakkerij! Daar hebben ze lekkere broodjes en taartjes. Houd jij daar ook van?", 
+                "English": "<gaze(child)> Cool, today we\u2019ll visit the bakery! They will have lots of nice breads and cakes. Do you also like cakes? ", 
+                "German": "", 
+                "Turkish": ""
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:004": [
+        {
+            "text": {
+                "Dutch": "<Gaze(tablet)> <Face(Happy)> Wauw wat een hoop spullen! <Gaze(child)><face(neutral> Ik zie een oven, een tafel, vier zakken meel en een plank met emmers en pakken melk. Weet je nog dat we vorige week tot drie hebben leren tellen in het Engels?", 
+                "English": "<Gaze(tablet)>Cool <Face(Happy)>, the bakery! <Gaze(child)><face(neutral)> I hope we\u2019ll get to bake breads. That is fun! We have so many supplies. <gaze(tablet)> Let\u2019s count the number of buckets in English.<gaze(tablet)>", 
+                "German": "", 
+                "Turkish": ""
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:005": [
+        {
+            "text": {
+                "Dutch": " <pointAt(tablet)> <gaze(tablet)>Laten we tellen hoeveel emmers het zijn, in het Engels! <gaze(child)>", 
+                "English": "", 
+                "German": "", 
+                "Turkish": ""
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:006": [
+        {
+            "text": {
+                "Dutch": "{one}", 
+                "English": "{one}", 
+                "German": "{one}", 
+                "Turkish": "{one}"
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:007": [
+        {
+            "text": {
+                "Dutch": "{two}", 
+                "English": "{two}", 
+                "German": "{two}", 
+                "Turkish": "{two}"
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:008": [
+        {
+            "text": {
+                "Dutch": "{three}", 
+                "English": "{three}", 
+                "German": "{three}", 
+                "Turkish": "{three}"
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:009": [
+        {
+            "objective": {
+                "id": "bag", 
+                "is_plural": true
+            }, 
+            "text": {
+                "Dutch": "<gaze(child)>Cool! <face(happy)>En volgens mij hebben we vier zakken meel. Dat is meer, dus {more} Raak ze maar aan, zodat we kunnen leren wat het woord, vier, is <accept_answer> in het Engels.<gaze(tablet)> ", 
+                "English": "<gaze(child)>Cool! <face(happy)> Now let\u2019s count how many bags of flour we have.<gaze(tablet)> {more}  ", 
+                "German": "{more}  ", 
+                "Turkish": "{more}  "
+            }, 
+            "type": "TEXT_OUTPUT"
+        }, 
+        {
+            "text": "four", 
+            "type": "TABLET_SPEECH_OUTPUT"
+        }
+    ], 
+    "001:010": [
+        {
+            "objective": {
+                "id": "four", 
+                "is_plural": false
+            }, 
+            "text": {
+                "Dutch": "<gaze(child)>Vier en {four} klinken wel een beetje hetzelfde. Zeg ook maar: {four}", 
+                "English": "{four} {four}", 
+                "German": "{four} {four}", 
+                "Turkish": "{four} {four}"
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:011": [
+        {
+            "text": {
+                "Dutch": "<gaze(tablet)> <name> We hebben dus {four} zakken meel.", 
+                "English": "{four} ", 
+                "German": "{four} ", 
+                "Turkish": "{four} "
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:012": [
+        {
+            "objective": {
+                "id": "carton", 
+                "is_plural": true
+            }, 
+            "text": {
+                "Dutch": "<gaze(child)> <face(happy)>Kijk eens, op de planken staan niet {four,} maar wel vijf pakken melk. Daarvan zijn er het meest, dus {most} Raak ze maar aan, dan horen we het Engelse woord voor vijf<accept_answer><gaze(tablet)>", 
+                "English": "<gaze(child)> <face(happy)>Yay! Now let\u2019s count how many bowls we have.<gaze(tablet)> {four,} {most} ", 
+                "German": "{four,} {most} ", 
+                "Turkish": "{four,} {most} "
+            }, 
+            "type": "TEXT_OUTPUT"
+        }, 
+        {
+            "text": "five", 
+            "type": "TABLET_SPEECH_OUTPUT"
+        }
+    ], 
+    "001:013": [
+        {
+            "objective": {
+                "id": "five", 
+                "is_plural": false
+            }, 
+            "text": {
+                "Dutch": "Dus vijf is {five} Het lijkt wel een beetje hetzelfde, maar het is net iets anders. Vijf en {five} Zeg ook maar {five}", 
+                "English": "{five} {five} {five}", 
+                "German": "{five} {five} {five}", 
+                "Turkish": "{five} {five} {five}"
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:014": [
+        {
+            "objective": {
+                "id": "dummy_fewer", 
+                "is_plural": false
+            }, 
+            "text": {
+                "Dutch": "Dus we hebben {five} pakken melk en {four} zakken meel. Wat is minder? Raak maar aan <accept_answer> op de \\prn=t E: b l @ t \\ wat minder is ", 
+                "English": "{five} {four}  ", 
+                "German": "{five} {four}  ", 
+                "Turkish": "{five} {four}  "
+            }, 
+            "type": "TEXT_OUTPUT"
+        }, 
+        {
+            "text": "fewer", 
+            "type": "TABLET_SPEECH_OUTPUT"
+        }
+    ], 
+    "001:015": [
+        {
+            "objective": {
+                "id": "fewer", 
+                "is_plural": false
+            }, 
+            "text": {
+                "Dutch": "Hoorde je dat? Volgens mij was dat: {fewer} Dus {fewer} is minder in het Engels. <name>, kun jij dat ook zeggen, {fewer}", 
+                "English": "<gaze(child)>Hm which do we have {fewer} {fewer} {fewer}", 
+                "German": "{fewer} {fewer} {fewer}", 
+                "Turkish": "{fewer} {fewer} {fewer}"
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:016": [
+        {
+            "objective": {
+                "id": "dummy_fewest", 
+                "is_plural": false
+            }, 
+            "text": {
+                "Dutch": "Dus we hebben {fewer} zakken meel dan pakken melk, want {four is fewer than five} En we hebben maar drie emmers. Wat is het minst? <accept_answer> Raak dat maar aan.  ", 
+                "English": "of? Bowls or buckets? Touch <gaze(tablet)> <PointAt(tablet)> whichever we have fewer {fewer} of. {four is fewer than five}  ", 
+                "German": "{fewer} {four is fewer than five}  ", 
+                "Turkish": "{fewer} {four is fewer than five}  "
+            }, 
+            "type": "TEXT_OUTPUT"
+        }, 
+        {
+            "text": "fewest", 
+            "type": "TABLET_SPEECH_OUTPUT"
+        }
+    ], 
+    "001:017": [
+        {
+            "objective": {
+                "id": "fewest", 
+                "is_plural": false
+            }, 
+            "text": {
+                "Dutch": "{fewest} Dus minst, is in het Engels {fewest} Van de emmers zijn er inderdaad het minst, dus {fewest} Nu hebben we geleerd dat minder {fewer} is, en dat minst {fewest} is. Het lijkt op elkaar, maar {fewest} is wel ietsje anders. Zeg ook maar {fewest}", 
+                "English": "<gaze(child)>And on which shelf <gaze(tablet)> are the  {fewest} bowls? {fewest} {fewest} {fewer} {fewest} {fewest} {fewest}", 
+                "German": "{fewest} {fewest} {fewest} {fewer} {fewest} {fewest} {fewest}", 
+                "Turkish": "{fewest} {fewest} {fewest} {fewer} {fewest} {fewest} {fewest}"
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:018": [
+        {
+            "objective": {
+                "disappear": true, 
+                "id": "bag", 
+                "is_plural": false, 
+                "rel": {
+                    "target": {
+                        "id": "bowl_1", 
+                        "is_plural": false
+                    }, 
+                    "type": "collision"
+                }, 
+                "target_location": {
+                    "x": 14.760622438470973, 
+                    "y": 94.0, 
+                    "z": -61.69070524475734
+                }
+            }, 
+            "text": {
+                "Dutch": "We hebben dus   {five} pakken melk, {four} zakken meel, dus dat is {fewer} en van de emmers zijn er maar drie, dus dat is het {fewest} Laten we een brood gaan bakken! Er staat al een kom met water op tafel. Als we er meel bij doen, dus {\\\\rspd=50\\\\add\\\\rspd=75\\\\} hebben we deeg, voor het brood. <name> , pak maar \u00e9\u00e9n van de {four} <accept_answer> zakken met meel.", 
+                "English": "{five} {four} {fewer} {fewest} {\\\\rspd=50\\\\add\\\\rspd=75\\\\} {four} ", 
+                "German": "{five} {four} {fewer} {fewest} {\\\\rspd=50\\\\add\\\\rspd=75\\\\} {four} ", 
+                "Turkish": "{five} {four} {fewer} {fewest} {\\\\rspd=50\\\\add\\\\rspd=75\\\\} {four} "
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:019": [
+        {
+            "objective": {
+                "id": "bowl_1", 
+                "is_plural": false
+            }, 
+            "text": {
+                "Dutch": "Raak de kom maar aan <accept_answer> om het te roeren!", 
+                "English": "", 
+                "German": "", 
+                "Turkish": ""
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:020": [
+        {
+            "objective": {
+                "disappear": true, 
+                "id": "bowl_1", 
+                "is_plural": false, 
+                "rel": {
+                    "target": {
+                        "id": "oven", 
+                        "is_plural": false
+                    }, 
+                    "type": "collision"
+                }, 
+                "target_location": {
+                    "x": 201.93756774069686, 
+                    "y": 74.0, 
+                    "z": -18.6060769712808
+                }
+            }, 
+            "text": {
+                "Dutch": "Doe de kom met het deeg, maar in de oven. <accept_answer> Dan kunnen we het brood gaan bakken.", 
+                "English": "", 
+                "German": "", 
+                "Turkish": ""
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:021": [
+        {
+            "objective": {
+                "id": "bucket", 
+                "is_plural": false, 
+                "rel": {
+                    "target": {
+                        "id": "shelf", 
+                        "is_plural": false
+                    }, 
+                    "type": "NOT_above"
+                }, 
+                "target_location": {
+                    "x": -166.97870549388327, 
+                    "y": 0.0, 
+                    "z": 27.047211459561197
+                }
+            }, 
+            "text": {
+                "Dutch": "Als het brood klaar is, moeten we het wel kunnen bewaren. Laten we ruimte maken op de plank. Er staan nu heel veel spullen op: drie emmers en  {five} pakken melk. Dat zijn wel acht dingen! Laten we de emmers eraf halen. <accept_answer>", 
+                "English": "{five} ", 
+                "German": "{five} ", 
+                "Turkish": "{five} "
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:022": [
+        {
+            "objective": {
+                "id": "bucket", 
+                "is_plural": false, 
+                "rel": {
+                    "target": {
+                        "id": "shelf", 
+                        "is_plural": false
+                    }, 
+                    "type": "NOT_above"
+                }, 
+                "target_location": {
+                    "x": -214.50061703974364, 
+                    "y": 0.0, 
+                    "z": 46.44601747465009
+                }
+            }, 
+            "text": {
+                "Dutch": "<accept_answer>", 
+                "English": "", 
+                "German": "", 
+                "Turkish": ""
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:023": [
+        {
+            "objective": {
+                "id": "bucket", 
+                "is_plural": false, 
+                "rel": {
+                    "target": {
+                        "id": "shelf", 
+                        "is_plural": false
+                    }, 
+                    "type": "NOT_above"
+                }, 
+                "target_location": {
+                    "x": -133.40874719142187, 
+                    "y": 0.0, 
+                    "z": 73.25956648843038
+                }
+            }, 
+            "text": {
+                "Dutch": "<accept_answer>", 
+                "English": "", 
+                "German": "", 
+                "Turkish": ""
+            }, 
+            "type": "TEXT_OUTPUT"
+        }, 
+        {
+            "text": "take_away", 
+            "type": "TABLET_SPEECH_OUTPUT"
+        }
+    ], 
+    "001:024": [
+        {
+            "objective": {
+                "id": "take away", 
+                "is_plural": false
+            }, 
+            "text": {
+                "Dutch": "Hoorde je dat? {take away} Eraf halen is dus {take away} Zeg ook maar {take away}", 
+                "English": "{take away} {take away} {take away}", 
+                "German": "Take away {take away} Take away {take away} Take away {take away}", 
+                "Turkish": "{take away} {take away} {take away}"
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:025": [
+        {
+            "text": {
+                "Dutch": "Dus eraf halen is {take away} Nu staan er veel minder, dus {fewer} spullen op de plank.", 
+                "English": "{take away} {fewer} ", 
+                "German": "Take away {take away} fewer {fewer} ", 
+                "Turkish": "{take away} {fewer} "
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:026": [
+        {
+            "text": {
+                "Dutch": "Kijk <name> , het brood is klaar!", 
+                "English": "", 
+                "German": "", 
+                "Turkish": ""
+            }, 
+            "type": "TEXT_OUTPUT"
+        }, 
+        {
+            "text": "oven_ding", 
+            "type": "TABLET_SPEECH_OUTPUT"
+        }
+    ], 
+    "001:027": [
+        {
+            "objective": {
+                "id": "bread_1", 
+                "is_plural": false, 
+                "rel": {
+                    "target": {
+                        "id": "shelf", 
+                        "is_plural": false
+                    }, 
+                    "type": "above"
+                }, 
+                "target_location": {
+                    "x": -115.20647690034637, 
+                    "y": 109.0, 
+                    "z": -61.21438617277255
+                }
+            }, 
+            "text": {
+                "Dutch": "Zet hem maar op de plank! <accept_answer> ", 
+                "English": " ", 
+                "German": " ", 
+                "Turkish": " "
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:028": [
+        {
+            "text": {
+                "Dutch": "Dat was leuk! Laten we nog een brood gaan bakken! Nu wil ik het proberen!", 
+                "English": "", 
+                "German": "", 
+                "Turkish": ""
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:029": [
+        {
+            "text": {
+                "Dutch": "<move(bag,14.760622438470973,94,-61.69070524475734,1,false)> Zo, {take away} een zak met meel, en nu in de kom.", 
+                "English": "{take away} ", 
+                "German": "{take away} ", 
+                "Turkish": "{take away} "
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:030": [
+        {
+            "text": {
+                "Dutch": "<gesture(touch)> Goed roeren!", 
+                "English": "", 
+                "German": "", 
+                "Turkish": ""
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:031": [
+        {
+            "text": {
+                "Dutch": "<move(bowl_2,172.06883087321947,49,-20.196045270895297,1,false)> En de oven in.", 
+                "English": "", 
+                "German": "", 
+                "Turkish": ""
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:032": [
+        {
+            "text": {
+                "Dutch": "Zie je dat? Er zijn nu nog maar twee zakken meel over. Het waren er eerst {four} Nu hebben we meer pakken melk en emmers dan zakken meel. Eerst waren van de emmers het {fewest} maar nu zijn van de zakken meel het {fewest}", 
+                "English": "{four} {fewest} {fewest}", 
+                "German": "{four} {fewest} {fewest}", 
+                "Turkish": "{four} {fewest} {fewest}"
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:033": [
+        {
+            "objective": {
+                "id": "carton", 
+                "is_plural": false, 
+                "rel": {
+                    "target": {
+                        "id": "shelf", 
+                        "is_plural": false
+                    }, 
+                    "type": "NOT_above"
+                }, 
+                "target_location": {
+                    "x": -94.91987988770676, 
+                    "y": 13.0, 
+                    "z": 133.7041629396589
+                }
+            }, 
+            "text": {
+                "Dutch": "We moeten wel nog weer wat ruimte maken op de plank. Er staan nu {fewer} spullen op de plank dan eerst, maar het is nog wel erg vol. {take away five} pakken melk, dus haal de pakken melk maar van de plank af. {take away five} pakken melk, <accept_answer> 1 voor 1", 
+                "English": "{fewer}  {take away five}  {take away five} ", 
+                "German": "{fewer}  {take away five}  {take away five} ", 
+                "Turkish": "{fewer}  {take away five}  {take away five} "
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:034": [
+        {
+            "objective": {
+                "id": "carton", 
+                "is_plural": false, 
+                "rel": {
+                    "target": {
+                        "id": "shelf", 
+                        "is_plural": false
+                    }, 
+                    "type": "NOT_above"
+                }, 
+                "target_location": {
+                    "x": -117.55561377246487, 
+                    "y": 13.0, 
+                    "z": 152.02331452040798
+                }
+            }, 
+            "text": {
+                "Dutch": "<accept_answer>", 
+                "English": "", 
+                "German": "", 
+                "Turkish": ""
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:035": [
+        {
+            "objective": {
+                "id": "carton", 
+                "is_plural": false, 
+                "rel": {
+                    "target": {
+                        "id": "shelf", 
+                        "is_plural": false
+                    }, 
+                    "type": "NOT_above"
+                }, 
+                "target_location": {
+                    "x": -148.08012770184249, 
+                    "y": 13.0, 
+                    "z": 132.43015270718445
+                }
+            }, 
+            "text": {
+                "Dutch": "<accept_answer>", 
+                "English": "", 
+                "German": "", 
+                "Turkish": ""
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:036": [
+        {
+            "objective": {
+                "id": "carton", 
+                "is_plural": false, 
+                "rel": {
+                    "target": {
+                        "id": "shelf", 
+                        "is_plural": false
+                    }, 
+                    "type": "NOT_above"
+                }, 
+                "target_location": {
+                    "x": -163.8455200533903, 
+                    "y": 13.0, 
+                    "z": 151.2938814242983
+                }
+            }, 
+            "text": {
+                "Dutch": "<accept_answer>", 
+                "English": "", 
+                "German": "", 
+                "Turkish": ""
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:037": [
+        {
+            "objective": {
+                "id": "carton", 
+                "is_plural": false, 
+                "rel": {
+                    "target": {
+                        "id": "shelf", 
+                        "is_plural": false
+                    }, 
+                    "type": "NOT_above"
+                }, 
+                "target_location": {
+                    "x": -203.1785221598113, 
+                    "y": 13.0, 
+                    "z": 127.53748213335689
+                }
+            }, 
+            "text": {
+                "Dutch": "<accept_answer>", 
+                "English": "", 
+                "German": "", 
+                "Turkish": ""
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:038": [
+        {
+            "text": {
+                "Dutch": "Hij is klaar!", 
+                "English": "", 
+                "German": "", 
+                "Turkish": ""
+            }, 
+            "type": "TEXT_OUTPUT"
+        }, 
+        {
+            "text": "oven_ding", 
+            "type": "TABLET_SPEECH_OUTPUT"
+        }
+    ], 
+    "001:039": [
+        {
+            "text": {
+                "Dutch": "<move(bread_2,-155.20647690034637,109,-61.21438617277255,1,false)>Ik zal hem even op de plank zetten.", 
+                "English": "", 
+                "German": "", 
+                "Turkish": ""
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:040": [
+        {
+            "objective": {
+                "disappear": true, 
+                "id": "bag", 
+                "is_plural": false, 
+                "rel": {
+                    "target": {
+                        "id": "bowl_3", 
+                        "is_plural": false
+                    }, 
+                    "type": "collision"
+                }, 
+                "target_location": {
+                    "x": 14.760622438470973, 
+                    "y": 94.0, 
+                    "z": -61.69070524475734
+                }
+            }, 
+            "text": {
+                "Dutch": "Zullen we nog \u00e9\u00e9n keer een brood bakken? Nu mag jij weer!  Eerst het meel in de kom. {take away} <accept_answer> een zak met meel.", 
+                "English": " {take away} ", 
+                "German": " {take away} ", 
+                "Turkish": " {take away} "
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:041": [
+        {
+            "objective": {
+                "id": "bowl_3", 
+                "is_plural": false
+            }, 
+            "text": {
+                "Dutch": "Nu goed roeren! <accept_answer>", 
+                "English": "", 
+                "German": "", 
+                "Turkish": ""
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:042": [
+        {
+            "objective": {
+                "disappear": true, 
+                "id": "bowl_3", 
+                "is_plural": false, 
+                "rel": {
+                    "target": {
+                        "id": "oven", 
+                        "is_plural": false
+                    }, 
+                    "type": "collision"
+                }, 
+                "target_location": {
+                    "x": 201.93756774069686, 
+                    "y": 74.0, 
+                    "z": -18.6060769712808
+                }
+            }, 
+            "text": {
+                "Dutch": "En nu de oven <accept_answer> in.", 
+                "English": "", 
+                "German": "", 
+                "Turkish": ""
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:043": [
+        {
+            "text": {
+                "Dutch": "Nu gaan we niets van de plank weghalen, {take away} want er is genoeg ruimte.", 
+                "English": "{take away} ", 
+                "German": "{take away} ", 
+                "Turkish": "{take away} "
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:044": [
+        {
+            "text": {
+                "Dutch": "<face(happy)> Hij is klaar!<face(neutral)>", 
+                "English": "", 
+                "German": "", 
+                "Turkish": ""
+            }, 
+            "type": "TEXT_OUTPUT"
+        }, 
+        {
+            "text": "oven_ding", 
+            "type": "TABLET_SPEECH_OUTPUT"
+        }
+    ], 
+    "001:045": [
+        {
+            "objective": {
+                "id": "bread_3", 
+                "is_plural": false, 
+                "rel": {
+                    "target": {
+                        "id": "shelf", 
+                        "is_plural": false
+                    }, 
+                    "type": "above"
+                }, 
+                "target_location": {
+                    "x": -195.20647690034636, 
+                    "y": 109.0, 
+                    "z": -61.21438617277255
+                }
+            }, 
+            "text": {
+                "Dutch": "<name>, zet hem maar <accept_answer> op de plank.", 
+                "English": "", 
+                "German": "", 
+                "Turkish": ""
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:046": [
+        {
+            "text": {
+                "Dutch": "Zo, dat hebben we <face(happy)>goed gedaan! Laten we nu een ander spelletje gaan spelen!<face(neutral)>", 
+                "English": "", 
+                "German": "", 
+                "Turkish": ""
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "002:001": [
+        {
+            "objective": {
+                "id": "4bread", 
+                "is_plural": true
+            }, 
+            "text": {
+                "Dutch": "Kijk, dit spelletje mag jij spelen! Ik denk dat je het goed kan. Waar zie je {four} <accept_answer>", 
+                "English": " {four} ", 
+                "German": " {four} ", 
+                "Turkish": " {four} "
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "002:002": [
+        {
+            "text": {
+                "Dutch": "", 
+                "English": "", 
+                "German": "", 
+                "Turkish": ""
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "002:003": [
+        {
+            "text": {
+                "Dutch": "", 
+                "English": "", 
+                "German": "", 
+                "Turkish": ""
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "002:004": [
+        {
+            "objective": {
+                "id": "bowl_takeaway", 
+                "is_plural": true
+            }, 
+            "text": {
+                "Dutch": "Waar zie je {take away} <accept_answer>", 
+                "English": "{take away} ", 
+                "German": "{take away} ", 
+                "Turkish": "{take away} "
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "002:005": [
+        {
+            "objective": {
+                "id": "bowl_fewest", 
+                "is_plural": true
+            }, 
+            "text": {
+                "Dutch": "Waar zie je {fewest} <accept_answer>", 
+                "English": "{fewest} ", 
+                "German": "{fewest} ", 
+                "Turkish": "{fewest} "
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "002:006": [
+        {
+            "objective": {
+                "id": "bucket5", 
+                "is_plural": true
+            }, 
+            "text": {
+                "Dutch": "Waar zie je {five} <accept_answer>", 
+                "English": "{five} ", 
+                "German": "{five} ", 
+                "Turkish": "{five} "
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "002:007": [
+        {
+            "objective": {
+                "id": "bread1", 
+                "is_plural": false
+            }, 
+            "text": {
+                "Dutch": "Waar zie je {fewer} <accept_answer>", 
+                "English": "{fewer} ", 
+                "German": "{fewer} ", 
+                "Turkish": "{fewer} "
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "002:008": [
+        {
+            "text": {
+                "Dutch": "", 
+                "English": "", 
+                "German": "", 
+                "Turkish": ""
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "002:009": [
+        {
+            "text": {
+                "Dutch": "", 
+                "English": "", 
+                "German": "", 
+                "Turkish": ""
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "002:010": [
+        {
+            "objective": {
+                "id": "bread_takeaway", 
+                "is_plural": true
+            }, 
+            "text": {
+                "Dutch": "Waar zie je {take away} <accept_answer>", 
+                "English": "{take away} ", 
+                "German": "{take away} ", 
+                "Turkish": "{take away} "
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "002:011": [
+        {
+            "objective": {
+                "id": "1flour", 
+                "is_plural": false
+            }, 
+            "text": {
+                "Dutch": "Waar zie je {fewer} <accept_answer>", 
+                "English": "{fewer} ", 
+                "German": "{fewer} ", 
+                "Turkish": "{fewer} "
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "002:012": [
+        {
+            "objective": {
+                "id": "5flour", 
+                "is_plural": true
+            }, 
+            "text": {
+                "Dutch": "Waar zie je {five} <accept_answer>", 
+                "English": "{five} ", 
+                "German": "{five} ", 
+                "Turkish": "{five} "
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "002:013": [
+        {
+            "objective": {
+                "id": "1flourfewest", 
+                "is_plural": false
+            }, 
+            "text": {
+                "Dutch": "Waar zie je {fewest} <accept_answer>", 
+                "English": "{fewest} ", 
+                "German": "{fewest} ", 
+                "Turkish": "{fewest} "
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "002:014": [
+        {
+            "objective": {
+                "id": "4milk", 
+                "is_plural": true
+            }, 
+            "text": {
+                "Dutch": "Waar zie je {four} <accept_answer>", 
+                "English": "{four} ", 
+                "German": "{four} ", 
+                "Turkish": "{four} "
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "002:015": [
+        {
+            "text": {
+                "Dutch": "<gaze(child)>", 
+                "English": "", 
+                "German": "", 
+                "Turkish": ""
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "002:016": [
+        {
+            "text": {
+                "Dutch": "Heel goed gedaan!! Dat was het voor vandaag! Tot de volgende keer!", 
+                "English": " ", 
+                "German": " ", 
+                "Turkish": " "
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ]
+}

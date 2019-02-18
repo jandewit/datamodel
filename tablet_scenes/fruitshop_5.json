@@ -1,0 +1,287 @@
+{
+  "ground": "grass.png",
+  "camera": {
+    "Alpha": 1.575563597369147,
+    "Beta": 1.3192611041182913,
+    "Radius": 437.49045277242794,
+    "PositionX": -2.019995810552966,
+    "PositionY": 108.88750778330706,
+    "PositionZ": 423.71845196154675
+  },
+  "loadable_objects": [
+    {
+      "id": "s_fruit_stand",
+      "filename": "FruitStand",
+      "collisionEnabled": true,
+      "position": {
+        "x": -169.48541575840795,
+        "y": 0,
+        "z": 32.84191842437434
+      },
+      "rotation": {
+        "x": 0,
+        "y": 209.99999999999957,
+        "z": 0
+      },
+      "scaling": {
+        "x": 3.400000000000002,
+        "y": 2.4000000000000012,
+        "z": 2.4000000000000012
+      },
+      "visible": true,
+      "animation": false
+    },
+    {
+      "id": "s_table_1",
+      "filename": "Table",
+      "collisionEnabled": true,
+      "position": {
+        "x": 7.690795471863183,
+        "y": 0,
+        "z": 200.93446883624523
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scaling": {
+        "x": 2.7000000000000015,
+        "y": 2.7000000000000015,
+        "z": 2.7000000000000015
+      },
+      "visible": true,
+      "animation": false
+    },
+    {
+      "id": "m_apple_1",
+      "filename": "Apple",
+      "collisionEnabled": true,
+      "position": {
+        "x": -129.82480458118104,
+        "y": 0,
+        "z": 109.83379345446906
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scaling": {
+        "x": 3.500000000000002,
+        "y": 3.500000000000002,
+        "z": 3.500000000000002
+      },
+      "visible": true,
+      "animation": false
+    },
+    {
+      "id": "m_apple_2",
+      "filename": "Apple",
+      "collisionEnabled": true,
+      "position": {
+        "x": -132.09215681952801,
+        "y": 0,
+        "z": 138.57590482255512
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scaling": {
+        "x": 3.500000000000002,
+        "y": 3.500000000000002,
+        "z": 3.500000000000002
+      },
+      "visible": true,
+      "animation": false
+    },
+    {
+      "id": "m_apple_3",
+      "filename": "Apple",
+      "collisionEnabled": true,
+      "position": {
+        "x": -156.7614586257556,
+        "y": 0,
+        "z": 114.85943497537562
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scaling": {
+        "x": 3.500000000000002,
+        "y": 3.500000000000002,
+        "z": 3.500000000000002
+      },
+      "visible": true,
+      "animation": false
+    },
+    {
+      "id": "m_apple_4",
+      "filename": "Apple",
+      "collisionEnabled": true,
+      "position": {
+        "x": -150.79542809805326,
+        "y": 0,
+        "z": 143.8779881651675
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scaling": {
+        "x": 3.500000000000002,
+        "y": 3.500000000000002,
+        "z": 3.500000000000002
+      },
+      "visible": true,
+      "animation": false
+    }
+  ],
+  "creatable_objects": [
+    {
+      "id": "s_area_below",
+      "type": "plane",
+      "collisionEnabled": true,
+      "position": {
+        "x": 5.96562709289207,
+        "y": 12,
+        "z": 219.36120397940962
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scaling": {
+        "x": 0.5000000000000001,
+        "y": 0.5000000000000001,
+        "z": 0.9
+      },
+      "visible": true,
+      "image": "none",
+      "uwdsCreate": "none",
+      "color": {
+        "diffuse": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        },
+        "specular": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        }
+      }
+    },
+    {
+      "id": "s_area_on",
+      "type": "plane",
+      "collisionEnabled": true,
+      "position": {
+        "x": 5.820005395145439,
+        "y": 56,
+        "z": 208.52639480792908
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scaling": {
+        "x": 0.5000000000000001,
+        "y": 0.5000000000000001,
+        "z": 1.1
+      },
+      "visible": true,
+      "image": "none",
+      "uwdsCreate": "none",
+      "color": {
+        "diffuse": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        },
+        "specular": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        }
+      }
+    },
+    {
+      "id": "s_area_above",
+      "type": "plane",
+      "collisionEnabled": true,
+      "position": {
+        "x": 5.895053843765564,
+        "y": 108,
+        "z": 206.2375601457952
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scaling": {
+        "x": 0.5000000000000001,
+        "y": 0.5000000000000001,
+        "z": 1.1
+      },
+      "visible": true,
+      "image": "none",
+      "uwdsCreate": "none",
+      "color": {
+        "diffuse": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        },
+        "specular": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        }
+      }
+    },
+    {
+      "id": "s_area_next_to",
+      "type": "plane",
+      "collisionEnabled": true,
+      "position": {
+        "x": 99.1154048936134,
+        "y": 39,
+        "z": 219.80527754242317
+      },
+      "rotation": {
+        "x": 0,
+        "y": 1.0000000000000004,
+        "z": 0
+      },
+      "scaling": {
+        "x": 0.5000000000000001,
+        "y": 0.5000000000000001,
+        "z": 1.1
+      },
+      "visible": true,
+      "image": "none",
+      "uwdsCreate": "none",
+      "color": {
+        "diffuse": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        },
+        "specular": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        }
+      }
+    }
+  ]
+}

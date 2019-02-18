@@ -1,0 +1,1260 @@
+{
+    "001:001": [
+        {
+            "text": {
+                "Dutch": "<face(happy)><gaze(child)>Hallo, <name>. Het is tijd voor een nieuw spelletje! Ben je er klaar voor?", 
+                "English": "<face(happy)><gaze(child)>Hey <name> It\u2019s time to play another game! Are you ready?", 
+                "German": "", 
+                "Turkish": ""
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:002": [
+        {
+            "text": {
+                "Dutch": "<gaze(tablet)><pointAt(tablet)>Kijk, daar zijn allemaal voet afdrukken! <gaze(child)> Ik denk dat die van dieren zijn. Laten we die gaan zoeken, <name>!", 
+                "English": "<gaze(tablet)><pointAt(tablet)>Look, there are many footsteps! <gaze(child)> I bet there are many animals. Let\u2019s go find them! <name>, let\u2019s march together! <gesture(marching)>", 
+                "German": "", 
+                "Turkish": ""
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:003": [
+        {
+            "text": {
+                "Dutch": "<gaze(tablet)>Ok, dit lijkt me een goede plek om dieren te vinden. <gaze(child)>Wat moeten we zoeken. Oh ik weet het!", 
+                "English": "<gaze(tablet)>Okay, this looks like a good spot to find animals. <gaze(child)>What should we look for. Oh I know!", 
+                "German": "", 
+                "Turkish": ""
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:004": [
+        {
+            "text": {
+                "Dutch": "", 
+                "English": "", 
+                "German": "", 
+                "Turkish": ""
+            }, 
+            "type": "TEXT_OUTPUT"
+        }, 
+        {
+            "text": "Monkey", 
+            "type": "TABLET_SPEECH_OUTPUT"
+        }
+    ], 
+    "001:005": [
+        {
+            "text": {
+                "Dutch": "Hoorde je dat? {monkey}", 
+                "English": "I think it is telling us where a monkey is. {monkey}", 
+                "German": " {monkey}", 
+                "Turkish": " {monkey}"
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:006": [
+        {
+            "text": {
+                "Dutch": "", 
+                "English": "", 
+                "German": "", 
+                "Turkish": ""
+            }, 
+            "type": "TEXT_OUTPUT"
+        }, 
+        {
+            "text": "The monkey is behind the tree", 
+            "type": "TABLET_SPEECH_OUTPUT"
+        }
+    ], 
+    "001:007": [
+        {
+            "objective": {
+                "id": "monkey_behind", 
+                "is_plural": false
+            }, 
+            "text": {
+                "Dutch": "{The monkey is behind the tree} Ik denk dat hij ons vertelt waar een aap is. Kan jij de aap zoeken <accept_answer> en aanraken?", 
+                "English": "{The monkey is behind the tree} I think it is telling us where a monkey is... Can you find and touch a", 
+                "German": "{The monkey is behind the tree} ", 
+                "Turkish": "{The monkey is behind the tree} "
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:008": [
+        {
+            "text": {
+                "Dutch": "", 
+                "English": "", 
+                "German": "", 
+                "Turkish": ""
+            }, 
+            "type": "TEXT_OUTPUT"
+        }, 
+        {
+            "text": "Behind. The monkey is behind the tree.", 
+            "type": "TABLET_SPEECH_OUTPUT"
+        }
+    ], 
+    "001:009": [
+        {
+            "text": {
+                "Dutch": "{Behind.}", 
+                "English": "{Behind.}", 
+                "German": "{Behind.}", 
+                "Turkish": "{Behind.}"
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:010": [
+        {
+            "text": {
+                "Dutch": "{The monkey is behind the tree.} Oh<tablet(off)> <gaze(child)> {behind}  betekent vast \"achter\"! <name>, wat denk jij dat het betekent? Ik denk dat {Behind}", 
+                "English": "{The monkey is behind the tree.} Ohhh<tablet(off)> <gaze(child)>behind {behind}  must mean \u201cbehind\u201d! <name>, what do you think it means. {Behind}", 
+                "German": "{The monkey is behind the tree.} {behind}  {Behind}", 
+                "Turkish": "{The monkey is behind the tree.} {behind}  {Behind}"
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:011": [
+        {
+            "objective": {
+                "id": "behind", 
+                "is_plural": false
+            }, 
+            "text": {
+                "Dutch": "achter betekent. Laten we even oefenen met het nazeggen {Behind}", 
+                "English": " Let\u2019s practice saying the word {Behind}", 
+                "German": "{Behind}", 
+                "Turkish": "{Behind}"
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:012": [
+        {
+            "objective": {
+                "id": "the monkey is behind the tree", 
+                "is_plural": false
+            }, 
+            "text": {
+                "Dutch": "Laten we nu de zin nazeggen. {The monkey is behind the tree.}", 
+                "English": "{The monkey is behind the tree.}", 
+                "German": "{The monkey is behind the tree.}", 
+                "Turkish": "{The monkey is behind the tree.}"
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:013": [
+        {
+            "text": {
+                "Dutch": "<tablet(on)>", 
+                "English": "<tablet(on)>", 
+                "German": "", 
+                "Turkish": ""
+            }, 
+            "type": "TEXT_OUTPUT"
+        }, 
+        {
+            "text": "The monkey is behind the tree.", 
+            "type": "TABLET_SPEECH_OUTPUT"
+        }
+    ], 
+    "001:014": [
+        {
+            "text": {
+                "Dutch": "<gaze(tablet)>", 
+                "English": "<gaze(tablet)>", 
+                "German": "", 
+                "Turkish": ""
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:015": [
+        {
+            "text": {
+                "Dutch": "Kijk, de aap loopt ergens anders naartoe!", 
+                "English": "", 
+                "German": "", 
+                "Turkish": ""
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:016": [
+        {
+            "text": {
+                "Dutch": "", 
+                "English": "", 
+                "German": "", 
+                "Turkish": ""
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:017": [
+        {
+            "text": {
+                "Dutch": "Hij gaat v\u00f3\u00f3r de boom staan", 
+                "English": "", 
+                "German": "", 
+                "Turkish": ""
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:018": [
+        {
+            "text": {
+                "Dutch": "", 
+                "English": "", 
+                "German": "", 
+                "Turkish": ""
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:019": [
+        {
+            "text": {
+                "Dutch": "", 
+                "English": "", 
+                "German": "", 
+                "Turkish": ""
+            }, 
+            "type": "TEXT_OUTPUT"
+        }, 
+        {
+            "text": "In front of. The monkey is in front of the tree.", 
+            "type": "TABLET_SPEECH_OUTPUT"
+        }
+    ], 
+    "001:020": [
+        {
+            "objective": {
+                "id": "in front of", 
+                "is_plural": false
+            }, 
+            "text": {
+                "Dutch": "{In front of?} <gaze(child)>Ik snap het. {In front of} betekent \"voor\". Laten we het nazeggen {in front of} ", 
+                "English": "{In front of?} <gaze(child)>I see. {In front of} means \u201cin front of\u201d! Let\u2019s practice {in front of} too! ", 
+                "German": "{In front of?} {In front of} {in front of} ", 
+                "Turkish": "{In front of?} {In front of} {in front of} "
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:021": [
+        {
+            "objective": {
+                "id": "the monkey is in front of the tree", 
+                "is_plural": false
+            }, 
+            "text": {
+                "Dutch": "Nu in een zin: {The monkey is in front of the tree}", 
+                "English": "Now in a sentence. {The monkey is in front of the tree}", 
+                "German": " {The monkey is in front of the tree}", 
+                "Turkish": " {The monkey is in front of the tree}"
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:022": [
+        {
+            "text": {
+                "Dutch": "<tablet(on)>", 
+                "English": "<tablet(on)>", 
+                "German": "", 
+                "Turkish": ""
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:023": [
+        {
+            "objective": {
+                "id": "giraffe_behind", 
+                "is_plural": false
+            }, 
+            "text": {
+                "Dutch": "<gaze(tablet)><pointat(tablet)>Kijk! <gaze(child)> Daar zijn nog meer dieren achter de bomen {The animals, are behind the trees!} Kun je ze allemaal vinden? Raak <accept_answer> <pointat(tablet)><gaze(tablet)> de zjiraf maar aan. ", 
+                "English": "<gaze(tablet)><pointat(tablet)>Look! <gaze(child)> There are other animals behind the trees. {The animals, are behind the trees!} Can you find all of them? Touch <pointat(tablet)><gaze(tablet)> the animals. ", 
+                "German": "{The animals, are behind the trees!} ", 
+                "Turkish": "{The animals, are behind the trees!} "
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:024": [
+        {
+            "text": {
+                "Dutch": "<gaze(child)>Ik weet het weer! \"Zjiraf\" is in het Engels {giraffe}", 
+                "English": "<gaze(child)>I remember! \"Giraffe\" is {giraffe}", 
+                "German": "{giraffe}", 
+                "Turkish": "{giraffe}"
+            }, 
+            "type": "TEXT_OUTPUT"
+        }, 
+        {
+            "text": "Giraffe. The giraffe is next to the flower", 
+            "type": "TABLET_SPEECH_OUTPUT"
+        }
+    ], 
+    "001:025": [
+        {
+            "text": {
+                "Dutch": "Kijk, de zjiraf is aan het lopen.", 
+                "English": " in English!", 
+                "German": "", 
+                "Turkish": ""
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:026": [
+        {
+            "text": {
+                "Dutch": "", 
+                "English": "", 
+                "German": "", 
+                "Turkish": ""
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:027": [
+        {
+            "text": {
+                "Dutch": "Waar gaat hij naartoe?", 
+                "English": "", 
+                "German": "", 
+                "Turkish": ""
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:028": [
+        {
+            "text": {
+                "Dutch": "<gaze(tablet)>Oh, hij is bewogen! De zjiraf is nu voor de boom! {The giraffe is in front of the tree! }", 
+                "English": "<gaze(tablet)>Oh it moved! The giraffe is in front of the tree! {The giraffe is in front of the tree! }", 
+                "German": "{The giraffe is in front of the tree! }", 
+                "Turkish": "{The giraffe is in front of the tree! }"
+            }, 
+            "type": "TEXT_OUTPUT"
+        }, 
+        {
+            "text": "the giraffe is in front of the tree", 
+            "type": "TABLET_SPEECH_OUTPUT"
+        }
+    ], 
+    "001:029": [
+        {
+            "objective": {
+                "id": "monkey_in_tree", 
+                "is_plural": false
+            }, 
+            "text": {
+                "Dutch": "Raak <accept_answer> <pointat(tablet)><gaze(tablet)> de aap maar aan. ", 
+                "English": "", 
+                "German": "", 
+                "Turkish": ""
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:030": [
+        {
+            "text": {
+                "Dutch": "", 
+                "English": "", 
+                "German": "", 
+                "Turkish": ""
+            }, 
+            "type": "TEXT_OUTPUT"
+        }, 
+        {
+            "text": "Monkey. The monkey is on the tree. The monkey is falling", 
+            "type": "TABLET_SPEECH_OUTPUT"
+        }
+    ], 
+    "001:031": [
+        {
+            "text": {
+                "Dutch": "", 
+                "English": "", 
+                "German": "", 
+                "Turkish": ""
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:032": [
+        {
+            "text": {
+                "Dutch": "Oei, <gaze(child)>Ik hoop dat het goed gaat met de aap!", 
+                "English": "Ouch, <gaze(child)>I hope the monkey is fine!", 
+                "German": "", 
+                "Turkish": ""
+            }, 
+            "type": "TEXT_OUTPUT"
+        }, 
+        {
+            "text": " The monkey is below the house.", 
+            "type": "TABLET_SPEECH_OUTPUT"
+        }
+    ], 
+    "001:033": [
+        {
+            "objective": {
+                "id": "bird_1", 
+                "is_plural": false
+            }, 
+            "text": {
+                "Dutch": "Raak <accept_answer> <pointat(tablet)><gaze(tablet)> de vogel maar aan. ", 
+                "English": "", 
+                "German": "", 
+                "Turkish": ""
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:034": [
+        {
+            "text": {
+                "Dutch": "<gaze(tablet)>", 
+                "English": "<gaze(tablet)>", 
+                "German": "", 
+                "Turkish": ""
+            }, 
+            "type": "TEXT_OUTPUT"
+        }, 
+        {
+            "text": "Bird.", 
+            "type": "TABLET_SPEECH_OUTPUT"
+        }
+    ], 
+    "001:035": [
+        {
+            "text": {
+                "Dutch": "Dus vogel is {bird} in het Engels.", 
+                "English": "So \"bird\" is {bird}  in English", 
+                "German": "{bird} ", 
+                "Turkish": "{bird} "
+            }, 
+            "type": "TEXT_OUTPUT"
+        }, 
+        {
+            "text": "The bird is above the flower.", 
+            "type": "TABLET_SPEECH_OUTPUT"
+        }
+    ], 
+    "001:036": [
+        {
+            "text": {
+                "Dutch": "<gaze(child)>Ik denk dat we alle dieren gevonden hebben! <name>, hoeveel dieren zijn er? ", 
+                "English": "<gaze(child)>It looks like we found all animals! <name>, how many animals are there? Say the number in English! ", 
+                "German": "", 
+                "Turkish": ""
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:037": [
+        {
+            "text": {
+                "Dutch": "<name>, hou jij van dieren?", 
+                "English": "<name>, do you like animals?", 
+                "German": "", 
+                "Turkish": ""
+            }, 
+            "type": "TEXT_OUTPUT"
+        }, 
+        {
+            "text": "One monkey, one giraffe, one bird.", 
+            "type": "TABLET_SPEECH_OUTPUT"
+        }
+    ], 
+    "001:038": [
+        {
+            "text": {
+                "Dutch": "<face(happy)>Ik hou heel veel van dieren. Ik zou willen dat ik bij ze was.", 
+                "English": "<face(happy)>I really love animals, and I wish I could join them. ", 
+                "German": "", 
+                "Turkish": ""
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:039": [
+        {
+            "text": {
+                "Dutch": "<gaze(tablet)>Nu bewegen ze weer!", 
+                "English": "<gaze(tablet)>Now they are moving! <gaze(child)> Let\u2019s pretend we are actually animals by imitating what these animals are doing. Can you touch <pointat(tablet)><gaze(tablet)> one of them? ", 
+                "German": "", 
+                "Turkish": ""
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:040": [
+        {
+            "objective": {
+                "id": "monkey_running_1", 
+                "is_plural": false
+            }, 
+            "text": {
+                "Dutch": "<gaze(child)> Laten we doen alsof we dieren zijn door ze na te doen. Raak de aap die aan het rennen is <accept_answer> maar <pointat(tablet)><gaze(tablet)> aan. ", 
+                "English": "", 
+                "German": "", 
+                "Turkish": ""
+            }, 
+            "type": "TEXT_OUTPUT"
+        }, 
+        {
+            "text": " The monkey is running.", 
+            "type": "TABLET_SPEECH_OUTPUT"
+        }
+    ], 
+    "001:041": [
+        {
+            "objective": {
+                "id": "the monkey is running", 
+                "is_plural": false
+            }, 
+            "text": {
+                "Dutch": "<gaze(child)>Zeg maar: {running} Zo zeggen we, rennen, in het Engels. Nu zeggen we de hele zin! Zeg maar: {the monkey is running}", 
+                "English": "<gaze(child)>Can you say running {running} That is how we say \u201crunning\u201d in English, huh? Let\u2019s say the sentence! Can you say {the monkey is running}", 
+                "German": "{running} {the monkey is running}", 
+                "Turkish": "{running} {the monkey is running}"
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:042": [
+        {
+            "text": {
+                "Dutch": "Kun jij laten zien hoe je kunt rennen? Je mag opstaan als je wilt. {Running \\pau=250\\ running \\pau=250\\ running}", 
+                "English": " Now let\u2019s run together! I cannot quite run, but I will pretend! {Running \\pau=250\\ running \\pau=250\\ running}", 
+                "German": "{Running \\pau=250\\ running \\pau=250\\ running}", 
+                "Turkish": "{Running \\pau=250\\ running \\pau=250\\ running}"
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:043": [
+        {
+            "objective": {
+                "id": "monkey_walking_1", 
+                "is_plural": false
+            }, 
+            "text": {
+                "Dutch": "Raak nu de aap die aan het lopen is <accept_answer> maar <pointat(tablet)><gaze(tablet)> aan. ", 
+                "English": "", 
+                "German": "", 
+                "Turkish": ""
+            }, 
+            "type": "TEXT_OUTPUT"
+        }, 
+        {
+            "text": " The monkey is walking", 
+            "type": "TABLET_SPEECH_OUTPUT"
+        }
+    ], 
+    "001:044": [
+        {
+            "objective": {
+                "id": "the monkey is walking", 
+                "is_plural": false
+            }, 
+            "text": {
+                "Dutch": "<gaze(child)> Zeg maar: {walking} Zo zeggen we, lopen, in het Engels. Nu zeggen we weer de hele zin. Zeg maar {the monkey is walking}", 
+                "English": "<gaze(child)>Can you say walking {walking} That is how we say walking in English, huh? Let\u2019s say the sentence! Can you say {the monkey is walking}", 
+                "German": "{walking} {the monkey is walking}", 
+                "Turkish": "{walking} {the monkey is walking}"
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:045": [
+        {
+            "text": {
+                "Dutch": "Kun jij laten zien hoe je kunt lopen? Je mag weer gaan staan als je wilt. {walking \\pau=250\\ walking \\pau=250\\ walking}", 
+                "English": " Now let\u2019s walk together! I cannot quite walk. but I will pretend! {walking \\pau=250\\ walking \\pau=250\\ walking}", 
+                "German": "{walking \\pau=250\\ walking \\pau=250\\ walking}", 
+                "Turkish": "{walking \\pau=250\\ walking \\pau=250\\ walking}"
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:046": [
+        {
+            "objective": {
+                "id": "bird_flying_1", 
+                "is_plural": false
+            }, 
+            "text": {
+                "Dutch": "Raak nu de vogel die aan het vliegen is <accept_answer> maar <pointat(tablet)><gaze(tablet)> aan. ", 
+                "English": "", 
+                "German": "", 
+                "Turkish": ""
+            }, 
+            "type": "TEXT_OUTPUT"
+        }, 
+        {
+            "text": " The bird is flying", 
+            "type": "TABLET_SPEECH_OUTPUT"
+        }
+    ], 
+    "001:047": [
+        {
+            "objective": {
+                "id": "the bird is flying", 
+                "is_plural": false
+            }, 
+            "text": {
+                "Dutch": "<gaze(child)>Zeg maar: {flying} Dat is het Engelse woord voor, vliegen. Nu gaan we weer de zin zeggen. Zeg maar {the bird is flying}", 
+                "English": "<gaze(child)>Can you say flying {flying} That is how we say flying in English, huh? Let\u2019s say the sentence! Can you say {the bird is flying}", 
+                "German": "{flying} {the bird is flying}", 
+                "Turkish": "{flying} {the bird is flying}"
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:048": [
+        {
+            "text": {
+                "Dutch": "Kun jij laten zien hoe je kunt vliegen? Je mag gaan staan als je wilt. {flying \\pau=250\\ flying \\pau=250\\ flying}", 
+                "English": " Now let\u2019s fly together! I cannot quite fly. but I will pretend! {flying \\pau=250\\ flying \\pau=250\\ flying}", 
+                "German": "{flying \\pau=250\\ flying \\pau=250\\ flying}", 
+                "Turkish": "{flying \\pau=250\\ flying \\pau=250\\ flying}"
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:049": [
+        {
+            "objective": {
+                "id": "giraffe_jumping_1", 
+                "is_plural": false
+            }, 
+            "text": {
+                "Dutch": "Raak nu de zjiraf die aan het springen is <accept_answer> maar <pointat(tablet)><gaze(tablet)> aan. ", 
+                "English": "", 
+                "German": "", 
+                "Turkish": ""
+            }, 
+            "type": "TEXT_OUTPUT"
+        }, 
+        {
+            "text": " The giraffe is jumping", 
+            "type": "TABLET_SPEECH_OUTPUT"
+        }
+    ], 
+    "001:050": [
+        {
+            "objective": {
+                "id": "the giraffe is jumping", 
+                "is_plural": false
+            }, 
+            "text": {
+                "Dutch": "<gaze(child)>Zeg maar: {jumping} Dat is, springen, in het Engels. Nu zeggen we weer de zin. Zeg maar {the giraffe is jumping}", 
+                "English": "<gaze(child)>Can you say jumping {jumping} That is how we say jumping in English, huh? Let\u2019s say the sentence! Can you say {the giraffe is jumping}", 
+                "German": "{jumping} {the giraffe is jumping}", 
+                "Turkish": "{jumping} {the giraffe is jumping}"
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:051": [
+        {
+            "text": {
+                "Dutch": "Nu mag jij springen! Ga maar staan als je wilt! {jumping \\pau=250\\ jumping \\pau=250\\ jumping}", 
+                "English": " Now let\u2019s jump together! I cannot quite jump. but I will pretend! {jumping \\pau=250\\ jumping \\pau=250\\ jumping}", 
+                "German": "{jumping \\pau=250\\ jumping \\pau=250\\ jumping}", 
+                "Turkish": "{jumping \\pau=250\\ jumping \\pau=250\\ jumping}"
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:052": [
+        {
+            "text": {
+                "Dutch": "<gaze(child)>We hebben echt veel woorden geleerd. Nu gaan we een spelletje doen. ", 
+                "English": "<gaze(child)>We learned many words! Now, let\u2019s move on to today\u2019s game. Today\u2019s game is a guessing game. You hear an English sentence talking about what one of the animals is doing, and you have to find the animal. <name>, are you ready? ", 
+                "German": "", 
+                "Turkish": ""
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:053": [
+        {
+            "text": {
+                "Dutch": "Het spelletje van vandaag is een raadspelletje. Je hoort steeds een Engelse zin over wat een van de dieren aan het doen is en dan mag jij dat dier zoeken. <name>, ben je er klaar voor? ", 
+                "English": "", 
+                "German": "", 
+                "Turkish": ""
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:054": [
+        {
+            "text": {
+                "Dutch": "{it is running.}", 
+                "English": "Hmmm,   {it is running.}", 
+                "German": "{it is running.}", 
+                "Turkish": "{it is running.}"
+            }, 
+            "type": "TEXT_OUTPUT"
+        }, 
+        {
+            "text": "It is running", 
+            "type": "TABLET_SPEECH_OUTPUT"
+        }
+    ], 
+    "001:055": [
+        {
+            "objective": {
+                "id": "animal_running_1", 
+                "is_plural": false
+            }, 
+            "text": {
+                "Dutch": "Welke is {running?} <accept_answer> Raak dat dier maar aan.", 
+                "English": "Which one is {running?}  Can you touch the animal?", 
+                "German": "{running?} ", 
+                "Turkish": "{running?} "
+            }, 
+            "type": "TEXT_OUTPUT"
+        }, 
+        {
+            "text": "Correct. It is running", 
+            "type": "TABLET_SPEECH_OUTPUT"
+        }
+    ], 
+    "001:056": [
+        {
+            "text": {
+                "Dutch": "{it is walking.}", 
+                "English": "Hmmm,   {it is walking.}", 
+                "German": "{it is walking.}", 
+                "Turkish": "{it is walking.}"
+            }, 
+            "type": "TEXT_OUTPUT"
+        }, 
+        {
+            "text": "It is walking", 
+            "type": "TABLET_SPEECH_OUTPUT"
+        }
+    ], 
+    "001:057": [
+        {
+            "objective": {
+                "id": "animal_walking_1", 
+                "is_plural": false
+            }, 
+            "text": {
+                "Dutch": "Welke is {walking?} <accept_answer> Raak dat dier maar aan.", 
+                "English": "Which one is {walking?}  Can you touch the animal?", 
+                "German": "{walking?} ", 
+                "Turkish": "{walking?} "
+            }, 
+            "type": "TEXT_OUTPUT"
+        }, 
+        {
+            "text": "Correct. It is walking", 
+            "type": "TABLET_SPEECH_OUTPUT"
+        }
+    ], 
+    "001:058": [
+        {
+            "text": {
+                "Dutch": "{it is flying.}", 
+                "English": "Hmmm,   {it is flying.}", 
+                "German": "{it is flying.}", 
+                "Turkish": "{it is flying.}"
+            }, 
+            "type": "TEXT_OUTPUT"
+        }, 
+        {
+            "text": "It is flying", 
+            "type": "TABLET_SPEECH_OUTPUT"
+        }
+    ], 
+    "001:059": [
+        {
+            "objective": {
+                "id": "animal_flying_1", 
+                "is_plural": false
+            }, 
+            "text": {
+                "Dutch": "Welke is {flying?} <accept_answer> Raak dat dier maar aan", 
+                "English": "Which one is {flying?}  Can you touch the animal?", 
+                "German": "{flying?} ", 
+                "Turkish": "{flying?} "
+            }, 
+            "type": "TEXT_OUTPUT"
+        }, 
+        {
+            "text": "Correct. It is flying", 
+            "type": "TABLET_SPEECH_OUTPUT"
+        }
+    ], 
+    "001:060": [
+        {
+            "text": {
+                "Dutch": "{it is jumping.}", 
+                "English": "Hmmm,   {it is jumping.}", 
+                "German": "{it is jumping.}", 
+                "Turkish": "{it is jumping.}"
+            }, 
+            "type": "TEXT_OUTPUT"
+        }, 
+        {
+            "text": "It is jumping in front of the tree", 
+            "type": "TABLET_SPEECH_OUTPUT"
+        }
+    ], 
+    "001:061": [
+        {
+            "objective": {
+                "id": "animal_jumping_1", 
+                "is_plural": false
+            }, 
+            "text": {
+                "Dutch": "Welke is {jumping?} <accept_answer> Raak dat dier maar aan", 
+                "English": "Which one is {jumping?}  Can you touch the animal?", 
+                "German": "{jumping?} ", 
+                "Turkish": "{jumping?} "
+            }, 
+            "type": "TEXT_OUTPUT"
+        }, 
+        {
+            "text": "Correct. It is jumping in front of the tree", 
+            "type": "TABLET_SPEECH_OUTPUT"
+        }
+    ], 
+    "002:001": [
+        {
+            "text": {
+                "Dutch": "Kijk, dit spelletje mag jij spelen! Ik denk dat je het goed kan.", 
+                "English": "", 
+                "German": "", 
+                "Turkish": ""
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "002:002": [
+        {
+            "text": {
+                "Dutch": "", 
+                "English": "", 
+                "German": "", 
+                "Turkish": ""
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "002:003": [
+        {
+            "objective": {
+                "id": "bird_flying_test", 
+                "is_plural": false
+            }, 
+            "text": {
+                "Dutch": "Waar zie je {flying} <accept_answer>", 
+                "English": "{flying} ", 
+                "German": "{flying} ", 
+                "Turkish": "{flying} "
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "002:004": [
+        {
+            "text": {
+                "Dutch": "", 
+                "English": "", 
+                "German": "", 
+                "Turkish": ""
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "002:005": [
+        {
+            "text": {
+                "Dutch": "", 
+                "English": "", 
+                "German": "", 
+                "Turkish": ""
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "002:006": [
+        {
+            "objective": {
+                "id": "bird_walking_test", 
+                "is_plural": false
+            }, 
+            "text": {
+                "Dutch": "Waar zie je {walking} <accept_answer>", 
+                "English": "{walking} ", 
+                "German": "{walking} ", 
+                "Turkish": "{walking} "
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "002:007": [
+        {
+            "objective": {
+                "id": "bird_front_test", 
+                "is_plural": false
+            }, 
+            "text": {
+                "Dutch": "Waar zie je {in front of} de boom <accept_answer>", 
+                "English": "{in front of} ", 
+                "German": "{in front of} ", 
+                "Turkish": "{in front of} "
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "002:008": [
+        {
+            "text": {
+                "Dutch": "Waar zie je {behind}", 
+                "English": "{behind}", 
+                "German": "{behind}", 
+                "Turkish": "{behind}"
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "002:009": [
+        {
+            "objective": {
+                "id": "giraffe_behind_test", 
+                "is_plural": false
+            }, 
+            "text": {
+                "Dutch": "de boom <accept_answer>", 
+                "English": "", 
+                "German": "", 
+                "Turkish": ""
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "002:010": [
+        {
+            "text": {
+                "Dutch": "", 
+                "English": "", 
+                "German": "", 
+                "Turkish": ""
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "002:011": [
+        {
+            "text": {
+                "Dutch": "", 
+                "English": "", 
+                "German": "", 
+                "Turkish": ""
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "002:012": [
+        {
+            "objective": {
+                "id": "giraffe_jump_test", 
+                "is_plural": false
+            }, 
+            "text": {
+                "Dutch": "Waar zie je {jumping} <accept_answer>", 
+                "English": "{jumping} ", 
+                "German": "{jumping} ", 
+                "Turkish": "{jumping} "
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "002:013": [
+        {
+            "text": {
+                "Dutch": "", 
+                "English": "", 
+                "German": "", 
+                "Turkish": ""
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "002:014": [
+        {
+            "text": {
+                "Dutch": "", 
+                "English": "", 
+                "German": "", 
+                "Turkish": ""
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "002:015": [
+        {
+            "objective": {
+                "id": "bird_run_test", 
+                "is_plural": false
+            }, 
+            "text": {
+                "Dutch": "Waar zie je {running} <accept_answer>", 
+                "English": "{running} ", 
+                "German": "{running} ", 
+                "Turkish": "{running} "
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "002:016": [
+        {
+            "text": {
+                "Dutch": "Waar zie je {in front of}", 
+                "English": "{in front of}", 
+                "German": "{in front of}", 
+                "Turkish": "{in front of}"
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "002:017": [
+        {
+            "objective": {
+                "id": "giraffe_front_test", 
+                "is_plural": false
+            }, 
+            "text": {
+                "Dutch": "de boom <accept_answer>", 
+                "English": "", 
+                "German": "", 
+                "Turkish": ""
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "002:018": [
+        {
+            "text": {
+                "Dutch": "", 
+                "English": "", 
+                "German": "", 
+                "Turkish": ""
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "002:019": [
+        {
+            "text": {
+                "Dutch": "", 
+                "English": "", 
+                "German": "", 
+                "Turkish": ""
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "002:020": [
+        {
+            "objective": {
+                "id": "monkey_jump_test", 
+                "is_plural": false
+            }, 
+            "text": {
+                "Dutch": "Waar zie je {jumping} <accept_answer>", 
+                "English": "{jumping} ", 
+                "German": "{jumping} ", 
+                "Turkish": "{jumping} "
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "002:021": [
+        {
+            "text": {
+                "Dutch": "", 
+                "English": "", 
+                "German": "", 
+                "Turkish": ""
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "002:022": [
+        {
+            "text": {
+                "Dutch": "", 
+                "English": "", 
+                "German": "", 
+                "Turkish": ""
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "002:023": [
+        {
+            "objective": {
+                "id": "monkey_walk_test", 
+                "is_plural": false
+            }, 
+            "text": {
+                "Dutch": "Waar zie je {walking} <accept_answer>", 
+                "English": "{walking} ", 
+                "German": "{walking} ", 
+                "Turkish": "{walking} "
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "002:024": [
+        {
+            "text": {
+                "Dutch": "", 
+                "English": "", 
+                "German": "", 
+                "Turkish": ""
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "002:025": [
+        {
+            "text": {
+                "Dutch": "", 
+                "English": "", 
+                "German": "", 
+                "Turkish": ""
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "002:026": [
+        {
+            "objective": {
+                "id": "monkey_run_test", 
+                "is_plural": false
+            }, 
+            "text": {
+                "Dutch": "Waar zie je {running} <accept_answer>", 
+                "English": "{running} ", 
+                "German": "{running} ", 
+                "Turkish": "{running} "
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "002:027": [
+        {
+            "text": {
+                "Dutch": "Waar zie je {behind}", 
+                "English": "{behind}", 
+                "German": "{behind}", 
+                "Turkish": "{behind}"
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "002:028": [
+        {
+            "objective": {
+                "id": "monkey_behind_test", 
+                "is_plural": false
+            }, 
+            "text": {
+                "Dutch": "de boom <accept_answer>", 
+                "English": "", 
+                "German": "", 
+                "Turkish": ""
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "002:029": [
+        {
+            "text": {
+                "Dutch": "", 
+                "English": "", 
+                "German": "", 
+                "Turkish": ""
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "002:030": [
+        {
+            "text": {
+                "Dutch": "", 
+                "English": "", 
+                "German": "", 
+                "Turkish": ""
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "002:031": [
+        {
+            "objective": {
+                "id": "bird_flying_test", 
+                "is_plural": false
+            }, 
+            "text": {
+                "Dutch": "Waar zie je {flying} <accept_answer>", 
+                "English": "{flying} ", 
+                "German": "{flying} ", 
+                "Turkish": "{flying} "
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "003:001": [
+        {
+            "text": {
+                "Dutch": "<gaze(child)>", 
+                "English": "", 
+                "German": "", 
+                "Turkish": ""
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "003:002": [
+        {
+            "text": {
+                "Dutch": "<face(happy)>We hebben weer een ster gekregen! Jippie! Ok\u00e9 <name>, tot de volgende keer!", 
+                "English": "<face(happy)>We have another a star! So exciting! Alright <name>, see you soon again!", 
+                "German": "", 
+                "Turkish": ""
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ]
+}

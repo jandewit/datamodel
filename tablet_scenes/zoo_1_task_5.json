@@ -1,0 +1,255 @@
+{
+  "ground": "black.jpg",
+  "camera": {
+    "Alpha": 2.749658689536554,
+    "Beta": 0.7246173593469953,
+    "Radius": 524.7369233262424,
+    "PositionX": -321.4467628784238,
+    "PositionY": 392.8984031377273,
+    "PositionZ": 132.8595579877378
+  },
+  "loadable_objects": [
+    {
+      "id": "s_1elephant_1",
+      "filename": "elephant_big",
+      "position": {
+        "x": 113.11214329497733,
+        "y": 0,
+        "z": 222.85695232280202
+      },
+      "scaling": {
+        "x": 3.6469000000000023,
+        "y": 3.6107000000000022,
+        "z": 3.7012000000000023
+      },
+      "rotation": {
+        "x": 0,
+        "y": 221.99999999999952,
+        "z": 0
+      },
+      "visible": "true",
+      "animation": "false",
+      "collisionEnabled": "true"
+    },
+    {
+      "id": "s_2elephants_1",
+      "filename": "elephant_big",
+      "position": {
+        "x": 73.73771848115132,
+        "y": 0,
+        "z": 25.09228517883166
+      },
+      "scaling": {
+        "x": 3.6469000000000023,
+        "y": 3.6107000000000022,
+        "z": 3.7012000000000023
+      },
+      "rotation": {
+        "x": 0,
+        "y": 221.99999999999952,
+        "z": 0
+      },
+      "visible": "true",
+      "animation": "false",
+      "collisionEnabled": "true"
+    },
+    {
+      "id": "s_2elephants_2",
+      "filename": "elephant_big",
+      "position": {
+        "x": -38.04174872830765,
+        "y": 0,
+        "z": -9.835892403309884
+      },
+      "scaling": {
+        "x": 3.6469000000000023,
+        "y": 3.6107000000000022,
+        "z": 3.7012000000000023
+      },
+      "rotation": {
+        "x": 0,
+        "y": 221.99999999999952,
+        "z": 0
+      },
+      "visible": "true",
+      "animation": "false",
+      "collisionEnabled": "true"
+    },
+    {
+      "id": "s_3elephants_most_1",
+      "filename": "elephant_big",
+      "position": {
+        "x": 9.540032275981048,
+        "y": 0,
+        "z": -213.1041483958254
+      },
+      "scaling": {
+        "x": 3.6469000000000023,
+        "y": 3.6107000000000022,
+        "z": 3.7012000000000023
+      },
+      "rotation": {
+        "x": 0,
+        "y": 221.99999999999952,
+        "z": 0
+      },
+      "visible": "true",
+      "animation": "false",
+      "collisionEnabled": "true"
+    },
+    {
+      "id": "s_3elephants_most_2",
+      "filename": "elephant_big",
+      "position": {
+        "x": -105.30432723697533,
+        "y": 0,
+        "z": -165.1120615885433
+      },
+      "scaling": {
+        "x": 3.6469000000000023,
+        "y": 3.6107000000000022,
+        "z": 3.7012000000000023
+      },
+      "rotation": {
+        "x": 0,
+        "y": 221.99999999999952,
+        "z": 0
+      },
+      "visible": "true",
+      "animation": "false",
+      "collisionEnabled": "true"
+    },
+    {
+      "id": "s_3elephants_most_3",
+      "filename": "elephant_big",
+      "position": {
+        "x": -74.39436918388603,
+        "y": 0,
+        "z": -271.6931398226453
+      },
+      "scaling": {
+        "x": 3.6469000000000023,
+        "y": 3.6107000000000022,
+        "z": 3.7012000000000023
+      },
+      "rotation": {
+        "x": 0,
+        "y": 221.99999999999952,
+        "z": 0
+      },
+      "visible": "true",
+      "animation": "false",
+      "collisionEnabled": "true"
+    }
+  ],
+  "creatable_objects": [
+    {
+      "id": "s_area_1",
+      "type": "plane",
+      "collisionEnabled": true,
+      "position": {
+        "x": 124.53587548496779,
+        "y": 0,
+        "z": 223.1445835150089
+      },
+      "rotation": {
+        "x": -90.99999999999997,
+        "y": 20,
+        "z": 0
+      },
+      "scaling": {
+        "x": 4.300000000000002,
+        "y": 4.300000000000002,
+        "z": 4.300000000000002
+      },
+      "size": {},
+      "visible": true,
+      "image": "none",
+      "uwdsCreate": "none",
+      "color": {
+        "diffuse": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        },
+        "specular": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        }
+      }
+    },
+    {
+      "id": "s_area_2",
+      "type": "plane",
+      "collisionEnabled": true,
+      "position": {
+        "x": 30.482709701873432,
+        "y": 0,
+        "z": -13.966423834710398
+      },
+      "rotation": {
+        "x": -90.99999999999997,
+        "y": 21,
+        "z": 0
+      },
+      "scaling": {
+        "x": 4.300000000000002,
+        "y": 4.300000000000002,
+        "z": 4.300000000000002
+      },
+      "size": {},
+      "visible": true,
+      "image": "none",
+      "uwdsCreate": "none",
+      "color": {
+        "diffuse": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        },
+        "specular": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        }
+      }
+    },
+    {
+      "id": "s_area_3",
+      "type": "plane",
+      "collisionEnabled": true,
+      "position": {
+        "x": -66.15126581857166,
+        "y": 0,
+        "z": -253.1446716197803
+      },
+      "rotation": {
+        "x": -90.99999999999997,
+        "y": 21,
+        "z": 0
+      },
+      "scaling": {
+        "x": 4.300000000000002,
+        "y": 4.300000000000002,
+        "z": 4.300000000000002
+      },
+      "size": {},
+      "visible": true,
+      "image": "none",
+      "uwdsCreate": "none",
+      "color": {
+        "diffuse": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        },
+        "specular": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        }
+      }
+    }
+  ]
+}

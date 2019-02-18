@@ -1,0 +1,58 @@
+{
+  "ground": "grass.png",
+  "camera": {
+    "Alpha": 1.5852303887999997,
+    "Beta": 1.3247379083877158,
+    "Radius": 450,
+    "PositionX": -6.299470240479029,
+    "PositionY": 109.61234997178998,
+    "PositionZ": 436.40056073331425
+  },
+  "loadable_objects": [
+    {
+      "id": "s_small_giraffe",
+      "filename": "giraffe",
+      "collisionEnabled": true,
+      "position": {
+        "x": -28.57350019846467,
+        "y": 0,
+        "z": 218.71327949934266
+      },
+      "rotation": {
+        "x": 0,
+        "y": 45,
+        "z": 0
+      },
+      "scaling": {
+        "x": 3.9913000000000025,
+        "y": 4.030300000000002,
+        "z": 4.0100000000000025
+      },
+      "visible": true,
+      "animation": false
+    },
+    {
+      "id": "s_big_giraffe",
+      "filename": "giraffe",
+      "collisionEnabled": true,
+      "position": {
+        "x": 49.87115943423568,
+        "y": 0,
+        "z": 188.82286289382216
+      },
+      "rotation": {
+        "x": 0,
+        "y": -60,
+        "z": 0
+      },
+      "scaling": {
+        "x": 6.391299999999994,
+        "y": 6.430299999999994,
+        "z": 6.409999999999994
+      },
+      "visible": true,
+      "animation": false
+    }
+  ],
+  "creatable_objects": []
+}

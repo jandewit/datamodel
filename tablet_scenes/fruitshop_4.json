@@ -1,0 +1,584 @@
+{
+  "ground": "grass.png",
+  "camera": {
+    "Alpha": 1.5062014452770458,
+    "Beta": 1.195763497483234,
+    "Radius": 549.980823890594,
+    "PositionX": 33.03375307242654,
+    "PositionY": 201.459667979487,
+    "PositionZ": 510.68745821972306
+  },
+  "loadable_objects": [
+    {
+      "id": "Ani_0_FruitStandBeingShaken_4",
+      "filename": "FruitStandBeingShaken",
+      "collisionEnabled": true,
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "w": 2.924003189460466E-10,
+        "x": 0,
+        "y": 57.2957795128966,
+        "z": 0
+      },
+      "scaling": {
+        "x": 8.500000000000023,
+        "y": 8.500000000000023,
+        "z": 8.500000000000023
+      },
+      "visible": true,
+      "animation": true
+    },
+    {
+      "id": "Ani_1_FruitStandBeingShaken_4",
+      "filename": "FruitStandBeingShaken",
+      "collisionEnabled": true,
+      "position": {
+        "x": -9.1334,
+        "y": -8.0231,
+        "z": -10.8158
+      },
+      "rotation": {
+        "w": 27.633754459069824,
+        "x": -29.398464468067026,
+        "y": -27.862937577121407,
+        "z": -29.644836319972477
+      },
+      "scaling": {
+        "x": 0.3937,
+        "y": 0.3937,
+        "z": 0.3937
+      },
+      "visible": true,
+      "animation": true
+    },
+    {
+      "id": "Ani_2_FruitStandBeingShaken_4",
+      "filename": "FruitStandBeingShaken",
+      "collisionEnabled": true,
+      "position": {
+        "x": 4.8145,
+        "y": 36.9673,
+        "z": 9.0629
+      },
+      "rotation": {
+        "w": 28.498920729714555,
+        "x": 29.29533206494381,
+        "y": -26.132605035831943,
+        "z": -30.49281385676334
+      },
+      "scaling": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "visible": true,
+      "animation": true
+    },
+    {
+      "id": "Ani_3_FruitStandBeingShaken_4",
+      "filename": "FruitStandBeingShaken",
+      "collisionEnabled": true,
+      "position": {
+        "x": 11.146,
+        "y": 14.5613,
+        "z": 19.7616
+      },
+      "rotation": {
+        "w": 6.388479415687923,
+        "x": 7.081758347793967,
+        "y": -55.743063888096685,
+        "z": -9.195972611819835
+      },
+      "scaling": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "visible": true,
+      "animation": true
+    },
+    {
+      "id": "Ani_4_FruitStandBeingShaken_4",
+      "filename": "FruitStandBeingShaken",
+      "collisionEnabled": true,
+      "position": {
+        "x": 12.3031,
+        "y": 4.1425,
+        "z": 21.8474
+      },
+      "rotation": {
+        "w": -56.12694561083309,
+        "x": 0,
+        "y": 0,
+        "z": -11.510722104140841
+      },
+      "scaling": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "visible": true,
+      "animation": true
+    },
+    {
+      "id": "Ani_5_FruitStandBeingShaken_4",
+      "filename": "FruitStandBeingShaken",
+      "collisionEnabled": true,
+      "position": {
+        "x": 1.394,
+        "y": 29.4248,
+        "z": 21.9874
+      },
+      "rotation": {
+        "w": -56.63687804849787,
+        "x": -2.589769233982907,
+        "y": -0.34950425502866667,
+        "z": 8.267780983710919
+      },
+      "scaling": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "visible": true,
+      "animation": true
+    },
+    {
+      "id": "Ani_6_FruitStandBeingShaken_4",
+      "filename": "FruitStandBeingShaken",
+      "collisionEnabled": true,
+      "position": {
+        "x": -1.4228,
+        "y": 39.6163,
+        "z": 26.5297
+      },
+      "rotation": {
+        "w": 8.559989459226689,
+        "x": -14.736474490716894,
+        "y": -54.654444077351656,
+        "z": -2.3090199143697157
+      },
+      "scaling": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "visible": true,
+      "animation": true
+    },
+    {
+      "id": "Ani_7_FruitStandBeingShaken_4",
+      "filename": "FruitStandBeingShaken",
+      "collisionEnabled": true,
+      "position": {
+        "x": -9.1161,
+        "y": -3.1306,
+        "z": -7.4783
+      },
+      "rotation": {
+        "w": 27.633754459069824,
+        "x": -29.398464468067026,
+        "y": -27.862937577121407,
+        "z": -29.644836319972477
+      },
+      "scaling": {
+        "x": 0.3937,
+        "y": 0.3937,
+        "z": 0.3937
+      },
+      "visible": true,
+      "animation": true
+    },
+    {
+      "id": "Ani_8_FruitStandBeingShaken_4",
+      "filename": "FruitStandBeingShaken",
+      "collisionEnabled": true,
+      "position": {
+        "x": 3.4114,
+        "y": 12.4883,
+        "z": 10.9903
+      },
+      "rotation": {
+        "w": -35.50619456414176,
+        "x": -9.946547323438775,
+        "y": 43.08642619369792,
+        "z": -8.176107736490284
+      },
+      "scaling": {
+        "x": 2.4516,
+        "y": 2.4516,
+        "z": 2.4516
+      },
+      "visible": true,
+      "animation": true
+    },
+    {
+      "id": "Ani_9_FruitStandBeingShaken_4",
+      "filename": "FruitStandBeingShaken",
+      "collisionEnabled": true,
+      "position": {
+        "x": 7.1835,
+        "y": 26.532,
+        "z": 11.728
+      },
+      "rotation": {
+        "w": -56.608230158741414,
+        "x": 0,
+        "y": -8.869386668596327,
+        "z": 0
+      },
+      "scaling": {
+        "x": 2.4516,
+        "y": 2.4516,
+        "z": 2.4516
+      },
+      "visible": true,
+      "animation": true
+    },
+    {
+      "id": "Ani_10_FruitStandBeingShaken_4",
+      "filename": "FruitStandBeingShaken",
+      "collisionEnabled": true,
+      "position": {
+        "x": 1.9501,
+        "y": 36.083,
+        "z": 12.327
+      },
+      "rotation": {
+        "w": -56.79730623113397,
+        "x": 7.540124583897136,
+        "y": 0,
+        "z": 0
+      },
+      "scaling": {
+        "x": 2.4516,
+        "y": 2.4516,
+        "z": 2.4516
+      },
+      "visible": true,
+      "animation": true
+    },
+    {
+      "id": "Ani_11_FruitStandBeingShaken_4",
+      "filename": "FruitStandBeingShaken",
+      "collisionEnabled": true,
+      "position": {
+        "x": 3.9918,
+        "y": 45.1883,
+        "z": 13.2892
+      },
+      "rotation": {
+        "w": -40.559682317179195,
+        "x": 12.335781329126545,
+        "y": -28.286926345516843,
+        "z": 26.184171237393553
+      },
+      "scaling": {
+        "x": 2.4516,
+        "y": 2.4516,
+        "z": 2.4516
+      },
+      "visible": true,
+      "animation": true
+    },
+    {
+      "id": "Ani_12_FruitStandBeingShaken_4",
+      "filename": "FruitStandBeingShaken",
+      "collisionEnabled": true,
+      "position": {
+        "x": -0.386,
+        "y": 60.0219,
+        "z": 14.1446
+      },
+      "rotation": {
+        "w": -52.912652380159614,
+        "x": -6.990085100573332,
+        "y": -19.58369743750791,
+        "z": -7.121865393452993
+      },
+      "scaling": {
+        "x": 2.4516,
+        "y": 2.4516,
+        "z": 2.4516
+      },
+      "visible": true,
+      "animation": true
+    },
+    {
+      "id": "Ani_13_FruitStandBeingShaken_4",
+      "filename": "FruitStandBeingShaken",
+      "collisionEnabled": true,
+      "position": {
+        "x": -6.9452,
+        "y": 0,
+        "z": 6.7385
+      },
+      "rotation": {
+        "w": -40.51384569356888,
+        "x": 40.51384569356888,
+        "y": 0,
+        "z": 0
+      },
+      "scaling": {
+        "x": 0.3937,
+        "y": 0.3937,
+        "z": 0.3937
+      },
+      "visible": true,
+      "animation": true
+    },
+    {
+      "id": "Ani_14_FruitStandBeingShaken_4",
+      "filename": "FruitStandBeingShaken",
+      "collisionEnabled": true,
+      "position": {
+        "x": -8.9286,
+        "y": -12.8956,
+        "z": -14.3031
+      },
+      "rotation": {
+        "w": 27.633754459069824,
+        "x": -29.398464468067026,
+        "y": -27.862937577121407,
+        "z": -29.644836319972477
+      },
+      "scaling": {
+        "x": 0.3937,
+        "y": 0.3937,
+        "z": 0.3937
+      },
+      "visible": true,
+      "animation": true
+    },
+    {
+      "id": "Ani_15_FruitStandBeingShaken_4",
+      "filename": "FruitStandBeingShaken",
+      "collisionEnabled": true,
+      "position": {
+        "x": 0.9091,
+        "y": 9.4889,
+        "z": 35.3109
+      },
+      "rotation": {
+        "w": -26.6539966293993,
+        "x": 33.73575497719327,
+        "y": -36.96723694172061,
+        "z": 8.23913309395447
+      },
+      "scaling": {
+        "x": 2.1838,
+        "y": 2.1838,
+        "z": 1.9942
+      },
+      "visible": true,
+      "animation": true
+    },
+    {
+      "id": "Ani_16_FruitStandBeingShaken_4",
+      "filename": "FruitStandBeingShaken",
+      "collisionEnabled": true,
+      "position": {
+        "x": 2.3889,
+        "y": 27.8214,
+        "z": 36.6596
+      },
+      "rotation": {
+        "w": -48.79308583318238,
+        "x": -16.959550735817267,
+        "y": 15.807905567608053,
+        "z": 19.09668331164829
+      },
+      "scaling": {
+        "x": 2.1838,
+        "y": 2.1838,
+        "z": 1.9942
+      },
+      "visible": true,
+      "animation": true
+    },
+    {
+      "id": "Ani_17_FruitStandBeingShaken_4",
+      "filename": "FruitStandBeingShaken",
+      "collisionEnabled": true,
+      "position": {
+        "x": -5.9107,
+        "y": 35.8217,
+        "z": 36.9547
+      },
+      "rotation": {
+        "w": -9.894981121877167,
+        "x": 0,
+        "y": -56.436342820202725,
+        "z": 0
+      },
+      "scaling": {
+        "x": 2.1838,
+        "y": 2.1838,
+        "z": 1.9942
+      },
+      "visible": true,
+      "animation": true
+    },
+    {
+      "id": "Ani_18_FruitStandBeingShaken_4",
+      "filename": "FruitStandBeingShaken",
+      "collisionEnabled": true,
+      "position": {
+        "x": 3.3134,
+        "y": 44.541,
+        "z": 37.4096
+      },
+      "rotation": {
+        "w": -45.9684039031966,
+        "x": 22.843827291791705,
+        "y": 24.992419023525308,
+        "z": -4.852952524742306
+      },
+      "scaling": {
+        "x": 2.1838,
+        "y": 2.1838,
+        "z": 1.9942
+      },
+      "visible": true,
+      "animation": true
+    },
+    {
+      "id": "Ani_19_FruitStandBeingShaken_4",
+      "filename": "FruitStandBeingShaken",
+      "collisionEnabled": true,
+      "position": {
+        "x": -7.2182,
+        "y": 54.1591,
+        "z": 38.0391
+      },
+      "rotation": {
+        "w": -57.295779512896175,
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scaling": {
+        "x": 2.1838,
+        "y": 2.1838,
+        "z": 1.9942
+      },
+      "visible": true,
+      "animation": true
+    },
+    {
+      "id": "s_fruit_box",
+      "filename": "FruitBox",
+      "collisionEnabled": true,
+      "position": {
+        "x": 132.9775491849262,
+        "y": 0,
+        "z": 194.76115631971885
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scaling": {
+        "x": 5.899999999999996,
+        "y": 4.6000000000000005,
+        "z": 6.199999999999995
+      },
+      "visible": true,
+      "animation": false
+    },
+    {
+      "id": "m_monkey_shaking_stand",
+      "filename": "MonkeyShakeStand",
+      "collisionEnabled": true,
+      "position": {
+        "x": 60.88704430652277,
+        "y": -48,
+        "z": 12.798761265519829
+      },
+      "rotation": {
+        "x": 0,
+        "y": 180,
+        "z": 0
+      },
+      "scaling": {
+        "x": 3.1000000000000054,
+        "y": 3.1000000000000054,
+        "z": 3.1000000000000054
+      },
+      "visible": true,
+      "animation": true
+    },
+    {
+      "id": "m_monkey_standing",
+      "filename": "Monkey",
+      "collisionEnabled": true,
+      "position": {
+        "x": 117.13615291041836,
+        "y": 0,
+        "z": 6.9817726962427855
+      },
+      "rotation": {
+        "x": 0,
+        "y": 155.99999999999974,
+        "z": 0
+      },
+      "scaling": {
+        "x": 3.183300000000002,
+        "y": 3.1270000000000016,
+        "z": 3.174500000000002
+      },
+      "visible": false,
+      "animation": false
+    },
+    {
+      "id": "m_monkey_with_banana",
+      "filename": "MonkeyWithBanana",
+      "collisionEnabled": true,
+      "position": {
+        "x": 129.36570260133595,
+        "y": 0,
+        "z": 197.10626163734622
+      },
+      "rotation": {
+        "x": 0,
+        "y": 153.99999999999977,
+        "z": 0
+      },
+      "scaling": {
+        "x": 3.100000000000002,
+        "y": 3.100000000000002,
+        "z": 3.100000000000002
+      },
+      "visible": false,
+      "animation": false
+    },
+    {
+      "id": "m_banana_1",
+      "filename": "Banana",
+      "collisionEnabled": true,
+      "position": {
+        "x": 7.880167404974042,
+        "y": 0,
+        "z": 68.83924258370865
+      },
+      "rotation": {
+        "x": 2,
+        "y": 105.99999999999991,
+        "z": 0
+      },
+      "scaling": {
+        "x": 3.100000000000002,
+        "y": 3.100000000000002,
+        "z": 3.100000000000002
+      },
+      "visible": false,
+      "animation": false
+    }
+  ],
+  "creatable_objects": []
+}

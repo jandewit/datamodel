@@ -1,0 +1,230 @@
+{
+  "ground": "black.jpg",
+  "camera": {
+    "Alpha": 2.749658689536554,
+    "Beta": 0.7246173593469953,
+    "Radius": 524.7369233262424,
+    "PositionX": -321.4467628784238,
+    "PositionY": 392.8984031377273,
+    "PositionZ": 132.8595579877378
+  },
+  "loadable_objects": [
+    {
+      "id": "m_ball_catch",
+      "filename": "BasketBall",
+      "collisionEnabled": true,
+      "position": {
+        "x": -298.16031860421475,
+        "y": 20,
+        "z": -179.6699480237385
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scaling": {
+        "x": 3.0000000000000018,
+        "y": 3.0000000000000018,
+        "z": 3.0000000000000018
+      },
+      "visible": true,
+      "animation": false
+    },
+    {
+      "id": "m_ball_throw",
+      "filename": "BasketBall",
+      "collisionEnabled": true,
+      "position": {
+        "x": 4.3298130627200635,
+        "y": 26,
+        "z": -4.574812303438847
+      },
+      "rotation": {
+        "x": 0,
+        "y": 7,
+        "z": 0
+      },
+      "scaling": {
+        "x": 3.100000000000002,
+        "y": 3.100000000000002,
+        "z": 3.100000000000002
+      },
+      "visible": true,
+      "animation": false
+    },
+    {
+      "id": "m_boy_walk",
+      "filename": "BoyWalking",
+      "collisionEnabled": true,
+      "position": {
+        "x": 155.22332782934888,
+        "y": 0,
+        "z": 121.54953874273467
+      },
+      "rotation": {
+        "x": 0,
+        "y": 150.99999999999977,
+        "z": 0
+      },
+      "scaling": {
+        "x": 2.000000000000001,
+        "y": 2.000000000000001,
+        "z": 2.000000000000001
+      },
+      "visible": true,
+      "animation": true
+    },
+    {
+      "id": "s_boy_throwing",
+      "filename": "BoyCatchStatic",
+      "collisionEnabled": true,
+      "position": {
+        "x": 26.817086689510916,
+        "y": 0,
+        "z": -12.515718259381885
+      },
+      "rotation": {
+        "x": -90,
+        "y": 110.9999999999999,
+        "z": 0
+      },
+      "scaling": {
+        "x": 2.000000000000001,
+        "y": 2.000000000000001,
+        "z": 2.000000000000001
+      },
+      "visible": true,
+      "animation": false
+    },
+    {
+      "id": "s_boy_catching",
+      "filename": "BoyCatchStatic",
+      "collisionEnabled": true,
+      "position": {
+        "x": -68.25147847768366,
+        "y": 0,
+        "z": -250.58544761296855
+      },
+      "rotation": {
+        "x": -90,
+        "y": 115.99999999999989,
+        "z": 0
+      },
+      "scaling": {
+        "x": 1.9000000000000008,
+        "y": 1.9000000000000008,
+        "z": 1.9000000000000008
+      },
+      "visible": true,
+      "animation": false
+    }
+  ],
+  "creatable_objects": [
+    {
+      "id": "s_area_1",
+      "type": "plane",
+      "collisionEnabled": true,
+      "position": {
+        "x": 124.53587548496779,
+        "y": 0,
+        "z": 223.1445835150089
+      },
+      "rotation": {
+        "x": -90.99999999999997,
+        "y": 20,
+        "z": 0
+      },
+      "scaling": {
+        "x": 4.300000000000002,
+        "y": 4.300000000000002,
+        "z": 4.300000000000002
+      },
+      "visible": true,
+      "image": "none",
+      "uwdsCreate": "none",
+      "color": {
+        "diffuse": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        },
+        "specular": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        }
+      }
+    },
+    {
+      "id": "s_area_2",
+      "type": "plane",
+      "collisionEnabled": true,
+      "position": {
+        "x": 30.482709701873432,
+        "y": 0,
+        "z": -13.966423834710398
+      },
+      "rotation": {
+        "x": -90.99999999999997,
+        "y": 21,
+        "z": 0
+      },
+      "scaling": {
+        "x": 4.300000000000002,
+        "y": 4.300000000000002,
+        "z": 4.300000000000002
+      },
+      "visible": true,
+      "image": "none",
+      "uwdsCreate": "none",
+      "color": {
+        "diffuse": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        },
+        "specular": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        }
+      }
+    },
+    {
+      "id": "s_area_3",
+      "type": "plane",
+      "collisionEnabled": true,
+      "position": {
+        "x": -66.15126581857166,
+        "y": 0,
+        "z": -253.1446716197803
+      },
+      "rotation": {
+        "x": -90.99999999999997,
+        "y": 21,
+        "z": 0
+      },
+      "scaling": {
+        "x": 4.300000000000002,
+        "y": 4.300000000000002,
+        "z": 4.300000000000002
+      },
+      "visible": true,
+      "image": "none",
+      "uwdsCreate": "none",
+      "color": {
+        "diffuse": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        },
+        "specular": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        }
+      }
+    }
+  ]
+}

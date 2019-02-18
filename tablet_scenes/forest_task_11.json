@@ -1,0 +1,252 @@
+{
+  "ground": "black.jpg",
+  "camera": {
+    "Alpha": 2.749658689536554,
+    "Beta": 0.7246173593469953,
+    "Radius": 524.7369233262424,
+    "PositionX": -321.4467628784238,
+    "PositionY": 392.8984031377273,
+    "PositionZ": 132.8595579877378
+  },
+  "loadable_objects": [
+    {
+      "id": "s_tree_3",
+      "filename": "tree",
+      "collisionEnabled": true,
+      "position": {
+        "x": -77.90687251913232,
+        "y": 0,
+        "z": -251.63073658183413
+      },
+      "rotation": {
+        "x": 0,
+        "y": 20.999999999999996,
+        "z": 0
+      },
+      "scaling": {
+        "x": 6.9974999999999925,
+        "y": 6.952399999999992,
+        "z": 7.006199999999992
+      },
+      "visible": true,
+      "animation": false
+    },
+    {
+      "id": "s_tree_2",
+      "filename": "tree",
+      "collisionEnabled": true,
+      "position": {
+        "x": 19.697063457166564,
+        "y": 0,
+        "z": -6.847755060724012
+      },
+      "rotation": {
+        "x": 0,
+        "y": 21,
+        "z": 0
+      },
+      "scaling": {
+        "x": 6.9974999999999925,
+        "y": 6.952399999999992,
+        "z": 7.006199999999992
+      },
+      "visible": true,
+      "animation": false
+    },
+    {
+      "id": "s_tree_1",
+      "filename": "tree",
+      "collisionEnabled": true,
+      "position": {
+        "x": 118.91728874538325,
+        "y": 0,
+        "z": 228.90148316630572
+      },
+      "rotation": {
+        "x": 0,
+        "y": 17.999999999999996,
+        "z": 0
+      },
+      "scaling": {
+        "x": 7.197499999999992,
+        "y": 7.152399999999991,
+        "z": 7.206199999999991
+      },
+      "visible": true,
+      "animation": false
+    },
+    {
+      "id": "s_monkey_behind_test",
+      "filename": "Monkey",
+      "collisionEnabled": true,
+      "position": {
+        "x": 138.7871625406604,
+        "y": 0,
+        "z": 214.76400984791292
+      },
+      "rotation": {
+        "x": 0,
+        "y": 91.99999999999997,
+        "z": 0
+      },
+      "scaling": {
+        "x": 2.483300000000001,
+        "y": 2.427000000000001,
+        "z": 2.4745000000000013
+      },
+      "visible": true,
+      "animation": false
+    },
+    {
+      "id": "s_monkey_front_test",
+      "filename": "Monkey",
+      "collisionEnabled": true,
+      "position": {
+        "x": -16.449701869783155,
+        "y": 0,
+        "z": 8.030107614131808
+      },
+      "rotation": {
+        "x": 0,
+        "y": 108.99999999999991,
+        "z": 0
+      },
+      "scaling": {
+        "x": 2.8833000000000015,
+        "y": 2.8270000000000013,
+        "z": 2.8745000000000016
+      },
+      "visible": true,
+      "animation": false
+    },
+    {
+      "id": "s_monkey_in_test",
+      "filename": "Monkey",
+      "collisionEnabled": true,
+      "position": {
+        "x": -67.98568889521584,
+        "y": 90,
+        "z": -253.9588767780191
+      },
+      "rotation": {
+        "x": 0,
+        "y": 138.9999999999998,
+        "z": 0
+      },
+      "scaling": {
+        "x": 2.483300000000001,
+        "y": 2.427000000000001,
+        "z": 2.4745000000000013
+      },
+      "visible": true,
+      "animation": false
+    }
+  ],
+  "creatable_objects": [
+    {
+      "id": "s_area_1",
+      "type": "plane",
+      "collisionEnabled": true,
+      "position": {
+        "x": 124.53587548496779,
+        "y": 0,
+        "z": 223.1445835150089
+      },
+      "rotation": {
+        "x": -90.99999999999997,
+        "y": 20,
+        "z": 0
+      },
+      "scaling": {
+        "x": 4.300000000000002,
+        "y": 4.300000000000002,
+        "z": 4.300000000000002
+      },
+      "visible": true,
+      "image": "none",
+      "uwdsCreate": "none",
+      "color": {
+        "diffuse": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        },
+        "specular": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        }
+      }
+    },
+    {
+      "id": "s_area_2",
+      "type": "plane",
+      "collisionEnabled": true,
+      "position": {
+        "x": 30.482709701873432,
+        "y": 0,
+        "z": -13.966423834710398
+      },
+      "rotation": {
+        "x": -90.99999999999997,
+        "y": 21,
+        "z": 0
+      },
+      "scaling": {
+        "x": 4.300000000000002,
+        "y": 4.300000000000002,
+        "z": 4.300000000000002
+      },
+      "visible": true,
+      "image": "none",
+      "uwdsCreate": "none",
+      "color": {
+        "diffuse": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        },
+        "specular": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        }
+      }
+    },
+    {
+      "id": "s_area_3",
+      "type": "plane",
+      "collisionEnabled": true,
+      "position": {
+        "x": -66.15126581857166,
+        "y": 0,
+        "z": -253.1446716197803
+      },
+      "rotation": {
+        "x": -90.99999999999997,
+        "y": 21,
+        "z": 0
+      },
+      "scaling": {
+        "x": 4.300000000000002,
+        "y": 4.300000000000002,
+        "z": 4.300000000000002
+      },
+      "visible": true,
+      "image": "none",
+      "uwdsCreate": "none",
+      "color": {
+        "diffuse": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        },
+        "specular": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        }
+      }
+    }
+  ]
+}

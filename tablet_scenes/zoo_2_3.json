@@ -1,0 +1,152 @@
+{
+  "ground": "grass.png",
+  "camera": {
+    "Alpha": 1.578685665631076,
+    "Beta": 1.138169984731711,
+    "Radius": 450,
+    "PositionX": -3.2230809725774607,
+    "PositionY": 188.66547762697098,
+    "PositionZ": 408.52778277717067
+  },
+  "loadable_objects": [
+    {
+      "id": "temp_Rock0_0",
+      "filename": "Rock",
+      "collisionEnabled": true,
+      "position": {
+        "x": -4.761297729645364,
+        "y": 9,
+        "z": 35.40179498064168
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scaling": {
+        "x": 32.372500000000194,
+        "y": 36.97250000000026,
+        "z": 31.97250000000019
+      },
+      "visible": true,
+      "animation": false
+    },
+    {
+      "id": "s_light_elephant",
+      "filename": "elephant_big",
+      "collisionEnabled": true,
+      "position": {
+        "x": -96.32892157768782,
+        "y": 84,
+        "z": 53.5615931925272
+      },
+      "rotation": {
+        "x": 0,
+        "y": 45,
+        "z": 0
+      },
+      "scaling": {
+        "x": 2.5469000000000013,
+        "y": 2.5107000000000013,
+        "z": 2.6012000000000013
+      },
+      "visible": true,
+      "animation": false
+    },
+    {
+      "id": "s_heavy_elephant",
+      "filename": "elephant_big",
+      "collisionEnabled": true,
+      "position": {
+        "x": 112.39706340800097,
+        "y": 17,
+        "z": 66.23401416518766
+      },
+      "rotation": {
+        "x": 0,
+        "y": -45,
+        "z": 0
+      },
+      "scaling": {
+        "x": 2.5469000000000013,
+        "y": 2.5107000000000013,
+        "z": 2.6012000000000013
+      },
+      "visible": true,
+      "animation": false
+    }
+  ],
+  "creatable_objects": [
+    {
+      "id": "temp_plane_0",
+      "type": "plane",
+      "collisionEnabled": true,
+      "position": {
+        "x": 10.388942673219997,
+        "y": 45,
+        "z": 43.13621015924514
+      },
+      "rotation": {
+        "x": 110,
+        "y": 90,
+        "z": 90
+      },
+      "scaling": {
+        "x": 5.599999999999997,
+        "y": 1.1,
+        "z": 3.9000000000000026
+      },
+      "visible": true,
+      "image": "none",
+      "uwdsCreate": "none",
+      "color": {
+        "diffuse": {
+          "r": 0.624,
+          "g": 0.518,
+          "b": 0.384
+        },
+        "specular": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        }
+      }
+    },
+    {
+      "id": "s_hitbox_heavy",
+      "type": "plane",
+      "collisionEnabled": true,
+      "position": {
+        "x": 84.8966176648848,
+        "y": 64,
+        "z": 134.6976749037667
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scaling": {
+        "x": 1.7000000000000006,
+        "y": 1.7000000000000006,
+        "z": 1.7000000000000006
+      },
+      "size": {},
+      "visible": true,
+      "image": "textures/transparent.png",
+      "uwdsCreate": "none",
+      "color": {
+        "diffuse": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        },
+        "specular": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        }
+      }
+    }    
+  ]
+}

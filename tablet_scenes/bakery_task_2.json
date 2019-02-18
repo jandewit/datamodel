@@ -1,0 +1,318 @@
+{
+  "ground": "black.jpg",
+  "camera": {
+    "Alpha": 2.749658689536554,
+    "Beta": 0.7246173593469953,
+    "Radius": 524.7369233262424,
+    "PositionX": -321.4467628784238,
+    "PositionY": 392.8984031377273,
+    "PositionZ": 132.8595579877378
+  },
+  "loadable_objects": [
+    {
+      "id": "m_bowl_takeaway_3",
+      "filename": "Bowl",
+      "collisionEnabled": true,
+      "position": {
+        "x": 81.6533100431617,
+        "y": 3,
+        "z": 230.71054423470338
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scaling": {
+        "x": 5.399999999999998,
+        "y": 5.399999999999998,
+        "z": 5.399999999999998
+      },
+      "visible": true,
+      "animation": false
+    },
+    {
+      "id": "s_bowl_takeaway_2",
+      "filename": "Bowl",
+      "collisionEnabled": true,
+      "position": {
+        "x": 120.66132917908192,
+        "y": 3,
+        "z": 187.8532682475264
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scaling": {
+        "x": 5.399999999999998,
+        "y": 5.399999999999998,
+        "z": 5.399999999999998
+      },
+      "visible": true,
+      "animation": false
+    },
+    {
+      "id": "s_bowl_takeaway_1",
+      "filename": "Bowl",
+      "collisionEnabled": true,
+      "position": {
+        "x": 142.70286875682888,
+        "y": 3,
+        "z": 243.50407022647954
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scaling": {
+        "x": 5.399999999999998,
+        "y": 5.399999999999998,
+        "z": 5.399999999999998
+      },
+      "visible": true,
+      "animation": false
+    },
+    {
+      "id": "s_bowl_add_1",
+      "filename": "Bowl",
+      "collisionEnabled": true,
+      "position": {
+        "x": 54.22493313006254,
+        "y": 3,
+        "z": 10.716786044750691
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scaling": {
+        "x": 5.399999999999998,
+        "y": 5.399999999999998,
+        "z": 5.399999999999998
+      },
+      "visible": true,
+      "animation": false
+    },
+    {
+      "id": "s_bowl_add_2",
+      "filename": "Bowl",
+      "collisionEnabled": true,
+      "position": {
+        "x": 24.488383125330074,
+        "y": 3,
+        "z": -47.15957865498882
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scaling": {
+        "x": 5.399999999999998,
+        "y": 5.399999999999998,
+        "z": 5.399999999999998
+      },
+      "visible": true,
+      "animation": false
+    },
+    {
+      "id": "m_bowl_add_3",
+      "filename": "Bowl",
+      "collisionEnabled": true,
+      "position": {
+      	"x": -500,
+      	"y": 3,
+      	"z": 60
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scaling": {
+        "x": 5.399999999999998,
+        "y": 5.399999999999998,
+        "z": 5.399999999999998
+      },
+      "visible": true,
+      "animation": false
+    },
+    {
+      "id": "s_bowl_move_1",
+      "filename": "Bowl",
+      "collisionEnabled": true,
+      "position": {
+        "x": -42.26790859438404,
+        "y": 3,
+        "z": -222.74262037955282
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scaling": {
+        "x": 5.399999999999998,
+        "y": 5.399999999999998,
+        "z": 5.399999999999998
+      },
+      "visible": true,
+      "animation": false
+    },
+    {
+      "id": "s_bowl_move_2",
+      "filename": "Bowl",
+      "collisionEnabled": true,
+      "position": {
+        "x": -68.51463790340219,
+        "y": 3,
+        "z": -276.84533278054016
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scaling": {
+        "x": 5.399999999999998,
+        "y": 5.399999999999998,
+        "z": 5.399999999999998
+      },
+      "visible": true,
+      "animation": false
+    },
+    {
+      "id": "m_bowl_move_3",
+      "filename": "Bowl",
+      "collisionEnabled": true,
+      "position": {
+        "x": -99.73034152574527,
+        "y": 3,
+        "z": -222.52547236744658
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scaling": {
+        "x": 5.399999999999998,
+        "y": 5.399999999999998,
+        "z": 5.399999999999998
+      },
+      "visible": true,
+      "animation": false
+    }
+  ],
+  "creatable_objects": [
+    {
+      "id": "s_area_1",
+      "type": "plane",
+      "collisionEnabled": true,
+      "position": {
+        "x": 124.53587548496779,
+        "y": 0,
+        "z": 223.1445835150089
+      },
+      "rotation": {
+        "x": -90.99999999999997,
+        "y": 20,
+        "z": 0
+      },
+      "scaling": {
+        "x": 4.300000000000002,
+        "y": 4.300000000000002,
+        "z": 4.300000000000002
+      },
+      "visible": true,
+      "image": "none",
+      "uwdsCreate": "none",
+      "color": {
+        "diffuse": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        },
+        "specular": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        }
+      }
+    },
+    {
+      "id": "s_area_2",
+      "type": "plane",
+      "collisionEnabled": true,
+      "position": {
+        "x": 30.482709701873432,
+        "y": 0,
+        "z": -13.966423834710398
+      },
+      "rotation": {
+        "x": -90.99999999999997,
+        "y": 21,
+        "z": 0
+      },
+      "scaling": {
+        "x": 4.300000000000002,
+        "y": 4.300000000000002,
+        "z": 4.300000000000002
+      },
+      "visible": true,
+      "image": "none",
+      "uwdsCreate": "none",
+      "color": {
+        "diffuse": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        },
+        "specular": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        }
+      }
+    },
+    {
+      "id": "s_area_3",
+      "type": "plane",
+      "collisionEnabled": true,
+      "position": {
+        "x": -66.15126581857166,
+        "y": 0,
+        "z": -253.1446716197803
+      },
+      "rotation": {
+        "x": -90.99999999999997,
+        "y": 21,
+        "z": 0
+      },
+      "scaling": {
+        "x": 4.300000000000002,
+        "y": 4.300000000000002,
+        "z": 4.300000000000002
+      },
+      "visible": true,
+      "image": "none",
+      "uwdsCreate": "none",
+      "color": {
+        "diffuse": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        },
+        "specular": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,174 @@
+{
+  "ground": "grass.png",
+  "camera": {
+    "Alpha": 1.368154510985823,
+    "Beta": 1.4261119945807985,
+    "Radius": 452.5006717929413,
+    "PositionX": 90.1177448038683,
+    "PositionY": 65.241577347793,
+    "PositionZ": 438.610518147593
+  },
+  "loadable_objects": [
+    {
+      "id": "temp_rock0_0",
+      "filename": "rock",
+      "collisionEnabled": true,
+      "position": {
+        "x": 16.184029775245705,
+        "y": 1,
+        "z": 145.9213379511997
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scaling": {
+        "x": 71.57250000000022,
+        "y": 71.57250000000022,
+        "z": 71.57250000000022
+      },
+      "visible": true,
+      "animation": false
+    },
+    {
+      "id": "temp_tree0_1",
+      "filename": "tree",
+      "collisionEnabled": true,
+      "position": {
+        "x": -73.7242435289605,
+        "y": 0,
+        "z": 217.389993097925
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scaling": {
+        "x": 3.9975000000000027,
+        "y": 3.9524000000000026,
+        "z": 4.006200000000002
+      },
+      "visible": true,
+      "animation": false
+    },
+    {
+      "id": "s_high_giraffe",
+      "filename": "giraffe",
+      "collisionEnabled": true,
+      "position": {
+        "x": 13.336534208780435,
+        "y": 52,
+        "z": 179.44203940822877
+      },
+      "rotation": {
+        "x": 0,
+        "y": 70,
+        "z": 0
+      },
+      "scaling": {
+        "x": 3.9913000000000025,
+        "y": 4.030300000000002,
+        "z": 4.0100000000000025
+      },
+      "visible": true,
+      "animation": false
+    },
+    {
+      "id": "s_low_giraffe",
+      "filename": "giraffe",
+      "collisionEnabled": true,
+      "position": {
+        "x": 145.16185205372526,
+        "y": 0,
+        "z": 206.47650756200352
+      },
+      "rotation": {
+        "x": 0,
+        "y": -70,
+        "z": 0
+      },
+      "scaling": {
+        "x": 4.091300000000002,
+        "y": 4.130300000000002,
+        "z": 4.110000000000002
+      },
+      "visible": true,
+      "animation": false
+    }
+  ],
+  "creatable_objects": [
+    {
+      "id": "s_lake_1",
+      "type": "cylinder",
+      "collisionEnabled": true,
+      "position": {
+        "x": -36.94665634938178,
+        "y": 1,
+        "z": 289.881060662973
+      },
+      "rotation": {
+        "x": 0,
+        "y": 4.000000000000003,
+        "z": 0
+      },
+      "scaling": {
+        "x": 10,
+        "y": 0.10000000000000103,
+        "z": 10
+      },
+      "visible": true,
+      "image": "none",
+      "uwdsCreate": "none",
+      "color": {
+        "diffuse": {
+          "r": 0.2,
+          "g": 0.6,
+          "b": 1
+        },
+        "specular": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        }
+      }
+    },
+    {
+      "id": "s_hitbox_high",
+      "type": "plane",
+      "collisionEnabled": true,
+      "position": {
+        "x": 31.336695912735728,
+        "y": 75,
+        "z": 227.11313106535022
+      },
+      "rotation": {
+        "x": 0,
+        "y": 18,
+        "z": 0
+      },
+      "scaling": {
+        "x": 1.7000000000000006,
+        "y": 1.7000000000000006,
+        "z": 1.7000000000000006
+      },
+      "size": {},
+      "visible": true,
+      "image": "textures/transparent.png",
+      "uwdsCreate": "none",
+      "color": {
+        "diffuse": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        },
+        "specular": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        }
+      }
+    }     
+  ]
+}

@@ -1,0 +1,274 @@
+{
+  "ground": "black.jpg",
+  "camera": {
+    "Alpha": 2.749658689536554,
+    "Beta": 0.7246173593469953,
+    "Radius": 524.7369233262424,
+    "PositionX": -321.4467628784238,
+    "PositionY": 392.8984031377273,
+    "PositionZ": 132.8595579877378
+  },
+  "loadable_objects": [
+    {
+      "id": "s_table_between_1",
+      "filename": "table",
+      "collisionEnabled": true,
+      "position": {
+        "x": 34.64482634300413,
+        "y": 0,
+        "z": 44.26257563890384
+      },
+      "rotation": {
+        "x": 0,
+        "y": 21.999999999999996,
+        "z": 0
+      },
+      "scaling": {
+        "x": 3.100000000000002,
+        "y": 3.100000000000002,
+        "z": 3.100000000000002
+      },
+      "visible": true,
+      "animation": false
+    },
+    {
+      "id": "s_table_between_2",
+      "filename": "Table",
+      "collisionEnabled": true,
+      "position": {
+        "x": -4.660125712702836,
+        "y": 0,
+        "z": -61.487166992967104
+      },
+      "rotation": {
+        "x": 0,
+        "y": 22,
+        "z": 0
+      },
+      "scaling": {
+        "x": 3.200000000000002,
+        "y": 3.200000000000002,
+        "z": 3.200000000000002
+      },
+      "visible": true,
+      "animation": false
+    },
+    {
+      "id": "s_table_under",
+      "filename": "Table",
+      "collisionEnabled": true,
+      "position": {
+        "x": -77.1169901601308,
+        "y": 0,
+        "z": -241.0843120619037
+      },
+      "rotation": {
+        "x": 0,
+        "y": 22,
+        "z": 0
+      },
+      "scaling": {
+        "x": 3.200000000000002,
+        "y": 3.200000000000002,
+        "z": 3.200000000000002
+      },
+      "visible": true,
+      "animation": false
+    },
+    {
+      "id": "s_table_above",
+      "filename": "Table",
+      "collisionEnabled": true,
+      "position": {
+        "x": 111.49988928627789,
+        "y": 0,
+        "z": 223.83019021297844
+      },
+      "rotation": {
+        "x": 0,
+        "y": 19,
+        "z": 0
+      },
+      "scaling": {
+        "x": 3.200000000000002,
+        "y": 3.200000000000002,
+        "z": 3.200000000000002
+      },
+      "visible": true,
+      "animation": false
+    },
+    {
+      "id": "s_monkey_above",
+      "filename": "Monkey",
+      "collisionEnabled": true,
+      "position": {
+        "x": 110.94308885391649,
+        "y": 126,
+        "z": 226.7401168195714
+      },
+      "rotation": {
+        "x": 0,
+        "y": 89.99999999999997,
+        "z": 0
+      },
+      "scaling": {
+        "x": 2.183300000000001,
+        "y": 2.1270000000000007,
+        "z": 2.174500000000001
+      },
+      "visible": true,
+      "animation": false
+    },
+    {
+      "id": "s_monkey_between",
+      "filename": "Monkey",
+      "collisionEnabled": true,
+      "position": {
+        "x": 12.76184878065743,
+        "y": 0,
+        "z": -6.564275605841431
+      },
+      "rotation": {
+        "x": 0,
+        "y": 77.00000000000001,
+        "z": 0
+      },
+      "scaling": {
+        "x": 2.483300000000001,
+        "y": 2.427000000000001,
+        "z": 2.4745000000000013
+      },
+      "visible": true,
+      "animation": false
+    },
+    {
+      "id": "s_monkey_below",
+      "filename": "Monkey",
+      "collisionEnabled": true,
+      "position": {
+        "x": -129.76312841112292,
+        "y": 0,
+        "z": -216.70911921854795
+      },
+      "rotation": {
+        "x": 0,
+        "y": 95.99999999999996,
+        "z": 0
+      },
+      "scaling": {
+        "x": 1.8833000000000006,
+        "y": 1.8270000000000004,
+        "z": 1.8745000000000007
+      },
+      "visible": true,
+      "animation": false
+    }
+  ],
+  "creatable_objects": [
+    {
+      "id": "s_area_1",
+      "type": "plane",
+      "collisionEnabled": true,
+      "position": {
+        "x": 124.53587548496779,
+        "y": 0,
+        "z": 223.1445835150089
+      },
+      "rotation": {
+        "x": -90.99999999999997,
+        "y": 20,
+        "z": 0
+      },
+      "scaling": {
+        "x": 4.300000000000002,
+        "y": 4.300000000000002,
+        "z": 4.300000000000002
+      },
+      "visible": true,
+      "image": "none",
+      "uwdsCreate": "none",
+      "color": {
+        "diffuse": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        },
+        "specular": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        }
+      }
+    },
+    {
+      "id": "s_area_2",
+      "type": "plane",
+      "collisionEnabled": true,
+      "position": {
+        "x": 30.482709701873432,
+        "y": 0,
+        "z": -13.966423834710398
+      },
+      "rotation": {
+        "x": -90.99999999999997,
+        "y": 21,
+        "z": 0
+      },
+      "scaling": {
+        "x": 4.300000000000002,
+        "y": 4.300000000000002,
+        "z": 4.300000000000002
+      },
+      "visible": true,
+      "image": "none",
+      "uwdsCreate": "none",
+      "color": {
+        "diffuse": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        },
+        "specular": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        }
+      }
+    },
+    {
+      "id": "s_area_3",
+      "type": "plane",
+      "collisionEnabled": true,
+      "position": {
+        "x": -66.15126581857166,
+        "y": 0,
+        "z": -253.1446716197803
+      },
+      "rotation": {
+        "x": -90.99999999999997,
+        "y": 21,
+        "z": 0
+      },
+      "scaling": {
+        "x": 4.300000000000002,
+        "y": 4.300000000000002,
+        "z": 4.300000000000002
+      },
+      "visible": true,
+      "image": "none",
+      "uwdsCreate": "none",
+      "color": {
+        "diffuse": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        },
+        "specular": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        }
+      }
+    }
+  ]
+}

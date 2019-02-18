@@ -1,0 +1,854 @@
+{
+    "001:001": [
+        {
+            "text": {
+                "Dutch": "Hoi <name>. De vorige keer was het heel leuk! We waren in de bakkerij en hebben een hoop woorden geleerd. We hebben geleerd dat vier {four} is en dat vijf {five} is. We moesten spullen van de plank afhalen, dus {take away,} zodat er minder, dus {fewer,} spullen opstonden. Van de emmers waren er het het minst, dus {fewest.} Ben jij ook benieuwd naar wat we vandaag gaan doen?", 
+                "English": "Hello <name>. Last time we had a lot of fun! Are you also excited to see what we\u2019ll be doing today? {four} {five} {take away,} {fewer,} {fewest.} ", 
+                "German": "{four} {five} {take away,} {fewer,} {fewest.} ", 
+                "Turkish": "{four} {five} {take away,} {fewer,} {fewest.} "
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:002": [
+        {
+            "text": {
+                "Dutch": "Kijk eens waar we vandaag naartoe gaan! < Gaze(child> <Gesture(Pretends to touch tablet)>", 
+                "English": "Look where we\u2019re going today! <Gaze(child)> <Gesture(Pretends to touch tablet)>", 
+                "German": "", 
+                "Turkish": ""
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "001:003": [
+        {
+            "text": {
+                "Dutch": "<Gaze(child)> Leuk <Face(happy)>, vandaag gaan we weer naar de dierentuin! Ik vond het de vorige keer heel leuk in de dierentuin. Jij ook? <Face(neutral)>", 
+                "English": "<Gaze(child)> Cool <Face(happy)>, today we\u2019ll visit the zoo again! I really liked the zoo last time. You too? <Face(neutral)>", 
+                "German": "", 
+                "Turkish": ""
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "002:001": [
+        {
+            "objective": {
+                "id": "big_elephant", 
+                "is_plural": false
+            }, 
+            "text": {
+                "Dutch": "Ik zie olifanten. Weet je nog wat we hebben geleerd, een olifant is in het Engels {elephant} Kijk <name> <pointAt(tablet)> <Gaze(tablet)>, de dieren spelen een spelletje met ons! <Gaze(child)> 1 {elephant} is heel groot. Raak <pointAt(tablet)> <Gaze(tablet)> de grotere olifant maar aan <Gaze(child)>. Dan leren we het woord voor groot. <accept_answer> ", 
+                "English": "I see elephants. Remember what we learnt an elephant in English is {elephant} Look <pointAt(tablet)> <Gaze(tablet)>, the animals are playing a game with us! <Gaze(child)> One {elephant} is bigger than the other. Touch <pointAt(tablet)> <Gaze(tablet)> the bigger elephant <Gaze(child)> and we\u2019ll learn the word for bigger. ", 
+                "German": "{elephant} {elephant}  ", 
+                "Turkish": "{elephant} {elephant}  "
+            }, 
+            "type": "TEXT_OUTPUT"
+        }, 
+        {
+            "text": "big", 
+            "type": "TABLET_SPEECH_OUTPUT"
+        }
+    ], 
+    "002:002": [
+        {
+            "objective": {
+                "id": "big", 
+                "is_plural": false
+            }, 
+            "text": {
+                "Dutch": "<Gaze(child)> <tablet(off)> Dus groot is {big} Zeg mij maar na: {big}", 
+                "English": "<Gaze(child)> Did you hear that? <tablet(off)> Remember that big is {big} {big}", 
+                "German": "{big} {big}", 
+                "Turkish": "{big} {big}"
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "002:003": [
+        {
+            "objective": {
+                "id": "big_elephant", 
+                "is_plural": false
+            }, 
+            "text": {
+                "Dutch": "<tablet(on)> <Gaze(child)> Raak nu maar weer de  <pointAt(tablet)> <Gaze(tablet)> {big elephant} <accept_answer> aan", 
+                "English": "<tablet(on)> <Gaze(child)> Now, touch <pointAt(tablet)> <Gaze(tablet)> again the {big elephant} that is", 
+                "German": "{big elephant} ", 
+                "Turkish": "{big elephant} "
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "002:004": [
+        {
+            "text": {
+                "Dutch": "Dat was de {big elephant.}", 
+                "English": "{big elephant.}", 
+                "German": "{big elephant.}", 
+                "Turkish": "{big elephant.}"
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "002:005": [
+        {
+            "objective": {
+                "id": "small_giraffe", 
+                "is_plural": false
+            }, 
+            "text": {
+                "Dutch": "<Gaze(child)> Kijk <pointAt(tablet)> <Gaze(tablet)>, nog meer dieren! <Gaze(child)> Dit zijn zjiraffen. Weet je nog, zjiraf is in het Engels {giraffe} 1 {giraffe} is heel klein. Raak <pointAt(tablet)> <Gaze(tablet)> de kleine zjiraf maar aan <Gaze(child)>. Dan leren we het woord voor klein. <accept_answer> ", 
+                "English": "<Gaze(child)> Look <pointAt(tablet)> <Gaze(tablet)>, more animals! <Gaze(child)> These are giraffes. Remember, giraffe in English is {giraffe} One {giraffe} is smaller than the other. Touch <pointAt(tablet)> <Gaze(tablet)> the smaller giraffe <Gaze(child)> and we\u2019ll learn the word for smaller. ", 
+                "German": "{giraffe} {giraffe}  ", 
+                "Turkish": "{giraffe} {giraffe}  "
+            }, 
+            "type": "TEXT_OUTPUT"
+        }, 
+        {
+            "text": "small", 
+            "type": "TABLET_SPEECH_OUTPUT"
+        }
+    ], 
+    "002:006": [
+        {
+            "objective": {
+                "id": "small", 
+                "is_plural": false
+            }, 
+            "text": {
+                "Dutch": "<Gaze(child)> <tablet(off)> Dus klein is {small} <name>, zeg maar: {small}", 
+                "English": "<Gaze(child)> <tablet(off)> I remember that small is {small} {small}", 
+                "German": "{small} {small}", 
+                "Turkish": "{small} {small}"
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "002:007": [
+        {
+            "objective": {
+                "id": "small_giraffe", 
+                "is_plural": false
+            }, 
+            "text": {
+                "Dutch": "<tablet(on)> Raak nu maar weer de <pointAt(tablet)> <Gaze(tablet)> {small giraffe} <Gaze(child)> <accept_answer> aan", 
+                "English": "<tablet(on)> Now, touch <pointAt(tablet)> <Gaze(tablet)> again the {small giraffe} <Gaze(child)> that is", 
+                "German": "{small giraffe} ", 
+                "Turkish": "{small giraffe} "
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "002:008": [
+        {
+            "text": {
+                "Dutch": "Dat was de {small giraffe}", 
+                "English": "{small giraffe}", 
+                "German": "{small giraffe}", 
+                "Turkish": "{small giraffe}"
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "002:009": [
+        {
+            "objective": {
+                "id": "heavy_elephant", 
+                "is_plural": false
+            }, 
+            "text": {
+                "Dutch": "<Gaze(child)> Kijk <pointAt(tablet)> <Gaze(tablet)>, daar zijn de olifanten weer! 1 {elephant} is heel zwaar. Raak <pointAt(tablet)> <Gaze(tablet)> de zware olifant aan <Gaze(child)>. Dan leren we het woord voor zwaar <accept_answer> ", 
+                "English": "<Gaze(child)> Look <pointAt(tablet)> <Gaze(tablet)>, the elephants again! One {elephant} is heavier than the other. Touch <pointAt(tablet)> <Gaze(tablet)> the heavier elephant <Gaze(child)> and we\u2019ll learn the word for heavier. ", 
+                "German": "{elephant}  ", 
+                "Turkish": "{elephant}  "
+            }, 
+            "type": "TEXT_OUTPUT"
+        }, 
+        {
+            "text": "heavy", 
+            "type": "TABLET_SPEECH_OUTPUT"
+        }
+    ], 
+    "002:010": [
+        {
+            "objective": {
+                "id": "heavy", 
+                "is_plural": false
+            }, 
+            "text": {
+                "Dutch": "<Gaze(child)> Ja! <Face(happy)>, <tablet(off)> Zwaar is {heavy} Zeg mij maar na {heavy}", 
+                "English": "<Gaze(child)> Cool <Face(happy)>, <tablet(off)> heavy is {heavy} {heavy}", 
+                "German": "{heavy} {heavy}", 
+                "Turkish": "{heavy} {heavy}"
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "002:011": [
+        {
+            "objective": {
+                "id": "heavy_elephant", 
+                "is_plural": false
+            }, 
+            "text": {
+                "Dutch": "<tablet(on)> <Gaze(child)> <name>, raak nu maar de  <pointAt(tablet)> <Gaze(tablet)> {heavy elephant} <Gaze(child)> <accept_answer> aan", 
+                "English": "<tablet(on)> <Gaze(child)> Now, touch <pointAt(tablet)> <Gaze(tablet)> again the {heavy elephant} <Gaze(child)> that is", 
+                "German": "{heavy elephant} ", 
+                "Turkish": "{heavy elephant} "
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "002:012": [
+        {
+            "text": {
+                "Dutch": "Dat was de {heavy elephant}", 
+                "English": "{heavy elephant}", 
+                "German": "{heavy elephant}", 
+                "Turkish": "{heavy elephant}"
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "002:013": [
+        {
+            "objective": {
+                "id": "light_monkey", 
+                "is_plural": false
+            }, 
+            "text": {
+                "Dutch": "<Gaze(child)> Kijk <pointAt(tablet)> <Gaze(tablet)> {monkeys!} <Gaze(child)>Weet je nog? Aap is {monkey} De ene {monkey} is heel licht. Wat zou licht zijn in het Engels? Raak <pointAt(tablet)> <Gaze(tablet)> de lichte aap maar aan <accept_answer> <Gaze(child)> ", 
+                "English": "<Gaze(child)> Look, <pointAt(tablet)> <Gaze(tablet)> {monkeys!} <Gaze(child)> Remember, monkey is {monkey} One {monkey} is lighter than the other. Touch <pointAt(tablet)> <Gaze(tablet)> the lighter monkey <Gaze(child)> and we\u2019ll learn the word for lighter. ", 
+                "German": "{monkeys!} {monkey} {monkey}  ", 
+                "Turkish": "{monkeys!} {monkey} {monkey}  "
+            }, 
+            "type": "TEXT_OUTPUT"
+        }, 
+        {
+            "text": "light", 
+            "type": "TABLET_SPEECH_OUTPUT"
+        }
+    ], 
+    "002:014": [
+        {
+            "objective": {
+                "id": "light", 
+                "is_plural": false
+            }, 
+            "text": {
+                "Dutch": "<tablet(off)><Gaze(child)> Dus licht is {light} Zeg ook maar: {light}", 
+                "English": "<Gaze(child)> I get this! <tablet(off)> Light is {light} {light}", 
+                "German": "{light} {light}", 
+                "Turkish": "{light} {light}"
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "002:015": [
+        {
+            "objective": {
+                "id": "light_monkey", 
+                "is_plural": false
+            }, 
+            "text": {
+                "Dutch": "<tablet(on)> <Gaze(child)> Raak nu maar weer de <pointAt(tablet)> <Gaze(tablet)> {light monkey} <Gaze(child)> <accept_answer> aan", 
+                "English": "<tablet(on)> <Gaze(child)> Now, touch <pointAt(tablet)> <Gaze(tablet)> again the {light monkey} <Gaze(child)> that is", 
+                "German": "{light monkey} ", 
+                "Turkish": "{light monkey} "
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "002:016": [
+        {
+            "text": {
+                "Dutch": "Daar was hij, de {light monkey}", 
+                "English": "{light monkey}", 
+                "German": "{light monkey}", 
+                "Turkish": "{light monkey}"
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "002:017": [
+        {
+            "objective": {
+                "id": "high_giraffe", 
+                "is_plural": false
+            }, 
+            "text": {
+                "Dutch": "<Gaze(child)> Wow  <Face(happy)>, nog meer {giraffes!} <Face(neutral)> 1 {giraffe} is heel hoog. Ik ben benieuwd wat hoog is! <name>, raak <pointAt(tablet)> <Gaze(tablet)> de hoge zjiraf maar aan. <accept_answer> <Gaze(child)> ", 
+                "English": "<Gaze(child)> Cool <Face(happy)>, more {giraffes!} <Face(neutral)> One {giraffe} is higher than the other. Touch <pointAt(tablet)> <Gaze(tablet)> the higher giraffe <Gaze(child)> and we\u2019ll learn the word for higher. ", 
+                "German": "{giraffes!} {giraffe}  ", 
+                "Turkish": "{giraffes!} {giraffe}  "
+            }, 
+            "type": "TEXT_OUTPUT"
+        }, 
+        {
+            "text": "high", 
+            "type": "TABLET_SPEECH_OUTPUT"
+        }
+    ], 
+    "002:018": [
+        {
+            "objective": {
+                "id": "high", 
+                "is_plural": false
+            }, 
+            "text": {
+                "Dutch": "<tablet(off)><Gaze(child)> Dus hoog is {high} Zeg mij maar na: {high}", 
+                "English": "{high} {high}", 
+                "German": "{high} {high}", 
+                "Turkish": "{high} {high}"
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "002:019": [
+        {
+            "objective": {
+                "id": "high_giraffe", 
+                "is_plural": false
+            }, 
+            "text": {
+                "Dutch": "<tablet(on)>Raak de  <pointAt(tablet)> <Gaze(tablet)> {high giraffe} <Gaze(child)> <accept_answer> maar weer aan.", 
+                "English": "<Gaze(child)> that is {high giraffe} than the other giraffe.", 
+                "German": "{high giraffe} ", 
+                "Turkish": "{high giraffe} "
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "002:020": [
+        {
+            "text": {
+                "Dutch": "Daar was de {high giraffe}", 
+                "English": "{high giraffe}", 
+                "German": "{high giraffe}", 
+                "Turkish": "{high giraffe}"
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "002:021": [
+        {
+            "objective": {
+                "id": "low_monkey", 
+                "is_plural": false
+            }, 
+            "text": {
+                "Dutch": "Kijk, <pointAt(tablet)> <Gaze(tablet)> {monkeys!} <Gaze(child)> 1 {monkey} is laag. Raak <pointAt(tablet)> <Gaze(tablet)> de lage aap maar aan <accept_answer> <Gaze(child)> ", 
+                "English": "Look, <pointAt(tablet)> <Gaze(tablet)> {monkeys!} <Gaze(child)> One {monkey} is is lower than the other. Touch <pointAt(tablet)> <Gaze(tablet)> the lower monkey <Gaze(child)> and we\u2019ll learn the word for lower. ", 
+                "German": "{monkeys!} {monkey}  ", 
+                "Turkish": "{monkeys!} {monkey}  "
+            }, 
+            "type": "TEXT_OUTPUT"
+        }, 
+        {
+            "text": "low", 
+            "type": "TABLET_SPEECH_OUTPUT"
+        }
+    ], 
+    "002:022": [
+        {
+            "objective": {
+                "id": "low", 
+                "is_plural": false
+            }, 
+            "text": {
+                "Dutch": "<tablet(off)><Gaze(child)> Aha, laag is {low} Zeg mij maar na: {low}", 
+                "English": "<Gaze(child)> I get this! <tablet(off)> Low is {low} {low}", 
+                "German": "{low} {low}", 
+                "Turkish": "{low} {low}"
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "002:023": [
+        {
+            "objective": {
+                "id": "low_monkey", 
+                "is_plural": false
+            }, 
+            "text": {
+                "Dutch": "<tablet(on)> Raak nu maar weer de <pointAt(tablet)> <Gaze(tablet)> {low monkey} <Gaze(child)> <accept_answer> aan", 
+                "English": "<tablet(on)> Now, touch <pointAt(tablet)> <Gaze(tablet)> again the {low monkey} <Gaze(child)> that is", 
+                "German": "{low monkey} ", 
+                "Turkish": "{low monkey} "
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "002:024": [
+        {
+            "text": {
+                "Dutch": "Daar was de {low monkey.}", 
+                "English": "{low monkey.}", 
+                "German": "{low monkey.}", 
+                "Turkish": "{low monkey.}"
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "002:025": [
+        {
+            "objective": {
+                "id": "big_giraffe", 
+                "is_plural": false
+            }, 
+            "text": {
+                "Dutch": "<Gaze(child)><Face(happy)>We gaan dierentikkertje spelen. <Face(neutral)> We beginnen met {big} Kom <name>, we zoeken de {big giraffe} <accept_answer>", 
+                "English": "<Gaze(child)> Cool <Face(happy)>, we\u2019re going to play tap the animal! <Face(neutral)> We\u2019ll start with {big} let\u2019s search for the {big giraffe} ", 
+                "German": "{big} {big giraffe} ", 
+                "Turkish": "{big} {big giraffe} "
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "002:026": [
+        {
+            "text": {
+                "Dutch": "Dat was de {big giraffe.}", 
+                "English": "{big giraffe.}", 
+                "German": "{big giraffe.}", 
+                "Turkish": "{big giraffe.}"
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "002:027": [
+        {
+            "objective": {
+                "id": "heavy_monkey", 
+                "is_plural": false
+            }, 
+            "text": {
+                "Dutch": "<Gaze(child)> Nu {heavy} zoek, de {heavy monkey} <accept_answer>", 
+                "English": "<Gaze(child)> Now {heavy} search for the {heavy monkey} ", 
+                "German": "{heavy} {heavy monkey} ", 
+                "Turkish": "{heavy} {heavy monkey} "
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "002:028": [
+        {
+            "text": {
+                "Dutch": "Dat was de {heavy monkey}", 
+                "English": "{heavy monkey}", 
+                "German": "{heavy monkey}", 
+                "Turkish": "{heavy monkey}"
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "002:029": [
+        {
+            "objective": {
+                "id": "low_elephant", 
+                "is_plural": false
+            }, 
+            "text": {
+                "Dutch": "<Gaze(child)>Nu {low} Laten we zoeken naar de {low elephant} <accept_answer>", 
+                "English": "<Gaze(child)> Now {low} let's search for the {low elephant} ", 
+                "German": "{low} {low elephant} ", 
+                "Turkish": "{low} {low elephant} "
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "002:030": [
+        {
+            "text": {
+                "Dutch": "We hebben hem gevonden, de {low elephant}", 
+                "English": "{low elephant}", 
+                "German": "{low elephant}", 
+                "Turkish": "{low elephant}"
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "002:031": [
+        {
+            "objective": {
+                "id": "light_giraffe", 
+                "is_plural": false
+            }, 
+            "text": {
+                "Dutch": "<Gaze(child)> Nu {light} <name>, zoek, de {light giraffe} <accept_answer>", 
+                "English": "<Gaze(child)> Now {light} search for the {light giraffe} ", 
+                "German": "{light} {light giraffe} ", 
+                "Turkish": "{light} {light giraffe} "
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "002:032": [
+        {
+            "text": {
+                "Dutch": "Daar was hij, de {light giraffe}", 
+                "English": "{light giraffe}", 
+                "German": "{light giraffe}", 
+                "Turkish": "{light giraffe}"
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "002:033": [
+        {
+            "objective": {
+                "id": "high_monkey", 
+                "is_plural": false
+            }, 
+            "text": {
+                "Dutch": "<Gaze(child)>Nu {high} zoek, de {high monkey} <accept_answer>", 
+                "English": "<Gaze(child)> Now {high} search for the {high monkey} ", 
+                "German": "{high} {high monkey} ", 
+                "Turkish": "{high} {high monkey} "
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "002:034": [
+        {
+            "text": {
+                "Dutch": "Dat was de {high monkey}", 
+                "English": "{high monkey}", 
+                "German": "{high monkey}", 
+                "Turkish": "{high monkey}"
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "002:035": [
+        {
+            "objective": {
+                "id": "small_elephant", 
+                "is_plural": false
+            }, 
+            "text": {
+                "Dutch": "<Gaze(child)>Nu de laatste: {small} Laten we zoeken naar de {small elephant} <accept_answer>", 
+                "English": "<Gaze(child)> Last turn: {small} let\u2019s search for the elephant that is {small elephant} ", 
+                "German": "{small} {small elephant} ", 
+                "Turkish": "{small} {small elephant} "
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "002:036": [
+        {
+            "text": {
+                "Dutch": "Daar was de {small elephant} <Gaze(child)> <Face(happy)> <name>, dat hebben we supergoed gedaan! Nu doen we een ander spelletje! <Face(neutral)>", 
+                "English": "{small elephant} <Gaze(child)> <Face(happy)> We did great! Let\u2019s play another game! <Face(neutral)>", 
+                "German": "{small elephant} ", 
+                "Turkish": "{small elephant} "
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "003:001": [
+        {
+            "objective": {
+                "id": "high_giraffe", 
+                "is_plural": false
+            }, 
+            "text": {
+                "Dutch": "<Gaze(child)> Leuk <Face(happy)>, een nieuw spelletje. <Face(neutral)> zoek, de {high giraffe} <accept_answer>", 
+                "English": "<Gaze(child)> Cool <Face(happy)>, a new game! <Face(neutral)> Search for the {high giraffe} ", 
+                "German": "{high giraffe} ", 
+                "Turkish": "{high giraffe} "
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "003:002": [
+        {
+            "objective": {
+                "id": "heavy_monkey", 
+                "is_plural": false
+            }, 
+            "text": {
+                "Dutch": "Daar was de {high giraffe.} Zoek nu de {heavy monkey} <accept_answer>", 
+                "English": "{high giraffe.} Now search for the {heavy monkey} ", 
+                "German": "{high giraffe.} {heavy monkey} ", 
+                "Turkish": "{high giraffe.} {heavy monkey} "
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "003:003": [
+        {
+            "objective": {
+                "id": "big_elephant", 
+                "is_plural": false
+            }, 
+            "text": {
+                "Dutch": "Dat was de {heavy monkey.} Nu gaan we zoeken naar de {big elephant} <accept_answer>", 
+                "English": "{heavy monkey.} Now let\u2019s search for the {big elephant} ", 
+                "German": "{heavy monkey.} {big elephant} ", 
+                "Turkish": "{heavy monkey.} {big elephant} "
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "003:004": [
+        {
+            "objective": {
+                "id": "low_giraffe", 
+                "is_plural": false
+            }, 
+            "text": {
+                "Dutch": "Daar was de {big elephant.} Zoek nu de {low giraffe} <accept_answer>", 
+                "English": "{big elephant.} Now search for the {low giraffe} ", 
+                "German": "{big elephant.} {low giraffe} ", 
+                "Turkish": "{big elephant.} {low giraffe} "
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "003:005": [
+        {
+            "objective": {
+                "id": "light_monkey", 
+                "is_plural": false
+            }, 
+            "text": {
+                "Dutch": "Aha, daar was de {low giraffe.} En zoek nu de {light monkey} <accept_answer>", 
+                "English": "{low giraffe.} Now search for the {light monkey} ", 
+                "German": "{low giraffe.} {light monkey} ", 
+                "Turkish": "{low giraffe.} {light monkey} "
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "003:006": [
+        {
+            "objective": {
+                "id": "small_elephant", 
+                "is_plural": false
+            }, 
+            "text": {
+                "Dutch": "Ja, daar was de {light monkey.} Laatste keer: zoek maar naar de {small elephant} <accept_answer>", 
+                "English": "{light monkey.} Last turn, let\u2019s search for the elephant that is {small elephant} ", 
+                "German": "{light monkey.} {small elephant} ", 
+                "Turkish": "{light monkey.} {small elephant} "
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "003:007": [
+        {
+            "text": {
+                "Dutch": "Daar was de {small elephant.}", 
+                "English": "{small elephant.}", 
+                "German": "{small elephant.}", 
+                "Turkish": "{small elephant.}"
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "004:001": [
+        {
+            "objective": {
+                "id": "big_monkey_test", 
+                "is_plural": false
+            }, 
+            "text": {
+                "Dutch": "Kijk, dit spelletje mag jij spelen! Ik denk dat je het goed kan. Waar zie je {big} <accept_answer>", 
+                "English": " {big} ", 
+                "German": " {big} ", 
+                "Turkish": " {big} "
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "004:002": [
+        {
+            "objective": {
+                "id": "high_elephant_test", 
+                "is_plural": false
+            }, 
+            "text": {
+                "Dutch": "Waar zie je {high} <accept_answer>", 
+                "English": "{high} ", 
+                "German": "{high} ", 
+                "Turkish": "{high} "
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "004:003": [
+        {
+            "objective": {
+                "id": "small_giraffe_test", 
+                "is_plural": false
+            }, 
+            "text": {
+                "Dutch": "Waar zie je {small} <accept_answer>", 
+                "English": "{small} ", 
+                "German": "{small} ", 
+                "Turkish": "{small} "
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "004:004": [
+        {
+            "objective": {
+                "id": "light_elephant_test", 
+                "is_plural": false
+            }, 
+            "text": {
+                "Dutch": "Waar zie je {light} <accept_answer>", 
+                "English": "{light} ", 
+                "German": "{light} ", 
+                "Turkish": "{light} "
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "004:005": [
+        {
+            "objective": {
+                "id": "low_giraffe_test", 
+                "is_plural": false
+            }, 
+            "text": {
+                "Dutch": "Waar zie je {low} <accept_answer>", 
+                "English": "{low} ", 
+                "German": "{low} ", 
+                "Turkish": "{low} "
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "004:006": [
+        {
+            "objective": {
+                "id": "heavy_giraffe_test", 
+                "is_plural": false
+            }, 
+            "text": {
+                "Dutch": "Waar zie je {heavy} <accept_answer>", 
+                "English": "{heavy} ", 
+                "German": "{heavy} ", 
+                "Turkish": "{heavy} "
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "004:007": [
+        {
+            "objective": {
+                "id": "big_giraffe_test", 
+                "is_plural": false
+            }, 
+            "text": {
+                "Dutch": "Waar zie je {big} <accept_answer>", 
+                "English": "{big} ", 
+                "German": "{big} ", 
+                "Turkish": "{big} "
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "004:008": [
+        {
+            "objective": {
+                "id": "heavy_monkey_test", 
+                "is_plural": false
+            }, 
+            "text": {
+                "Dutch": "Waar zie je {heavy} <accept_answer>", 
+                "English": "{heavy} ", 
+                "German": "{heavy} ", 
+                "Turkish": "{heavy} "
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "004:009": [
+        {
+            "objective": {
+                "id": "low_elephant_test", 
+                "is_plural": false
+            }, 
+            "text": {
+                "Dutch": "Waar zie je {low} <accept_answer>", 
+                "English": "{low} ", 
+                "German": "{low} ", 
+                "Turkish": "{low} "
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "004:010": [
+        {
+            "objective": {
+                "id": "high_monkey_test", 
+                "is_plural": false
+            }, 
+            "text": {
+                "Dutch": "Waar zie je {high} <accept_answer>", 
+                "English": "{high} ", 
+                "German": "{high} ", 
+                "Turkish": "{high} "
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "004:011": [
+        {
+            "objective": {
+                "id": "light_giraffe_test", 
+                "is_plural": false
+            }, 
+            "text": {
+                "Dutch": "Waar zie je {light} <accept_answer>", 
+                "English": "{light} ", 
+                "German": "{light} ", 
+                "Turkish": "{light} "
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "004:012": [
+        {
+            "objective": {
+                "id": "small_elephant_test", 
+                "is_plural": false
+            }, 
+            "text": {
+                "Dutch": "Waar zie je {small} <accept_answer>", 
+                "English": "{small} ", 
+                "German": "{small} ", 
+                "Turkish": "{small} "
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "005:001": [
+        {
+            "text": {
+                "Dutch": "<Gaze(child)>", 
+                "English": "", 
+                "German": "", 
+                "Turkish": ""
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ], 
+    "005:002": [
+        {
+            "text": {
+                "Dutch": "Jippie, we hebben een ster verdiend. Het was heel leuk om met je te spelen. Daag!", 
+                "English": "Yay we got a star! It was very nice to play with you! Bye!", 
+                "German": "", 
+                "Turkish": ""
+            }, 
+            "type": "TEXT_OUTPUT"
+        }
+    ]
+}

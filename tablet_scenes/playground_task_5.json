@@ -1,0 +1,230 @@
+{
+  "ground": "black.jpg",
+  "camera": {
+    "Alpha": 2.749658689536554,
+    "Beta": 0.7246173593469953,
+    "Radius": 524.7369233262424,
+    "PositionX": -321.4467628784238,
+    "PositionY": 392.8984031377273,
+    "PositionZ": 132.8595579877378
+  },
+  "loadable_objects": [
+    {
+      "id": "s_slide_sliding",
+      "filename": "Slide",
+      "collisionEnabled": true,
+      "position": {
+        "x": 120.24459689758089,
+        "y": 0,
+        "z": 203.56462874511075
+      },
+      "rotation": {
+        "x": 0,
+        "y": 146.99999999999977,
+        "z": 0
+      },
+      "scaling": {
+        "x": 1.3000000000000003,
+        "y": 1.3000000000000003,
+        "z": 1.3000000000000003
+      },
+      "visible": true,
+      "animation": false
+    },
+    {
+      "id": "s_slide_climbing",
+      "filename": "Slide",
+      "collisionEnabled": true,
+      "position": {
+        "x": 21.759106169145355,
+        "y": 0,
+        "z": -24.365750452287585
+      },
+      "rotation": {
+        "x": 0,
+        "y": 160.99999999999974,
+        "z": 0
+      },
+      "scaling": {
+        "x": 1.3000000000000003,
+        "y": 1.3000000000000003,
+        "z": 1.3000000000000003
+      },
+      "visible": true,
+      "animation": false
+    },
+    {
+      "id": "m_girl_climbing",
+      "filename": "GirlClimbing",
+      "collisionEnabled": true,
+      "position": {
+        "x": 46.326729990990145,
+        "y": -2,
+        "z": -67.4578331375225
+      },
+      "rotation": {
+        "x": 0,
+        "y": -202.9999999999996,
+        "z": 0
+      },
+      "scaling": {
+        "x": 1.3000000000000003,
+        "y": 1.3000000000000003,
+        "z": 1.3000000000000003
+      },
+      "visible": true,
+      "animation": true
+    },
+    {
+      "id": "m_girl_sliding",
+      "filename": "GirlSliding",
+      "collisionEnabled": true,
+      "position": {
+        "x": 118.12810239570263,
+        "y": 59,
+        "z": 211.36681055483334
+      },
+      "rotation": {
+        "x": 0,
+        "y": 141.9999999999998,
+        "z": 0
+      },
+      "scaling": {
+        "x": 1.3000000000000003,
+        "y": 1.3000000000000003,
+        "z": 1.3000000000000003
+      },
+      "visible": true,
+      "animation": false
+    },
+    {
+      "id": "m_girl_jumping",
+      "filename": "girlStanding",
+      "collisionEnabled": true,
+      "position": {
+        "x": -74.21979233660082,
+        "y": 2,
+        "z": -251.44227414548834
+      },
+      "rotation": {
+        "x": 0,
+        "y": -239.9999999999995,
+        "z": 0
+      },
+      "scaling": {
+        "x": 1.3000000000000003,
+        "y": 1.3000000000000003,
+        "z": 1.3000000000000003
+      },
+      "visible": true,
+      "animation": false
+    }
+  ],
+  "creatable_objects": [
+    {
+      "id": "s_area_1",
+      "type": "plane",
+      "collisionEnabled": true,
+      "position": {
+        "x": 124.53587548496779,
+        "y": 0,
+        "z": 223.1445835150089
+      },
+      "rotation": {
+        "x": -90.99999999999997,
+        "y": 20,
+        "z": 0
+      },
+      "scaling": {
+        "x": 4.300000000000002,
+        "y": 4.300000000000002,
+        "z": 4.300000000000002
+      },
+      "visible": true,
+      "image": "none",
+      "uwdsCreate": "none",
+      "color": {
+        "diffuse": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        },
+        "specular": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        }
+      }
+    },
+    {
+      "id": "s_area_2",
+      "type": "plane",
+      "collisionEnabled": true,
+      "position": {
+        "x": 30.482709701873432,
+        "y": 0,
+        "z": -13.966423834710398
+      },
+      "rotation": {
+        "x": -90.99999999999997,
+        "y": 21,
+        "z": 0
+      },
+      "scaling": {
+        "x": 4.300000000000002,
+        "y": 4.300000000000002,
+        "z": 4.300000000000002
+      },
+      "visible": true,
+      "image": "none",
+      "uwdsCreate": "none",
+      "color": {
+        "diffuse": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        },
+        "specular": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        }
+      }
+    },
+    {
+      "id": "s_area_3",
+      "type": "plane",
+      "collisionEnabled": true,
+      "position": {
+        "x": -66.15126581857166,
+        "y": 0,
+        "z": -253.1446716197803
+      },
+      "rotation": {
+        "x": -90.99999999999997,
+        "y": 21,
+        "z": 0
+      },
+      "scaling": {
+        "x": 4.300000000000002,
+        "y": 4.300000000000002,
+        "z": 4.300000000000002
+      },
+      "visible": true,
+      "image": "none",
+      "uwdsCreate": "none",
+      "color": {
+        "diffuse": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        },
+        "specular": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        }
+      }
+    }
+  ]
+}

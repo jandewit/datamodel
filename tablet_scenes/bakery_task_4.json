@@ -1,0 +1,340 @@
+{
+  "ground": "black.jpg",
+  "camera": {
+    "Alpha": 2.749658689536554,
+    "Beta": 0.7246173593469953,
+    "Radius": 524.7369233262424,
+    "PositionX": -321.4467628784238,
+    "PositionY": 392.8984031377273,
+    "PositionZ": 132.8595579877378
+  },
+  "loadable_objects": [
+    {
+      "id": "s_bucket3_1",
+      "filename": "BucketWater",
+      "collisionEnabled": true,
+      "position": {
+        "x": 106.07921184059467,
+        "y": 0,
+        "z": 217.9696413656977
+      },
+      "rotation": {
+        "x": 0,
+        "y": 99.99999999999994,
+        "z": 0
+      },
+      "scaling": {
+        "x": 4.999999999999999,
+        "y": 4.999999999999999,
+        "z": 4.999999999999999
+      },
+      "visible": true,
+      "animation": false
+    },
+    {
+      "id": "s_bucket3_2",
+      "filename": "BucketWater",
+      "collisionEnabled": true,
+      "position": {
+        "x": 60.13073315357008,
+        "y": 0,
+        "z": 190.81062545303823
+      },
+      "rotation": {
+        "x": 0,
+        "y": 99.99999999999994,
+        "z": 0
+      },
+      "scaling": {
+        "x": 4.999999999999999,
+        "y": 4.999999999999999,
+        "z": 4.999999999999999
+      },
+      "visible": true,
+      "animation": false
+    },
+    {
+      "id": "s_bucket3_3",
+      "filename": "BucketWater",
+      "collisionEnabled": true,
+      "position": {
+        "x": 146.509530423512,
+        "y": 0,
+        "z": 248.06423385971186
+      },
+      "rotation": {
+        "x": 0,
+        "y": 99.99999999999994,
+        "z": 0
+      },
+      "scaling": {
+        "x": 4.999999999999999,
+        "y": 4.999999999999999,
+        "z": 4.999999999999999
+      },
+      "visible": true,
+      "animation": false
+    },
+    {
+      "id": "s_bucket2_1",
+      "filename": "BucketWater",
+      "collisionEnabled": true,
+      "position": {
+        "x": 50.85653347298086,
+        "y": 0,
+        "z": 11.96700098720872
+      },
+      "rotation": {
+        "x": 0,
+        "y": 99.99999999999994,
+        "z": 0
+      },
+      "scaling": {
+        "x": 4.999999999999999,
+        "y": 4.999999999999999,
+        "z": 4.999999999999999
+      },
+      "visible": true,
+      "animation": false
+    },
+    {
+      "id": "s_bucket2_2",
+      "filename": "BucketWater",
+      "collisionEnabled": true,
+      "position": {
+        "x": 0.29979730079173805,
+        "y": 0,
+        "z": -29.24499536605566
+      },
+      "rotation": {
+        "x": 0,
+        "y": 99.99999999999994,
+        "z": 0
+      },
+      "scaling": {
+        "x": 4.999999999999999,
+        "y": 4.999999999999999,
+        "z": 4.999999999999999
+      },
+      "visible": true,
+      "animation": false
+    },
+    {
+      "id": "s_bucket5_1",
+      "filename": "BucketWater",
+      "collisionEnabled": true,
+      "position": {
+        "x": -20.669021421999048,
+        "y": 0,
+        "z": -233.61393237111702
+      },
+      "rotation": {
+        "x": 0,
+        "y": 99.99999999999994,
+        "z": 0
+      },
+      "scaling": {
+        "x": 4.999999999999999,
+        "y": 4.999999999999999,
+        "z": 4.999999999999999
+      },
+      "visible": true,
+      "animation": false
+    },
+    {
+      "id": "s_bucket5_2",
+      "filename": "BucketWater",
+      "collisionEnabled": true,
+      "position": {
+        "x": -50.758154186019,
+        "y": 0,
+        "z": -296.4653889026782
+      },
+      "rotation": {
+        "x": 0,
+        "y": 99.99999999999994,
+        "z": 0
+      },
+      "scaling": {
+        "x": 4.999999999999999,
+        "y": 4.999999999999999,
+        "z": 4.999999999999999
+      },
+      "visible": true,
+      "animation": false
+    },
+    {
+      "id": "s_bucket5_3",
+      "filename": "BucketWater",
+      "collisionEnabled": true,
+      "position": {
+        "x": -70.40830889973941,
+        "y": 0,
+        "z": -246.8837519304983
+      },
+      "rotation": {
+        "x": 0,
+        "y": 99.99999999999994,
+        "z": 0
+      },
+      "scaling": {
+        "x": 4.999999999999999,
+        "y": 4.999999999999999,
+        "z": 4.999999999999999
+      },
+      "visible": true,
+      "animation": false
+    },
+    {
+      "id": "s_bucket5_4",
+      "filename": "BucketWater",
+      "collisionEnabled": true,
+      "position": {
+        "x": -96.18964119055798,
+        "y": 0,
+        "z": -187.39838027313928
+      },
+      "rotation": {
+        "x": 0,
+        "y": 99.99999999999994,
+        "z": 0
+      },
+      "scaling": {
+        "x": 4.999999999999999,
+        "y": 4.999999999999999,
+        "z": 4.999999999999999
+      },
+      "visible": true,
+      "animation": false
+    },
+    {
+      "id": "s_bucket5_5",
+      "filename": "BucketWater",
+      "collisionEnabled": true,
+      "position": {
+        "x": -120.10998072235307,
+        "y": 0,
+        "z": -253.37140850943604
+      },
+      "rotation": {
+        "x": 0,
+        "y": 99.99999999999994,
+        "z": 0
+      },
+      "scaling": {
+        "x": 4.999999999999999,
+        "y": 4.999999999999999,
+        "z": 4.999999999999999
+      },
+      "visible": true,
+      "animation": false
+    }
+  ],
+  "creatable_objects": [
+    {
+      "id": "s_area_1",
+      "type": "plane",
+      "collisionEnabled": true,
+      "position": {
+        "x": 124.53587548496779,
+        "y": 0,
+        "z": 223.1445835150089
+      },
+      "rotation": {
+        "x": -90.99999999999997,
+        "y": 20,
+        "z": 0
+      },
+      "scaling": {
+        "x": 4.300000000000002,
+        "y": 4.300000000000002,
+        "z": 4.300000000000002
+      },
+      "visible": true,
+      "image": "none",
+      "uwdsCreate": "none",
+      "color": {
+        "diffuse": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        },
+        "specular": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        }
+      }
+    },
+    {
+      "id": "s_area_2",
+      "type": "plane",
+      "collisionEnabled": true,
+      "position": {
+        "x": 30.482709701873432,
+        "y": 0,
+        "z": -13.966423834710398
+      },
+      "rotation": {
+        "x": -90.99999999999997,
+        "y": 21,
+        "z": 0
+      },
+      "scaling": {
+        "x": 4.300000000000002,
+        "y": 4.300000000000002,
+        "z": 4.300000000000002
+      },
+      "visible": true,
+      "image": "none",
+      "uwdsCreate": "none",
+      "color": {
+        "diffuse": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        },
+        "specular": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        }
+      }
+    },
+    {
+      "id": "s_area_3",
+      "type": "plane",
+      "collisionEnabled": true,
+      "position": {
+        "x": -66.15126581857166,
+        "y": 0,
+        "z": -253.1446716197803
+      },
+      "rotation": {
+        "x": -90.99999999999997,
+        "y": 21,
+        "z": 0
+      },
+      "scaling": {
+        "x": 4.300000000000002,
+        "y": 4.300000000000002,
+        "z": 4.300000000000002
+      },
+      "visible": true,
+      "image": "none",
+      "uwdsCreate": "none",
+      "color": {
+        "diffuse": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        },
+        "specular": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "ground": "grass.png",
+  "camera": {
+    "Alpha": 1.2879416506460983,
+    "Beta": 0.7047176540164786,
+    "Radius": 190.08460689483886,
+    "PositionX": 34.368235066925756,
+    "PositionY": 144.80540638509805,
+    "PositionZ": 118.24709923882513
+  },
+  "loadable_objects": [
+    {
+      "id": "temp_tree0_0",
+      "filename": "tree",
+      "collisionEnabled": true,
+      "position": {
+        "x": -18.990999312765894,
+        "y": 0,
+        "z": 40.60666556396778
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scaling": {
+        "x": 5.897499999999996,
+        "y": 5.852399999999996,
+        "z": 5.906199999999996
+      },
+      "visible": true,
+      "animation": false
+    },
+    {
+      "id": "s_high_monkey",
+      "filename": "monkey",
+      "collisionEnabled": true,
+      "position": {
+        "x": -18.886161042887238,
+        "y": 72,
+        "z": 58.62035003542718
+      },
+      "rotation": {
+        "x": 0,
+        "y": -130,
+        "z": 0
+      },
+      "scaling": {
+        "x": 1.4833000000000003,
+        "y": 1.4270000000000003,
+        "z": 1.4745000000000004
+      },
+      "visible": true,
+      "animation": false
+    },
+    {
+      "id": "s_low_monkey",
+      "filename": "monkey",
+      "collisionEnabled": true,
+      "position": {
+        "x": 36.708098516181884,
+        "y": 0,
+        "z": 21.206204212031196
+      },
+      "rotation": {
+        "x": 0,
+        "y": 180,
+        "z": 0
+      },
+      "scaling": {
+        "x": 1.9833000000000007,
+        "y": 1.9270000000000007,
+        "z": 1.9745000000000008
+      },
+      "visible": true,
+      "animation": false
+    }
+  ],
+  "creatable_objects": []
+}

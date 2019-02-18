@@ -1,0 +1,116 @@
+{
+  "ground": "grass.png",
+  "camera": {
+    "Alpha": 1.5717963268,
+    "Beta": 1.140546682770067,
+    "Radius": 287.7546719079499,
+    "PositionX": -0.2615291442408727,
+    "PositionY": 120.02181391907814,
+    "PositionZ": 261.5290557298228
+  },
+  "loadable_objects": [
+    {
+      "id": "temp_rock0_0",
+      "filename": "rock",
+      "collisionEnabled": true,
+      "position": {
+        "x": 112.3565574155424,
+        "y": 0,
+        "z": 37.1148804818437
+      },
+      "rotation": {
+        "x": 0,
+        "y": -33.00000000000001,
+        "z": 0
+      },
+      "scaling": {
+        "x": 59.47250000000058,
+        "y": 59.47250000000058,
+        "z": 70.67250000000027
+      },
+      "visible": true,
+      "animation": false
+    },
+    {
+      "id": "s_high_elephant",
+      "filename": "elephant_big",
+      "collisionEnabled": true,
+      "position": {
+        "x": 85.14490851385462,
+        "y": 42,
+        "z": 73.76685111096651
+      },
+      "rotation": {
+        "x": 0,
+        "y": -33.00000000000001,
+        "z": 0
+      },
+      "scaling": {
+        "x": 1.9469000000000007,
+        "y": 1.9107000000000007,
+        "z": 2.101200000000001
+      },
+      "visible": true,
+      "animation": false
+    },
+    {
+      "id": "s_low_elephant",
+      "filename": "elephant_big",
+      "collisionEnabled": true,
+      "position": {
+        "x": -28.787290693889876,
+        "y": 0,
+        "z": 91.32878588293795
+      },
+      "rotation": {
+        "x": 0,
+        "y": 30,
+        "z": 0
+      },
+      "scaling": {
+        "x": 1.9469000000000007,
+        "y": 1.9107000000000007,
+        "z": 2.101200000000001
+      },
+      "visible": true,
+      "animation": false
+    }
+  ],
+  "creatable_objects": [
+    {
+      "id": "s_lake_1",
+      "type": "cylinder",
+      "collisionEnabled": true,
+      "position": {
+        "x": -98.05792153468875,
+        "y": 1,
+        "z": 91.05829673572629
+      },
+      "rotation": {
+        "x": 0,
+        "y": 4.000000000000003,
+        "z": 0
+      },
+      "scaling": {
+        "x": 10,
+        "y": 0.10000000000000103,
+        "z": 10
+      },
+      "visible": true,
+      "image": "none",
+      "uwdsCreate": "none",
+      "color": {
+        "diffuse": {
+          "r": 0.2,
+          "g": 0.6,
+          "b": 1
+        },
+        "specular": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        }
+      }
+    }
+  ]
+}

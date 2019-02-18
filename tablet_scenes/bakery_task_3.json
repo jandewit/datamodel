@@ -1,0 +1,362 @@
+{
+  "ground": "black.jpg",
+  "camera": {
+    "Alpha": 2.749658689536554,
+    "Beta": 0.7246173593469953,
+    "Radius": 524.7369233262424,
+    "PositionX": -321.4467628784238,
+    "PositionY": 392.8984031377273,
+    "PositionZ": 132.8595579877378
+  },
+  "loadable_objects": [
+    {
+      "id": "s_bowl_wrong4_1",
+      "filename": "Bowl",
+      "collisionEnabled": true,
+      "position": {
+        "x": 93.59743300146852,
+        "y": 3,
+        "z": 263.68255076079805
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scaling": {
+        "x": 5.399999999999998,
+        "y": 5.399999999999998,
+        "z": 5.399999999999998
+      },
+      "visible": true,
+      "animation": false
+    },
+    {
+      "id": "s_bowl_wrong4_2",
+      "filename": "Bowl",
+      "collisionEnabled": true,
+      "position": {
+        "x": 121.87056338906018,
+        "y": 3,
+        "z": 190.77894745633472
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scaling": {
+        "x": 5.399999999999998,
+        "y": 5.399999999999998,
+        "z": 5.399999999999998
+      },
+      "visible": true,
+      "animation": false
+    },
+    {
+      "id": "s_bowl_wrong4_3",
+      "filename": "Bowl",
+      "collisionEnabled": true,
+      "position": {
+        "x": 67.7890799842574,
+        "y": 3,
+        "z": 209.33959682023988
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scaling": {
+        "x": 5.399999999999998,
+        "y": 5.399999999999998,
+        "z": 5.399999999999998
+      },
+      "visible": true,
+      "animation": false
+    },
+    {
+      "id": "s_bowl_wrong4_4",
+      "filename": "Bowl",
+      "collisionEnabled": true,
+      "position": {
+        "x": 142.70286875682888,
+        "y": 3,
+        "z": 243.50407022647954
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scaling": {
+        "x": 5.399999999999998,
+        "y": 5.399999999999998,
+        "z": 5.399999999999998
+      },
+      "visible": true,
+      "animation": false
+    },
+    {
+      "id": "s_bowl_fewest_1",
+      "filename": "Bowl",
+      "collisionEnabled": true,
+      "position": {
+        "x": 54.22493313006254,
+        "y": 3,
+        "z": 10.716786044750691
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scaling": {
+        "x": 5.399999999999998,
+        "y": 5.399999999999998,
+        "z": 5.399999999999998
+      },
+      "visible": true,
+      "animation": false
+    },
+    {
+      "id": "s_bowl_fewest_2",
+      "filename": "Bowl",
+      "collisionEnabled": true,
+      "position": {
+        "x": 24.488383125330074,
+        "y": 3,
+        "z": -47.15957865498882
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scaling": {
+        "x": 5.399999999999998,
+        "y": 5.399999999999998,
+        "z": 5.399999999999998
+      },
+      "visible": true,
+      "animation": false
+    },
+    {
+      "id": "s_bowl_wrong5_1",
+      "filename": "Bowl",
+      "collisionEnabled": true,
+      "position": {
+        "x": -24.115602213378963,
+        "y": 3,
+        "z": -227.0641285578701
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scaling": {
+        "x": 5.399999999999998,
+        "y": 5.399999999999998,
+        "z": 5.399999999999998
+      },
+      "visible": true,
+      "animation": false
+    },
+    {
+      "id": "s_bowl_wrong5_2",
+      "filename": "Bowl",
+      "collisionEnabled": true,
+      "position": {
+        "x": -53.991940162563196,
+        "y": 3,
+        "z": -289.53131533324824
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scaling": {
+        "x": 5.399999999999998,
+        "y": 5.399999999999998,
+        "z": 5.399999999999998
+      },
+      "visible": true,
+      "animation": false
+    },
+    {
+      "id": "m_bowl_wrong5_3",
+      "filename": "Bowl",
+      "collisionEnabled": true,
+      "position": {
+        "x": -75.2299432745605,
+        "y": 3,
+        "z": -240.56954143567714
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scaling": {
+        "x": 5.399999999999998,
+        "y": 5.399999999999998,
+        "z": 5.399999999999998
+      },
+      "visible": true,
+      "animation": false
+    },
+    {
+      "id": "m_bowl_wrong5_4",
+      "filename": "Bowl",
+      "collisionEnabled": true,
+      "position": {
+        "x": -95.87782883741423,
+        "y": 3,
+        "z": -182.6185840575812
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scaling": {
+        "x": 5.399999999999998,
+        "y": 5.399999999999998,
+        "z": 5.399999999999998
+      },
+      "visible": true,
+      "animation": false
+    },
+    {
+      "id": "m_bowl_wrong5_5",
+      "filename": "Bowl",
+      "collisionEnabled": true,
+      "position": {
+        "x": -123.51512453687153,
+        "y": 3,
+        "z": -255.5296684632385
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scaling": {
+        "x": 5.399999999999998,
+        "y": 5.399999999999998,
+        "z": 5.399999999999998
+      },
+      "visible": true,
+      "animation": false
+    }
+  ],
+  "creatable_objects": [
+    {
+      "id": "s_area_1",
+      "type": "plane",
+      "collisionEnabled": true,
+      "position": {
+        "x": 124.53587548496779,
+        "y": 0,
+        "z": 223.1445835150089
+      },
+      "rotation": {
+        "x": -90.99999999999997,
+        "y": 20,
+        "z": 0
+      },
+      "scaling": {
+        "x": 4.300000000000002,
+        "y": 4.300000000000002,
+        "z": 4.300000000000002
+      },
+      "visible": true,
+      "image": "none",
+      "uwdsCreate": "none",
+      "color": {
+        "diffuse": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        },
+        "specular": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        }
+      }
+    },
+    {
+      "id": "s_area_2",
+      "type": "plane",
+      "collisionEnabled": true,
+      "position": {
+        "x": 30.482709701873432,
+        "y": 0,
+        "z": -13.966423834710398
+      },
+      "rotation": {
+        "x": -90.99999999999997,
+        "y": 21,
+        "z": 0
+      },
+      "scaling": {
+        "x": 4.300000000000002,
+        "y": 4.300000000000002,
+        "z": 4.300000000000002
+      },
+      "visible": true,
+      "image": "none",
+      "uwdsCreate": "none",
+      "color": {
+        "diffuse": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        },
+        "specular": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        }
+      }
+    },
+    {
+      "id": "s_area_3",
+      "type": "plane",
+      "collisionEnabled": true,
+      "position": {
+        "x": -66.15126581857166,
+        "y": 0,
+        "z": -253.1446716197803
+      },
+      "rotation": {
+        "x": -90.99999999999997,
+        "y": 21,
+        "z": 0
+      },
+      "scaling": {
+        "x": 4.300000000000002,
+        "y": 4.300000000000002,
+        "z": 4.300000000000002
+      },
+      "visible": true,
+      "image": "none",
+      "uwdsCreate": "none",
+      "color": {
+        "diffuse": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        },
+        "specular": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        }
+      }
+    }
+  ]
+}
